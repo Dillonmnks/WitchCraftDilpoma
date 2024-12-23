@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8A15553E-670C-B9CF-FF4A-19A957DC3F3A}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{3B701F98-7DA3-49E6-BAAA-9B7D6E879E7B}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{E6EDF7AA-E484-4322-99EA-052383BF4E18}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="529726550" Name="Env" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env" GUID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}"/>
+				<Bus Id="3466474873" Name="Diologue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Diologue" GUID="{7800FA86-2B46-4019-9B82-7431B7D1918F}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="footsteps" ObjectPath="\Switches\Default Work Unit\footsteps" GUID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
+					<Switches>
+						<Switch Id="906520814" Name="gras" ObjectPath="\Switches\Default Work Unit\footsteps\gras" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
+						<Switch Id="1216965916" Name="stone" ObjectPath="\Switches\Default Work Unit\footsteps\stone" GUID="{C30C28D6-4953-4AFC-AF9C-BB2DE915375D}"/>
+						<Switch Id="2058049674" Name="wood" ObjectPath="\Switches\Default Work Unit\footsteps\wood" GUID="{20CE900D-01C7-44C7-818A-1C15855C2337}"/>
+						<Switch Id="2185786256" Name="gravel" ObjectPath="\Switches\Default Work Unit\footsteps\gravel" GUID="{0BFA1267-D021-48D2-94D4-ECB3420894B0}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{080E6DCD-61C6-5E35-8057-EDA4670A8394}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="7608869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gravel-1.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gravel-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="12299255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat  worm idle-1.wav</ShortName>
+					<CachePath>SFX/Combat  worm idle-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="14589801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item drop glas.wav</ShortName>
+					<CachePath>SFX/Ui item drop glas_7BA95949.wem</CachePath>
+				</File>
+				<File Id="33963550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui letter open.wav</ShortName>
+					<CachePath>SFX/Ui letter open_818F3B66.wem</CachePath>
+				</File>
+				<File Id="43027650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps wood.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps wood_818F3B66.wem</CachePath>
+				</File>
+				<File Id="44029583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gravel-4.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gravel-4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="98954012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui quest accept.wav</ShortName>
+					<CachePath>SFX/Ui quest accept_818F3B66.wem</CachePath>
+				</File>
+				<File Id="127178024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps wood-3.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps wood-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="132820239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  damage take.wav</ShortName>
+					<CachePath>SFX/Main Charakter  damage take_818F3B66.wem</CachePath>
+				</File>
+				<File Id="135775179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  sell-2.wav</ShortName>
+					<CachePath>SFX/  sell-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="157319039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  buy-3.wav</ShortName>
+					<CachePath>SFX/  buy-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="170190639" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName> dagegen rennen.wav</ShortName>
+					<CachePath>SFX/ dagegen rennen_818F3B66.wem</CachePath>
+				</File>
+				<File Id="178696379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps stone-4.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps stone-4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="202104210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName> moral increase.wav</ShortName>
+					<CachePath>SFX/ moral increase_818F3B66.wem</CachePath>
+				</File>
+				<File Id="207065331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Attack .wav</ShortName>
+					<CachePath>SFX/Attack _3F2AEFAB.wem</CachePath>
+				</File>
+				<File Id="215819596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item delete.wav</ShortName>
+					<CachePath>SFX/Ui item delete_8D411FFB.wem</CachePath>
+				</File>
+				<File Id="223377924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  go to sleep.wav</ShortName>
+					<CachePath>SFX/  go to sleep_818F3B66.wem</CachePath>
+				</File>
+				<File Id="226393275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps stone.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps stone_818F3B66.wem</CachePath>
+				</File>
+				<File Id="240961913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  damage take-4.wav</ShortName>
+					<CachePath>SFX/Main Charakter  damage take-4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="246212939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  chest open.wav</ShortName>
+					<CachePath>SFX/  chest open_818F3B66.wem</CachePath>
+				</File>
+				<File Id="261089796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui quest decline.wav</ShortName>
+					<CachePath>SFX/Ui quest decline_818F3B66.wem</CachePath>
+				</File>
+				<File Id="265123594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item collect.wav</ShortName>
+					<CachePath>SFX/Ui item collect_54CA3EBE.wem</CachePath>
+				</File>
+				<File Id="275848710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui inventory open.wav</ShortName>
+					<CachePath>SFX/Ui inventory open_818F3B66.wem</CachePath>
+				</File>
+				<File Id="281071773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gras-3.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gras-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="285057775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Attack .wav</ShortName>
+					<CachePath>SFX/Attack _4A1E2BE7.wem</CachePath>
+				</File>
+				<File Id="296652437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  chest closed.wav</ShortName>
+					<CachePath>SFX/  chest closed_818F3B66.wem</CachePath>
+				</File>
+				<File Id="300874155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Freeze Test Ton [2024-10-01 221054].wav</ShortName>
+					<CachePath>SFX/Freeze Test Ton [2024-10-01 221054]_75A1F521.wem</CachePath>
+				</File>
+				<File Id="301112140" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui turn page 3.wav</ShortName>
+					<CachePath>SFX/Ui turn page 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="309348204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName> quest finished.wav</ShortName>
+					<CachePath>SFX/ quest finished_818F3B66.wem</CachePath>
+				</File>
+				<File Id="318859576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item drop mushroom.wav</ShortName>
+					<CachePath>SFX/Ui item drop mushroom_7112315E.wem</CachePath>
+				</File>
+				<File Id="343265672" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui button.wav</ShortName>
+					<CachePath>SFX/Ui button_8222A722.wem</CachePath>
+				</File>
+				<File Id="346084147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  door open _close.wav</ShortName>
+					<CachePath>SFX/  door open _close_818F3B66.wem</CachePath>
+				</File>
+				<File Id="361713716" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName> door shaking .wav</ShortName>
+					<CachePath>SFX/ door shaking _818F3B66.wem</CachePath>
+				</File>
+				<File Id="372153424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item delete bin.wav</ShortName>
+					<CachePath>SFX/Ui item delete bin_818F3B66.wem</CachePath>
+				</File>
+				<File Id="372603158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat  worm idle.wav</ShortName>
+					<CachePath>SFX/Combat  worm idle_818F3B66.wem</CachePath>
+				</File>
+				<File Id="393714322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item use potion.wav</ShortName>
+					<CachePath>SFX/Ui item use potion_818F3B66.wem</CachePath>
+				</File>
+				<File Id="397629470" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  wake up.wav</ShortName>
+					<CachePath>SFX/  wake up_818F3B66.wem</CachePath>
+				</File>
+				<File Id="435537503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item inventory drop.wav</ShortName>
+					<CachePath>SFX/Ui item inventory drop_3FD324CC.wem</CachePath>
+				</File>
+				<File Id="441285259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui turn page 4.wav</ShortName>
+					<CachePath>SFX/Ui turn page 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="447080793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName> moral decrease.wav</ShortName>
+					<CachePath>SFX/ moral decrease_818F3B66.wem</CachePath>
+				</File>
+				<File Id="467215598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps wood-2.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps wood-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="478047084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Attack .wav</ShortName>
+					<CachePath>SFX/Attack _B2C5A8B1.wem</CachePath>
+				</File>
+				<File Id="509970347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item inventory move instant.wav</ShortName>
+					<CachePath>SFX/Ui item inventory move instant_5654E57E.wem</CachePath>
+				</File>
+				<File Id="529617816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat  worm idle-3.wav</ShortName>
+					<CachePath>SFX/Combat  worm idle-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="540713848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui turn page 6.wav</ShortName>
+					<CachePath>SFX/Ui turn page 6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="542391917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps wood-1.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps wood-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="567017348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gras.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gras_818F3B66.wem</CachePath>
+				</File>
+				<File Id="567852820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Death.wav</ShortName>
+					<CachePath>SFX/Death_9E791531.wem</CachePath>
+				</File>
+				<File Id="573941103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  coinsound for money-1.wav</ShortName>
+					<CachePath>SFX/  coinsound for money-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="614674959" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui turn page 1.wav</ShortName>
+					<CachePath>SFX/Ui turn page 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="625785352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item inventory click.wav</ShortName>
+					<CachePath>SFX/Ui item inventory click_D597ECD0.wem</CachePath>
+				</File>
+				<File Id="630745993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  buy-1.wav</ShortName>
+					<CachePath>SFX/  buy-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="640579477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gravel-2.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gravel-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="641130999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps wood-4.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps wood-4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="679674457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Death.wav</ShortName>
+					<CachePath>SFX/Death_02F53012.wem</CachePath>
+				</File>
+				<File Id="697205456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  sell.wav</ShortName>
+					<CachePath>SFX/  sell_818F3B66.wem</CachePath>
+				</File>
+				<File Id="700705536" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Death.wav</ShortName>
+					<CachePath>SFX/Death_01359C29.wem</CachePath>
+				</File>
+				<File Id="714771132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  sell-3.wav</ShortName>
+					<CachePath>SFX/  sell-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="715591636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gravel-3.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gravel-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="745169205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Death.wav</ShortName>
+					<CachePath>SFX/Death_57B275E7.wem</CachePath>
+				</File>
+				<File Id="749117629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  sell-1.wav</ShortName>
+					<CachePath>SFX/  sell-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="751077151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps stone-3.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps stone-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="755946980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  heavy breathing.wav</ShortName>
+					<CachePath>SFX/Main Charakter  heavy breathing_818F3B66.wem</CachePath>
+				</File>
+				<File Id="792034974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui turn page 2.wav</ShortName>
+					<CachePath>SFX/Ui turn page 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="794816127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  buy-2.wav</ShortName>
+					<CachePath>SFX/  buy-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="807797044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui inventory close.wav</ShortName>
+					<CachePath>SFX/Ui inventory close_818F3B66.wem</CachePath>
+				</File>
+				<File Id="808361190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName> fire .wav</ShortName>
+					<CachePath>SFX/ fire _818F3B66.wem</CachePath>
+				</File>
+				<File Id="819693839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  damage take-2.wav</ShortName>
+					<CachePath>SFX/Main Charakter  damage take-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="828430276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gras-2.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gras-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="848868357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  damage take-3.wav</ShortName>
+					<CachePath>SFX/Main Charakter  damage take-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="850141276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gras-1.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gras-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="853049879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Attack .wav</ShortName>
+					<CachePath>SFX/Attack _5409ADD6.wem</CachePath>
+				</File>
+				<File Id="873389055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui move cursor.wav</ShortName>
+					<CachePath>SFX/Ui move cursor_818F3B66.wem</CachePath>
+				</File>
+				<File Id="876192999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat  worm idle-2.wav</ShortName>
+					<CachePath>SFX/Combat  worm idle-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="912893642" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  coinsound for money-4.wav</ShortName>
+					<CachePath>SFX/  coinsound for money-4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="926038193" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps stone-2.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps stone-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="929206881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  buy.wav</ShortName>
+					<CachePath>SFX/  buy_818F3B66.wem</CachePath>
+				</File>
+				<File Id="955270491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gras-4.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gras-4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="956949307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  damage take-1.wav</ShortName>
+					<CachePath>SFX/Main Charakter  damage take-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="963689456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps stone-1.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps stone-1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="978548441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item use eat.wav</ShortName>
+					<CachePath>SFX/Ui item use eat_818F3B66.wem</CachePath>
+				</File>
+				<File Id="995229971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  coinsound for money.wav</ShortName>
+					<CachePath>SFX/  coinsound for money_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1016314410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui item use recipe.wav</ShortName>
+					<CachePath>SFX/Ui item use recipe_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1022333913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  coinsound for money-3.wav</ShortName>
+					<CachePath>SFX/  coinsound for money-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1036871779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  coinsound for money-2.wav</ShortName>
+					<CachePath>SFX/  coinsound for money-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1059908081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  footsteps gravel.wav</ShortName>
+					<CachePath>SFX/Main Charakter  footsteps gravel_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1068849814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walk.wav</ShortName>
+					<CachePath>SFX/Walk_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1069051341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ui turn page 5.wav</ShortName>
+					<CachePath>SFX/Ui turn page 5_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="251756331" Name="Play___door_open__close" ObjectPath="\Events\Default Work Unit\Gameplay\Play___door_open__close" GUID="{FAD05298-489E-4CDC-A1F6-47AD35566DEC}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+					<MediaRefs>
+						<MediaRef Id="346084147"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3639311590" Name="Play___go_to_sleep" ObjectPath="\Events\Default Work Unit\Gameplay\Play___go_to_sleep" GUID="{48EA98FC-9486-4A57-B61C-64EC6AE14A00}" DurationType="OneShot" DurationMin="4.824" DurationMax="4.824">
+					<MediaRefs>
+						<MediaRef Id="223377924"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3244236260" Name="Play___wake_up" ObjectPath="\Events\Default Work Unit\Gameplay\Play___wake_up" GUID="{F65AB761-6F02-4788-B28A-48C29420D0CD}" DurationType="OneShot" DurationMin="4.824" DurationMax="4.824">
+					<MediaRefs>
+						<MediaRef Id="397629470"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2875132479" Name="Play__dagegen_rennen" ObjectPath="\Events\Default Work Unit\Gameplay\Play__dagegen_rennen" GUID="{A360F545-FE33-4551-A8B8-ADF6E0319D90}" DurationType="OneShot" DurationMin="0.9045" DurationMax="0.9045">
+					<MediaRefs>
+						<MediaRef Id="170190639"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3514747546" Name="Play__door_shaking_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__door_shaking_" GUID="{D8D26C28-6F2E-47B1-986E-97413A59757D}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+					<MediaRefs>
+						<MediaRef Id="361713716"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="471615608" Name="Play__fire_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__fire_" GUID="{039EB10F-7466-4772-991D-B16E6B0833B3}" DurationType="OneShot" DurationMin="22.587376" DurationMax="22.587376">
+					<MediaRefs>
+						<MediaRef Id="808361190"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2958348949" Name="Play__moral_decrease" ObjectPath="\Events\Default Work Unit\händler\Play__moral_decrease" GUID="{F3B57977-5C0A-4C8B-9BCB-B33B07B6BF3F}" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
+					<MediaRefs>
+						<MediaRef Id="447080793"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3098359485" Name="Play__moral_increase" ObjectPath="\Events\Default Work Unit\händler\Play__moral_increase" GUID="{4FCD1F7C-33EF-4AF1-8FB3-928B30C7B980}" DurationType="OneShot" DurationMin="4" DurationMax="4">
+					<MediaRefs>
+						<MediaRef Id="202104210"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="392743550" Name="Play__quest_finished" ObjectPath="\Events\Default Work Unit\händler\Play__quest_finished" GUID="{5D4A3A92-AAF1-43DC-86ED-389E9CC87564}" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="309348204"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1519321238" Name="Play_attack" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_attack" GUID="{205CDFAC-0302-472B-8123-22070D7ADF40}" DurationType="OneShot" DurationMin="0.32238144" DurationMax="0.58176875">
+					<MediaRefs>
+						<MediaRef Id="207065331"/>
+						<MediaRef Id="285057775"/>
+						<MediaRef Id="478047084"/>
+						<MediaRef Id="853049879"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2824767826" Name="Play_buy" ObjectPath="\Events\Default Work Unit\händler\Play_buy" GUID="{9867D542-D928-4C4A-932B-3A354D423447}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="157319039"/>
+						<MediaRef Id="630745993"/>
+						<MediaRef Id="794816127"/>
+						<MediaRef Id="929206881"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2926639448" Name="Play_chest_closed" ObjectPath="\Events\Default Work Unit\Gameplay\Play_chest_closed" GUID="{69C72138-C1D7-4BF8-ACA4-61607C120148}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+					<MediaRefs>
+						<MediaRef Id="296652437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2560700912" Name="Play_chest_open" ObjectPath="\Events\Default Work Unit\Gameplay\Play_chest_open" GUID="{79D1CD6B-5D5E-42D0-858E-3724DD7030F4}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+					<MediaRefs>
+						<MediaRef Id="246212939"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="72283163" Name="Play_coinsound_for_money" ObjectPath="\Events\Default Work Unit\händler\Play_coinsound_for_money" GUID="{32E7B95E-6209-47F3-8576-D3126A749D7A}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="573941103"/>
+						<MediaRef Id="912893642"/>
+						<MediaRef Id="995229971"/>
+						<MediaRef Id="1022333913"/>
+						<MediaRef Id="1036871779"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1083042653" Name="Play_damage_take" ObjectPath="\Events\Default Work Unit\Maincharaczor\Play_damage_take" GUID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.375">
+					<MediaRefs>
+						<MediaRef Id="132820239"/>
+						<MediaRef Id="240961913"/>
+						<MediaRef Id="819693839"/>
+						<MediaRef Id="848868357"/>
+						<MediaRef Id="956949307"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1172822028" Name="Play_death" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_death" GUID="{481FF3E4-820F-4D4D-87A7-F27836215197}" DurationType="OneShot" DurationMin="0.32418603" DurationMax="0.4898811">
+					<MediaRefs>
+						<MediaRef Id="567852820"/>
+						<MediaRef Id="679674457"/>
+						<MediaRef Id="700705536"/>
+						<MediaRef Id="745169205"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Maincharaczor\Play_footsteps" GUID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}" DurationType="OneShot" DurationMin="0.9709709" DurationMax="1.029897">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2058049674" GUID="{20CE900D-01C7-44C7-818A-1C15855C2337}"/>
+							<MediaRefs>
+								<MediaRef Id="43027650"/>
+								<MediaRef Id="127178024"/>
+								<MediaRef Id="467215598"/>
+								<MediaRef Id="542391917"/>
+								<MediaRef Id="641130999"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2185786256" GUID="{0BFA1267-D021-48D2-94D4-ECB3420894B0}"/>
+							<MediaRefs>
+								<MediaRef Id="7608869"/>
+								<MediaRef Id="44029583"/>
+								<MediaRef Id="640579477"/>
+								<MediaRef Id="715591636"/>
+								<MediaRef Id="1059908081"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="906520814" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="281071773"/>
+								<MediaRef Id="567017348"/>
+								<MediaRef Id="828430276"/>
+								<MediaRef Id="850141276"/>
+								<MediaRef Id="955270491"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1216965916" GUID="{C30C28D6-4953-4AFC-AF9C-BB2DE915375D}"/>
+							<MediaRefs>
+								<MediaRef Id="178696379"/>
+								<MediaRef Id="226393275"/>
+								<MediaRef Id="751077151"/>
+								<MediaRef Id="926038193"/>
+								<MediaRef Id="963689456"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="314014867" Name="Play_Main_Charakter__heavy_breathing" ObjectPath="\Events\Default Work Unit\Maincharaczor\Play_Main_Charakter__heavy_breathing" GUID="{7B67515D-E98B-4724-B442-4DEFFC2A51C4}" DurationType="OneShot" DurationMin="9.75" DurationMax="9.75">
+					<MediaRefs>
+						<MediaRef Id="755946980"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="779013463" Name="Play_Page_Turn_Container" ObjectPath="\Events\Default Work Unit\UI Events\Play_Page_Turn_Container" GUID="{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}" DurationType="OneShot" DurationMin="1.1169976" DurationMax="1.9346374">
+					<MediaRefs>
+						<MediaRef Id="301112140"/>
+						<MediaRef Id="441285259"/>
+						<MediaRef Id="540713848"/>
+						<MediaRef Id="614674959"/>
+						<MediaRef Id="792034974"/>
+						<MediaRef Id="1069051341"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4044256362" Name="Play_sell" ObjectPath="\Events\Default Work Unit\händler\Play_sell" GUID="{CF95D093-81C2-4230-8E85-F32C726298ED}" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="135775179"/>
+						<MediaRef Id="697205456"/>
+						<MediaRef Id="714771132"/>
+						<MediaRef Id="749117629"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2934036990" Name="Play_Teston_UI" ObjectPath="\Events\Default Work Unit\Testtöne\Play_Teston_UI" GUID="{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}" DurationType="OneShot" DurationMin="0.98547006" DurationMax="0.98547006">
+					<MediaRefs>
+						<MediaRef Id="300874155"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="43599987" Name="Play_Ui_button" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_button" GUID="{1B259058-B734-412C-A1B7-249AB65A7E63}" DurationType="OneShot" DurationMin="0.3224731" DurationMax="0.49962494">
+					<MediaRefs>
+						<MediaRef Id="343265672"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1719456260" Name="Play_Ui_inventory_close" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_inventory_close" GUID="{1936BCF3-488E-43F6-9492-74A708E0AACB}" DurationType="OneShot" DurationMin="0.2498865" DurationMax="0.41042152">
+					<MediaRefs>
+						<MediaRef Id="807797044"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3582769408" Name="Play_Ui_inventory_open" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_inventory_open" GUID="{406D1A2A-46C0-45D7-97C8-68521D6F87AC}" DurationType="OneShot" DurationMin="0.25583765" DurationMax="0.33757982">
+					<MediaRefs>
+						<MediaRef Id="275848710"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3693294549" Name="Play_Ui_item_collect" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_collect" GUID="{49A102FB-3672-4FC0-8DB0-F7C5C75424DF}" DurationType="OneShot" DurationMin="0.024254266" DurationMax="0.05738758">
+					<MediaRefs>
+						<MediaRef Id="265123594"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1435386480" Name="Play_Ui_item_delete" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_delete" GUID="{80DC8655-7A97-4D67-8C92-250A53572F80}" DurationType="OneShot" DurationMin="0.44175878" DurationMax="0.73653734">
+					<MediaRefs>
+						<MediaRef Id="215819596"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1198172706" Name="Play_Ui_item_delete_bin" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_delete_bin" GUID="{2E89F5D7-E4F5-4C16-86B0-C6E3EF684B1E}" DurationType="OneShot" DurationMin="0.37613764" DurationMax="0.59124696">
+					<MediaRefs>
+						<MediaRef Id="372153424"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="827396052" Name="Play_Ui_item_drop_glas" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_drop_glas" GUID="{7836D65D-A4FE-43D0-AC8D-6003647C3FFD}" DurationType="OneShot" DurationMin="0.6294277" DurationMax="0.7834678">
+					<MediaRefs>
+						<MediaRef Id="14589801"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3539876443" Name="Play_Ui_item_drop_mushroom" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_drop_mushroom" GUID="{9A8BFAB5-62C1-4A17-9286-4EAB6B0606CA}" DurationType="OneShot" DurationMin="0.29718217" DurationMax="0.3439457">
+					<MediaRefs>
+						<MediaRef Id="318859576"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3331271074" Name="Play_Ui_item_inventory_click" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_inventory_click" GUID="{FCEE804F-4C20-4346-A303-901510A6F9B5}" DurationType="OneShot" DurationMin="0.227683" DurationMax="0.29170832">
+					<MediaRefs>
+						<MediaRef Id="625785352"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4089233097" Name="Play_Ui_item_inventory_drop" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_inventory_drop" GUID="{25972776-DB2A-4705-9BD5-CA8F26E695B1}" DurationType="OneShot" DurationMin="0.3717044" DurationMax="0.46267176">
+					<MediaRefs>
+						<MediaRef Id="435537503"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3707028679" Name="Play_Ui_item_inventory_move_instant" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_inventory_move_instant" GUID="{C2375AC8-3C2D-45BA-817C-705213A4AA88}" DurationType="OneShot" DurationMin="0.3259897" DurationMax="0.3259897">
+					<MediaRefs>
+						<MediaRef Id="509970347"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3693022033" Name="Play_Ui_item_use_eat" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_use_eat" GUID="{53EBA89A-A774-4DE3-A118-D97C390008EB}" DurationType="OneShot" DurationMin="0.70535415" DurationMax="0.70535415">
+					<MediaRefs>
+						<MediaRef Id="978548441"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="482045456" Name="Play_Ui_item_use_potion" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_use_potion" GUID="{D7DE7976-5312-49CE-BE10-E63E1D506C67}" DurationType="OneShot" DurationMin="1.075" DurationMax="1.075">
+					<MediaRefs>
+						<MediaRef Id="393714322"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1046906731" Name="Play_Ui_item_use_recipe" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_use_recipe" GUID="{F07DE2B1-4EE5-44AE-A11B-9BF5AADBCB23}" DurationType="OneShot" DurationMin="0.95" DurationMax="0.95">
+					<MediaRefs>
+						<MediaRef Id="1016314410"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="360526586" Name="Play_Ui_letter_open" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_letter_open" GUID="{0D36CA63-080E-410F-B8EB-2B2D05EE7857}" DurationType="OneShot" DurationMin="1.85" DurationMax="1.85">
+					<MediaRefs>
+						<MediaRef Id="33963550"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2251135697" Name="Play_Ui_move_cursor" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_move_cursor" GUID="{04644C9F-DC9B-40E3-9579-6CDB15E91F5A}" DurationType="OneShot" DurationMin="0.325" DurationMax="0.325">
+					<MediaRefs>
+						<MediaRef Id="873389055"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="735996042" Name="Play_Ui_quest_accept" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_quest_accept" GUID="{53220DAB-E148-44A0-AE72-6877F4255E38}" DurationType="OneShot" DurationMin="0.975" DurationMax="0.975">
+					<MediaRefs>
+						<MediaRef Id="98954012"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2963481348" Name="Play_Ui_quest_decline" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_quest_decline" GUID="{1050B900-02E9-45FC-99F3-4290A7495076}" DurationType="OneShot" DurationMin="0.85" DurationMax="0.85">
+					<MediaRefs>
+						<MediaRef Id="261089796"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1589278981" Name="Play_Walk" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_Walk" GUID="{8457C35A-4EBD-46B6-8BDE-B7831A9F4624}" DurationType="OneShot" DurationMin="5.25" DurationMax="5.25">
+					<MediaRefs>
+						<MediaRef Id="1068849814"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3116151072" Name="Play_Worm_Idle" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_Worm_Idle" GUID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="12299255"/>
+						<MediaRef Id="372603158"/>
+						<MediaRef Id="529617816"/>
+						<MediaRef Id="876192999"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="footsteps" ObjectPath="\Switches\Default Work Unit\footsteps" GUID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
+					<Switches>
+						<Switch Id="906520814" Name="gras" ObjectPath="\Switches\Default Work Unit\footsteps\gras" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
+						<Switch Id="1216965916" Name="stone" ObjectPath="\Switches\Default Work Unit\footsteps\stone" GUID="{C30C28D6-4953-4AFC-AF9C-BB2DE915375D}"/>
+						<Switch Id="2058049674" Name="wood" ObjectPath="\Switches\Default Work Unit\footsteps\wood" GUID="{20CE900D-01C7-44C7-818A-1C15855C2337}"/>
+						<Switch Id="2185786256" Name="gravel" ObjectPath="\Switches\Default Work Unit\footsteps\gravel" GUID="{0BFA1267-D021-48D2-94D4-ECB3420894B0}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{38D6BA9F-0798-2E05-BD11-3DC181B9B3B4}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Testtöne" ID="{2B246102-51BB-4572-8BB1-12528469B231}" ShortID="384286728">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Teston_UI" ID="{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}">
+							<ChildrenList>
+								<Action Name="" ID="{A67272FC-7CEC-413E-8DE9-5D6CD43FE21A}" ShortID="108938941">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Testton UI" ID="{98EA171B-8574-41C2-8669-89866B0EDDAC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI Events" ID="{B99AFE20-CCAC-453D-8C18-9E7D66A28808}" ShortID="934692549">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Ui_item_collect" ID="{49A102FB-3672-4FC0-8DB0-F7C5C75424DF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{175BF605-A934-4406-A4E4-5C744B6D20B9}" ShortID="25615621">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item collect" ID="{9E841B8E-E98F-45D2-A5D8-8C51B6B90D1D}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_inventory_close" ID="{1936BCF3-488E-43F6-9492-74A708E0AACB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{C52BD29D-2392-45A1-A098-96655BF68900}" ShortID="404907875">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui inventory close" ID="{53C978E7-B5AC-4E93-9140-294150E473FB}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_button" ID="{1B259058-B734-412C-A1B7-249AB65A7E63}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1DB65755-1EAF-4830-A79F-CFB7A128F2A2}" ShortID="208107514">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui button" ID="{715D2EA1-46DE-4229-8995-53FA77EE6B69}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_inventory_open" ID="{406D1A2A-46C0-45D7-97C8-68521D6F87AC}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{72E1B14F-06B4-4387-BD9A-EBB98BEFA834}" ShortID="354703083">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui inventory open" ID="{C9A3D029-4FA9-4374-A6B1-45A5AC1EC69E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_quest_accept" ID="{53220DAB-E148-44A0-AE72-6877F4255E38}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{EA7A0382-2C0F-4CC8-91EA-7674F9EC662E}" ShortID="756182063">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui quest accept" ID="{E27C9379-FAAA-46D5-B285-7A28E810F5A7}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_quest_decline" ID="{1050B900-02E9-45FC-99F3-4290A7495076}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{4200ACAC-C843-49AA-A745-8873E6CF15E6}" ShortID="108580752">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui quest decline" ID="{5D9E9DC5-BC85-435F-8CFB-706CB3BBF9F1}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_letter_open" ID="{0D36CA63-080E-410F-B8EB-2B2D05EE7857}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B7E7C5E7-56A0-4250-98A0-F907BD0A3B64}" ShortID="427644913">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui letter open" ID="{E0E446F5-1E28-421A-B05F-CF530A6CD964}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_move_cursor" ID="{04644C9F-DC9B-40E3-9579-6CDB15E91F5A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A75C3B57-A7D1-4C6A-A104-FD92EBF08C54}" ShortID="979746660">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui move cursor" ID="{1CCB5A1E-10FB-449B-B917-34DA7D3E1AFD}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_delete" ID="{80DC8655-7A97-4D67-8C92-250A53572F80}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{2E0E35B3-9272-43DB-B7F9-D6F2F3EC82C9}" ShortID="979898826">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item delete" ID="{049A1298-E08D-4811-88B7-88104262ABB9}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_drop_mushroom" ID="{9A8BFAB5-62C1-4A17-9286-4EAB6B0606CA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{AA49CBDD-DB10-42C2-BF49-45607C79E0D6}" ShortID="47604036">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item drop mushroom" ID="{0D86AD16-359C-46BE-8989-DC470B4BB357}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_inventory_move_instant" ID="{C2375AC8-3C2D-45BA-817C-705213A4AA88}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B98507EC-60D3-43D2-987D-B742EA3BFBCB}" ShortID="814719390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item inventory move instant" ID="{DDEFAF6E-5DF3-4509-A930-9F59F77DE1D5}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_drop_glas" ID="{7836D65D-A4FE-43D0-AC8D-6003647C3FFD}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{3741C705-E296-4C89-AC22-2F36D503949C}" ShortID="186221220">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item drop glas" ID="{9D713982-0512-4523-98B9-6E322EF23BD5}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_use_potion" ID="{D7DE7976-5312-49CE-BE10-E63E1D506C67}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{06F1281B-D9E8-49C7-9940-7CA9AD051A10}" ShortID="608540811">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item use potion" ID="{07134C06-4133-4969-97ED-A1963CDD4959}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_use_recipe" ID="{F07DE2B1-4EE5-44AE-A11B-9BF5AADBCB23}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{3C70D772-74C7-46C8-AB3A-3BECA865DEEF}" ShortID="707686770">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item use recipe" ID="{84C798D6-CC21-43CE-B087-1214A3FEB4F6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_inventory_click" ID="{FCEE804F-4C20-4346-A303-901510A6F9B5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{E7E7CF12-83A0-4E82-92F1-E3B413167862}" ShortID="950756415">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item inventory click" ID="{F53781F5-C333-4287-8702-02753F286EA4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_inventory_drop" ID="{25972776-DB2A-4705-9BD5-CA8F26E695B1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{58FDC877-2418-468E-AF3F-227C2592F280}" ShortID="261593065">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item inventory drop" ID="{FB4E8160-73F4-477D-B52A-9640EEA949B9}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_delete_bin" ID="{2E89F5D7-E4F5-4C16-86B0-C6E3EF684B1E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{DB753202-0279-4EE4-957A-7B5D015D3A1F}" ShortID="845328522">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item delete bin" ID="{1531E83B-4CE6-4183-A75C-C924950B45A4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ui_item_use_eat" ID="{53EBA89A-A774-4DE3-A118-D97C390008EB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{4B5685A2-527C-48D7-B6EB-0B37D530E442}" ShortID="365484831">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item use eat" ID="{432BE762-4A93-4E95-9A6D-86CA6BBD2180}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Page_Turn_Container" ID="{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{4B3AAA87-6314-4ECE-A1E5-B23EDFF1EFDE}" ShortID="310054790">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Page Turn Container" ID="{608642FE-3B94-416E-AE5F-132467283C8A}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Maincharaczor" ID="{1E4B5EDA-351C-4762-B2FB-C701CE5407F1}" ShortID="406639458">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_footsteps" ID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}">
+							<ChildrenList>
+								<Action Name="" ID="{327F1914-D0EE-4588-8638-48F342A948FB}" ShortID="372865655">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="footsteps" ID="{41694335-4A90-42B1-B85F-92B8F6356C28}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Main_Charakter__heavy_breathing" ID="{7B67515D-E98B-4724-B442-4DEFFC2A51C4}">
+							<ChildrenList>
+								<Action Name="" ID="{A282225D-5B73-44FD-94D7-17846ADD02EC}" ShortID="906363813">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Charakter  heavy breathing" ID="{BF0010C3-C2BD-41EE-95A1-29593876E9A1}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_damage_take" ID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}">
+							<ChildrenList>
+								<Action Name="" ID="{08F35928-D484-4186-A203-43FD758219A0}" ShortID="815622460">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damage take" ID="{1ADC8E64-F889-4F1D-BCBA-30A8FDF14D3B}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Combat" ID="{C1A8C3C6-2B0B-4019-A2A1-F0AE9D28E6FA}" ShortID="208517466">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="worm" ID="{53141169-1F6C-4AF1-8ACE-054BBBACB5C9}" ShortID="963289611">
+							<ChildrenList>
+								<Event Name="Play_attack" ID="{205CDFAC-0302-472B-8123-22070D7ADF40}">
+									<ChildrenList>
+										<Action Name="" ID="{F03DF695-2061-43E5-9F80-4ADAAB8B390B}" ShortID="975843983">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="attack" ID="{1147098C-A1ED-4669-94B7-61FAE52AE123}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_death" ID="{481FF3E4-820F-4D4D-87A7-F27836215197}">
+									<ChildrenList>
+										<Action Name="" ID="{16FF9A81-0437-40FE-82F4-4958A182BA5A}" ShortID="402419800">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{80D31EEB-B869-48AE-A78A-0D62FB8F9673}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Walk" ID="{8457C35A-4EBD-46B6-8BDE-B7831A9F4624}">
+									<ChildrenList>
+										<Action Name="" ID="{DFAA2EE5-9887-4267-A0BE-36A175CBEC68}" ShortID="797085596">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Walk" ID="{451C57AC-08F9-4FEC-8240-61FE494BA3FE}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Worm_Idle" ID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}">
+									<ChildrenList>
+										<Action Name="" ID="{DFB3C576-E6DB-43F0-A35F-609C2A7BA3B7}" ShortID="536359007">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Worm Idle" ID="{66783827-D51D-4D8D-BDCC-B8FE86CBE2DE}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="händler" ID="{90702E7E-4EBA-4780-9891-DFFC40B3E071}" ShortID="729023833">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play__moral_decrease" ID="{F3B57977-5C0A-4C8B-9BCB-B33B07B6BF3F}">
+							<ChildrenList>
+								<Action Name="" ID="{96CA947B-6D6D-48F6-8D05-C91CBDCD40A4}" ShortID="1019187771">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name=" moral decrease" ID="{F5BD9DB2-59A2-4348-99F0-01358A37386E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__moral_increase" ID="{4FCD1F7C-33EF-4AF1-8FB3-928B30C7B980}">
+							<ChildrenList>
+								<Action Name="" ID="{A628344D-E212-4031-8DD9-C8AF0C9084F7}" ShortID="774492646">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name=" moral increase" ID="{AE9F0860-1B4C-4404-8F76-72CAF4439067}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__quest_finished" ID="{5D4A3A92-AAF1-43DC-86ED-389E9CC87564}">
+							<ChildrenList>
+								<Action Name="" ID="{8A304440-569A-4D74-BDE8-0937D74F66EB}" ShortID="175348633">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name=" quest finished" ID="{5E1314FE-DABF-457D-8B07-4FBE8260429D}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_buy" ID="{9867D542-D928-4C4A-932B-3A354D423447}">
+							<ChildrenList>
+								<Action Name="" ID="{7D411462-AB1F-47D6-9770-D22E9A09546B}" ShortID="826681754">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="buy" ID="{82884E55-598C-4971-BFB2-6A1A460A996E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_coinsound_for_money" ID="{32E7B95E-6209-47F3-8576-D3126A749D7A}">
+							<ChildrenList>
+								<Action Name="" ID="{5872A77B-02BB-4FB3-B280-106973762DC2}" ShortID="1056437009">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="coinsound for money" ID="{E1FC2962-20C8-4610-A41B-496CBDC6433E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sell" ID="{CF95D093-81C2-4230-8E85-F32C726298ED}">
+							<ChildrenList>
+								<Action Name="" ID="{71641F01-ECCA-466B-9246-17EE3D777217}" ShortID="814299938">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sell" ID="{A8C330E3-619C-44F3-BAA5-B108CD60936F}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Gameplay" ID="{1629B293-914A-4239-8FF7-90CC29AD2967}" ShortID="789627215">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play___door_open__close" ID="{FAD05298-489E-4CDC-A1F6-47AD35566DEC}">
+							<ChildrenList>
+								<Action Name="" ID="{CEB8B237-3FC5-4E66-BAF9-2A7B42A109DA}" ShortID="981196909">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="  door open _close" ID="{F2954B01-849C-4518-94EA-CF03CEC4C222}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play___go_to_sleep" ID="{48EA98FC-9486-4A57-B61C-64EC6AE14A00}">
+							<ChildrenList>
+								<Action Name="" ID="{A666E9C8-84DE-4073-AA58-64B526BB9C58}" ShortID="495789284">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="  go to sleep" ID="{3B7A71DC-FD0D-42D9-B428-F72DDBDC5B9E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play___wake_up" ID="{F65AB761-6F02-4788-B28A-48C29420D0CD}">
+							<ChildrenList>
+								<Action Name="" ID="{03578121-ED9E-4059-A66A-EE5A6111ED52}" ShortID="363052558">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="  wake up" ID="{4F72CF35-2B0D-4B47-BA39-41325F674449}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__dagegen_rennen" ID="{A360F545-FE33-4551-A8B8-ADF6E0319D90}">
+							<ChildrenList>
+								<Action Name="" ID="{9E533950-39B0-494D-BF22-A149EF7E563A}" ShortID="118918812">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name=" dagegen rennen" ID="{A5027E65-EC96-4FBD-BCB8-8678D92A1F10}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__door_shaking_" ID="{D8D26C28-6F2E-47B1-986E-97413A59757D}">
+							<ChildrenList>
+								<Action Name="" ID="{6395935E-2558-4D8F-9CB5-F006B4ABDFB5}" ShortID="989606664">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name=" door shaking " ID="{9453EA42-A1A3-442A-85D5-6A6ED73BDE91}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__fire_" ID="{039EB10F-7466-4772-991D-B16E6B0833B3}">
+							<ChildrenList>
+								<Action Name="" ID="{2D44E1F7-41F7-4D1C-8D78-8728354B1254}" ShortID="414681357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name=" fire " ID="{42B48619-B548-499B-A131-390A647B1F02}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_chest_closed" ID="{69C72138-C1D7-4BF8-ACA4-61607C120148}">
+							<ChildrenList>
+								<Action Name="" ID="{CAD83B23-8C6B-4618-8089-1C88FB8195C4}" ShortID="635455444">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="chest closed" ID="{800FF04D-E68F-4AD9-BCA7-EB66F383BA66}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_chest_open" ID="{79D1CD6B-5D5E-42D0-858E-3724DD7030F4}">
+							<ChildrenList>
+								<Action Name="" ID="{8A525DA5-7F50-44E3-B4F9-075D7948FE76}" ShortID="574186886">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="chest open" ID="{6485E9F7-12AA-410D-91A3-E84258B03630}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
