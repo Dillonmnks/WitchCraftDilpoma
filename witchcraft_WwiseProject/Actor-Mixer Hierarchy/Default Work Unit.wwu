@@ -2580,6 +2580,12 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{D704B49B-63BD-4842-9069-BDA2798BD5EE}" ShortID="713740707">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
