@@ -36,7 +36,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{080E6DCD-61C6-5E35-8057-EDA4670A8394}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{29BC95B7-C897-5555-9DFC-1B98A32D7D7B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -507,21 +507,21 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2185786256" GUID="{0BFA1267-D021-48D2-94D4-ECB3420894B0}"/>
 							<MediaRefs>
-								<MediaRef Id="7608869"/>
-								<MediaRef Id="44029583"/>
-								<MediaRef Id="640579477"/>
-								<MediaRef Id="715591636"/>
-								<MediaRef Id="1059908081"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="906520814" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}" Default="true"/>
-							<MediaRefs>
 								<MediaRef Id="281071773"/>
 								<MediaRef Id="567017348"/>
 								<MediaRef Id="828430276"/>
 								<MediaRef Id="850141276"/>
 								<MediaRef Id="955270491"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="906520814" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="7608869"/>
+								<MediaRef Id="44029583"/>
+								<MediaRef Id="640579477"/>
+								<MediaRef Id="715591636"/>
+								<MediaRef Id="1059908081"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -680,5 +680,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{38D6BA9F-0798-2E05-BD11-3DC181B9B3B4}</FileHash>
+	<FileHash>{B524A53C-AB91-44B6-A18C-6466190E84F1}</FileHash>
 </SoundBanksInfo>

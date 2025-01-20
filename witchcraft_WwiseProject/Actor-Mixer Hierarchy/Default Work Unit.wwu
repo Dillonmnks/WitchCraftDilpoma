@@ -931,132 +931,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Main Charakter  footsteps gras" ID="{07E25528-9183-4F57-8350-B82D81393E9C}" ShortID="816105139">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Main Charakter  footsteps gras" ID="{4FC254A1-25D7-432C-8A0B-0AC0D1C29735}">
-													<Language>SFX</Language>
-													<AudioFile>Main Charakter  footsteps gras.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="567017348"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Main Charakter  footsteps gras" ID="{4FC254A1-25D7-432C-8A0B-0AC0D1C29735}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Main Charakter  footsteps gras-1" ID="{681F0C5C-43CC-4169-9E27-E30D4D84891D}" ShortID="178857447">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Main Charakter  footsteps gras-1" ID="{98969DD7-31B3-46B2-943A-CA73E8A0F941}">
-													<Language>SFX</Language>
-													<AudioFile>Main Charakter  footsteps gras-1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="850141276"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Main Charakter  footsteps gras-1" ID="{98969DD7-31B3-46B2-943A-CA73E8A0F941}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Main Charakter  footsteps gras-2" ID="{53E335C6-FC57-4852-9E34-9E368C3CA757}" ShortID="455218321">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Main Charakter  footsteps gras-2" ID="{70A9357A-68D7-4FC2-950C-8C9296DC13A6}">
-													<Language>SFX</Language>
-													<AudioFile>Main Charakter  footsteps gras-2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="828430276"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Main Charakter  footsteps gras-2" ID="{70A9357A-68D7-4FC2-950C-8C9296DC13A6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Main Charakter  footsteps gras-3" ID="{7CFDF068-E722-4FFD-9D18-F2601132780C}" ShortID="792798769">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Main Charakter  footsteps gras-3" ID="{85626AFF-4461-4BE5-9E2E-37C0E36D6968}">
-													<Language>SFX</Language>
-													<AudioFile>Main Charakter  footsteps gras-3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="281071773"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Main Charakter  footsteps gras-3" ID="{85626AFF-4461-4BE5-9E2E-37C0E36D6968}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Main Charakter  footsteps gras-4" ID="{F61B70A3-BA4A-4462-9483-1A807B1664A7}" ShortID="352146704">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Main Charakter  footsteps gras-4" ID="{64434E32-EC25-4B64-A1FC-838A3C14D4F6}">
-													<Language>SFX</Language>
-													<AudioFile>Main Charakter  footsteps gras-4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="955270491"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Main Charakter  footsteps gras-4" ID="{64434E32-EC25-4B64-A1FC-838A3C14D4F6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="gravel" ID="{52E49BFF-20E2-4BD2-A4AF-B616E153070D}" ShortID="648818523">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Main Charakter  footsteps gravel" ID="{91B67099-2744-47D8-8D42-D6C2D45E56B0}" ShortID="294660989">
+										<Sound Name="Main Charakter  footsteps gras" ID="{91B67099-2744-47D8-8D42-D6C2D45E56B0}" ShortID="294660989">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1078,7 +953,7 @@
 												<ActiveSource Name="Main Charakter  footsteps gravel" ID="{01B0F010-1EDE-4920-8D8D-C1150F40F293}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Main Charakter  footsteps gravel-1" ID="{BF313262-82E8-4591-9F8F-CE6E4C428670}" ShortID="109903273">
+										<Sound Name="Main Charakter  footsteps gras-1" ID="{BF313262-82E8-4591-9F8F-CE6E4C428670}" ShortID="109903273">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1100,7 +975,7 @@
 												<ActiveSource Name="Main Charakter  footsteps gravel-1" ID="{9AD0C18B-6556-4E46-ABCA-F049803982E4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Main Charakter  footsteps gravel-2" ID="{4E1E74E5-09D5-4F49-863B-CF5F060CEC1D}" ShortID="27432704">
+										<Sound Name="Main Charakter  footsteps gras-2" ID="{4E1E74E5-09D5-4F49-863B-CF5F060CEC1D}" ShortID="27432704">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1122,7 +997,7 @@
 												<ActiveSource Name="Main Charakter  footsteps gravel-2" ID="{B1B30E51-E3A0-4828-87DF-0CF2E9361AE2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Main Charakter  footsteps gravel-3" ID="{4491CF9F-80A4-41D4-9732-5F4E4A9F1353}" ShortID="962852957">
+										<Sound Name="Main Charakter  footsteps gras-3" ID="{4491CF9F-80A4-41D4-9732-5F4E4A9F1353}" ShortID="962852957">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1144,7 +1019,7 @@
 												<ActiveSource Name="Main Charakter  footsteps gravel-3" ID="{1CC479FA-07B3-434C-B2E0-6A09606234D3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Main Charakter  footsteps gravel-4" ID="{70BA0910-73CD-4535-BAA0-188B563E7D91}" ShortID="1071942721">
+										<Sound Name="Main Charakter  footsteps gravs-4" ID="{70BA0910-73CD-4535-BAA0-188B563E7D91}" ShortID="1071942721">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1164,6 +1039,131 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Main Charakter  footsteps gravel-4" ID="{905B6045-3FF3-4E9C-AF05-5F67FC37F478}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="gravel" ID="{52E49BFF-20E2-4BD2-A4AF-B616E153070D}" ShortID="648818523">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Main Charakter  footsteps gravel" ID="{07E25528-9183-4F57-8350-B82D81393E9C}" ShortID="816105139">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Main Charakter  footsteps gras" ID="{4FC254A1-25D7-432C-8A0B-0AC0D1C29735}">
+													<Language>SFX</Language>
+													<AudioFile>Main Charakter  footsteps gras.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="567017348"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Main Charakter  footsteps gras" ID="{4FC254A1-25D7-432C-8A0B-0AC0D1C29735}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Main Charakter  footsteps gravel-1" ID="{681F0C5C-43CC-4169-9E27-E30D4D84891D}" ShortID="178857447">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Main Charakter  footsteps gras-1" ID="{98969DD7-31B3-46B2-943A-CA73E8A0F941}">
+													<Language>SFX</Language>
+													<AudioFile>Main Charakter  footsteps gras-1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850141276"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Main Charakter  footsteps gras-1" ID="{98969DD7-31B3-46B2-943A-CA73E8A0F941}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Main Charakter  footsteps gravel-2" ID="{53E335C6-FC57-4852-9E34-9E368C3CA757}" ShortID="455218321">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Main Charakter  footsteps gras-2" ID="{70A9357A-68D7-4FC2-950C-8C9296DC13A6}">
+													<Language>SFX</Language>
+													<AudioFile>Main Charakter  footsteps gras-2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="828430276"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Main Charakter  footsteps gras-2" ID="{70A9357A-68D7-4FC2-950C-8C9296DC13A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Main Charakter  footsteps gravel-3" ID="{7CFDF068-E722-4FFD-9D18-F2601132780C}" ShortID="792798769">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Main Charakter  footsteps gras-3" ID="{85626AFF-4461-4BE5-9E2E-37C0E36D6968}">
+													<Language>SFX</Language>
+													<AudioFile>Main Charakter  footsteps gras-3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="281071773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Main Charakter  footsteps gras-3" ID="{85626AFF-4461-4BE5-9E2E-37C0E36D6968}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Main Charakter  footsteps gravel-4" ID="{F61B70A3-BA4A-4462-9483-1A807B1664A7}" ShortID="352146704">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Main Charakter  footsteps gras-4" ID="{64434E32-EC25-4B64-A1FC-838A3C14D4F6}">
+													<Language>SFX</Language>
+													<AudioFile>Main Charakter  footsteps gras-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="955270491"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Main Charakter  footsteps gras-4" ID="{64434E32-EC25-4B64-A1FC-838A3C14D4F6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

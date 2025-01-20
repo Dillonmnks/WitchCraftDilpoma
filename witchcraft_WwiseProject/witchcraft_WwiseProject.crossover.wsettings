@@ -49,10 +49,10 @@
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{618C1FF9-37D4-45A7-AF0A-E2D511E44707}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{826CEF9F-ACB3-45D2-8319-9C9994E4CA5C}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{A45AAC64-78D1-46A7-88FA-F242B38651B4}" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewBDADkAOABFADYANwAzAEYALQBBADIANABDAC0ANAA4AEEAOAAtADkANgAwAEYALQAxADAANQA2ADUARgBGAEUANwAwAEEAMAB9AAAAAQF7ADYAMAA4ADYANAAyAEYARQAtADMAQgA5ADQALQA0ADEANgBFAC0AQQBFADUARgAtADEAMwAyADQANgA3ADIAOAAzAEMAOABBAH0AAAAAAQ=="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewBDADkAOABFADYANwAzAEYALQBBADIANABDAC0ANAA4AEEAOAAtADkANgAwAEYALQAxADAANQA2ADUARgBGAEUANwAwAEEAMAB9AAAAAQF7ADkAMQBCADYANwAwADkAOQAtADIANwA0ADQALQA0ADcARAA4AC0AOABEADQAMgAtAEQANgBDADIARAA0ADUARQA1ADYAQgAwAH0AAAAAAQ=="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{FB6925F8-3EDD-42F1-B446-654A30D756CF}" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
-				<Property Name="ProjectExplorer\AudioSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1a62elb8+TLToWH2wne2Owj2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWgaeE/9jTFpSpnhgkxt8YNyGk706n3dLE6Z58nfGV+rrINYswCIbMhLhktT0ECXhRpm0/5JMLWoQpk7kkhzqrcH"/>
+				<Property Name="ProjectExplorer\AudioSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1a62elb8+TLToWH2wne2Owj2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWgaeE/9jTFpSpnhgkxt8YNyGk706n3dLE6Z58nfGV+rrDVDaUGQSrFCuF+SuPY1bCgqDdNNYBxUQY2zB9y4iG///5vkUuIg0kukr7YW4VMHDWbT/kkwtahCmTuSSHOqtwc="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel2\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel2\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1b4u6dewGRQSoghoH6L4h1oGnhP/Y0xaUqZ4YJMbfGDctWObaV+2adIkjwhQmvXTc2+07crvOf+Tqy99zzfk4J1Gk706n3dLE6Z58nfGV+rrDVDaUGQSrFCuF+SuPY1bChm0/5JMLWoQpk7kkhzqrcH"/>
 				<Property Name="ProjectExplorer\EventsSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
