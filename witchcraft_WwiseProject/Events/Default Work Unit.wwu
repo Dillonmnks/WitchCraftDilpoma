@@ -423,7 +423,7 @@
 								<Action Name="" ID="{96CA947B-6D6D-48F6-8D05-C91CBDCD40A4}" ShortID="1019187771">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name=" moral decrease" ID="{F5BD9DB2-59A2-4348-99F0-01358A37386E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="moral decrease" ID="{F5BD9DB2-59A2-4348-99F0-01358A37386E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -434,7 +434,7 @@
 								<Action Name="" ID="{A628344D-E212-4031-8DD9-C8AF0C9084F7}" ShortID="774492646">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name=" moral increase" ID="{AE9F0860-1B4C-4404-8F76-72CAF4439067}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="moral increase" ID="{AE9F0860-1B4C-4404-8F76-72CAF4439067}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -445,7 +445,7 @@
 								<Action Name="" ID="{8A304440-569A-4D74-BDE8-0937D74F66EB}" ShortID="175348633">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name=" quest finished" ID="{5E1314FE-DABF-457D-8B07-4FBE8260429D}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="quest finished" ID="{5E1314FE-DABF-457D-8B07-4FBE8260429D}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -497,7 +497,7 @@
 								<Action Name="" ID="{CEB8B237-3FC5-4E66-BAF9-2A7B42A109DA}" ShortID="981196909">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  door open _close" ID="{F2954B01-849C-4518-94EA-CF03CEC4C222}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="door open _close" ID="{F2954B01-849C-4518-94EA-CF03CEC4C222}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -508,7 +508,7 @@
 								<Action Name="" ID="{A666E9C8-84DE-4073-AA58-64B526BB9C58}" ShortID="495789284">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  go to sleep" ID="{3B7A71DC-FD0D-42D9-B428-F72DDBDC5B9E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="go to sleep" ID="{3B7A71DC-FD0D-42D9-B428-F72DDBDC5B9E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -519,7 +519,7 @@
 								<Action Name="" ID="{03578121-ED9E-4059-A66A-EE5A6111ED52}" ShortID="363052558">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  wake up" ID="{4F72CF35-2B0D-4B47-BA39-41325F674449}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="wake up" ID="{4F72CF35-2B0D-4B47-BA39-41325F674449}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -530,7 +530,7 @@
 								<Action Name="" ID="{9E533950-39B0-494D-BF22-A149EF7E563A}" ShortID="118918812">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name=" dagegen rennen" ID="{A5027E65-EC96-4FBD-BCB8-8678D92A1F10}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="dagegen rennen" ID="{A5027E65-EC96-4FBD-BCB8-8678D92A1F10}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -541,7 +541,7 @@
 								<Action Name="" ID="{6395935E-2558-4D8F-9CB5-F006B4ABDFB5}" ShortID="989606664">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name=" door shaking " ID="{9453EA42-A1A3-442A-85D5-6A6ED73BDE91}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="door shaking" ID="{9453EA42-A1A3-442A-85D5-6A6ED73BDE91}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -552,7 +552,7 @@
 								<Action Name="" ID="{2D44E1F7-41F7-4D1C-8D78-8728354B1254}" ShortID="414681357">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name=" fire " ID="{42B48619-B548-499B-A131-390A647B1F02}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="fire" ID="{42B48619-B548-499B-A131-390A647B1F02}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

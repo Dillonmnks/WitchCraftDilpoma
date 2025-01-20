@@ -2135,7 +2135,7 @@
 										<ActiveSource Name="coinsound for money" ID="{BAB84AA2-64ED-4CBE-9B15-1B276C3970A7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  coinsound for money-1" ID="{FEBB5E44-C56F-40F2-814B-E7D15BEFADBF}" ShortID="187341781">
+								<Sound Name="coinsound for money-1" ID="{FEBB5E44-C56F-40F2-814B-E7D15BEFADBF}" ShortID="187341781">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2145,7 +2145,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  coinsound for money-1" ID="{9C1E94AA-18B7-4403-8FA0-7C06E033BCEC}">
+										<AudioFileSource Name="coinsound for money-1" ID="{9C1E94AA-18B7-4403-8FA0-7C06E033BCEC}">
 											<Language>SFX</Language>
 											<AudioFile>  coinsound for money-1.wav</AudioFile>
 											<MediaIDList>
@@ -2154,10 +2154,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  coinsound for money-1" ID="{9C1E94AA-18B7-4403-8FA0-7C06E033BCEC}" Platform="Linked"/>
+										<ActiveSource Name="coinsound for money-1" ID="{9C1E94AA-18B7-4403-8FA0-7C06E033BCEC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  coinsound for money-2" ID="{93BE8150-BF31-486C-B612-E57D3D5E6DF6}" ShortID="885637204">
+								<Sound Name="coinsound for money-2" ID="{93BE8150-BF31-486C-B612-E57D3D5E6DF6}" ShortID="885637204">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2167,7 +2167,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  coinsound for money-2" ID="{4DF31F81-C5E8-4A22-9C83-7279F2CF3CE9}">
+										<AudioFileSource Name="coinsound for money-2" ID="{4DF31F81-C5E8-4A22-9C83-7279F2CF3CE9}">
 											<Language>SFX</Language>
 											<AudioFile>  coinsound for money-2.wav</AudioFile>
 											<MediaIDList>
@@ -2176,10 +2176,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  coinsound for money-2" ID="{4DF31F81-C5E8-4A22-9C83-7279F2CF3CE9}" Platform="Linked"/>
+										<ActiveSource Name="coinsound for money-2" ID="{4DF31F81-C5E8-4A22-9C83-7279F2CF3CE9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  coinsound for money-3" ID="{CB17AD3A-50FB-4FBD-9CF4-B699A5FE4C46}" ShortID="1014808911">
+								<Sound Name="coinsound for money-3" ID="{CB17AD3A-50FB-4FBD-9CF4-B699A5FE4C46}" ShortID="1014808911">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2189,7 +2189,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  coinsound for money-3" ID="{A7B032C9-14D9-4977-B38A-7C30CDB204F2}">
+										<AudioFileSource Name="coinsound for money-3" ID="{A7B032C9-14D9-4977-B38A-7C30CDB204F2}">
 											<Language>SFX</Language>
 											<AudioFile>  coinsound for money-3.wav</AudioFile>
 											<MediaIDList>
@@ -2198,10 +2198,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  coinsound for money-3" ID="{A7B032C9-14D9-4977-B38A-7C30CDB204F2}" Platform="Linked"/>
+										<ActiveSource Name="coinsound for money-3" ID="{A7B032C9-14D9-4977-B38A-7C30CDB204F2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  coinsound for money-4" ID="{B18A19CD-5BCC-41D8-A1EB-26464DD251FC}" ShortID="613734767">
+								<Sound Name="coinsound for money-4" ID="{B18A19CD-5BCC-41D8-A1EB-26464DD251FC}" ShortID="613734767">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2211,7 +2211,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  coinsound for money-4" ID="{D88E394D-7A60-420B-BD4F-5C47F6A24071}">
+										<AudioFileSource Name="coinsound for money-4" ID="{D88E394D-7A60-420B-BD4F-5C47F6A24071}">
 											<Language>SFX</Language>
 											<AudioFile>  coinsound for money-4.wav</AudioFile>
 											<MediaIDList>
@@ -2220,7 +2220,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  coinsound for money-4" ID="{D88E394D-7A60-420B-BD4F-5C47F6A24071}" Platform="Linked"/>
+										<ActiveSource Name="coinsound for money-4" ID="{D88E394D-7A60-420B-BD4F-5C47F6A24071}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2260,7 +2260,7 @@
 										<ActiveSource Name="sell" ID="{719220D6-A3D1-4679-A203-633F7734C62A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  sell-1" ID="{C2C37E54-A58A-4B15-857B-AC70F0F1EAF9}" ShortID="856556883">
+								<Sound Name="sell-1" ID="{C2C37E54-A58A-4B15-857B-AC70F0F1EAF9}" ShortID="856556883">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2270,7 +2270,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  sell-1" ID="{25B31CC1-7401-4DA7-819C-9B02FD8D88AB}">
+										<AudioFileSource Name="sell-1" ID="{25B31CC1-7401-4DA7-819C-9B02FD8D88AB}">
 											<Language>SFX</Language>
 											<AudioFile>  sell-1.wav</AudioFile>
 											<MediaIDList>
@@ -2279,10 +2279,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  sell-1" ID="{25B31CC1-7401-4DA7-819C-9B02FD8D88AB}" Platform="Linked"/>
+										<ActiveSource Name="sell-1" ID="{25B31CC1-7401-4DA7-819C-9B02FD8D88AB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  sell-2" ID="{A9C190BA-BB4B-4933-B826-3E3C8491F891}" ShortID="563010720">
+								<Sound Name="sell-2" ID="{A9C190BA-BB4B-4933-B826-3E3C8491F891}" ShortID="563010720">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2292,7 +2292,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  sell-2" ID="{5D3AE186-413E-408E-B46D-129017B5C0B2}">
+										<AudioFileSource Name="sell-2" ID="{5D3AE186-413E-408E-B46D-129017B5C0B2}">
 											<Language>SFX</Language>
 											<AudioFile>  sell-2.wav</AudioFile>
 											<MediaIDList>
@@ -2301,10 +2301,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  sell-2" ID="{5D3AE186-413E-408E-B46D-129017B5C0B2}" Platform="Linked"/>
+										<ActiveSource Name="sell-2" ID="{5D3AE186-413E-408E-B46D-129017B5C0B2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  sell-3" ID="{110842CC-87AE-47EE-8060-C2493531900F}" ShortID="203229822">
+								<Sound Name="sell-3" ID="{110842CC-87AE-47EE-8060-C2493531900F}" ShortID="203229822">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2314,7 +2314,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  sell-3" ID="{3BF04FC5-D44B-42F0-B6B0-A37999D5DBA8}">
+										<AudioFileSource Name="sell-3" ID="{3BF04FC5-D44B-42F0-B6B0-A37999D5DBA8}">
 											<Language>SFX</Language>
 											<AudioFile>  sell-3.wav</AudioFile>
 											<MediaIDList>
@@ -2323,12 +2323,12 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  sell-3" ID="{3BF04FC5-D44B-42F0-B6B0-A37999D5DBA8}" Platform="Linked"/>
+										<ActiveSource Name="sell-3" ID="{3BF04FC5-D44B-42F0-B6B0-A37999D5DBA8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<Sound Name=" moral decrease" ID="{F5BD9DB2-59A2-4348-99F0-01358A37386E}" ShortID="697030358">
+						<Sound Name="moral decrease" ID="{F5BD9DB2-59A2-4348-99F0-01358A37386E}" ShortID="697030358">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2338,7 +2338,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name=" moral decrease" ID="{5FF4F66F-937A-4F4B-8B80-C8C2F0932F2C}">
+								<AudioFileSource Name="moral decrease" ID="{5FF4F66F-937A-4F4B-8B80-C8C2F0932F2C}">
 									<Language>SFX</Language>
 									<AudioFile> moral decrease.wav</AudioFile>
 									<MediaIDList>
@@ -2347,10 +2347,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name=" moral decrease" ID="{5FF4F66F-937A-4F4B-8B80-C8C2F0932F2C}" Platform="Linked"/>
+								<ActiveSource Name="moral decrease" ID="{5FF4F66F-937A-4F4B-8B80-C8C2F0932F2C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name=" moral increase" ID="{AE9F0860-1B4C-4404-8F76-72CAF4439067}" ShortID="193968086">
+						<Sound Name="moral increase" ID="{AE9F0860-1B4C-4404-8F76-72CAF4439067}" ShortID="193968086">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2360,7 +2360,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name=" moral increase" ID="{CAB3319F-ADAB-413D-AE61-DC96D580C34D}">
+								<AudioFileSource Name="moral increase" ID="{CAB3319F-ADAB-413D-AE61-DC96D580C34D}">
 									<Language>SFX</Language>
 									<AudioFile> moral increase.wav</AudioFile>
 									<MediaIDList>
@@ -2369,10 +2369,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name=" moral increase" ID="{CAB3319F-ADAB-413D-AE61-DC96D580C34D}" Platform="Linked"/>
+								<ActiveSource Name="moral increase" ID="{CAB3319F-ADAB-413D-AE61-DC96D580C34D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name=" quest finished" ID="{5E1314FE-DABF-457D-8B07-4FBE8260429D}" ShortID="728794756">
+						<Sound Name="quest finished" ID="{5E1314FE-DABF-457D-8B07-4FBE8260429D}" ShortID="728794756">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2382,7 +2382,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name=" quest finished" ID="{72D6031C-53F0-4799-9D32-6D3DA88EEE59}">
+								<AudioFileSource Name="quest finished" ID="{72D6031C-53F0-4799-9D32-6D3DA88EEE59}">
 									<Language>SFX</Language>
 									<AudioFile> quest finished.wav</AudioFile>
 									<MediaIDList>
@@ -2391,7 +2391,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name=" quest finished" ID="{72D6031C-53F0-4799-9D32-6D3DA88EEE59}" Platform="Linked"/>
+								<ActiveSource Name="quest finished" ID="{72D6031C-53F0-4799-9D32-6D3DA88EEE59}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -2413,6 +2413,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="chest closed" ID="{0DE7D4DE-6706-4A02-97C5-2455A75DB2CA}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>  chest closed.wav</AudioFile>
 									<MediaIDList>
@@ -2446,7 +2449,7 @@
 								<ActiveSource Name="chest open" ID="{515222AA-403E-4CC4-B485-408BE44A72D7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="  door open _close" ID="{F2954B01-849C-4518-94EA-CF03CEC4C222}" ShortID="667425010">
+						<Sound Name="door open _close" ID="{F2954B01-849C-4518-94EA-CF03CEC4C222}" ShortID="667425010">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2456,7 +2459,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="  door open _close" ID="{CB5DA766-F5B1-47C3-ABB8-88F42D6CC8F6}">
+								<AudioFileSource Name="door open _close" ID="{CB5DA766-F5B1-47C3-ABB8-88F42D6CC8F6}">
 									<Language>SFX</Language>
 									<AudioFile>  door open _close.wav</AudioFile>
 									<MediaIDList>
@@ -2465,10 +2468,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="  door open _close" ID="{CB5DA766-F5B1-47C3-ABB8-88F42D6CC8F6}" Platform="Linked"/>
+								<ActiveSource Name="door open _close" ID="{CB5DA766-F5B1-47C3-ABB8-88F42D6CC8F6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="  go to sleep" ID="{3B7A71DC-FD0D-42D9-B428-F72DDBDC5B9E}" ShortID="310736264">
+						<Sound Name="go to sleep" ID="{3B7A71DC-FD0D-42D9-B428-F72DDBDC5B9E}" ShortID="310736264">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2478,7 +2481,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="  go to sleep" ID="{54E7F068-DA72-4AB2-8EC7-AA213E485C08}">
+								<AudioFileSource Name="go to sleep" ID="{54E7F068-DA72-4AB2-8EC7-AA213E485C08}">
 									<Language>SFX</Language>
 									<AudioFile>  go to sleep.wav</AudioFile>
 									<MediaIDList>
@@ -2487,10 +2490,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="  go to sleep" ID="{54E7F068-DA72-4AB2-8EC7-AA213E485C08}" Platform="Linked"/>
+								<ActiveSource Name="go to sleep" ID="{54E7F068-DA72-4AB2-8EC7-AA213E485C08}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="  wake up" ID="{4F72CF35-2B0D-4B47-BA39-41325F674449}" ShortID="898236235">
+						<Sound Name="wake up" ID="{4F72CF35-2B0D-4B47-BA39-41325F674449}" ShortID="898236235">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2500,7 +2503,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="  wake up" ID="{523CB6F1-6943-4B77-9D39-DD74424E8B4C}">
+								<AudioFileSource Name="wake up" ID="{523CB6F1-6943-4B77-9D39-DD74424E8B4C}">
 									<Language>SFX</Language>
 									<AudioFile>  wake up.wav</AudioFile>
 									<MediaIDList>
@@ -2509,10 +2512,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="  wake up" ID="{523CB6F1-6943-4B77-9D39-DD74424E8B4C}" Platform="Linked"/>
+								<ActiveSource Name="wake up" ID="{523CB6F1-6943-4B77-9D39-DD74424E8B4C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name=" dagegen rennen" ID="{A5027E65-EC96-4FBD-BCB8-8678D92A1F10}" ShortID="919825404">
+						<Sound Name="dagegen rennen" ID="{A5027E65-EC96-4FBD-BCB8-8678D92A1F10}" ShortID="919825404">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2522,7 +2525,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name=" dagegen rennen" ID="{252909CF-D680-4253-BB11-0648340063D0}">
+								<AudioFileSource Name="dagegen rennen" ID="{252909CF-D680-4253-BB11-0648340063D0}">
 									<Language>SFX</Language>
 									<AudioFile> dagegen rennen.wav</AudioFile>
 									<MediaIDList>
@@ -2531,10 +2534,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name=" dagegen rennen" ID="{252909CF-D680-4253-BB11-0648340063D0}" Platform="Linked"/>
+								<ActiveSource Name="dagegen rennen" ID="{252909CF-D680-4253-BB11-0648340063D0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name=" door shaking " ID="{9453EA42-A1A3-442A-85D5-6A6ED73BDE91}" ShortID="896709195">
+						<Sound Name="door shaking" ID="{9453EA42-A1A3-442A-85D5-6A6ED73BDE91}" ShortID="896709195">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2544,7 +2547,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name=" door shaking " ID="{7D8BC611-32E4-4EC2-B9CB-944F54729BDC}">
+								<AudioFileSource Name="door shaking" ID="{7D8BC611-32E4-4EC2-B9CB-944F54729BDC}">
 									<Language>SFX</Language>
 									<AudioFile> door shaking .wav</AudioFile>
 									<MediaIDList>
@@ -2553,10 +2556,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name=" door shaking " ID="{7D8BC611-32E4-4EC2-B9CB-944F54729BDC}" Platform="Linked"/>
+								<ActiveSource Name="door shaking" ID="{7D8BC611-32E4-4EC2-B9CB-944F54729BDC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name=" fire " ID="{42B48619-B548-499B-A131-390A647B1F02}" ShortID="319919914">
+						<Sound Name="fire" ID="{42B48619-B548-499B-A131-390A647B1F02}" ShortID="319919914">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2566,7 +2569,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name=" fire " ID="{80D2F5CF-0E7E-43E6-BD88-0C7AA65EF97A}">
+								<AudioFileSource Name="fire" ID="{80D2F5CF-0E7E-43E6-BD88-0C7AA65EF97A}">
 									<Language>SFX</Language>
 									<AudioFile> fire .wav</AudioFile>
 									<MediaIDList>
@@ -2575,7 +2578,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name=" fire " ID="{80D2F5CF-0E7E-43E6-BD88-0C7AA65EF97A}" Platform="Linked"/>
+								<ActiveSource Name="fire" ID="{80D2F5CF-0E7E-43E6-BD88-0C7AA65EF97A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
