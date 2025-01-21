@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C855453-BBB5-4AE8-8536-35D576635ADD}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{2C855453-BBB5-4AE8-8536-35D576635ADD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="footsteps" ID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="gras" ID="{CBD4F5D5-A008-4627-8700-F8650354134F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="gravel" ID="{0BFA1267-D021-48D2-94D4-ECB3420894B0}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="wood" ID="{20CE900D-01C7-44C7-818A-1C15855C2337}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="stone" ID="{C30C28D6-4953-4AFC-AF9C-BB2DE915375D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
