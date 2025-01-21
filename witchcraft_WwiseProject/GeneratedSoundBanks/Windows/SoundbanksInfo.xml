@@ -36,14 +36,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{7FBD174B-2338-B3D1-0885-E81EE54B4686}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{83056255-EE82-664C-25BB-3CEBD8E339E9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="7608869" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gravel-1_0BA9C783.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gravel-1_1D8DB9A6.wem</CachePath>
 				</File>
 				<File Id="12299255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle-1.wav</ShortName>
@@ -59,11 +59,11 @@
 				</File>
 				<File Id="43027650" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps wood_E6CDC24F.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps wood_D5410064.wem</CachePath>
 				</File>
 				<File Id="44029583" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel-4.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gravel-4_C76E389E.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gravel-4_A1CFA63B.wem</CachePath>
 				</File>
 				<File Id="98954012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui quest accept.wav</ShortName>
@@ -71,7 +71,11 @@
 				</File>
 				<File Id="127178024" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps wood-3_80333277.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps wood-3_BA48C4C6.wem</CachePath>
+				</File>
+				<File Id="131141707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump down-3.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump down-3_4BC09EB3.wem</CachePath>
 				</File>
 				<File Id="132820239" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  damage take.wav</ShortName>
@@ -91,7 +95,15 @@
 				</File>
 				<File Id="178696379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-4.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps stone-4_761D7897.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps stone-4_123D5956.wem</CachePath>
+				</File>
+				<File Id="191497730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump up-3.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump up-3_F647C361.wem</CachePath>
+				</File>
+				<File Id="197177071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump up.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump up_B991A822.wem</CachePath>
 				</File>
 				<File Id="202104210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> moral increase.wav</ShortName>
@@ -111,11 +123,15 @@
 				</File>
 				<File Id="226393275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps stone_86E8C55C.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps stone_44A9CB30.wem</CachePath>
 				</File>
 				<File Id="240961913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  damage take-4.wav</ShortName>
 					<CachePath>SFX/Main Charakter  damage take-4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="241164100" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump down-2.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump down-2_96B90F8F.wem</CachePath>
 				</File>
 				<File Id="246212939" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  chest open.wav</ShortName>
@@ -129,13 +145,17 @@
 					<ShortName>Ui item collect.wav</ShortName>
 					<CachePath>SFX/Ui item collect_54CA3EBE.wem</CachePath>
 				</File>
+				<File Id="275632591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump up-2.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump up-2_4D6366CC.wem</CachePath>
+				</File>
 				<File Id="275848710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui inventory open.wav</ShortName>
 					<CachePath>SFX/Ui inventory open_818F3B66.wem</CachePath>
 				</File>
 				<File Id="281071773" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-3_05969B7B.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras-3_27C8EC56.wem</CachePath>
 				</File>
 				<File Id="285057775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack .wav</ShortName>
@@ -153,6 +173,10 @@
 					<ShortName>Ui turn page 3.wav</ShortName>
 					<CachePath>SFX/Ui turn page 3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="304044752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump down.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump down_E06986BC.wem</CachePath>
+				</File>
 				<File Id="309348204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> quest finished.wav</ShortName>
 					<CachePath>SFX/ quest finished_818F3B66.wem</CachePath>
@@ -160,6 +184,10 @@
 				<File Id="318859576" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item drop mushroom.wav</ShortName>
 					<CachePath>SFX/Ui item drop mushroom_7112315E.wem</CachePath>
+				</File>
+				<File Id="339378936" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump down-1.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump down-1_7A7F802D.wem</CachePath>
 				</File>
 				<File Id="343265672" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui button.wav</ShortName>
@@ -203,7 +231,7 @@
 				</File>
 				<File Id="467215598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps wood-2_C57DE5BC.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps wood-2_29AB4B60.wem</CachePath>
 				</File>
 				<File Id="478047084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack .wav</ShortName>
@@ -223,11 +251,11 @@
 				</File>
 				<File Id="542391917" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps wood-1_D0437165.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps wood-1_E12E8872.wem</CachePath>
 				</File>
 				<File Id="567017348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras_52540F8A.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras_31931161.wem</CachePath>
 				</File>
 				<File Id="567852820" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Death.wav</ShortName>
@@ -251,11 +279,11 @@
 				</File>
 				<File Id="640579477" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gravel-2_D38D1ACC.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gravel-2_ED112FFA.wem</CachePath>
 				</File>
 				<File Id="641130999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-4.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps wood-4_D0B4E8FD.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps wood-4_68E22978.wem</CachePath>
 				</File>
 				<File Id="679674457" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Death.wav</ShortName>
@@ -275,7 +303,7 @@
 				</File>
 				<File Id="715591636" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gravel-3_E9CFDB4F.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gravel-3_C2A4EEC5.wem</CachePath>
 				</File>
 				<File Id="745169205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Death.wav</ShortName>
@@ -287,7 +315,7 @@
 				</File>
 				<File Id="751077151" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps stone-3_140FCAD0.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps stone-3_3AF5B957.wem</CachePath>
 				</File>
 				<File Id="755946980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  heavy breathing.wav</ShortName>
@@ -315,7 +343,7 @@
 				</File>
 				<File Id="828430276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-2_4AFB669F.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras-2_984CFE81.wem</CachePath>
 				</File>
 				<File Id="848868357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  damage take-3.wav</ShortName>
@@ -323,7 +351,7 @@
 				</File>
 				<File Id="850141276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-1_C9D5A348.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras-1_F8916FC0.wem</CachePath>
 				</File>
 				<File Id="853049879" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Attack .wav</ShortName>
@@ -331,7 +359,7 @@
 				</File>
 				<File Id="873389055" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui move cursor.wav</ShortName>
-					<CachePath>SFX/Ui move cursor_AB79D989.wem</CachePath>
+					<CachePath>SFX/Ui move cursor_8A4875A8.wem</CachePath>
 				</File>
 				<File Id="876192999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle-2.wav</ShortName>
@@ -343,7 +371,7 @@
 				</File>
 				<File Id="926038193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps stone-2_ECBB5801.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps stone-2_11E6F693.wem</CachePath>
 				</File>
 				<File Id="929206881" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy.wav</ShortName>
@@ -351,7 +379,7 @@
 				</File>
 				<File Id="955270491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-4.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-4_63D1549E.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras-4_CF652331.wem</CachePath>
 				</File>
 				<File Id="956949307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  damage take-1.wav</ShortName>
@@ -359,7 +387,7 @@
 				</File>
 				<File Id="963689456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps stone-1_67C51EC5.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps stone-1_E6BB3E9C.wem</CachePath>
 				</File>
 				<File Id="978548441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use eat.wav</ShortName>
@@ -376,6 +404,10 @@
 				<File Id="1022333913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  coinsound for money-3.wav</ShortName>
 					<CachePath>SFX/  coinsound for money-3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1024205521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter  jump up-1.wav</ShortName>
+					<CachePath>SFX/Main Charakter  jump up-1_2F5AED6F.wem</CachePath>
 				</File>
 				<File Id="1036871779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  coinsound for money-2.wav</ShortName>
@@ -475,7 +507,7 @@
 						<MediaRef Id="1036871779"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1083042653" Name="Play_damage_take" ObjectPath="\Events\Default Work Unit\Maincharaczor\Play_damage_take" GUID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.375">
+				<Event Id="1083042653" Name="Play_damage_take" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_damage_take" GUID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.375">
 					<MediaRefs>
 						<MediaRef Id="132820239"/>
 						<MediaRef Id="240961913"/>
@@ -492,7 +524,7 @@
 						<MediaRef Id="745169205"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Maincharaczor\Play_footsteps" GUID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}" DurationType="OneShot" DurationMin="0.1887999" DurationMax="0.433525">
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_footsteps" GUID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}" DurationType="OneShot" DurationMin="0.1887999" DurationMax="0.433525">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2058049674" GUID="{20CE900D-01C7-44C7-818A-1C15855C2337}"/>
@@ -536,7 +568,23 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="314014867" Name="Play_Main_Charakter__heavy_breathing" ObjectPath="\Events\Default Work Unit\Maincharaczor\Play_Main_Charakter__heavy_breathing" GUID="{7B67515D-E98B-4724-B442-4DEFFC2A51C4}" DurationType="OneShot" DurationMin="9.75" DurationMax="9.75">
+				<Event Id="1954589493" Name="Play_jump_down" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_jump_down" GUID="{3162CFD6-96C1-48A8-9448-B0166C50316C}" DurationType="OneShot" DurationMin="0.3707059" DurationMax="0.7287832">
+					<MediaRefs>
+						<MediaRef Id="131141707"/>
+						<MediaRef Id="241164100"/>
+						<MediaRef Id="304044752"/>
+						<MediaRef Id="339378936"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2372486210" Name="Play_jump_up" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_jump_up" GUID="{F13024FC-88E7-4787-96CE-33A7BD521B62}" DurationType="OneShot" DurationMin="0.25227645" DurationMax="0.31737006">
+					<MediaRefs>
+						<MediaRef Id="191497730"/>
+						<MediaRef Id="197177071"/>
+						<MediaRef Id="275632591"/>
+						<MediaRef Id="1024205521"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="314014867" Name="Play_Main_Charakter__heavy_breathing" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_Main_Charakter__heavy_breathing" GUID="{7B67515D-E98B-4724-B442-4DEFFC2A51C4}" DurationType="OneShot" DurationMin="9.75" DurationMax="9.75">
 					<MediaRefs>
 						<MediaRef Id="755946980"/>
 					</MediaRefs>
@@ -680,5 +728,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E3792462-E9B2-7B78-3BD7-9EE62652405B}</FileHash>
+	<FileHash>{549EF94C-510E-FB04-A305-F273C85D1AB1}</FileHash>
 </SoundBanksInfo>
