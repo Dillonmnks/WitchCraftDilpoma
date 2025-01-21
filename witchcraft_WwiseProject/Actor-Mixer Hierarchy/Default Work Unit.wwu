@@ -635,6 +635,19 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="9"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A2A3BE34-4690-489B-AE35-53D98D69C4E2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -646,6 +659,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Ui move cursor" ID="{E8915FB7-10BF-4E19-96BD-CB5C2ADE940F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0326388888888889"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.107638888888889"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Ui move cursor.wav</AudioFile>
 									<MediaIDList>
@@ -942,6 +960,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gravel" ID="{01B0F010-1EDE-4920-8D8D-C1150F40F293}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.242877492877493"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gravel.wav</AudioFile>
 													<MediaIDList>
@@ -964,6 +986,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gravel-1" ID="{9AD0C18B-6556-4E46-ABCA-F049803982E4}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.272079772079772"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gravel-1.wav</AudioFile>
 													<MediaIDList>
@@ -986,6 +1013,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gravel-2" ID="{B1B30E51-E3A0-4828-87DF-0CF2E9361AE2}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.234330484330484"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gravel-2.wav</AudioFile>
 													<MediaIDList>
@@ -1008,6 +1040,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gravel-3" ID="{1CC479FA-07B3-434C-B2E0-6A09606234D3}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.290598290598291"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gravel-3.wav</AudioFile>
 													<MediaIDList>
@@ -1030,6 +1067,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gravel-4" ID="{905B6045-3FF3-4E9C-AF05-5F67FC37F478}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.272792022792023"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gravel-4.wav</AudioFile>
 													<MediaIDList>
@@ -1067,6 +1109,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gras" ID="{4FC254A1-25D7-432C-8A0B-0AC0D1C29735}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.408119658119658"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gras.wav</AudioFile>
 													<MediaIDList>
@@ -1089,6 +1136,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gras-1" ID="{98969DD7-31B3-46B2-943A-CA73E8A0F941}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.32051282051282"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gras-1.wav</AudioFile>
 													<MediaIDList>
@@ -1111,6 +1163,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gras-2" ID="{70A9357A-68D7-4FC2-950C-8C9296DC13A6}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.420940170940171"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gras-2.wav</AudioFile>
 													<MediaIDList>
@@ -1133,6 +1190,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gras-3" ID="{85626AFF-4461-4BE5-9E2E-37C0E36D6968}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.26994301994302"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gras-3.wav</AudioFile>
 													<MediaIDList>
@@ -1155,6 +1216,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps gras-4" ID="{64434E32-EC25-4B64-A1FC-838A3C14D4F6}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.314814814814815"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps gras-4.wav</AudioFile>
 													<MediaIDList>
@@ -1192,6 +1258,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps stone" ID="{2FE14759-FCEA-48FA-893A-E3A26730AD8F}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.213675213675214"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps stone.wav</AudioFile>
 													<MediaIDList>
@@ -1214,6 +1284,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps stone-1" ID="{9B495009-DDBE-458D-A4E4-E572997ADF3D}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0975783475783476"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.28988603988604"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps stone-1.wav</AudioFile>
 													<MediaIDList>
@@ -1236,6 +1311,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps stone-2" ID="{7D5A7586-86D1-4C49-A6F9-0755EAA014C7}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.23005698005698"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps stone-2.wav</AudioFile>
 													<MediaIDList>
@@ -1258,6 +1338,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps stone-3" ID="{07ECADA7-BA17-4820-A41A-2DFEB4FCDEAF}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.1994301994302"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps stone-3.wav</AudioFile>
 													<MediaIDList>
@@ -1280,6 +1364,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps stone-4" ID="{411B5A22-0F2E-469C-B809-EEBD3E11FBD2}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.194444444444444"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps stone-4.wav</AudioFile>
 													<MediaIDList>
@@ -1317,6 +1405,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps wood" ID="{8F88B27F-1BE8-4401-92F2-70662F4C818A}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.323361823361824"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps wood.wav</AudioFile>
 													<MediaIDList>
@@ -1339,6 +1431,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps wood-1" ID="{049CBE0E-F5E0-48EA-9607-CDAF00C34647}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.229344729344729"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps wood-1.wav</AudioFile>
 													<MediaIDList>
@@ -1361,6 +1458,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps wood-2" ID="{DC53D292-3076-425D-95CF-93000C5FBD31}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.346153846153846"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps wood-2.wav</AudioFile>
 													<MediaIDList>
@@ -1383,6 +1485,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps wood-3" ID="{3C88B510-86A8-4B13-85BE-3E3C9A126D53}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.289173789173789"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps wood-3.wav</AudioFile>
 													<MediaIDList>
@@ -1405,6 +1512,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Main Charakter  footsteps wood-4" ID="{8FDD58C4-729F-4121-9969-3A8233F50FC7}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.366096866096866"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Main Charakter  footsteps wood-4.wav</AudioFile>
 													<MediaIDList>
@@ -2586,6 +2697,11 @@
 				<Folder Name="Music" ID="{D704B49B-63BD-4842-9069-BDA2798BD5EE}" ShortID="713740707">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 				</Folder>

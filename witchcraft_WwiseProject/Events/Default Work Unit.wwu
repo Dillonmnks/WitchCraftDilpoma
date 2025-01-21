@@ -582,6 +582,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Test" ID="{BF9BC682-4A48-4FC1-B4C6-0F5B8250D071}" ShortID="32759479"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

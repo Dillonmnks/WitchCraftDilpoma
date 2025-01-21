@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{29BC95B7-C897-5555-9DFC-1B98A32D7D7B}",
+    "Hash": "{7FBD174B-2338-B3D1-0885-E81EE54B4686}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-1_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-1_0BA9C783.wem"
      },
      {
       "Id": "12299255",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood_E6CDC24F.wem"
      },
      {
       "Id": "44029583",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-4_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-4_C76E389E.wem"
      },
      {
       "Id": "98954012",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-3_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-3_80333277.wem"
      },
      {
       "Id": "132820239",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-4_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-4_761D7897.wem"
      },
      {
       "Id": "202104210",
@@ -157,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone_86E8C55C.wem"
      },
      {
       "Id": "240961913",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-3_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-3_05969B7B.wem"
      },
      {
       "Id": "285057775",
@@ -341,7 +341,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-2_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-2_C57DE5BC.wem"
      },
      {
       "Id": "478047084",
@@ -381,7 +381,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-1_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-1_D0437165.wem"
      },
      {
       "Id": "567017348",
@@ -389,7 +389,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras_52540F8A.wem"
      },
      {
       "Id": "567852820",
@@ -437,7 +437,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-2_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-2_D38D1ACC.wem"
      },
      {
       "Id": "641130999",
@@ -445,7 +445,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-4_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-4_D0B4E8FD.wem"
      },
      {
       "Id": "679674457",
@@ -485,7 +485,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-3_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-3_E9CFDB4F.wem"
      },
      {
       "Id": "745169205",
@@ -509,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-3_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-3_140FCAD0.wem"
      },
      {
       "Id": "755946980",
@@ -565,7 +565,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-2_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-2_4AFB669F.wem"
      },
      {
       "Id": "848868357",
@@ -581,7 +581,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-1_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-1_C9D5A348.wem"
      },
      {
       "Id": "853049879",
@@ -597,7 +597,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui move cursor.wav",
-      "CachePath": "SFX/Ui move cursor_818F3B66.wem"
+      "CachePath": "SFX/Ui move cursor_AB79D989.wem"
      },
      {
       "Id": "876192999",
@@ -621,7 +621,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-2_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-2_ECBB5801.wem"
      },
      {
       "Id": "929206881",
@@ -637,7 +637,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-4_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-4_63D1549E.wem"
      },
      {
       "Id": "956949307",
@@ -653,7 +653,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-1_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-1_67C51EC5.wem"
      },
      {
       "Id": "978548441",
@@ -701,7 +701,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel_818F3B66.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel_FB4040CE.wem"
      },
      {
       "Id": "1068849814",
@@ -1002,8 +1002,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Maincharaczor\\Play_footsteps",
       "GUID": "{3CAA0CFA-9D05-4A88-BD84-449D353F434C}",
       "DurationType": "OneShot",
-      "DurationMin": "0.9709709",
-      "DurationMax": "1.029897",
+      "DurationMin": "0.1887999",
+      "DurationMax": "0.433525",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1404,8 +1404,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI Events\\Play_Ui_move_cursor",
       "GUID": "{04644C9F-DC9B-40E3-9579-6CDB15E91F5A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.325",
-      "DurationMax": "0.325",
+      "DurationMin": "0.07413855",
+      "DurationMax": "0.07587146",
       "MediaRefs": [
        {
         "Id": "873389055"
@@ -1514,6 +1514,6 @@
     ]
    }
   ],
-  "FileHash": "{140257B0-664E-F7D5-2721-36F2D472C957}"
+  "FileHash": "{186D9EBF-E12B-5D37-795B-65DFBEF01770}"
  }
 }
