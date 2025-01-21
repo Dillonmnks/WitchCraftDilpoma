@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{023EB82A-A847-4DE1-8267-5D03A5B37C37}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{023EB82A-A847-4DE1-8267-5D03A5B37C37}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Test Töne" ID="{C02A9914-3DFC-422D-8341-D469DE85197A}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Combat" ID="{A56D8ED5-D97E-48A7-923C-21426BD74DCD}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI SFX" ID="{00B35883-6C88-4BC8-864B-53D04097851A}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gameplay" ID="{A886CFDA-2DA2-4C58-8131-9019C7D4DEDA}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Händler" ID="{EEE60940-69DB-4C6D-8499-07E4E191266B}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Main Charactor" ID="{EAF44E1A-DD7D-4E2C-99E7-C9DF195FABAC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
