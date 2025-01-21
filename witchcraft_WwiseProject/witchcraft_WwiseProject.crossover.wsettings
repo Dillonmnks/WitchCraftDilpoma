@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{19F455F7-C9EE-4B3C-B378-C84A7D57FC41}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Z:\Volumes\Simon SSD\Simon SSD \SAE\4-5\02 Kleines Projekt Konzept \Witchcraft Game \Ableton \Gameplay Sounds Project\Bounces\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Z:\Volumes\Simon SSD\Simon SSD \SAE\4-5\02 Kleines Projekt Konzept \Witchcraft Game \Ableton \Main Charakter  Project\Bounces\"/>
 				<Property Name="Event Action List\{077BE94C-43BD-4AB2-B0BB-5380D40EADDD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{205CDFAC-0302-472B-8123-22070D7ADF40}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2E89F5D7-E4F5-4C16-86B0-C6E3EF684B1E}\x64_Expand States" Type="string" Value=""/>
@@ -13,6 +13,7 @@
 				<Property Name="Event Action List\{7B67515D-E98B-4724-B442-4DEFFC2A51C4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{80DC8655-7A97-4D67-8C92-250A53572F80}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F13024FC-88E7-4787-96CE-33A7BD521B62}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F3B57977-5C0A-4C8B-9BCB-B33B07B6BF3F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
@@ -119,7 +120,7 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{E6EDF7AA-E484-4322-99EA-052383BF4E18}56288571"/>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{E6EDF7AA-E484-4322-99EA-052383BF4E18}360013717"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

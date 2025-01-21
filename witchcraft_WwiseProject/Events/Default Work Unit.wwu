@@ -315,7 +315,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Maincharaczor" ID="{1E4B5EDA-351C-4762-B2FB-C701CE5407F1}" ShortID="406639458">
+				<Folder Name="Maincharactor" ID="{1E4B5EDA-351C-4762-B2FB-C701CE5407F1}" ShortID="406639458">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -349,6 +349,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="damage take" ID="{1ADC8E64-F889-4F1D-BCBA-30A8FDF14D3B}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_jump_up" ID="{F13024FC-88E7-4787-96CE-33A7BD521B62}">
+							<ChildrenList>
+								<Action Name="" ID="{7CCD9ED7-B4A5-4D88-8C24-7814A1E13A45}" ShortID="336745146">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="jump up" ID="{5D194728-918B-440E-8EF8-3E5D7A905244}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_jump_down" ID="{3162CFD6-96C1-48A8-9448-B0166C50316C}">
+							<ChildrenList>
+								<Action Name="" ID="{E2526218-48F6-4FBC-87F5-AE603339CCAD}" ShortID="980397004">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="jump down" ID="{13AED43F-E7E9-4CBE-9510-546747C93F67}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
