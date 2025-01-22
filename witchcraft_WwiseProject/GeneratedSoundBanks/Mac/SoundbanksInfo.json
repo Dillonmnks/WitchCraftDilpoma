@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{5B646454-E021-16AE-2152-790C58EDCC04}",
+    "Hash": "{F2A3AB61-21AE-BF91-BC7B-A20676B3D121}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -44,9 +44,9 @@
     },
     "Busses": [
      {
-      "Id": "529726550",
-      "Name": "Env",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Env",
+      "Id": "1802970371",
+      "Name": "FX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX",
       "GUID": "{2D0E49ED-6213-4A81-9F9A-52F238055C9E}"
      },
      {
@@ -108,11 +108,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-<<<<<<< HEAD
-    "Hash": "{AD6D30A6-B2F7-0CEF-5927-E932E0D32499}",
-=======
-    "Hash": "{E8B5853F-4EB2-B165-21B4-008D86AD535E}",
->>>>>>> c7a25ab66cc9809b1827d4692e83b81ed3b15397
+    "Hash": "{18422513-2163-8962-7783-C3E268137A14}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -131,7 +127,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "casting .wav",
-      "CachePath": "SFX/casting _818F3B66.wem"
+      "CachePath": "SFX/casting _8E91071D.wem"
      },
      {
       "Id": "10077899",
@@ -139,7 +135,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog Idle.wav",
-      "CachePath": "SFX/Combat frog Idle_A19613FA.wem"
+      "CachePath": "SFX/Combat frog Idle_6CCB8A93.wem"
      },
      {
       "Id": "12299255",
@@ -187,7 +183,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog Idle.wav",
-      "CachePath": "SFX/Combat frog Idle_BB67669D.wem"
+      "CachePath": "SFX/Combat frog Idle_C0662E46.wem"
      },
      {
       "Id": "88255355",
@@ -211,7 +207,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_39F444CA.wem"
+      "CachePath": "SFX/Combat frog feed_05FF3605.wem"
      },
      {
       "Id": "127178024",
@@ -251,7 +247,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact pet .wav",
-      "CachePath": "SFX/Combat interact pet _7E8EA992.wem"
+      "CachePath": "SFX/Combat interact pet _8C306A49.wem"
      },
      {
       "Id": "148234284",
@@ -259,7 +255,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Walk.wav",
-      "CachePath": "SFX/Walk_34E3C828.wem"
+      "CachePath": "SFX/Walk_747A11D5.wem"
      },
      {
       "Id": "152239765",
@@ -267,7 +263,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_C2890BE7.wem"
+      "CachePath": "SFX/Combat interact feed_EF3C44C5.wem"
      },
      {
       "Id": "157319039",
@@ -315,7 +311,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact pet .wav",
-      "CachePath": "SFX/Combat interact pet _03C936F8.wem"
+      "CachePath": "SFX/Combat interact pet _F27C2920.wem"
      },
      {
       "Id": "191497730",
@@ -347,7 +343,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_45972F7F.wem"
+      "CachePath": "SFX/Combat interact feed_6CB2C41D.wem"
      },
      {
       "Id": "215819596",
@@ -363,7 +359,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_D7FEB5E2.wem"
+      "CachePath": "SFX/Combat interact feed_F5A6870E.wem"
      },
      {
       "Id": "222515199",
@@ -427,7 +423,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_14FCFA90.wem"
+      "CachePath": "SFX/Combat frog feed_4E375789.wem"
      },
      {
       "Id": "257043073",
@@ -459,7 +455,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog pet .wav",
-      "CachePath": "SFX/Combat frog pet _9C215EF1.wem"
+      "CachePath": "SFX/Combat frog pet _BE4971DA.wem"
      },
      {
       "Id": "275632591",
@@ -507,7 +503,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_2DEDA3A2.wem"
+      "CachePath": "SFX/Combat interact feed_D82379D3.wem"
      },
      {
       "Id": "300874155",
@@ -547,7 +543,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_A4A9EA5C.wem"
+      "CachePath": "SFX/Combat frog feed_A0BE29DE.wem"
      },
      {
       "Id": "318859576",
@@ -627,7 +623,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_68F22F77.wem"
+      "CachePath": "SFX/Combat frog feed_31E4C742.wem"
      },
      {
       "Id": "393714322",
@@ -643,7 +639,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_F2B6B9C3.wem"
+      "CachePath": "SFX/Combat interact feed_6DDC358D.wem"
      },
      {
       "Id": "397629470",
@@ -659,7 +655,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Walk.wav",
-      "CachePath": "SFX/Walk_29D0C62D.wem"
+      "CachePath": "SFX/Walk_CB841B0A.wem"
      },
      {
       "Id": "435537503",
@@ -739,7 +735,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_5BF0BFD0.wem"
+      "CachePath": "SFX/Combat interact feed_5E080221.wem"
      },
      {
       "Id": "525297934",
@@ -747,7 +743,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_1D529A57.wem"
+      "CachePath": "SFX/Combat frog feed_910AF7F4.wem"
      },
      {
       "Id": "529421350",
@@ -755,7 +751,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_CB9B2243.wem"
+      "CachePath": "SFX/Combat frog feed_F4F69751.wem"
      },
      {
       "Id": "529617816",
@@ -779,7 +775,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog pet .wav",
-      "CachePath": "SFX/Combat frog pet _005198AC.wem"
+      "CachePath": "SFX/Combat frog pet _F58FF61D.wem"
      },
      {
       "Id": "542032580",
@@ -819,7 +815,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog Idle.wav",
-      "CachePath": "SFX/Combat frog Idle_F8738D0F.wem"
+      "CachePath": "SFX/Combat frog Idle_D12AA002.wem"
      },
      {
       "Id": "614674959",
@@ -843,7 +839,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_8CBB8B82.wem"
+      "CachePath": "SFX/Combat frog feed_28B2A47B.wem"
      },
      {
       "Id": "630745993",
@@ -867,7 +863,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_4267B75F.wem"
+      "CachePath": "SFX/Combat interact feed_5A38985D.wem"
      },
      {
       "Id": "640579477",
@@ -891,7 +887,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog pet .wav",
-      "CachePath": "SFX/Combat frog pet _5530E924.wem"
+      "CachePath": "SFX/Combat frog pet _FDB60D7A.wem"
      },
      {
       "Id": "696745964",
@@ -915,7 +911,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_9F477769.wem"
+      "CachePath": "SFX/Combat frog feed_53D71339.wem"
      },
      {
       "Id": "707468780",
@@ -923,7 +919,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_D6A816A5.wem"
+      "CachePath": "SFX/Combat interact feed_3C28EB72.wem"
      },
      {
       "Id": "714771132",
@@ -987,7 +983,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_72FE2792.wem"
+      "CachePath": "SFX/Combat frog feed_00071CBE.wem"
      },
      {
       "Id": "792034974",
@@ -1043,7 +1039,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Walk.wav",
-      "CachePath": "SFX/Walk_D63B8DFA.wem"
+      "CachePath": "SFX/Walk_5E110E28.wem"
      },
      {
       "Id": "828430276",
@@ -1059,7 +1055,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_D826645C.wem"
+      "CachePath": "SFX/Combat frog feed_0A82C5F6.wem"
      },
      {
       "Id": "840295862",
@@ -1083,7 +1079,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog Idle.wav",
-      "CachePath": "SFX/Combat frog Idle_1EF589C5.wem"
+      "CachePath": "SFX/Combat frog Idle_697377FA.wem"
      },
      {
       "Id": "848868357",
@@ -1139,7 +1135,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_DA7748A3.wem"
+      "CachePath": "SFX/Combat interact feed_84DDF1F6.wem"
      },
      {
       "Id": "888472459",
@@ -1147,7 +1143,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_D4CA93BC.wem"
+      "CachePath": "SFX/Combat frog feed_DCAD8611.wem"
      },
      {
       "Id": "892647975",
@@ -1155,7 +1151,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_4C82BC7C.wem"
+      "CachePath": "SFX/Combat interact feed_E14D6B1A.wem"
      },
      {
       "Id": "893090049",
@@ -1179,7 +1175,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_9BD43C5F.wem"
+      "CachePath": "SFX/Combat interact feed_745489E3.wem"
      },
      {
       "Id": "903737124",
@@ -1203,7 +1199,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog pet .wav",
-      "CachePath": "SFX/Combat frog pet _0FA16E33.wem"
+      "CachePath": "SFX/Combat frog pet _01B3AA96.wem"
      },
      {
       "Id": "917264507",
@@ -1243,7 +1239,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
-      "CachePath": "SFX/Combat interact feed_3563AB1B.wem"
+      "CachePath": "SFX/Combat interact feed_A66CB61C.wem"
      },
      {
       "Id": "955270491",
@@ -1291,7 +1287,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact pet .wav",
-      "CachePath": "SFX/Combat interact pet _DFF00B20.wem"
+      "CachePath": "SFX/Combat interact pet _98CD4F7C.wem"
      },
      {
       "Id": "988185398",
@@ -1307,7 +1303,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat interact pet .wav",
-      "CachePath": "SFX/Combat interact pet _0C5A9BD1.wem"
+      "CachePath": "SFX/Combat interact pet _BE651A97.wem"
      },
      {
       "Id": "990356872",
@@ -1379,7 +1375,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
-      "CachePath": "SFX/Combat frog feed_88D0B6A9.wem"
+      "CachePath": "SFX/Combat frog feed_A4D5EA84.wem"
      },
      {
       "Id": "1057484461",
@@ -2749,10 +2745,6 @@
     ]
    }
   ],
-<<<<<<< HEAD
-  "FileHash": "{127CB2A5-06DE-5284-F31C-202A6F734F32}"
-=======
-  "FileHash": "{52694C2B-C72A-CC68-349E-5AE950B57A7B}"
->>>>>>> c7a25ab66cc9809b1827d4692e83b81ed3b15397
+  "FileHash": "{ABBC6737-6D58-F496-8A01-196A13952715}"
  }
 }

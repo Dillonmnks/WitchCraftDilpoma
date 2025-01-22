@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8A15553E-670C-B9CF-FF4A-19A957DC3F3A}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F99B1000-1B50-D620-1E3A-B6AC3AF5018F}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -20,7 +20,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="529726550" Name="Env" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env" GUID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}"/>
+				<Bus Id="1802970371" Name="FX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FX" GUID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}"/>
 				<Bus Id="3466474873" Name="Diologue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Diologue" GUID="{7800FA86-2B46-4019-9B82-7431B7D1918F}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"/>
@@ -36,11 +36,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{E7560EA1-F1FF-DA24-D652-45AAB7E88022}">
-=======
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{E8B5853F-4EB2-B165-21B4-008D86AD535E}">
->>>>>>> c7a25ab66cc9809b1827d4692e83b81ed3b15397
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{70193CC6-B0E5-67F3-5905-ED1D69B77473}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -51,11 +47,11 @@
 				</File>
 				<File Id="8451084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>casting .wav</ShortName>
-					<CachePath>SFX/casting _818F3B66.wem</CachePath>
+					<CachePath>SFX/casting _8E91071D.wem</CachePath>
 				</File>
 				<File Id="10077899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_A19613FA.wem</CachePath>
+					<CachePath>SFX/Combat frog Idle_6CCB8A93.wem</CachePath>
 				</File>
 				<File Id="12299255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle-1.wav</ShortName>
@@ -79,7 +75,7 @@
 				</File>
 				<File Id="50575655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_BB67669D.wem</CachePath>
+					<CachePath>SFX/Combat frog Idle_C0662E46.wem</CachePath>
 				</File>
 				<File Id="88255355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden.wav</ShortName>
@@ -91,7 +87,7 @@
 				</File>
 				<File Id="123107940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_39F444CA.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_05FF3605.wem</CachePath>
 				</File>
 				<File Id="127178024" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-3.wav</ShortName>
@@ -111,15 +107,15 @@
 				</File>
 				<File Id="146395362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
-					<CachePath>SFX/Combat interact pet _7E8EA992.wem</CachePath>
+					<CachePath>SFX/Combat interact pet _8C306A49.wem</CachePath>
 				</File>
 				<File Id="148234284" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walk.wav</ShortName>
-					<CachePath>SFX/Walk_34E3C828.wem</CachePath>
+					<CachePath>SFX/Walk_747A11D5.wem</CachePath>
 				</File>
 				<File Id="152239765" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_C2890BE7.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_EF3C44C5.wem</CachePath>
 				</File>
 				<File Id="157319039" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-3.wav</ShortName>
@@ -143,7 +139,7 @@
 				</File>
 				<File Id="186924588" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
-					<CachePath>SFX/Combat interact pet _03C936F8.wem</CachePath>
+					<CachePath>SFX/Combat interact pet _F27C2920.wem</CachePath>
 				</File>
 				<File Id="191497730" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump up-3.wav</ShortName>
@@ -159,7 +155,7 @@
 				</File>
 				<File Id="213656067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_45972F7F.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_6CB2C41D.wem</CachePath>
 				</File>
 				<File Id="215819596" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item delete.wav</ShortName>
@@ -167,7 +163,7 @@
 				</File>
 				<File Id="217805513" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_D7FEB5E2.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_F5A6870E.wem</CachePath>
 				</File>
 				<File Id="222515199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  fireplace.wav</ShortName>
@@ -199,7 +195,7 @@
 				</File>
 				<File Id="248217849" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_14FCFA90.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_4E375789.wem</CachePath>
 				</File>
 				<File Id="257043073" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 4.wav</ShortName>
@@ -215,7 +211,7 @@
 				</File>
 				<File Id="265985123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _9C215EF1.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _BE4971DA.wem</CachePath>
 				</File>
 				<File Id="275632591" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump up-2.wav</ShortName>
@@ -239,7 +235,7 @@
 				</File>
 				<File Id="298570835" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_2DEDA3A2.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_D82379D3.wem</CachePath>
 				</File>
 				<File Id="300874155" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Freeze Test Ton [2024-10-01 221054].wav</ShortName>
@@ -259,7 +255,7 @@
 				</File>
 				<File Id="315065542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_A4A9EA5C.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_A0BE29DE.wem</CachePath>
 				</File>
 				<File Id="318859576" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item drop mushroom.wav</ShortName>
@@ -299,7 +295,7 @@
 				</File>
 				<File Id="390921244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_68F22F77.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_31E4C742.wem</CachePath>
 				</File>
 				<File Id="393714322" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use potion.wav</ShortName>
@@ -307,7 +303,7 @@
 				</File>
 				<File Id="395530577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_F2B6B9C3.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_6DDC358D.wem</CachePath>
 				</File>
 				<File Id="397629470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  wake up.wav</ShortName>
@@ -315,7 +311,7 @@
 				</File>
 				<File Id="420124859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walk.wav</ShortName>
-					<CachePath>SFX/Walk_29D0C62D.wem</CachePath>
+					<CachePath>SFX/Walk_CB841B0A.wem</CachePath>
 				</File>
 				<File Id="435537503" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item inventory drop.wav</ShortName>
@@ -355,15 +351,15 @@
 				</File>
 				<File Id="520737710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_5BF0BFD0.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_5E080221.wem</CachePath>
 				</File>
 				<File Id="525297934" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_1D529A57.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_910AF7F4.wem</CachePath>
 				</File>
 				<File Id="529421350" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_CB9B2243.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_F4F69751.wem</CachePath>
 				</File>
 				<File Id="529617816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle-3.wav</ShortName>
@@ -375,7 +371,7 @@
 				</File>
 				<File Id="541463883" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _005198AC.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _F58FF61D.wem</CachePath>
 				</File>
 				<File Id="542032580" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  wood knocking.wav</ShortName>
@@ -395,7 +391,7 @@
 				</File>
 				<File Id="580912414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_F8738D0F.wem</CachePath>
+					<CachePath>SFX/Combat frog Idle_D12AA002.wem</CachePath>
 				</File>
 				<File Id="614674959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 1.wav</ShortName>
@@ -407,7 +403,7 @@
 				</File>
 				<File Id="626293655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_8CBB8B82.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_28B2A47B.wem</CachePath>
 				</File>
 				<File Id="630745993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-1.wav</ShortName>
@@ -419,7 +415,7 @@
 				</File>
 				<File Id="638685097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_4267B75F.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_5A38985D.wem</CachePath>
 				</File>
 				<File Id="640579477" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel-2.wav</ShortName>
@@ -431,7 +427,7 @@
 				</File>
 				<File Id="683805629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _5530E924.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _FDB60D7A.wem</CachePath>
 				</File>
 				<File Id="696745964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
@@ -443,11 +439,11 @@
 				</File>
 				<File Id="706253421" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_9F477769.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_53D71339.wem</CachePath>
 				</File>
 				<File Id="707468780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_D6A816A5.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_3C28EB72.wem</CachePath>
 				</File>
 				<File Id="714771132" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell-3.wav</ShortName>
@@ -479,7 +475,7 @@
 				</File>
 				<File Id="783857445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_72FE2792.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_00071CBE.wem</CachePath>
 				</File>
 				<File Id="792034974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 2.wav</ShortName>
@@ -507,7 +503,7 @@
 				</File>
 				<File Id="827643818" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walk.wav</ShortName>
-					<CachePath>SFX/Walk_D63B8DFA.wem</CachePath>
+					<CachePath>SFX/Walk_5E110E28.wem</CachePath>
 				</File>
 				<File Id="828430276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-2.wav</ShortName>
@@ -515,7 +511,7 @@
 				</File>
 				<File Id="828654938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_D826645C.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_0A82C5F6.wem</CachePath>
 				</File>
 				<File Id="840295862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 3.wav</ShortName>
@@ -527,7 +523,7 @@
 				</File>
 				<File Id="846924471" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_1EF589C5.wem</CachePath>
+					<CachePath>SFX/Combat frog Idle_697377FA.wem</CachePath>
 				</File>
 				<File Id="848868357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  damage take-3.wav</ShortName>
@@ -555,15 +551,15 @@
 				</File>
 				<File Id="878494762" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_DA7748A3.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_84DDF1F6.wem</CachePath>
 				</File>
 				<File Id="888472459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_D4CA93BC.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_DCAD8611.wem</CachePath>
 				</File>
 				<File Id="892647975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_4C82BC7C.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_E14D6B1A.wem</CachePath>
 				</File>
 				<File Id="893090049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 3.wav</ShortName>
@@ -575,7 +571,7 @@
 				</File>
 				<File Id="903244895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_9BD43C5F.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_745489E3.wem</CachePath>
 				</File>
 				<File Id="903737124" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river bubbles.wav</ShortName>
@@ -587,7 +583,7 @@
 				</File>
 				<File Id="913835205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _0FA16E33.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _01B3AA96.wem</CachePath>
 				</File>
 				<File Id="917264507" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser.wav</ShortName>
@@ -607,7 +603,7 @@
 				</File>
 				<File Id="930120994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
-					<CachePath>SFX/Combat interact feed_3563AB1B.wem</CachePath>
+					<CachePath>SFX/Combat interact feed_A66CB61C.wem</CachePath>
 				</File>
 				<File Id="955270491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-4.wav</ShortName>
@@ -631,7 +627,7 @@
 				</File>
 				<File Id="979055805" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
-					<CachePath>SFX/Combat interact pet _DFF00B20.wem</CachePath>
+					<CachePath>SFX/Combat interact pet _98CD4F7C.wem</CachePath>
 				</File>
 				<File Id="988185398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves.wav</ShortName>
@@ -639,7 +635,7 @@
 				</File>
 				<File Id="988660099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
-					<CachePath>SFX/Combat interact pet _0C5A9BD1.wem</CachePath>
+					<CachePath>SFX/Combat interact pet _BE651A97.wem</CachePath>
 				</File>
 				<File Id="990356872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  nutshell.wav</ShortName>
@@ -675,7 +671,7 @@
 				</File>
 				<File Id="1053097705" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
-					<CachePath>SFX/Combat frog feed_88D0B6A9.wem</CachePath>
+					<CachePath>SFX/Combat frog feed_A4D5EA84.wem</CachePath>
 				</File>
 				<File Id="1057484461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser-2.wav</ShortName>
@@ -1169,9 +1165,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-<<<<<<< HEAD
-	<FileHash>{82B0A860-B293-8572-ACF4-85967F807DA6}</FileHash>
-=======
-	<FileHash>{5DFB60B4-8B29-ECF6-2969-9075D67FB615}</FileHash>
->>>>>>> c7a25ab66cc9809b1827d4692e83b81ed3b15397
+	<FileHash>{EF21F867-2D51-FEDE-190F-DCA7F306328C}</FileHash>
 </SoundBanksInfo>
