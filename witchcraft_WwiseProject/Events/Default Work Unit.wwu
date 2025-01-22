@@ -961,6 +961,58 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Dialogue PLACEHOLDER" ID="{651F35C6-9FEC-4D2D-B63B-DBB50518ECB3}" ShortID="901498167">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_B_nker" ID="{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}">
+							<ChildrenList>
+								<Action Name="" ID="{AF14D2B3-C4EE-4935-B042-9700C25EF446}" ShortID="694390016">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bänker" ID="{ED73ED13-D697-484F-B18E-5BB3C6819944}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grandma" ID="{446DD5A8-0C78-4C99-97C4-E899246DBF65}">
+							<ChildrenList>
+								<Action Name="" ID="{8D2C1AAD-C1D3-4F51-BD0F-DBF265A06A74}" ShortID="638395781">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grandma" ID="{A73ACF7F-74FB-4F41-8C51-377FA7F2BDE4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_H_ndler_01" ID="{58DF7204-319A-49AA-9E30-12B649C3FEBE}">
+							<ChildrenList>
+								<Action Name="" ID="{37D5496E-9C42-4EE7-BCEB-734728FE3A55}" ShortID="28930690">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Händler_01" ID="{9A6F3DAE-9A7B-46A5-9B14-0A447AED99D8}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Hexe" ID="{8F116051-A4AA-467F-9529-51B35564666A}">
+							<ChildrenList>
+								<Action Name="" ID="{249C0795-D10C-4D45-BFCD-BC5D17ADA445}" ShortID="546391332">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hexe" ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

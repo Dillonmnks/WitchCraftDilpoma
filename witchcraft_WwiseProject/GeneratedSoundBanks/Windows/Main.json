@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{70193CC6-B0E5-67F3-5905-ED1D69B77473}",
+    "Hash": "{1100EFD5-2D57-9F92-5A16-D5C393D5880C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "casting .wav",
-      "CachePath": "SFX/casting _8E91071D.wem"
+      "CachePath": "SFX/casting _A0AD02E0.wem"
      },
      {
       "Id": "10077899",
@@ -928,6 +928,14 @@
       "CachePath": "SFX/  nutshell-5_818F3B66.wem"
      },
      {
+      "Id": "817214624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Händler.wav",
+      "CachePath": "SFX/Händler_818F3B66.wem"
+     },
+     {
       "Id": "819693839",
       "Language": "SFX",
       "Streaming": "false",
@@ -1048,6 +1056,14 @@
       "CachePath": "SFX/Combat frog feed_DCAD8611.wem"
      },
      {
+      "Id": "889497535",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hexe .wav",
+      "CachePath": "SFX/Hexe _818F3B66.wem"
+     },
+     {
       "Id": "892647975",
       "Language": "SFX",
       "Streaming": "false",
@@ -1086,6 +1102,14 @@
       "Location": "Memory",
       "ShortName": "  river bubbles.wav",
       "CachePath": "SFX/  river bubbles_818F3B66.wem"
+     },
+     {
+      "Id": "906327466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bänker.wav",
+      "CachePath": "SFX/Bänker_818F3B66.wem"
      },
      {
       "Id": "912893642",
@@ -1230,6 +1254,14 @@
       "Location": "Memory",
       "ShortName": "  nutshell-4.wav",
       "CachePath": "SFX/  nutshell-4_818F3B66.wem"
+     },
+     {
+      "Id": "1015348893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grandma.wav",
+      "CachePath": "SFX/Grandma_818F3B66.wem"
      },
      {
       "Id": "1016314410",
@@ -1670,6 +1702,20 @@
       ]
      },
      {
+      "Id": "1278811423",
+      "Name": "Play_B_nker",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_B_nker",
+      "GUID": "{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}",
+      "DurationType": "OneShot",
+      "DurationMin": "17.666666",
+      "DurationMax": "17.666666",
+      "MediaRefs": [
+       {
+        "Id": "906327466"
+       }
+      ]
+     },
+     {
       "Id": "161356194",
       "Name": "Play_birds_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_birds_1",
@@ -2056,6 +2102,48 @@
        },
        {
         "Id": "913835205"
+       }
+      ]
+     },
+     {
+      "Id": "3765097210",
+      "Name": "Play_Grandma",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Grandma",
+      "GUID": "{446DD5A8-0C78-4C99-97C4-E899246DBF65}",
+      "DurationType": "OneShot",
+      "DurationMin": "13",
+      "DurationMax": "13",
+      "MediaRefs": [
+       {
+        "Id": "1015348893"
+       }
+      ]
+     },
+     {
+      "Id": "513292110",
+      "Name": "Play_H_ndler_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_H_ndler_01",
+      "GUID": "{58DF7204-319A-49AA-9E30-12B649C3FEBE}",
+      "DurationType": "OneShot",
+      "DurationMin": "13",
+      "DurationMax": "13",
+      "MediaRefs": [
+       {
+        "Id": "817214624"
+       }
+      ]
+     },
+     {
+      "Id": "2790146506",
+      "Name": "Play_Hexe",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Hexe",
+      "GUID": "{8F116051-A4AA-467F-9529-51B35564666A}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.387667",
+      "DurationMax": "12.387667",
+      "MediaRefs": [
+       {
+        "Id": "889497535"
        }
       ]
      },
@@ -2647,6 +2735,6 @@
     ]
    }
   ],
-  "FileHash": "{17A2CEA2-F224-4EA7-B06D-A371769954CE}"
+  "FileHash": "{4B2022B5-CE06-84D5-62A6-7C924E6E60FA}"
  }
 }

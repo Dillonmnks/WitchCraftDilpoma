@@ -11,6 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	433371790	Play_m_rser			\Default Work Unit\Minigame cooking\Play_m_rser	
 	471615608	Play__fire_			\Default Work Unit\Gameplay\Play__fire_	
 	482045456	Play_Ui_item_use_potion			\Default Work Unit\UI Events\Play_Ui_item_use_potion	
+	513292110	Play_H_ndler_01			\Default Work Unit\Dialogue PLACEHOLDER\Play_H_ndler_01	
 	735996042	Play_Ui_quest_accept			\Default Work Unit\UI Events\Play_Ui_quest_accept	
 	779013463	Play_Page_Turn_Container			\Default Work Unit\UI Events\Play_Page_Turn_Container	
 	827396052	Play_Ui_item_drop_glas			\Default Work Unit\UI Events\Play_Ui_item_drop_glas	
@@ -18,6 +19,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1083042653	Play_damage_take			\Default Work Unit\Maincharactor\Play_damage_take	
 	1124536817	Play_casting			\Default Work Unit\Maincharactor\Play_casting	
 	1198172706	Play_Ui_item_delete_bin			\Default Work Unit\UI Events\Play_Ui_item_delete_bin	
+	1278811423	Play_B_nker			\Default Work Unit\Dialogue PLACEHOLDER\Play_B_nker	
 	1420078893	Play_frog_idle			\Default Work Unit\Combat\frog\Play_frog_idle	
 	1435386480	Play_Ui_item_delete			\Default Work Unit\UI Events\Play_Ui_item_delete	
 	1549301176	Play_worm_interact_feed_Head			\Default Work Unit\Combat\worm\Play_worm_interact_feed_Head	
@@ -34,6 +36,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2560700912	Play_chest_open			\Default Work Unit\Gameplay\Play_chest_open	
 	2613038076	Play_frog_feed_head			\Default Work Unit\Combat\frog\Play_frog_feed_head	
 	2750519553	Play___river_hard_far_away			\Default Work Unit\Atmo\Play___river_hard_far_away	
+	2790146506	Play_Hexe			\Default Work Unit\Dialogue PLACEHOLDER\Play_Hexe	
 	2824767826	Play_buy			\Default Work Unit\händler\Play_buy	
 	2875132479	Play__dagegen_rennen			\Default Work Unit\Gameplay\Play__dagegen_rennen	
 	2926639448	Play_chest_closed			\Default Work Unit\Gameplay\Play_chest_closed	
@@ -60,6 +63,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3693022033	Play_Ui_item_use_eat			\Default Work Unit\UI Events\Play_Ui_item_use_eat	
 	3693294549	Play_Ui_item_collect			\Default Work Unit\UI Events\Play_Ui_item_collect	
 	3707028679	Play_Ui_item_inventory_move_instant			\Default Work Unit\UI Events\Play_Ui_item_inventory_move_instant	
+	3765097210	Play_Grandma			\Default Work Unit\Dialogue PLACEHOLDER\Play_Grandma	
 	3854155799	Play_footsteps			\Default Work Unit\Maincharactor\Play_footsteps	
 	3910239717	Play___river_soft			\Default Work Unit\Atmo\Play___river_soft	
 	4024607186	Play___birds_3			\Default Work Unit\Atmo\Play___birds_3	
@@ -82,7 +86,7 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7608869	Main Charakter  footsteps gras-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-1_1D8DB9A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\gras\Main Charakter  footsteps gras-1		52336
-	8451084	casting	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\casting _8E91071D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\casting		384096
+	8451084	casting	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\casting _A0AD02E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\casting		384096
 	10077899	Combat frog Idle_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog Idle_6CCB8A93.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog idle\Combat frog Idle_02		254420
 	12299255	Combat  worm idle-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\Worm Idle\Combat  worm idle-1		384096
 	14589801	Ui item drop glas	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item drop glas_7BA95949.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui item drop glas		139964
@@ -195,6 +199,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	807797044	Ui inventory close	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui inventory close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui inventory close		62496
 	808361190	fire	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ fire _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Gameplay\fire		2168484
 	816608275	  nutshell-5	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\Nutshell\  nutshell-5		1056096
+	817214624	Händler_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Händler_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Händler_01		2496096
 	819693839	Main Charakter  damage take-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\damage take\Main Charakter  damage take-2		264096
 	827643818	Walk_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Walk_5E110E28.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\worm walk\Walk_03		336328
 	828430276	Main Charakter  footsteps gravel-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-2_984CFE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog walk\Main Charakter  footsteps gravel-2		80916
@@ -210,11 +215,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	876192999	Combat  worm idle-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\Worm Idle\Combat  worm idle-2		384096
 	878494762	worm interact feed_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_84DDF1F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\worm interact feedd\worm inteact feedTail\worm interact feed_01		170528
 	888472459	Combat frog feed_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_DCAD8611.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog feed\frog feed tail\Combat frog feed_03		112680
+	889497535	Hexe	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Hexe _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Hexe		2378528
 	892647975	worm interact feed_05	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_E14D6B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_05		129772
 	893090049	  leaves 3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  leaves 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\  leaves 3		14496096
 	899695238	  nutshell-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\Nutshell\  nutshell-2		1056096
 	903244895	worm interact feed_07	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_745489E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_07		177936
 	903737124	  river bubbles	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  river bubbles_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\  river bubbles		12960096
+	906327466	Bänker	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Bänker_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Bänker		3392096
 	912893642	coinsound for money-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\Händler\coinsound for money\coinsound for money-4		48096
 	913835205	Combat frog pet_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog pet _01B3AA96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog pet\Combat frog pet_03		71552
 	917264507	Mörser	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  Mörser_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\mörser\Mörser		1056096
@@ -233,6 +240,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	990356872	nutshell	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\Nutshell\nutshell		1056096
 	995229971	coinsound for money	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\Händler\coinsound for money\coinsound for money		48096
 	997968862	  nutshell-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\Nutshell\  nutshell-4		1056096
+	1015348893	Grandma	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Grandma_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Grandma		2496096
 	1016314410	Ui item use recipe	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item use recipe_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui item use recipe		182496
 	1022333913	coinsound for money-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\Händler\coinsound for money\coinsound for money-3		48096
 	1024205521	Main Charakter  jump up-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up-1_0DC9846B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\Jump\jump up\Main Charakter  jump up-1		51144

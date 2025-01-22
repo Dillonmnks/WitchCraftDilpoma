@@ -16,6 +16,7 @@
 						<ObjectRef Name="UI SFX" ID="{00B35883-6C88-4BC8-864B-53D04097851A}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gameplay" ID="{A886CFDA-2DA2-4C58-8131-9019C7D4DEDA}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Händler" ID="{EEE60940-69DB-4C6D-8499-07E4E191266B}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialogue PLACEHOLDER" ID="{651F35C6-9FEC-4D2D-B63B-DBB50518ECB3}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Main Charactor" ID="{EAF44E1A-DD7D-4E2C-99E7-C9DF195FABAC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

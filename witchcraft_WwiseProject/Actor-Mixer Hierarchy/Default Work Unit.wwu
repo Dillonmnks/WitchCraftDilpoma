@@ -5304,7 +5304,7 @@
 										<ActiveSource Name="Grandma" ID="{8F37199A-5724-4E28-B1E6-422F25ACBEAD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Hexe " ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" ShortID="823413128">
+								<Sound Name="Hexe" ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" ShortID="823413128">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5314,7 +5314,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Hexe " ID="{C87F6FF3-286E-46AA-B368-F0C1BE782F47}">
+										<AudioFileSource Name="Hexe" ID="{C87F6FF3-286E-46AA-B368-F0C1BE782F47}">
+											<Language>SFX</Language>
+											<AudioFile>Hexe .wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="889497535"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Hexe _01" ID="{C33AA821-C6F8-41CA-AC72-8F41E4667BB9}">
 											<Language>SFX</Language>
 											<AudioFile>Hexe .wav</AudioFile>
 											<MediaIDList>
@@ -5323,7 +5330,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Hexe " ID="{C87F6FF3-286E-46AA-B368-F0C1BE782F47}" Platform="Linked"/>
+										<ActiveSource Name="Hexe _01" ID="{C33AA821-C6F8-41CA-AC72-8F41E4667BB9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Händler_01" ID="{9A6F3DAE-9A7B-46A5-9B14-0A447AED99D8}" ShortID="517536986">
