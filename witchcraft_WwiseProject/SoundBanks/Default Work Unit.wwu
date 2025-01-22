@@ -4,8 +4,14 @@
 		<WorkUnit Name="Default Work Unit" ID="{023EB82A-A847-4DE1-8267-5D03A5B37C37}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Minigame cooking" ID="{2689D021-6D56-4128-957F-4D1034181B3D}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test Töne" ID="{C02A9914-3DFC-422D-8341-D469DE85197A}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Atmo" ID="{B40EA4B8-3AE4-4458-8C0A-6069BA50BDCB}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Combat" ID="{A56D8ED5-D97E-48A7-923C-21426BD74DCD}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI SFX" ID="{00B35883-6C88-4BC8-864B-53D04097851A}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gameplay" ID="{A886CFDA-2DA2-4C58-8131-9019C7D4DEDA}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>

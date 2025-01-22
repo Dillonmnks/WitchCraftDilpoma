@@ -1,10 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
+	23942916	Play_frog_feed_tail			\Default Work Unit\Combat\frog\Play_frog_feed_tail	
 	43599987	Play_Ui_button			\Default Work Unit\UI Events\Play_Ui_button	
 	72283163	Play_coinsound_for_money			\Default Work Unit\händler\Play_coinsound_for_money	
+	161356194	Play_birds_1			\Default Work Unit\Atmo\Play_birds_1	
 	251756331	Play___door_open__close			\Default Work Unit\Gameplay\Play___door_open__close	
 	314014867	Play_Main_Charakter__heavy_breathing			\Default Work Unit\Maincharactor\Play_Main_Charakter__heavy_breathing	
 	360526586	Play_Ui_letter_open			\Default Work Unit\UI Events\Play_Ui_letter_open	
+	368624613	Play_worm_walk			\Default Work Unit\Combat\worm\Play_worm_walk	
 	392743550	Play__quest_finished			\Default Work Unit\händler\Play__quest_finished	
+	433371790	Play_m_rser			\Default Work Unit\Minigame cooking\Play_m_rser	
 	471615608	Play__fire_			\Default Work Unit\Gameplay\Play__fire_	
 	482045456	Play_Ui_item_use_potion			\Default Work Unit\UI Events\Play_Ui_item_use_potion	
 	735996042	Play_Ui_quest_accept			\Default Work Unit\UI Events\Play_Ui_quest_accept	
@@ -12,36 +16,60 @@ Event	ID	Name			Wwise Object Path	Notes
 	827396052	Play_Ui_item_drop_glas			\Default Work Unit\UI Events\Play_Ui_item_drop_glas	
 	1046906731	Play_Ui_item_use_recipe			\Default Work Unit\UI Events\Play_Ui_item_use_recipe	
 	1083042653	Play_damage_take			\Default Work Unit\Maincharactor\Play_damage_take	
-	1172822028	Play_death			\Default Work Unit\Combat\worm\Play_death	
+	1124536817	Play_casting			\Default Work Unit\Maincharactor\Play_casting	
 	1198172706	Play_Ui_item_delete_bin			\Default Work Unit\UI Events\Play_Ui_item_delete_bin	
+	1420078893	Play_frog_idle			\Default Work Unit\Combat\frog\Play_frog_idle	
 	1435386480	Play_Ui_item_delete			\Default Work Unit\UI Events\Play_Ui_item_delete	
-	1519321238	Play_attack			\Default Work Unit\Combat\worm\Play_attack	
-	1589278981	Play_Walk			\Default Work Unit\Combat\worm\Play_Walk	
+	1549301176	Play_worm_interact_feed_Head			\Default Work Unit\Combat\worm\Play_worm_interact_feed_Head	
+	1570873034	Play_worm_interact_pet			\Default Work Unit\Combat\worm\Play_worm_interact_pet	
 	1719456260	Play_Ui_inventory_close			\Default Work Unit\UI Events\Play_Ui_inventory_close	
+	1766696002	Play___river_bubbles			\Default Work Unit\Atmo\Play___river_bubbles	
+	1873669494	Play_cutting			\Default Work Unit\Minigame cooking\Play_cutting	
 	1954589493	Play_jump_down			\Default Work Unit\Maincharactor\Play_jump_down	
 	2251135697	Play_Ui_move_cursor			\Default Work Unit\UI Events\Play_Ui_move_cursor	
+	2271122982	Play___wood_knocking			\Default Work Unit\Atmo\Play___wood_knocking	
+	2324289553	Play___fireplace			\Default Work Unit\Atmo\Play___fireplace	
+	2335987430	Play_frog_pet			\Default Work Unit\Combat\frog\Play_frog_pet	
 	2372486210	Play_jump_up			\Default Work Unit\Maincharactor\Play_jump_up	
 	2560700912	Play_chest_open			\Default Work Unit\Gameplay\Play_chest_open	
+	2613038076	Play_frog_feed_head			\Default Work Unit\Combat\frog\Play_frog_feed_head	
+	2750519553	Play___river_hard_far_away			\Default Work Unit\Atmo\Play___river_hard_far_away	
 	2824767826	Play_buy			\Default Work Unit\händler\Play_buy	
 	2875132479	Play__dagegen_rennen			\Default Work Unit\Gameplay\Play__dagegen_rennen	
 	2926639448	Play_chest_closed			\Default Work Unit\Gameplay\Play_chest_closed	
 	2934036990	Play_Teston_UI			\Default Work Unit\Testtöne\Play_Teston_UI	
 	2958348949	Play__moral_decrease			\Default Work Unit\händler\Play__moral_decrease	
 	2963481348	Play_Ui_quest_decline			\Default Work Unit\UI Events\Play_Ui_quest_decline	
+	3096191827	Play_worm_inteact_feedTail			\Default Work Unit\Combat\worm\Play_worm_inteact_feedTail	
 	3098359485	Play__moral_increase			\Default Work Unit\händler\Play__moral_increase	
 	3116151072	Play_Worm_Idle			\Default Work Unit\Combat\worm\Play_Worm_Idle	
+	3161803976	Play___leaves_5			\Default Work Unit\Atmo\Play___leaves_5	
+	3161803977	Play___leaves_4			\Default Work Unit\Atmo\Play___leaves_4	
+	3161803982	Play___leaves_3			\Default Work Unit\Atmo\Play___leaves_3	
+	3161803983	Play___leaves_2			\Default Work Unit\Atmo\Play___leaves_2	
+	3183376343	Play_Nutshell			\Default Work Unit\Atmo\Play_Nutshell	
+	3212638512	Play_cauldron			\Default Work Unit\Minigame cooking\Play_cauldron	
 	3244236260	Play___wake_up			\Default Work Unit\Gameplay\Play___wake_up	
+	3251220738	Play___river_hard			\Default Work Unit\Atmo\Play___river_hard	
 	3331271074	Play_Ui_item_inventory_click			\Default Work Unit\UI Events\Play_Ui_item_inventory_click	
 	3514747546	Play__door_shaking_			\Default Work Unit\Gameplay\Play__door_shaking_	
 	3539876443	Play_Ui_item_drop_mushroom			\Default Work Unit\UI Events\Play_Ui_item_drop_mushroom	
 	3582769408	Play_Ui_inventory_open			\Default Work Unit\UI Events\Play_Ui_inventory_open	
+	3623484722	Play___leaves_tree_at_river			\Default Work Unit\Atmo\Play___leaves_tree_at_river	
 	3639311590	Play___go_to_sleep			\Default Work Unit\Gameplay\Play___go_to_sleep	
 	3693022033	Play_Ui_item_use_eat			\Default Work Unit\UI Events\Play_Ui_item_use_eat	
 	3693294549	Play_Ui_item_collect			\Default Work Unit\UI Events\Play_Ui_item_collect	
 	3707028679	Play_Ui_item_inventory_move_instant			\Default Work Unit\UI Events\Play_Ui_item_inventory_move_instant	
 	3854155799	Play_footsteps			\Default Work Unit\Maincharactor\Play_footsteps	
+	3910239717	Play___river_soft			\Default Work Unit\Atmo\Play___river_soft	
+	4024607186	Play___birds_3			\Default Work Unit\Atmo\Play___birds_3	
+	4024607187	Play___birds_2			\Default Work Unit\Atmo\Play___birds_2	
+	4024607188	Play___birds_5			\Default Work Unit\Atmo\Play___birds_5	
+	4024607189	Play___birds_4			\Default Work Unit\Atmo\Play___birds_4	
+	4024607191	Play___birds_6			\Default Work Unit\Atmo\Play___birds_6	
 	4044256362	Play_sell			\Default Work Unit\händler\Play_sell	
 	4089233097	Play_Ui_item_inventory_drop			\Default Work Unit\UI Events\Play_Ui_item_inventory_drop	
+	4121726672	Play___leaves			\Default Work Unit\Atmo\Play___leaves	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	footsteps			\Default Work Unit\footsteps	
@@ -54,99 +82,164 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7608869	Main Charakter  footsteps gras-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-1_1D8DB9A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras-1		52336
-	12299255	Combat  worm idle-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-1		288096
+	8451084	casting	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\casting _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\casting		384096
+	10077899	Combat frog Idle_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog Idle_A19613FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog idle\Combat frog Idle_02		254420
+	12299255	Combat  worm idle-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-1		384096
 	14589801	Ui item drop glas	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item drop glas_7BA95949.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item drop glas		139964
 	33963550	Ui letter open	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui letter open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui letter open		355296
 	43027650	Main Charakter  footsteps wood	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood_D5410064.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood		62180
 	44029583	Main Charakter  footsteps gravs-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-4_A1CFA63B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gravs-4		52472
+	50575655	Combat frog Idle_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog Idle_BB67669D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog idle\Combat frog Idle_03		295440
+	88255355	schneiden	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  schneiden_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\cutting\schneiden		1056096
 	98954012	Ui quest accept	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui quest accept_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui quest accept		187296
+	123107940	Combat frog feed_05	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_39F444CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_05		86948
 	127178024	Main Charakter  footsteps wood-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-3_BA48C4C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-3		55616
-	131141707	Main Charakter  jump down-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down-3_4BC09EB3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down-3		78404
+	131141707	Main Charakter  jump down-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down-3_B2306420.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down-3		78404
 	132820239	Main Charakter  damage take	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take		264096
 	135775179	sell-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell-2		72096
+	146395362	worm interact pet_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact pet _7E8EA992.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact pet\worm interact pet_01		128712
+	148234284	Walk_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Walk_34E3C828.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm walk\Walk_02		299508
+	152239765	worm interact feed_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_C2890BE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm inteact feedTail\worm interact feed_02		196464
 	157319039	buy-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy-3		48096
 	170190639	dagegen rennen	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ dagegen rennen_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\dagegen rennen		86928
+	171969739	  leaves tree at river	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  leaves tree at river_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  leaves tree at river		12960096
+	177565286	schneiden-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  schneiden-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\cutting\schneiden-1		1056096
 	178696379	Main Charakter  footsteps stone-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-4_123D5956.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-4		37428
-	191497730	Main Charakter  jump up-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up-3_F647C361.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump up\Main Charakter  jump up-3		59264
-	197177071	Main Charakter  jump up	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up_B991A822.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump up\Main Charakter  jump up		49980
+	186924588	worm interact pet_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact pet _03C936F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact pet\worm interact pet_03		164440
+	191497730	Main Charakter  jump up-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up-3_225BA4FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump up\Main Charakter  jump up-3		59264
+	197177071	Main Charakter  jump up	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up_A1C4B080.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump up\Main Charakter  jump up		49980
 	202104210	moral increase	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ moral increase_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\moral increase		384096
-	207065331	Attack	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _3F2AEFAB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack		108948
+	213656067	worm interact feed_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_45972F7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_03		152004
 	215819596	Ui item delete	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item delete_8D411FFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item delete		104156
+	217805513	worm interact feed_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_D7FEB5E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_01		129772
+	222515199	  fireplace	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  fireplace_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  fireplace		12960096
 	223377924	go to sleep	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  go to sleep_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\go to sleep		463200
 	226393275	Main Charakter  footsteps stone	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone_44A9CB30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone		41120
+	230478404	birds 1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  birds 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\birds 1		10886240
 	240961913	Main Charakter  damage take-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-4		264096
-	241164100	Main Charakter  jump down-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down-2_96B90F8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down-2		75504
+	241164100	Main Charakter  jump down-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down-2_926B703B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down-2		75504
 	246212939	chest open	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  chest open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\chest open		308832
+	248217849	Combat frog feed_07	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_14FCFA90.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_07		128764
+	257043073	  leaves 4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  leaves 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  leaves 4		14496096
 	261089796	Ui quest decline	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui quest decline_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui quest decline		163296
 	265123594	Ui item collect	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item collect_54CA3EBE.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item collect		7524
+	265985123	Combat frog pet_04	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog pet _9C215EF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog pet\Combat frog pet_04		73932
 	275632591	Main Charakter  jump up-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up-2_4D6366CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump up\Main Charakter  jump up-2		58684
 	275848710	Ui inventory open	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui inventory open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui inventory open		55296
-	281071773	Main Charakter  footsteps gravel-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-3_27C8EC56.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-3		51924
-	285057775	Attack_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _4A1E2BE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack_01		109660
+	281071773	Main Charakter  footsteps gravel-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-3_27C8EC56.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog walk\Main Charakter  footsteps gravel-3		51924
 	296652437	chest closed	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  chest closed_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\chest closed		308832
+	297985586	  river hard far away	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  river hard far away_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  river hard far away		14496096
+	298570835	worm interact feed_08	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_2DEDA3A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_08		159412
 	300874155	Testton UI	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Freeze Test Ton [2024-10-01 221054]_75A1F521.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test Töne\Testton UI		189308
 	301112140	Ui turn page 3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 3		302496
-	304044752	Main Charakter  jump down	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down_E06986BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down		134088
+	304044752	Main Charakter  jump down	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down_B919CB00.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down		134088
 	309348204	quest finished	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ quest finished_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\quest finished		288096
+	315065542	Combat frog feed_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_A4A9EA5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_02		86944
 	318859576	Ui item drop mushroom	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item drop mushroom_7112315E.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item drop mushroom		57156
-	339378936	Main Charakter  jump down-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down-1_7A7F802D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down-1		92324
+	339378936	Main Charakter  jump down-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump down-1_90D03463.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump down\Main Charakter  jump down-1		92324
 	343265672	Ui button	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui button_8222A722.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui button		73852
 	346084147	door open _close	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  door open _close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\door open _close		308832
+	360805697	kessel kochen	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  kessel kochen_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\cauldron\kessel kochen		1056096
 	361713716	door shaking	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ door shaking _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\door shaking		308832
 	372153424	Ui item delete bin	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item delete bin_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item delete bin		91296
-	372603158	Combat  worm idle	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle		288096
+	372603158	Combat  worm idle	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle		384096
+	387172603	  birds 6	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  birds 6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  birds 6		17280096
+	390921244	Combat frog feed_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_68F22F77.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed tail\Combat frog feed_02		112680
 	393714322	Ui item use potion	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item use potion_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item use potion		206496
+	395530577	worm interact feed_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_F2B6B9C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm inteact feedTail\worm interact feed_03		248332
 	397629470	wake up	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  wake up_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\wake up		463200
+	420124859	Walk_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Walk_29D0C62D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm walk\Walk_01		346748
 	435537503	Ui item inventory drop	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item inventory drop_3FD324CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item inventory drop		62840
 	441285259	Ui turn page 4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 4		350496
 	447080793	moral decrease	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ moral decrease_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\moral decrease		336096
+	454643591	  leaves 5	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  leaves 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  leaves 5		14496096
 	467215598	Main Charakter  footsteps wood-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-2_29AB4B60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-2		66556
-	478047084	Attack_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _B2C5A8B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack_02		111796
+	490688840	  birds 5	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  birds 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  birds 5		17280096
 	509970347	Ui item inventory move instant	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item inventory move instant_5654E57E.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item inventory move instant		54896
-	529617816	Combat  worm idle-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-3		288096
+	514234718	  river hard	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  river hard_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  river hard		12960096
+	517690293	  leaves 2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  leaves 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  leaves 2		14496096
+	520737710	worm interact feed_06	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_5BF0BFD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_06		144592
+	525297934	Combat frog feed_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_1D529A57.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_03		125544
+	529421350	Combat frog feed_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_CB9B2243.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_01		93380
+	529617816	Combat  worm idle-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-3		384096
 	540713848	Ui turn page 6	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 6		259296
+	541463883	Combat frog pet_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog pet _005198AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog pet\Combat frog pet_01		84652
+	542032580	  wood knocking	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  wood knocking_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  wood knocking		12960096
 	542391917	Main Charakter  footsteps wood-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-1_E12E8872.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-1		44132
 	567017348	Main Charakter  footsteps gravel	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras_31931161.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel		78456
-	567852820	Death_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_9E791531.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death_01		62340
 	573941103	coinsound for money-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-1		48096
+	580912414	Combat frog Idle_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog Idle_F8738D0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog idle\Combat frog Idle_01		270828
 	614674959	Ui turn page 1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 1		331296
 	625785352	Ui item inventory click	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item inventory click_D597ECD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item inventory click		47112
+	626293655	Combat frog feed_06	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_8CBB8B82.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_06		93376
 	630745993	buy-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy-1		48096
+	634905090	  river soft	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  river soft_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  river soft		12960096
+	638685097	worm interact feed_04	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_4267B75F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm inteact feedTail\worm interact feed_04		237216
 	640579477	Main Charakter  footsteps gras-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-2_ED112FFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras-2		45088
 	641130999	Main Charakter  footsteps wood-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-4_68E22978.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-4		70388
-	679674457	Death	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_02F53012.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death		81012
+	683805629	Combat frog pet_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog pet _5530E924.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog pet\Combat frog pet_02		83460
+	696745964	Combat frog pet MAIN	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog pet _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog pet\Combat frog pet MAIN		1728096
 	697205456	sell	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell		72096
-	700705536	Death_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_01359C29.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death_03		94152
+	706253421	Combat frog feed_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_9F477769.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed tail\Combat frog feed_01		148064
+	707468780	worm interact feed_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_D6A816A5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_02		148296
 	714771132	sell-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell-3		72096
 	715591636	Main Charakter  footsteps gras-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-3_C2A4EEC5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras-3		55892
-	745169205	Death_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_57B275E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death_02		94152
+	735624053	  birds 4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  birds 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  birds 4		17280096
 	749117629	sell-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell-1		72096
 	751077151	Main Charakter  footsteps stone-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-3_3AF5B957.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-3		38388
 	755946980	Main Charakter  heavy breathing	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  heavy breathing_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Charakter  heavy breathing		1872096
+	781621739	  birds 2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  birds 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  birds 2		17280096
+	783857445	Combat frog feed_04	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_72FE2792.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed tail\Combat frog feed_04		144844
 	792034974	Ui turn page 2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 2		307296
 	794816127	buy-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy-2		48096
 	807797044	Ui inventory close	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui inventory close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui inventory close		62496
 	808361190	fire	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ fire _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\fire		2168484
+	816608275	  nutshell-5	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Nutshell\  nutshell-5		1056096
 	819693839	Main Charakter  damage take-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-2		264096
-	828430276	Main Charakter  footsteps gravel-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-2_984CFE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-2		80916
+	827643818	Walk_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Walk_D63B8DFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm walk\Walk_03		336328
+	828430276	Main Charakter  footsteps gravel-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-2_984CFE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog walk\Main Charakter  footsteps gravel-2		80916
+	828654938	Combat frog feed_08	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_D826645C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_08		115896
+	840295862	  birds 3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  birds 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  birds 3		17280096
+	843480435	  nutshell-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Nutshell\  nutshell-3		1056096
+	846924471	Combat frog Idle_04	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog Idle_1EF589C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog idle\Combat frog Idle_04		221604
 	848868357	Main Charakter  damage take-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-3		264096
 	850141276	Main Charakter  footsteps gravel-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-1_F8916FC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-1		61636
-	853049879	Attack_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _5409ADD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack_03		61992
+	851063997	  nutshell-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Nutshell\  nutshell-1		1056096
+	855748575	schneiden-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  schneiden-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\cutting\schneiden-2		1056096
 	873389055	Ui move cursor	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui move cursor_8A4875A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui move cursor		14496
-	876192999	Combat  worm idle-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-2		288096
+	876192999	Combat  worm idle-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-2		384096
+	878494762	worm interact feed_01	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_DA7748A3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm inteact feedTail\worm interact feed_01		170528
+	888472459	Combat frog feed_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_D4CA93BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed tail\Combat frog feed_03		112680
+	892647975	worm interact feed_05	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_4C82BC7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_05		129772
+	893090049	  leaves 3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  leaves 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  leaves 3		14496096
+	899695238	  nutshell-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Nutshell\  nutshell-2		1056096
+	903244895	worm interact feed_07	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_9BD43C5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_07		177936
+	903737124	  river bubbles	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  river bubbles_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  river bubbles		12960096
 	912893642	coinsound for money-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-4		48096
+	913835205	Combat frog pet_03	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog pet _0FA16E33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog pet\Combat frog pet_03		71552
+	917264507	Mörser	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  Mörser_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\mörser\Mörser		1056096
+	922633899	Mörser-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  Mörser-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\mörser\Mörser-1		1056096
 	926038193	Main Charakter  footsteps stone-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-2_11E6F693.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-2		44268
 	929206881	buy	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy		48096
+	930120994	worm interact feed_04	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact feed_3563AB1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_04		148296
 	955270491	Main Charakter  footsteps gravel-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-4_CF652331.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-4		60540
 	956949307	Main Charakter  damage take-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-1		264096
 	963689456	Main Charakter  footsteps stone-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-1_E6BB3E9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-1		55756
+	965839834	kessel kochen-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  kessel kochen-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\cauldron\kessel kochen-2		1056096
 	978548441	Ui item use eat	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item use eat_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item use eat		135524
+	979055805	worm interact pet_04	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact pet _DFF00B20.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact pet\worm interact pet_04		185876
+	988185398	  leaves	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  leaves_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\  leaves		14496096
+	988660099	worm interact pet_02	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat interact pet _0C5A9BD1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\worm interact pet\worm interact pet_02		157296
+	990356872	nutshell	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Nutshell\nutshell		1056096
 	995229971	coinsound for money	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money		48096
+	997968862	  nutshell-4	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  nutshell-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Nutshell\  nutshell-4		1056096
 	1016314410	Ui item use recipe	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item use recipe_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item use recipe		182496
 	1022333913	coinsound for money-3	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-3		48096
-	1024205521	Main Charakter  jump up-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up-1_2F5AED6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump up\Main Charakter  jump up-1		51144
+	1024205521	Main Charakter  jump up-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  jump up-1_0DC9846B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Jump\jump up\Main Charakter  jump up-1		51144
 	1036871779	coinsound for money-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-2		48096
+	1040369418	kessel kochen-1	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  kessel kochen-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\cauldron\kessel kochen-1		1056096
+	1053097705	Combat frog feed_04	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat frog feed_88D0B6A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Frog\frog feed\frog feed head\Combat frog feed_04		119116
+	1057484461	Mörser-2	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  Mörser-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\mörser\Mörser-2		1056096
 	1059908081	Main Charakter  footsteps gras	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel_FB4040CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras		46728
-	1068849814	Walk	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Walk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Walk		1008096
 	1069051341	Ui turn page 5	Y:\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 5		283296
 
