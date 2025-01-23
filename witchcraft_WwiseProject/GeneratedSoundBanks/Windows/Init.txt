@@ -4,6 +4,14 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	201777475	env_HouseReverb			\Default Work Unit\Master Audio Bus\env_HouseReverb	
+	3048156837	Amb_Rev			\Default Work Unit\Master Audio Bus\Amb_Rev	
+
+Effect plug-ins	ID	Name	Type				Notes
+	415841907	Space_Garage	Wwise RoomVerb			
+	1259256166	New_RoomVerb	Wwise RoomVerb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

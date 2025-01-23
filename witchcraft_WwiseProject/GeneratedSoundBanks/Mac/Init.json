@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F2A3AB61-21AE-BF91-BC7B-A20676B3D121}",
+    "Hash": "{512F0D0F-0D77-7ED6-570F-27C1F87E4DB0}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "415841907",
+       "Name": "Space_Garage",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Garage",
+       "GUID": "{1AF92D84-49DD-4BBC-8F29-6C6D10082B6E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1259256166",
+       "Name": "New_RoomVerb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_RoomVerb",
+       "GUID": "{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -60,7 +78,55 @@
       "GUID": "{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "201777475",
+      "Name": "env_HouseReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\env_HouseReverb",
+      "GUID": "{A6CB6C07-DE4B-48AD-B27C-7EE8E650C2E3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "415841907"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3048156837",
+      "Name": "Amb_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Amb_Rev",
+      "GUID": "{531F5E48-AA8A-4C72-9698-478FCCFE7727}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1259256166"
+        }
+       ]
+      }
+     }
+    ],
     "SwitchGroups": [
+     {
+      "Id": "301787977",
+      "Name": "DayNightCycle",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle",
+      "GUID": "{F9D56BD1-C719-470C-9FD3-91868C2673D9}",
+      "Switches": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Day",
+        "GUID": "{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Night",
+        "GUID": "{29F0AEDF-614F-446B-9710-2451C184C810}"
+       }
+      ]
+     },
      {
       "Id": "2385628198",
       "Name": "footsteps",
@@ -96,6 +162,6 @@
     ]
    }
   ],
-  "FileHash": "{7430387C-F129-7D7E-5B37-EC9FCCE2F720}"
+  "FileHash": "{621BB26B-6326-EB12-8641-50688B7A5D0D}"
  }
 }

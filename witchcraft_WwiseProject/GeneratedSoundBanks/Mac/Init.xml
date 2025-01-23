@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F2A3AB61-21AE-BF91-BC7B-A20676B3D121}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{512F0D0F-0D77-7ED6-570F-27C1F87E4DB0}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="415841907" Name="Space_Garage" ObjectPath="\Effects\Factory Effects\RoomVerb\Huge Spaces\Space_Garage" GUID="{1AF92D84-49DD-4BBC-8F29-6C6D10082B6E}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1259256166" Name="New_RoomVerb" ObjectPath="\Effects\Default Work Unit\New_RoomVerb" GUID="{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{3B701F98-7DA3-49E6-BAAA-9B7D6E879E7B}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{E6EDF7AA-E484-4322-99EA-052383BF4E18}" LibName="System" LibId="11403271"/>
@@ -17,7 +21,29 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="201777475" Name="env_HouseReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\env_HouseReverb" GUID="{A6CB6C07-DE4B-48AD-B27C-7EE8E650C2E3}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="415841907"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3048156837" Name="Amb_Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Amb_Rev" GUID="{531F5E48-AA8A-4C72-9698-478FCCFE7727}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1259256166"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<SwitchGroups>
+				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
+					<Switches>
+						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="footsteps" ObjectPath="\Switches\Default Work Unit\footsteps" GUID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
 					<Switches>
 						<Switch Id="906520814" Name="gras" ObjectPath="\Switches\Default Work Unit\footsteps\gras" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
@@ -29,5 +55,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2A70E693-E755-C5C6-AFFF-A7BA916B78C7}</FileHash>
+	<FileHash>{9F203B0B-171F-C481-60A3-D1CD93EE272D}</FileHash>
 </SoundBanksInfo>

@@ -8,42 +8,6 @@
 						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-					<ChildrenList>
-						<Sound Name="Testton UI" ID="{98EA171B-8574-41C2-8669-89866B0EDDAC}" ShortID="89835932">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Freeze Test Ton [2024-10-01 221054]" ID="{2CD15A05-0A85-451E-A363-401B05198D54}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.985470085470086"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Freeze Test Ton [2024-10-01 221054].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="300874155"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Freeze Test Ton [2024-10-01 221054]" ID="{2CD15A05-0A85-451E-A363-401B05198D54}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
 				</Folder>
 				<Folder Name="UI SFX" ID="{00B35883-6C88-4BC8-864B-53D04097851A}" ShortID="671250299">
 					<PropertyList>
@@ -235,6 +199,7 @@
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="9"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -451,8 +416,8 @@
 													<Modifier Name="" ID="{C55E95EB-FD8D-4344-9CEC-1BFC89EF69E7}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="404"/>
-															<Property Name="Min" Type="Real64" Value="-379"/>
+															<Property Name="Max" Type="Real64" Value="101"/>
+															<Property Name="Min" Type="Real64" Value="-101"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -748,6 +713,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Ui item use potion" ID="{F28FAB3B-3002-4672-A6C5-33EEBEEA31F5}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.33970893970894"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.972193347193347"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ui item use potion.wav</AudioFile>
 											<MediaIDList>
@@ -905,6 +875,33 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Ui quest decline" ID="{9C20381C-3424-48E0-B015-51E7BA2285F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ui item collect fail" ID="{D8795CAF-864A-4199-9800-6D4FD765D7EB}" ShortID="957020923">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ui item collect fail" ID="{7357D7DC-6797-473E-B9C9-3A5478B91FB4}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0115089514066496"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.135549872122762"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ui item collect fail.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71503049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ui item collect fail" ID="{7357D7DC-6797-473E-B9C9-3A5478B91FB4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1338,6 +1335,7 @@
 								</RandomSequenceContainer>
 								<SwitchContainer Name="footsteps" ID="{41694335-4A90-42B1-B85F-92B8F6356C28}" ShortID="1046545740">
 									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1351,6 +1349,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -4381,16 +4380,57 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Music" ID="{D704B49B-63BD-4842-9069-BDA2798BD5EE}" ShortID="713740707">
+				<Folder Name="Ending Music" ID="{D704B49B-63BD-4842-9069-BDA2798BD5EE}" ShortID="713740707">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="27"/>
-						<Property Name="Inclusion" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Sound Name="bad ending" ID="{64979F43-6C98-44AB-A9BA-89DD6B0C20AB}" ShortID="751382934">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bad ending" ID="{F93A8200-9236-4A3A-B735-A232B46365F2}">
+									<Language>SFX</Language>
+									<AudioFile>bad ending .wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="792029271"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bad ending" ID="{F93A8200-9236-4A3A-B735-A232B46365F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="good ending " ID="{D1372319-1649-4E48-AAA7-EC9CC20E6772}" ShortID="193948628">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="good ending " ID="{ED39FB6B-C083-417C-A811-AFD5B07D02B2}">
+									<Language>SFX</Language>
+									<AudioFile>good ending .wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="919625160"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="good ending " ID="{ED39FB6B-C083-417C-A811-AFD5B07D02B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</Folder>
 				<Folder Name="Minigame cooking" ID="{6FF70860-C7E3-4234-9041-9540DF7C76FB}" ShortID="357464640">
 					<PropertyList>
@@ -4844,7 +4884,15 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="  birds 2" ID="{A6B2B20A-6521-4FC2-8A6E-A62B7260AC57}" ShortID="264979822">
+								<Sound Name="birds 2" ID="{A6B2B20A-6521-4FC2-8A6E-A62B7260AC57}" ShortID="264979822">
+									<PropertyList>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4854,7 +4902,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  birds 2" ID="{0F4034B6-47DC-4521-9C44-8CD8AE9D178C}">
+										<AudioFileSource Name="birds 2" ID="{0F4034B6-47DC-4521-9C44-8CD8AE9D178C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.38107416879795"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  birds 2.wav</AudioFile>
 											<MediaIDList>
@@ -4863,10 +4916,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  birds 2" ID="{0F4034B6-47DC-4521-9C44-8CD8AE9D178C}" Platform="Linked"/>
+										<ActiveSource Name="birds 2" ID="{0F4034B6-47DC-4521-9C44-8CD8AE9D178C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  birds 3" ID="{CE8B8DF7-8C3D-46EF-BB11-40AF7FCAC16F}" ShortID="994216858">
+								<Sound Name="birds 3" ID="{CE8B8DF7-8C3D-46EF-BB11-40AF7FCAC16F}" ShortID="994216858">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4876,7 +4929,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  birds 3" ID="{8F0AE8DF-6570-417A-9587-7CDFADEF5B3E}">
+										<AudioFileSource Name="birds 3" ID="{8F0AE8DF-6570-417A-9587-7CDFADEF5B3E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.15089514066496"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="37.9795396419437"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  birds 3.wav</AudioFile>
 											<MediaIDList>
@@ -4885,10 +4943,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  birds 3" ID="{8F0AE8DF-6570-417A-9587-7CDFADEF5B3E}" Platform="Linked"/>
+										<ActiveSource Name="birds 3" ID="{8F0AE8DF-6570-417A-9587-7CDFADEF5B3E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  birds 4" ID="{4748050A-834A-40F1-9BB7-1B25E0454559}" ShortID="763785474">
+								<Sound Name="birds 4" ID="{4748050A-834A-40F1-9BB7-1B25E0454559}" ShortID="763785474">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4898,7 +4956,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  birds 4" ID="{5087ABE6-4992-4EE8-ABF5-11038C77F8B7}">
+										<AudioFileSource Name="birds 4" ID="{5087ABE6-4992-4EE8-ABF5-11038C77F8B7}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.15089514066496"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="35.4475703324808"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  birds 4.wav</AudioFile>
 											<MediaIDList>
@@ -4907,10 +4970,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  birds 4" ID="{5087ABE6-4992-4EE8-ABF5-11038C77F8B7}" Platform="Linked"/>
+										<ActiveSource Name="birds 4" ID="{5087ABE6-4992-4EE8-ABF5-11038C77F8B7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  birds 5" ID="{DD9FFECA-4478-4430-97E8-960114E442EE}" ShortID="1005920161">
+								<Sound Name="birds 5" ID="{DD9FFECA-4478-4430-97E8-960114E442EE}" ShortID="1005920161">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4920,7 +4983,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  birds 5" ID="{55F24857-6197-4961-AF90-5B35E00A0DC3}">
+										<AudioFileSource Name="birds 5" ID="{55F24857-6197-4961-AF90-5B35E00A0DC3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.61125319693095"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.38107416879796"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="36.8286445012788"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  birds 5.wav</AudioFile>
 											<MediaIDList>
@@ -4929,10 +4998,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  birds 5" ID="{55F24857-6197-4961-AF90-5B35E00A0DC3}" Platform="Linked"/>
+										<ActiveSource Name="birds 5" ID="{55F24857-6197-4961-AF90-5B35E00A0DC3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  birds 6" ID="{855B1E87-6C32-420E-B414-14D01E32F4F1}" ShortID="258725589">
+								<Sound Name="birds 6" ID="{855B1E87-6C32-420E-B414-14D01E32F4F1}" ShortID="258725589">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4942,7 +5011,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  birds 6" ID="{6A27FC06-A2A4-4772-B269-B08132E7FF4A}">
+										<AudioFileSource Name="birds 6" ID="{6A27FC06-A2A4-4772-B269-B08132E7FF4A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.61125319693095"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.84143222506394"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="65.3708439897697"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  birds 6.wav</AudioFile>
 											<MediaIDList>
@@ -4951,10 +5026,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  birds 6" ID="{6A27FC06-A2A4-4772-B269-B08132E7FF4A}" Platform="Linked"/>
+										<ActiveSource Name="birds 6" ID="{6A27FC06-A2A4-4772-B269-B08132E7FF4A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  fireplace" ID="{22ACC277-CF83-40C6-B79E-14D498F78310}" ShortID="862302102">
+								<Sound Name="fireplace" ID="{22ACC277-CF83-40C6-B79E-14D498F78310}" ShortID="862302102">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4964,7 +5039,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  fireplace" ID="{EC84525A-8357-4906-9193-C4BAEFA78AC5}">
+										<AudioFileSource Name="fireplace" ID="{EC84525A-8357-4906-9193-C4BAEFA78AC5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.38107416879795"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.20843989769821"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="65.2557544757033"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  fireplace.wav</AudioFile>
 											<MediaIDList>
@@ -4973,10 +5054,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  fireplace" ID="{EC84525A-8357-4906-9193-C4BAEFA78AC5}" Platform="Linked"/>
+										<ActiveSource Name="fireplace" ID="{EC84525A-8357-4906-9193-C4BAEFA78AC5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  leaves" ID="{25B4BB85-4255-4646-84BE-FF36D1D1A27E}" ShortID="571042340">
+								<Sound Name="leaves" ID="{25B4BB85-4255-4646-84BE-FF36D1D1A27E}" ShortID="571042340">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4986,7 +5067,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  leaves" ID="{CC864782-E112-4106-9B1C-20B640543059}">
+										<AudioFileSource Name="leaves" ID="{CC864782-E112-4106-9B1C-20B640543059}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.9309462915601"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.73785166240409"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="39.0051150895141"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  leaves.wav</AudioFile>
 											<MediaIDList>
@@ -4995,10 +5082,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  leaves" ID="{CC864782-E112-4106-9B1C-20B640543059}" Platform="Linked"/>
+										<ActiveSource Name="leaves" ID="{CC864782-E112-4106-9B1C-20B640543059}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  leaves 2" ID="{34EF83DE-A1F7-4904-9317-E4FA2024F3E3}" ShortID="757506436">
+								<Sound Name="leaves 2" ID="{34EF83DE-A1F7-4904-9317-E4FA2024F3E3}" ShortID="757506436">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5008,7 +5095,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  leaves 2" ID="{7B021BC8-D639-4A3C-9099-FB0A0B28C8EC}">
+										<AudioFileSource Name="leaves 2" ID="{7B021BC8-D639-4A3C-9099-FB0A0B28C8EC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.9309462915601"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.35166240409207"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="34.1777493606139"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  leaves 2.wav</AudioFile>
 											<MediaIDList>
@@ -5017,10 +5110,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  leaves 2" ID="{7B021BC8-D639-4A3C-9099-FB0A0B28C8EC}" Platform="Linked"/>
+										<ActiveSource Name="leaves 2" ID="{7B021BC8-D639-4A3C-9099-FB0A0B28C8EC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  leaves 3" ID="{E704285E-8BC2-43CD-ABD8-EB669DA41E81}" ShortID="1047501107">
+								<Sound Name="leaves 3" ID="{E704285E-8BC2-43CD-ABD8-EB669DA41E81}" ShortID="1047501107">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5030,7 +5123,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  leaves 3" ID="{5CA68B60-0294-441C-B631-7FFA5E9F1F49}">
+										<AudioFileSource Name="leaves 3" ID="{5CA68B60-0294-441C-B631-7FFA5E9F1F49}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.9309462915601"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.35166240409207"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="40.3567774936062"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  leaves 3.wav</AudioFile>
 											<MediaIDList>
@@ -5039,10 +5138,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  leaves 3" ID="{5CA68B60-0294-441C-B631-7FFA5E9F1F49}" Platform="Linked"/>
+										<ActiveSource Name="leaves 3" ID="{5CA68B60-0294-441C-B631-7FFA5E9F1F49}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  leaves 4" ID="{71855081-ADCC-45F2-8EFD-5155033E2906}" ShortID="463996733">
+								<Sound Name="leaves 4" ID="{71855081-ADCC-45F2-8EFD-5155033E2906}" ShortID="463996733">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5052,7 +5151,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  leaves 4" ID="{1D6394E1-250E-4C09-ACB4-3147909D5952}">
+										<AudioFileSource Name="leaves 4" ID="{1D6394E1-250E-4C09-ACB4-3147909D5952}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.9309462915601"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.35166240409207"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="71.8312020460359"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  leaves 4.wav</AudioFile>
 											<MediaIDList>
@@ -5061,10 +5166,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  leaves 4" ID="{1D6394E1-250E-4C09-ACB4-3147909D5952}" Platform="Linked"/>
+										<ActiveSource Name="leaves 4" ID="{1D6394E1-250E-4C09-ACB4-3147909D5952}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  leaves 5" ID="{3CCD0B14-F389-4FBF-A4B7-4B6F7C793369}" ShortID="627220517">
+								<Sound Name="leaves 5" ID="{3CCD0B14-F389-4FBF-A4B7-4B6F7C793369}" ShortID="627220517">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5074,7 +5179,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  leaves 5" ID="{5561175C-8F6E-43F0-A364-841642645122}">
+										<AudioFileSource Name="leaves 5" ID="{5561175C-8F6E-43F0-A364-841642645122}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.73785166240409"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="34.3708439897699"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  leaves 5.wav</AudioFile>
 											<MediaIDList>
@@ -5083,10 +5193,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  leaves 5" ID="{5561175C-8F6E-43F0-A364-841642645122}" Platform="Linked"/>
+										<ActiveSource Name="leaves 5" ID="{5561175C-8F6E-43F0-A364-841642645122}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  leaves tree at river" ID="{C8DBB91F-D64B-4012-BA2D-F8FAF62E0607}" ShortID="152234985">
+								<Sound Name="leaves tree at river" ID="{C8DBB91F-D64B-4012-BA2D-F8FAF62E0607}" ShortID="152234985">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5096,7 +5206,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  leaves tree at river" ID="{F83498C2-C18D-4584-BADD-1354E2AB0FC1}">
+										<AudioFileSource Name="leaves tree at river" ID="{F83498C2-C18D-4584-BADD-1354E2AB0FC1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.72634271099744"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.5537084398977"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="61.9757033248082"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  leaves tree at river.wav</AudioFile>
 											<MediaIDList>
@@ -5105,10 +5221,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  leaves tree at river" ID="{F83498C2-C18D-4584-BADD-1354E2AB0FC1}" Platform="Linked"/>
+										<ActiveSource Name="leaves tree at river" ID="{F83498C2-C18D-4584-BADD-1354E2AB0FC1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  river bubbles" ID="{5283E0B2-835E-49A4-BD57-9C1AE41046D3}" ShortID="935642469">
+								<Sound Name="river bubbles" ID="{5283E0B2-835E-49A4-BD57-9C1AE41046D3}" ShortID="935642469">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5118,7 +5234,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  river bubbles" ID="{646FB9D7-C444-4CCC-84E5-8BA7034C923E}">
+										<AudioFileSource Name="river bubbles" ID="{646FB9D7-C444-4CCC-84E5-8BA7034C923E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.5537084398977"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.89897698209719"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="42.2953964194373"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  river bubbles.wav</AudioFile>
 											<MediaIDList>
@@ -5127,10 +5249,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  river bubbles" ID="{646FB9D7-C444-4CCC-84E5-8BA7034C923E}" Platform="Linked"/>
+										<ActiveSource Name="river bubbles" ID="{646FB9D7-C444-4CCC-84E5-8BA7034C923E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  river hard" ID="{B23CE6F4-7187-41AD-93C3-9F6809E83BE6}" ShortID="900163158">
+								<Sound Name="river hard" ID="{B23CE6F4-7187-41AD-93C3-9F6809E83BE6}" ShortID="900163158">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5140,7 +5262,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  river hard" ID="{65533377-D6EA-4E9D-91B5-571814803CDC}">
+										<AudioFileSource Name="river hard" ID="{65533377-D6EA-4E9D-91B5-571814803CDC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.24424552429668"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.24424552429667"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  river hard.wav</AudioFile>
 											<MediaIDList>
@@ -5149,10 +5276,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  river hard" ID="{65533377-D6EA-4E9D-91B5-571814803CDC}" Platform="Linked"/>
+										<ActiveSource Name="river hard" ID="{65533377-D6EA-4E9D-91B5-571814803CDC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  river hard far away" ID="{48B8CE79-F315-4319-ADA7-F5FA242C692E}" ShortID="276165708">
+								<Sound Name="river hard far away" ID="{48B8CE79-F315-4319-ADA7-F5FA242C692E}" ShortID="276165708">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5162,7 +5289,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  river hard far away" ID="{CFC1720F-DCD8-4DD0-838E-3825BD31C94D}">
+										<AudioFileSource Name="river hard far away" ID="{CFC1720F-DCD8-4DD0-838E-3825BD31C94D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.73785166240409"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.31713554987212"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="31.8606138107418"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  river hard far away.wav</AudioFile>
 											<MediaIDList>
@@ -5171,10 +5304,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  river hard far away" ID="{CFC1720F-DCD8-4DD0-838E-3825BD31C94D}" Platform="Linked"/>
+										<ActiveSource Name="river hard far away" ID="{CFC1720F-DCD8-4DD0-838E-3825BD31C94D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  river soft" ID="{4E4E8D1E-A130-479A-92F9-EBDCF4067EB8}" ShortID="809361319">
+								<Sound Name="river soft" ID="{4E4E8D1E-A130-479A-92F9-EBDCF4067EB8}" ShortID="809361319">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5184,7 +5317,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  river soft" ID="{95B4A0BE-1DF6-4E2F-B0B2-3A2CC6C051C6}">
+										<AudioFileSource Name="river soft" ID="{95B4A0BE-1DF6-4E2F-B0B2-3A2CC6C051C6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.24424552429668"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.76214833759591"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="36.0805626598465"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  river soft.wav</AudioFile>
 											<MediaIDList>
@@ -5193,10 +5332,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  river soft" ID="{95B4A0BE-1DF6-4E2F-B0B2-3A2CC6C051C6}" Platform="Linked"/>
+										<ActiveSource Name="river soft" ID="{95B4A0BE-1DF6-4E2F-B0B2-3A2CC6C051C6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="  wood knocking" ID="{123016C9-CD70-4BA9-BB3A-B09C95196651}" ShortID="710181628">
+								<Sound Name="wood knocking" ID="{123016C9-CD70-4BA9-BB3A-B09C95196651}" ShortID="710181628">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5206,7 +5345,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="  wood knocking" ID="{2F7920C6-E5B6-4FB4-AFE9-1A3140FD516A}">
+										<AudioFileSource Name="wood knocking" ID="{2F7920C6-E5B6-4FB4-AFE9-1A3140FD516A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.38107416879795"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.20843989769821"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="31.2468030690537"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  wood knocking.wav</AudioFile>
 											<MediaIDList>
@@ -5215,11 +5360,159 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="  wood knocking" ID="{2F7920C6-E5B6-4FB4-AFE9-1A3140FD516A}" Platform="Linked"/>
+										<ActiveSource Name="wood knocking" ID="{2F7920C6-E5B6-4FB4-AFE9-1A3140FD516A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="birds 1" ID="{B5B73AA9-D0F0-4582-B50F-7871428AAEB4}" ShortID="987117552">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{59E5BEDE-B735-44CA-9AE1-38E322BFA975}" ShortID="1023474896">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{0A783733-C9AF-405F-9916-D7879E0E5D5D}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeWetGame" ID="{62173450-B6F3-4DC8-B961-7A8275260BD4}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																<Curve Name="VolumeWetUser" ID="{FC11560F-3A54-4B5F-A429-3E9F4E026E9B}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{0B7DCAD4-2C18-4C50-9599-068EEEEC94CC}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
 										</Reference>
@@ -5229,6 +5522,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="birds 1" ID="{599FED98-1E1A-412D-B257-CD5F9C4A4AE3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.61125319693095"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.9923273657289"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="40.7416879795396"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>  birds 1.wav</AudioFile>
 											<MediaIDList>
@@ -5238,6 +5537,33 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="birds 1" ID="{599FED98-1E1A-412D-B257-CD5F9C4A4AE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WIND" ID="{E1974EE9-B6A3-4062-B96F-D16A781F4361}" ShortID="972509530">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WIND" ID="{6965C3F9-3E3B-45D8-B7F1-0B833D115637}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.9846547314578"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.984654731457802"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile> WIND.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="271812814"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WIND" ID="{6965C3F9-3E3B-45D8-B7F1-0B833D115637}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
