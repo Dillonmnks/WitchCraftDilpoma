@@ -16,7 +16,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Bus>
-						<Bus Name="Env" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}">
+						<Bus Name="FX" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="3"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
