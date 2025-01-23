@@ -35,6 +35,26 @@
 						</Switch>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="DayNightCycle" ID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="Night" ID="{29F0AEDF-614F-446B-9710-2451C184C810}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
