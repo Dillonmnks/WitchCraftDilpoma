@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{5B646454-E021-16AE-2152-790C58EDCC04}",
+    "Hash": "{F2A3AB61-21AE-BF91-BC7B-A20676B3D121}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -44,9 +44,9 @@
     },
     "Busses": [
      {
-      "Id": "529726550",
-      "Name": "Env",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Env",
+      "Id": "1802970371",
+      "Name": "FX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX",
       "GUID": "{2D0E49ED-6213-4A81-9F9A-52F238055C9E}"
      },
      {
@@ -108,7 +108,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{7FBD174B-2338-B3D1-0885-E81EE54B4686}",
+    "Hash": "{5C35DF0E-CF19-E2EF-7A7D-8094B1728DFC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -119,7 +119,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-1_0BA9C783.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-1_1D8DB9A6.wem"
+     },
+     {
+      "Id": "8451084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "casting .wav",
+      "CachePath": "SFX/casting _A0AD02E0.wem"
+     },
+     {
+      "Id": "10077899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog Idle.wav",
+      "CachePath": "SFX/Combat frog Idle_6CCB8A93.wem"
      },
      {
       "Id": "12299255",
@@ -151,7 +167,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood_E6CDC24F.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood_D5410064.wem"
      },
      {
       "Id": "44029583",
@@ -159,7 +175,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-4_C76E389E.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-4_A1CFA63B.wem"
+     },
+     {
+      "Id": "50575655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog Idle.wav",
+      "CachePath": "SFX/Combat frog Idle_C0662E46.wem"
+     },
+     {
+      "Id": "88255355",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  schneiden.wav",
+      "CachePath": "SFX/  schneiden_818F3B66.wem"
      },
      {
       "Id": "98954012",
@@ -170,12 +202,28 @@
       "CachePath": "SFX/Ui quest accept_818F3B66.wem"
      },
      {
+      "Id": "123107940",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_05FF3605.wem"
+     },
+     {
       "Id": "127178024",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-3_80333277.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-3_BA48C4C6.wem"
+     },
+     {
+      "Id": "131141707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump down-3.wav",
+      "CachePath": "SFX/Main Charakter  jump down-3_B2306420.wem"
      },
      {
       "Id": "132820239",
@@ -194,6 +242,30 @@
       "CachePath": "SFX/  sell-2_818F3B66.wem"
      },
      {
+      "Id": "146395362",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact pet .wav",
+      "CachePath": "SFX/Combat interact pet _8C306A49.wem"
+     },
+     {
+      "Id": "148234284",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walk.wav",
+      "CachePath": "SFX/Walk_747A11D5.wem"
+     },
+     {
+      "Id": "152239765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_EF3C44C5.wem"
+     },
+     {
       "Id": "157319039",
       "Language": "SFX",
       "Streaming": "false",
@@ -210,12 +282,52 @@
       "CachePath": "SFX/ dagegen rennen_818F3B66.wem"
      },
      {
+      "Id": "171969739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  leaves tree at river.wav",
+      "CachePath": "SFX/  leaves tree at river_818F3B66.wem"
+     },
+     {
+      "Id": "177565286",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  schneiden-1.wav",
+      "CachePath": "SFX/  schneiden-1_818F3B66.wem"
+     },
+     {
       "Id": "178696379",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-4_761D7897.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-4_123D5956.wem"
+     },
+     {
+      "Id": "186924588",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact pet .wav",
+      "CachePath": "SFX/Combat interact pet _F27C2920.wem"
+     },
+     {
+      "Id": "191497730",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump up-3.wav",
+      "CachePath": "SFX/Main Charakter  jump up-3_225BA4FB.wem"
+     },
+     {
+      "Id": "197177071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump up.wav",
+      "CachePath": "SFX/Main Charakter  jump up_A1C4B080.wem"
      },
      {
       "Id": "202104210",
@@ -226,12 +338,12 @@
       "CachePath": "SFX/ moral increase_818F3B66.wem"
      },
      {
-      "Id": "207065331",
+      "Id": "213656067",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Attack .wav",
-      "CachePath": "SFX/Attack _3F2AEFAB.wem"
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_6CB2C41D.wem"
      },
      {
       "Id": "215819596",
@@ -240,6 +352,22 @@
       "Location": "Memory",
       "ShortName": "Ui item delete.wav",
       "CachePath": "SFX/Ui item delete_8D411FFB.wem"
+     },
+     {
+      "Id": "217805513",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_F5A6870E.wem"
+     },
+     {
+      "Id": "222515199",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  fireplace.wav",
+      "CachePath": "SFX/  fireplace_818F3B66.wem"
      },
      {
       "Id": "223377924",
@@ -255,7 +383,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone_86E8C55C.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone_44A9CB30.wem"
+     },
+     {
+      "Id": "230478404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  birds 1.wav",
+      "CachePath": "SFX/  birds 1_818F3B66.wem"
      },
      {
       "Id": "240961913",
@@ -266,12 +402,36 @@
       "CachePath": "SFX/Main Charakter  damage take-4_818F3B66.wem"
      },
      {
+      "Id": "241164100",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump down-2.wav",
+      "CachePath": "SFX/Main Charakter  jump down-2_926B703B.wem"
+     },
+     {
       "Id": "246212939",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  chest open.wav",
       "CachePath": "SFX/  chest open_818F3B66.wem"
+     },
+     {
+      "Id": "248217849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_4E375789.wem"
+     },
+     {
+      "Id": "257043073",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  leaves 4.wav",
+      "CachePath": "SFX/  leaves 4_818F3B66.wem"
      },
      {
       "Id": "261089796",
@@ -290,6 +450,22 @@
       "CachePath": "SFX/Ui item collect_54CA3EBE.wem"
      },
      {
+      "Id": "265985123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog pet .wav",
+      "CachePath": "SFX/Combat frog pet _BE4971DA.wem"
+     },
+     {
+      "Id": "275632591",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump up-2.wav",
+      "CachePath": "SFX/Main Charakter  jump up-2_4D6366CC.wem"
+     },
+     {
       "Id": "275848710",
       "Language": "SFX",
       "Streaming": "false",
@@ -303,15 +479,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-3_05969B7B.wem"
-     },
-     {
-      "Id": "285057775",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Attack .wav",
-      "CachePath": "SFX/Attack _4A1E2BE7.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-3_27C8EC56.wem"
      },
      {
       "Id": "296652437",
@@ -320,6 +488,22 @@
       "Location": "Memory",
       "ShortName": "  chest closed.wav",
       "CachePath": "SFX/  chest closed_818F3B66.wem"
+     },
+     {
+      "Id": "297985586",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  river hard far away.wav",
+      "CachePath": "SFX/  river hard far away_818F3B66.wem"
+     },
+     {
+      "Id": "298570835",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_D82379D3.wem"
      },
      {
       "Id": "300874155",
@@ -338,6 +522,14 @@
       "CachePath": "SFX/Ui turn page 3_818F3B66.wem"
      },
      {
+      "Id": "304044752",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump down.wav",
+      "CachePath": "SFX/Main Charakter  jump down_B919CB00.wem"
+     },
+     {
       "Id": "309348204",
       "Language": "SFX",
       "Streaming": "false",
@@ -346,12 +538,28 @@
       "CachePath": "SFX/ quest finished_818F3B66.wem"
      },
      {
+      "Id": "315065542",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_A0BE29DE.wem"
+     },
+     {
       "Id": "318859576",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui item drop mushroom.wav",
       "CachePath": "SFX/Ui item drop mushroom_7112315E.wem"
+     },
+     {
+      "Id": "339378936",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump down-1.wav",
+      "CachePath": "SFX/Main Charakter  jump down-1_90D03463.wem"
      },
      {
       "Id": "343265672",
@@ -368,6 +576,14 @@
       "Location": "Memory",
       "ShortName": "  door open _close.wav",
       "CachePath": "SFX/  door open _close_818F3B66.wem"
+     },
+     {
+      "Id": "360805697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  kessel kochen.wav",
+      "CachePath": "SFX/  kessel kochen_818F3B66.wem"
      },
      {
       "Id": "361713716",
@@ -394,6 +610,22 @@
       "CachePath": "SFX/Combat  worm idle_818F3B66.wem"
      },
      {
+      "Id": "387172603",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  birds 6.wav",
+      "CachePath": "SFX/  birds 6_818F3B66.wem"
+     },
+     {
+      "Id": "390921244",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_31E4C742.wem"
+     },
+     {
       "Id": "393714322",
       "Language": "SFX",
       "Streaming": "false",
@@ -402,12 +634,28 @@
       "CachePath": "SFX/Ui item use potion_818F3B66.wem"
      },
      {
+      "Id": "395530577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_6DDC358D.wem"
+     },
+     {
       "Id": "397629470",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  wake up.wav",
       "CachePath": "SFX/  wake up_818F3B66.wem"
+     },
+     {
+      "Id": "420124859",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walk.wav",
+      "CachePath": "SFX/Walk_CB841B0A.wem"
      },
      {
       "Id": "435537503",
@@ -434,20 +682,28 @@
       "CachePath": "SFX/ moral decrease_818F3B66.wem"
      },
      {
+      "Id": "454643591",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  leaves 5.wav",
+      "CachePath": "SFX/  leaves 5_818F3B66.wem"
+     },
+     {
       "Id": "467215598",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-2_C57DE5BC.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-2_29AB4B60.wem"
      },
      {
-      "Id": "478047084",
+      "Id": "490688840",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Attack .wav",
-      "CachePath": "SFX/Attack _B2C5A8B1.wem"
+      "ShortName": "  birds 5.wav",
+      "CachePath": "SFX/  birds 5_818F3B66.wem"
      },
      {
       "Id": "509970347",
@@ -456,6 +712,46 @@
       "Location": "Memory",
       "ShortName": "Ui item inventory move instant.wav",
       "CachePath": "SFX/Ui item inventory move instant_5654E57E.wem"
+     },
+     {
+      "Id": "514234718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  river hard.wav",
+      "CachePath": "SFX/  river hard_818F3B66.wem"
+     },
+     {
+      "Id": "517690293",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  leaves 2.wav",
+      "CachePath": "SFX/  leaves 2_818F3B66.wem"
+     },
+     {
+      "Id": "520737710",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_5E080221.wem"
+     },
+     {
+      "Id": "525297934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_910AF7F4.wem"
+     },
+     {
+      "Id": "529421350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_F4F69751.wem"
      },
      {
       "Id": "529617816",
@@ -474,12 +770,28 @@
       "CachePath": "SFX/Ui turn page 6_818F3B66.wem"
      },
      {
+      "Id": "541463883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog pet .wav",
+      "CachePath": "SFX/Combat frog pet _F58FF61D.wem"
+     },
+     {
+      "Id": "542032580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  wood knocking.wav",
+      "CachePath": "SFX/  wood knocking_818F3B66.wem"
+     },
+     {
       "Id": "542391917",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-1_D0437165.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-1_E12E8872.wem"
      },
      {
       "Id": "567017348",
@@ -487,15 +799,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras_52540F8A.wem"
-     },
-     {
-      "Id": "567852820",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Death.wav",
-      "CachePath": "SFX/Death_9E791531.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras_31931161.wem"
      },
      {
       "Id": "573941103",
@@ -504,6 +808,14 @@
       "Location": "Memory",
       "ShortName": "  coinsound for money-1.wav",
       "CachePath": "SFX/  coinsound for money-1_818F3B66.wem"
+     },
+     {
+      "Id": "580912414",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog Idle.wav",
+      "CachePath": "SFX/Combat frog Idle_D12AA002.wem"
      },
      {
       "Id": "614674959",
@@ -522,6 +834,14 @@
       "CachePath": "SFX/Ui item inventory click_D597ECD0.wem"
      },
      {
+      "Id": "626293655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_28B2A47B.wem"
+     },
+     {
       "Id": "630745993",
       "Language": "SFX",
       "Streaming": "false",
@@ -530,12 +850,28 @@
       "CachePath": "SFX/  buy-1_818F3B66.wem"
      },
      {
+      "Id": "634905090",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  river soft.wav",
+      "CachePath": "SFX/  river soft_818F3B66.wem"
+     },
+     {
+      "Id": "638685097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_5A38985D.wem"
+     },
+     {
       "Id": "640579477",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-2_D38D1ACC.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-2_ED112FFA.wem"
      },
      {
       "Id": "641130999",
@@ -543,15 +879,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps wood-4_D0B4E8FD.wem"
+      "CachePath": "SFX/Main Charakter  footsteps wood-4_68E22978.wem"
      },
      {
-      "Id": "679674457",
+      "Id": "683805629",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Death.wav",
-      "CachePath": "SFX/Death_02F53012.wem"
+      "ShortName": "Combat frog pet .wav",
+      "CachePath": "SFX/Combat frog pet _FDB60D7A.wem"
+     },
+     {
+      "Id": "696745964",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog pet .wav",
+      "CachePath": "SFX/Combat frog pet _818F3B66.wem"
      },
      {
       "Id": "697205456",
@@ -562,12 +906,20 @@
       "CachePath": "SFX/  sell_818F3B66.wem"
      },
      {
-      "Id": "700705536",
+      "Id": "706253421",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Death.wav",
-      "CachePath": "SFX/Death_01359C29.wem"
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_53D71339.wem"
+     },
+     {
+      "Id": "707468780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_3C28EB72.wem"
      },
      {
       "Id": "714771132",
@@ -583,15 +935,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gravel-3_E9CFDB4F.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gravel-3_C2A4EEC5.wem"
      },
      {
-      "Id": "745169205",
+      "Id": "735624053",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Death.wav",
-      "CachePath": "SFX/Death_57B275E7.wem"
+      "ShortName": "  birds 4.wav",
+      "CachePath": "SFX/  birds 4_818F3B66.wem"
      },
      {
       "Id": "749117629",
@@ -607,7 +959,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-3.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-3_140FCAD0.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-3_3AF5B957.wem"
      },
      {
       "Id": "755946980",
@@ -616,6 +968,22 @@
       "Location": "Memory",
       "ShortName": "Main Charakter  heavy breathing.wav",
       "CachePath": "SFX/Main Charakter  heavy breathing_818F3B66.wem"
+     },
+     {
+      "Id": "781621739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  birds 2.wav",
+      "CachePath": "SFX/  birds 2_818F3B66.wem"
+     },
+     {
+      "Id": "783857445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_00071CBE.wem"
      },
      {
       "Id": "792034974",
@@ -650,6 +1018,22 @@
       "CachePath": "SFX/ fire _818F3B66.wem"
      },
      {
+      "Id": "816608275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  nutshell-5.wav",
+      "CachePath": "SFX/  nutshell-5_818F3B66.wem"
+     },
+     {
+      "Id": "817214624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Händler.wav",
+      "CachePath": "SFX/Händler_818F3B66.wem"
+     },
+     {
       "Id": "819693839",
       "Language": "SFX",
       "Streaming": "false",
@@ -658,12 +1042,52 @@
       "CachePath": "SFX/Main Charakter  damage take-2_818F3B66.wem"
      },
      {
+      "Id": "827643818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walk.wav",
+      "CachePath": "SFX/Walk_5E110E28.wem"
+     },
+     {
       "Id": "828430276",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-2_4AFB669F.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-2_984CFE81.wem"
+     },
+     {
+      "Id": "828654938",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_0A82C5F6.wem"
+     },
+     {
+      "Id": "840295862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  birds 3.wav",
+      "CachePath": "SFX/  birds 3_818F3B66.wem"
+     },
+     {
+      "Id": "843480435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  nutshell-3.wav",
+      "CachePath": "SFX/  nutshell-3_818F3B66.wem"
+     },
+     {
+      "Id": "846924471",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog Idle.wav",
+      "CachePath": "SFX/Combat frog Idle_697377FA.wem"
      },
      {
       "Id": "848868357",
@@ -679,15 +1103,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-1_C9D5A348.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-1_F8916FC0.wem"
      },
      {
-      "Id": "853049879",
+      "Id": "851063997",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Attack .wav",
-      "CachePath": "SFX/Attack _5409ADD6.wem"
+      "ShortName": "  nutshell-1.wav",
+      "CachePath": "SFX/  nutshell-1_818F3B66.wem"
+     },
+     {
+      "Id": "855748575",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  schneiden-2.wav",
+      "CachePath": "SFX/  schneiden-2_818F3B66.wem"
      },
      {
       "Id": "873389055",
@@ -695,7 +1127,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui move cursor.wav",
-      "CachePath": "SFX/Ui move cursor_AB79D989.wem"
+      "CachePath": "SFX/Ui move cursor_8A4875A8.wem"
      },
      {
       "Id": "876192999",
@@ -706,6 +1138,78 @@
       "CachePath": "SFX/Combat  worm idle-2_818F3B66.wem"
      },
      {
+      "Id": "878494762",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_84DDF1F6.wem"
+     },
+     {
+      "Id": "888472459",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_DCAD8611.wem"
+     },
+     {
+      "Id": "889497535",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hexe .wav",
+      "CachePath": "SFX/Hexe _818F3B66.wem"
+     },
+     {
+      "Id": "892647975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_E14D6B1A.wem"
+     },
+     {
+      "Id": "893090049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  leaves 3.wav",
+      "CachePath": "SFX/  leaves 3_818F3B66.wem"
+     },
+     {
+      "Id": "899695238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  nutshell-2.wav",
+      "CachePath": "SFX/  nutshell-2_818F3B66.wem"
+     },
+     {
+      "Id": "903244895",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_745489E3.wem"
+     },
+     {
+      "Id": "903737124",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  river bubbles.wav",
+      "CachePath": "SFX/  river bubbles_818F3B66.wem"
+     },
+     {
+      "Id": "906327466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bänker.wav",
+      "CachePath": "SFX/Bänker_818F3B66.wem"
+     },
+     {
       "Id": "912893642",
       "Language": "SFX",
       "Streaming": "false",
@@ -714,12 +1218,36 @@
       "CachePath": "SFX/  coinsound for money-4_818F3B66.wem"
      },
      {
+      "Id": "913835205",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog pet .wav",
+      "CachePath": "SFX/Combat frog pet _01B3AA96.wem"
+     },
+     {
+      "Id": "917264507",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  Mörser.wav",
+      "CachePath": "SFX/  Mörser_818F3B66.wem"
+     },
+     {
+      "Id": "922633899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  Mörser-1.wav",
+      "CachePath": "SFX/  Mörser-1_818F3B66.wem"
+     },
+     {
       "Id": "926038193",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-2.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-2_ECBB5801.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-2_11E6F693.wem"
      },
      {
       "Id": "929206881",
@@ -730,12 +1258,20 @@
       "CachePath": "SFX/  buy_818F3B66.wem"
      },
      {
+      "Id": "930120994",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact feed.wav",
+      "CachePath": "SFX/Combat interact feed_A66CB61C.wem"
+     },
+     {
       "Id": "955270491",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-4_63D1549E.wem"
+      "CachePath": "SFX/Main Charakter  footsteps gras-4_CF652331.wem"
      },
      {
       "Id": "956949307",
@@ -751,7 +1287,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-1.wav",
-      "CachePath": "SFX/Main Charakter  footsteps stone-1_67C51EC5.wem"
+      "CachePath": "SFX/Main Charakter  footsteps stone-1_E6BB3E9C.wem"
+     },
+     {
+      "Id": "965839834",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  kessel kochen-2.wav",
+      "CachePath": "SFX/  kessel kochen-2_818F3B66.wem"
      },
      {
       "Id": "978548441",
@@ -762,12 +1306,60 @@
       "CachePath": "SFX/Ui item use eat_818F3B66.wem"
      },
      {
+      "Id": "979055805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact pet .wav",
+      "CachePath": "SFX/Combat interact pet _98CD4F7C.wem"
+     },
+     {
+      "Id": "988185398",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  leaves.wav",
+      "CachePath": "SFX/  leaves_818F3B66.wem"
+     },
+     {
+      "Id": "988660099",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat interact pet .wav",
+      "CachePath": "SFX/Combat interact pet _BE651A97.wem"
+     },
+     {
+      "Id": "990356872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  nutshell.wav",
+      "CachePath": "SFX/  nutshell_818F3B66.wem"
+     },
+     {
       "Id": "995229971",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  coinsound for money.wav",
       "CachePath": "SFX/  coinsound for money_818F3B66.wem"
+     },
+     {
+      "Id": "997968862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  nutshell-4.wav",
+      "CachePath": "SFX/  nutshell-4_818F3B66.wem"
+     },
+     {
+      "Id": "1015348893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grandma.wav",
+      "CachePath": "SFX/Grandma_818F3B66.wem"
      },
      {
       "Id": "1016314410",
@@ -786,6 +1378,14 @@
       "CachePath": "SFX/  coinsound for money-3_818F3B66.wem"
      },
      {
+      "Id": "1024205521",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Charakter  jump up-1.wav",
+      "CachePath": "SFX/Main Charakter  jump up-1_0DC9846B.wem"
+     },
+     {
       "Id": "1036871779",
       "Language": "SFX",
       "Streaming": "false",
@@ -794,20 +1394,36 @@
       "CachePath": "SFX/  coinsound for money-2_818F3B66.wem"
      },
      {
+      "Id": "1040369418",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  kessel kochen-1.wav",
+      "CachePath": "SFX/  kessel kochen-1_818F3B66.wem"
+     },
+     {
+      "Id": "1053097705",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat frog feed.wav",
+      "CachePath": "SFX/Combat frog feed_A4D5EA84.wem"
+     },
+     {
+      "Id": "1057484461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  Mörser-2.wav",
+      "CachePath": "SFX/  Mörser-2_818F3B66.wem"
+     },
+     {
       "Id": "1059908081",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel.wav",
       "CachePath": "SFX/Main Charakter  footsteps gravel_FB4040CE.wem"
-     },
-     {
-      "Id": "1068849814",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Walk.wav",
-      "CachePath": "SFX/Walk_818F3B66.wem"
      },
      {
       "Id": "1069051341",
@@ -820,6 +1436,76 @@
     ],
     "Events": [
      {
+      "Id": "4024607187",
+      "Name": "Play___birds_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_2",
+      "GUID": "{A636B00A-4F38-472A-840C-E7DF8DE4532F}",
+      "DurationType": "OneShot",
+      "DurationMin": "90",
+      "DurationMax": "90",
+      "MediaRefs": [
+       {
+        "Id": "781621739"
+       }
+      ]
+     },
+     {
+      "Id": "4024607186",
+      "Name": "Play___birds_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_3",
+      "GUID": "{E4765FC6-41B4-48FB-9EB6-498A83A03D72}",
+      "DurationType": "OneShot",
+      "DurationMin": "90",
+      "DurationMax": "90",
+      "MediaRefs": [
+       {
+        "Id": "840295862"
+       }
+      ]
+     },
+     {
+      "Id": "4024607189",
+      "Name": "Play___birds_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_4",
+      "GUID": "{5879BFAA-287A-4B98-B8C3-A686A48715BE}",
+      "DurationType": "OneShot",
+      "DurationMin": "90",
+      "DurationMax": "90",
+      "MediaRefs": [
+       {
+        "Id": "735624053"
+       }
+      ]
+     },
+     {
+      "Id": "4024607188",
+      "Name": "Play___birds_5",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_5",
+      "GUID": "{947E356F-481F-4745-9FB9-6FCF885E576E}",
+      "DurationType": "OneShot",
+      "DurationMin": "90",
+      "DurationMax": "90",
+      "MediaRefs": [
+       {
+        "Id": "490688840"
+       }
+      ]
+     },
+     {
+      "Id": "4024607191",
+      "Name": "Play___birds_6",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_6",
+      "GUID": "{01EB7505-F0F3-450F-AA7D-0E36033F2BDB}",
+      "DurationType": "OneShot",
+      "DurationMin": "90",
+      "DurationMax": "90",
+      "MediaRefs": [
+       {
+        "Id": "387172603"
+       }
+      ]
+     },
+     {
       "Id": "251756331",
       "Name": "Play___door_open__close",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play___door_open__close",
@@ -830,6 +1516,20 @@
       "MediaRefs": [
        {
         "Id": "346084147"
+       }
+      ]
+     },
+     {
+      "Id": "2324289553",
+      "Name": "Play___fireplace",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___fireplace",
+      "GUID": "{E10EF4A4-5C3F-46CC-9293-BB05D1E6B3AD}",
+      "DurationType": "OneShot",
+      "DurationMin": "67.5",
+      "DurationMax": "67.5",
+      "MediaRefs": [
+       {
+        "Id": "222515199"
        }
       ]
      },
@@ -848,6 +1548,146 @@
       ]
      },
      {
+      "Id": "4121726672",
+      "Name": "Play___leaves",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves",
+      "GUID": "{336A0527-A49E-489D-AB10-09A712842C69}",
+      "DurationType": "OneShot",
+      "DurationMin": "75.5",
+      "DurationMax": "75.5",
+      "MediaRefs": [
+       {
+        "Id": "988185398"
+       }
+      ]
+     },
+     {
+      "Id": "3161803983",
+      "Name": "Play___leaves_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_2",
+      "GUID": "{444340AE-E9DE-4CA6-97FC-73A976A56304}",
+      "DurationType": "OneShot",
+      "DurationMin": "75.5",
+      "DurationMax": "75.5",
+      "MediaRefs": [
+       {
+        "Id": "517690293"
+       }
+      ]
+     },
+     {
+      "Id": "3161803982",
+      "Name": "Play___leaves_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_3",
+      "GUID": "{0118BE8D-1908-4DD7-881F-ADE46A5E9856}",
+      "DurationType": "OneShot",
+      "DurationMin": "75.5",
+      "DurationMax": "75.5",
+      "MediaRefs": [
+       {
+        "Id": "893090049"
+       }
+      ]
+     },
+     {
+      "Id": "3161803977",
+      "Name": "Play___leaves_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_4",
+      "GUID": "{0D369380-5B36-4941-B160-38C7ABEFCB87}",
+      "DurationType": "OneShot",
+      "DurationMin": "75.5",
+      "DurationMax": "75.5",
+      "MediaRefs": [
+       {
+        "Id": "257043073"
+       }
+      ]
+     },
+     {
+      "Id": "3161803976",
+      "Name": "Play___leaves_5",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_5",
+      "GUID": "{97E6082E-CF03-48F0-8C83-761C340624E1}",
+      "DurationType": "OneShot",
+      "DurationMin": "75.5",
+      "DurationMax": "75.5",
+      "MediaRefs": [
+       {
+        "Id": "454643591"
+       }
+      ]
+     },
+     {
+      "Id": "3623484722",
+      "Name": "Play___leaves_tree_at_river",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_tree_at_river",
+      "GUID": "{5C76B51D-191D-4806-88D6-38B38937A6C1}",
+      "DurationType": "OneShot",
+      "DurationMin": "67.5",
+      "DurationMax": "67.5",
+      "MediaRefs": [
+       {
+        "Id": "171969739"
+       }
+      ]
+     },
+     {
+      "Id": "1766696002",
+      "Name": "Play___river_bubbles",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_bubbles",
+      "GUID": "{09A5C621-1968-4880-B138-87A93F0BF7C4}",
+      "DurationType": "OneShot",
+      "DurationMin": "67.5",
+      "DurationMax": "67.5",
+      "MediaRefs": [
+       {
+        "Id": "903737124"
+       }
+      ]
+     },
+     {
+      "Id": "3251220738",
+      "Name": "Play___river_hard",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_hard",
+      "GUID": "{41258012-04E3-4620-A835-1FF616E17223}",
+      "DurationType": "OneShot",
+      "DurationMin": "67.5",
+      "DurationMax": "67.5",
+      "MediaRefs": [
+       {
+        "Id": "514234718"
+       }
+      ]
+     },
+     {
+      "Id": "2750519553",
+      "Name": "Play___river_hard_far_away",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_hard_far_away",
+      "GUID": "{C68C815D-139A-4259-BE39-AB1FDD36C0EF}",
+      "DurationType": "OneShot",
+      "DurationMin": "75.5",
+      "DurationMax": "75.5",
+      "MediaRefs": [
+       {
+        "Id": "297985586"
+       }
+      ]
+     },
+     {
+      "Id": "3910239717",
+      "Name": "Play___river_soft",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_soft",
+      "GUID": "{A03724F8-4DC1-4EA9-8CFF-40847066EA9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "67.5",
+      "DurationMax": "67.5",
+      "MediaRefs": [
+       {
+        "Id": "634905090"
+       }
+      ]
+     },
+     {
       "Id": "3244236260",
       "Name": "Play___wake_up",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play___wake_up",
@@ -858,6 +1698,20 @@
       "MediaRefs": [
        {
         "Id": "397629470"
+       }
+      ]
+     },
+     {
+      "Id": "2271122982",
+      "Name": "Play___wood_knocking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___wood_knocking",
+      "GUID": "{42A86543-7485-461B-B0A1-14D3E0654333}",
+      "DurationType": "OneShot",
+      "DurationMin": "67.5",
+      "DurationMax": "67.5",
+      "MediaRefs": [
+       {
+        "Id": "542032580"
        }
       ]
      },
@@ -946,25 +1800,30 @@
       ]
      },
      {
-      "Id": "1519321238",
-      "Name": "Play_attack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_attack",
-      "GUID": "{205CDFAC-0302-472B-8123-22070D7ADF40}",
+      "Id": "1278811423",
+      "Name": "Play_B_nker",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_B_nker",
+      "GUID": "{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}",
       "DurationType": "OneShot",
-      "DurationMin": "0.32238144",
-      "DurationMax": "0.58176875",
+      "DurationMin": "17.666666",
+      "DurationMax": "17.666666",
       "MediaRefs": [
        {
-        "Id": "207065331"
-       },
+        "Id": "906327466"
+       }
+      ]
+     },
+     {
+      "Id": "161356194",
+      "Name": "Play_birds_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_birds_1",
+      "GUID": "{713F8B65-16DA-4130-B11C-14AE0954BACB}",
+      "DurationType": "OneShot",
+      "DurationMin": "90",
+      "DurationMax": "90",
+      "MediaRefs": [
        {
-        "Id": "285057775"
-       },
-       {
-        "Id": "478047084"
-       },
-       {
-        "Id": "853049879"
+        "Id": "230478404"
        }
       ]
      },
@@ -988,6 +1847,40 @@
        },
        {
         "Id": "929206881"
+       }
+      ]
+     },
+     {
+      "Id": "1124536817",
+      "Name": "Play_casting",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_casting",
+      "GUID": "{B866FBC0-F80B-4C10-9EBD-317F3936A952}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "8451084"
+       }
+      ]
+     },
+     {
+      "Id": "3212638512",
+      "Name": "Play_cauldron",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cauldron",
+      "GUID": "{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.421148",
+      "DurationMax": "5.5799994",
+      "MediaRefs": [
+       {
+        "Id": "360805697"
+       },
+       {
+        "Id": "965839834"
+       },
+       {
+        "Id": "1040369418"
        }
       ]
      },
@@ -1046,9 +1939,29 @@
       ]
      },
      {
+      "Id": "1873669494",
+      "Name": "Play_cutting",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cutting",
+      "GUID": "{1E46F254-629C-4ED5-B6DF-6AF3E49C105B}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.5",
+      "DurationMax": "5.5",
+      "MediaRefs": [
+       {
+        "Id": "88255355"
+       },
+       {
+        "Id": "177565286"
+       },
+       {
+        "Id": "855748575"
+       }
+      ]
+     },
+     {
       "Id": "1083042653",
       "Name": "Play_damage_take",
-      "ObjectPath": "\\Events\\Default Work Unit\\Maincharaczor\\Play_damage_take",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_damage_take",
       "GUID": "{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}",
       "DurationType": "OneShot",
       "DurationMin": "1.375",
@@ -1072,32 +1985,9 @@
       ]
      },
      {
-      "Id": "1172822028",
-      "Name": "Play_death",
-      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_death",
-      "GUID": "{481FF3E4-820F-4D4D-87A7-F27836215197}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.32418603",
-      "DurationMax": "0.4898811",
-      "MediaRefs": [
-       {
-        "Id": "567852820"
-       },
-       {
-        "Id": "679674457"
-       },
-       {
-        "Id": "700705536"
-       },
-       {
-        "Id": "745169205"
-       }
-      ]
-     },
-     {
       "Id": "3854155799",
       "Name": "Play_footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Maincharaczor\\Play_footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_footsteps",
       "GUID": "{3CAA0CFA-9D05-4A88-BD84-449D353F434C}",
       "DurationType": "OneShot",
       "DurationMin": "0.1887999",
@@ -1207,9 +2097,224 @@
       ]
      },
      {
+      "Id": "2613038076",
+      "Name": "Play_frog_feed_head",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_feed_head",
+      "GUID": "{41DD0ED2-CEC4-45F4-B5AB-E3EA9E0840FF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45234498",
+      "DurationMax": "0.6701407",
+      "MediaRefs": [
+       {
+        "Id": "123107940"
+       },
+       {
+        "Id": "248217849"
+       },
+       {
+        "Id": "315065542"
+       },
+       {
+        "Id": "525297934"
+       },
+       {
+        "Id": "529421350"
+       },
+       {
+        "Id": "626293655"
+       },
+       {
+        "Id": "828654938"
+       },
+       {
+        "Id": "1053097705"
+       }
+      ]
+     },
+     {
+      "Id": "23942916",
+      "Name": "Play_frog_feed_tail",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_feed_tail",
+      "GUID": "{666645A8-9991-457F-9743-25A710C095CF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5863731",
+      "DurationMax": "0.77066183",
+      "MediaRefs": [
+       {
+        "Id": "390921244"
+       },
+       {
+        "Id": "706253421"
+       },
+       {
+        "Id": "783857445"
+       },
+       {
+        "Id": "888472459"
+       }
+      ]
+     },
+     {
+      "Id": "1420078893",
+      "Name": "Play_frog_idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_idle",
+      "GUID": "{16717B19-F897-41BC-90CA-DEFB94F6629C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1536871",
+      "DurationMax": "1.5382495",
+      "MediaRefs": [
+       {
+        "Id": "10077899"
+       },
+       {
+        "Id": "50575655"
+       },
+       {
+        "Id": "580912414"
+       },
+       {
+        "Id": "846924471"
+       }
+      ]
+     },
+     {
+      "Id": "2335987430",
+      "Name": "Play_frog_pet",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_pet",
+      "GUID": "{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.37215713",
+      "DurationMax": "9",
+      "MediaRefs": [
+       {
+        "Id": "265985123"
+       },
+       {
+        "Id": "541463883"
+       },
+       {
+        "Id": "683805629"
+       },
+       {
+        "Id": "696745964"
+       },
+       {
+        "Id": "913835205"
+       }
+      ]
+     },
+     {
+      "Id": "3765097210",
+      "Name": "Play_Grandma",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Grandma",
+      "GUID": "{446DD5A8-0C78-4C99-97C4-E899246DBF65}",
+      "DurationType": "OneShot",
+      "DurationMin": "13",
+      "DurationMax": "13",
+      "MediaRefs": [
+       {
+        "Id": "1015348893"
+       }
+      ]
+     },
+     {
+      "Id": "513292110",
+      "Name": "Play_H_ndler_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_H_ndler_01",
+      "GUID": "{58DF7204-319A-49AA-9E30-12B649C3FEBE}",
+      "DurationType": "OneShot",
+      "DurationMin": "13",
+      "DurationMax": "13",
+      "MediaRefs": [
+       {
+        "Id": "817214624"
+       }
+      ]
+     },
+     {
+      "Id": "2790146506",
+      "Name": "Play_Hexe",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Hexe",
+      "GUID": "{8F116051-A4AA-467F-9529-51B35564666A}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.387667",
+      "DurationMax": "12.387667",
+      "MediaRefs": [
+       {
+        "Id": "889497535"
+       }
+      ]
+     },
+     {
+      "Id": "1954589493",
+      "Name": "Play_jump_down",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_jump_down",
+      "GUID": "{3162CFD6-96C1-48A8-9448-B0166C50316C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3707059",
+      "DurationMax": "0.7287832",
+      "MediaRefs": [
+       {
+        "Id": "131141707"
+       },
+       {
+        "Id": "241164100"
+       },
+       {
+        "Id": "304044752"
+       },
+       {
+        "Id": "339378936"
+       }
+      ]
+     },
+     {
+      "Id": "2372486210",
+      "Name": "Play_jump_up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_jump_up",
+      "GUID": "{F13024FC-88E7-4787-96CE-33A7BD521B62}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25227645",
+      "DurationMax": "0.31737006",
+      "MediaRefs": [
+       {
+        "Id": "191497730"
+       },
+       {
+        "Id": "197177071"
+       },
+       {
+        "Id": "275632591"
+       },
+       {
+        "Id": "1024205521"
+       }
+      ]
+     },
+     {
+      "Id": "433371790",
+      "Name": "Play_m_rser",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_m_rser",
+      "GUID": "{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.421148",
+      "DurationMax": "5.5799994",
+      "MediaRefs": [
+       {
+        "Id": "917264507"
+       },
+       {
+        "Id": "922633899"
+       },
+       {
+        "Id": "1057484461"
+       }
+      ]
+     },
+     {
       "Id": "314014867",
       "Name": "Play_Main_Charakter__heavy_breathing",
-      "ObjectPath": "\\Events\\Default Work Unit\\Maincharaczor\\Play_Main_Charakter__heavy_breathing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_Main_Charakter__heavy_breathing",
       "GUID": "{7B67515D-E98B-4724-B442-4DEFFC2A51C4}",
       "DurationType": "OneShot",
       "DurationMin": "9.75",
@@ -1217,6 +2322,35 @@
       "MediaRefs": [
        {
         "Id": "755946980"
+       }
+      ]
+     },
+     {
+      "Id": "3183376343",
+      "Name": "Play_Nutshell",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_Nutshell",
+      "GUID": "{E35663FC-9EC9-4596-97E8-F18A7752E670}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.5",
+      "DurationMax": "5.5",
+      "MediaRefs": [
+       {
+        "Id": "816608275"
+       },
+       {
+        "Id": "843480435"
+       },
+       {
+        "Id": "851063997"
+       },
+       {
+        "Id": "899695238"
+       },
+       {
+        "Id": "990356872"
+       },
+       {
+        "Id": "997968862"
        }
       ]
      },
@@ -1539,27 +2673,13 @@
       ]
      },
      {
-      "Id": "1589278981",
-      "Name": "Play_Walk",
-      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_Walk",
-      "GUID": "{8457C35A-4EBD-46B6-8BDE-B7831A9F4624}",
-      "DurationType": "OneShot",
-      "DurationMin": "5.25",
-      "DurationMax": "5.25",
-      "MediaRefs": [
-       {
-        "Id": "1068849814"
-       }
-      ]
-     },
-     {
       "Id": "3116151072",
       "Name": "Play_Worm_Idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_Worm_Idle",
       "GUID": "{33CCD26C-DD44-4540-B92B-C958FB7C7C73}",
       "DurationType": "OneShot",
-      "DurationMin": "1.5",
-      "DurationMax": "1.5",
+      "DurationMin": "2",
+      "DurationMax": "2",
       "MediaRefs": [
        {
         "Id": "12299255"
@@ -1572,6 +2692,107 @@
        },
        {
         "Id": "876192999"
+       }
+      ]
+     },
+     {
+      "Id": "3096191827",
+      "Name": "Play_worm_inteact_feedTail",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_inteact_feedTail",
+      "GUID": "{2FD31316-7F3D-4881-B250-BA787AFA9654}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.88766366",
+      "DurationMax": "1.2929014",
+      "MediaRefs": [
+       {
+        "Id": "152239765"
+       },
+       {
+        "Id": "395530577"
+       },
+       {
+        "Id": "638685097"
+       },
+       {
+        "Id": "878494762"
+       }
+      ]
+     },
+     {
+      "Id": "1549301176",
+      "Name": "Play_worm_interact_feed_Head",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_interact_feed_Head",
+      "GUID": "{6B31A824-7F61-417B-8327-0DB483CF94E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.67539626",
+      "DurationMax": "0.9262577",
+      "MediaRefs": [
+       {
+        "Id": "213656067"
+       },
+       {
+        "Id": "217805513"
+       },
+       {
+        "Id": "298570835"
+       },
+       {
+        "Id": "520737710"
+       },
+       {
+        "Id": "707468780"
+       },
+       {
+        "Id": "892647975"
+       },
+       {
+        "Id": "903244895"
+       },
+       {
+        "Id": "930120994"
+       }
+      ]
+     },
+     {
+      "Id": "1570873034",
+      "Name": "Play_worm_interact_pet",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_interact_pet",
+      "GUID": "{B9479D09-85CC-4750-8ED2-F166BB9ED98C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.66988283",
+      "DurationMax": "0.9676086",
+      "MediaRefs": [
+       {
+        "Id": "146395362"
+       },
+       {
+        "Id": "186924588"
+       },
+       {
+        "Id": "979055805"
+       },
+       {
+        "Id": "988660099"
+       }
+      ]
+     },
+     {
+      "Id": "368624613",
+      "Name": "Play_worm_walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_walk",
+      "GUID": "{066CB1E1-81A8-4962-AF96-D1BAF85F7BDF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5141727",
+      "DurationMax": "1.8317403",
+      "MediaRefs": [
+       {
+        "Id": "148234284"
+       },
+       {
+        "Id": "420124859"
+       },
+       {
+        "Id": "827643818"
        }
       ]
      }
@@ -1612,6 +2833,6 @@
     ]
    }
   ],
-  "FileHash": "{F9062AD3-6B06-24D8-7E22-7EB0914B9556}"
+  "FileHash": "{EBE4C419-9957-23C2-533F-D911512AA627}"
  }
 }
