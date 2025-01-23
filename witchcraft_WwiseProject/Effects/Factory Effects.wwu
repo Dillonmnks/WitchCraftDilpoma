@@ -1483,7 +1483,7 @@
 								</Effect>
 								<Effect Name="Space_Garage" ID="{1AF92D84-49DD-4BBC-8F29-6C6D10082B6E}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="Density" Type="Real32" Value="100"/>
+										<Property Name="Density" Type="Real32" Value="29"/>
 										<Property Name="Diffusion" Type="Real32" Value="45"/>
 										<Property Name="ERLevel" Type="Real32" Value="-17"/>
 										<Property Name="ERPattern" Type="int32" Value="28"/>
@@ -1496,11 +1496,11 @@
 										<Property Name="Filter3Gain" Type="Real32" Value="-11"/>
 										<Property Name="Filter3InsertPos" Type="int32" Value="1"/>
 										<Property Name="HFDamping" Type="Real32" Value="1.4"/>
-										<Property Name="PreDelay" Type="Real32" Value="122"/>
+										<Property Name="PreDelay" Type="Real32" Value="11"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-16"/>
-										<Property Name="RoomShape" Type="Real32" Value="69"/>
+										<Property Name="RoomShape" Type="Real32" Value="25"/>
 										<Property Name="RoomSize" Type="Real32" Value="-49"/>
-										<Property Name="StereoWidth" Type="Real32" Value="150"/>
+										<Property Name="StereoWidth" Type="Real32" Value="98"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

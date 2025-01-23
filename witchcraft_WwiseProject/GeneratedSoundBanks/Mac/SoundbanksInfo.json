@@ -18,25 +18,25 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{512F0D0F-0D77-7ED6-570F-27C1F87E4DB0}",
+    "Hash": "{1CF4B01B-E9B3-AA2F-0DE8-983F864F7D9C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
      "ShareSets": [
       {
-       "Id": "415841907",
-       "Name": "Space_Garage",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Garage",
-       "GUID": "{1AF92D84-49DD-4BBC-8F29-6C6D10082B6E}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      },
-      {
        "Id": "1259256166",
        "Name": "New_RoomVerb",
        "ObjectPath": "\\Effects\\Default Work Unit\\New_RoomVerb",
        "GUID": "{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2791153688",
+       "Name": "Hall_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
+       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -95,7 +95,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "415841907"
+         "Id": "2791153688"
         }
        ]
       }
@@ -174,7 +174,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{2A23E331-1DBF-5726-E4AA-F74D1B51F3B3}",
+    "Hash": "{CEF1C242-EEDD-CD7C-05B8-DFE046F5B4E5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -273,7 +273,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui item collect fail.wav",
-      "CachePath": "SFX/Ui item collect fail_D3DE95F5.wem"
+      "CachePath": "SFX/Ui item collect fail_5DE497FB.wem"
      },
      {
       "Id": "80578364",
@@ -409,7 +409,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  leaves tree at river.wav",
-      "CachePath": "SFX/  leaves tree at river_DBD096BA.wem"
+      "CachePath": "SFX/  leaves tree at river_381BBFC4.wem"
      },
      {
       "Id": "177565286",
@@ -513,7 +513,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  fireplace.wav",
-      "CachePath": "SFX/  fireplace_3A8E0E59.wem"
+      "CachePath": "SFX/  fireplace_39FE2301.wem"
      },
      {
       "Id": "223377924",
@@ -537,7 +537,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  birds 1.wav",
-      "CachePath": "SFX/  birds 1_CBBC551F.wem"
+      "CachePath": "SFX/  birds 1_AFAB6F97.wem"
      },
      {
       "Id": "240961913",
@@ -585,7 +585,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  leaves 4.wav",
-      "CachePath": "SFX/  leaves 4_3CA931A5.wem"
+      "CachePath": "SFX/  leaves 4_38893ABC.wem"
      },
      {
       "Id": "261089796",
@@ -617,7 +617,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": " WIND.wav",
-      "CachePath": "SFX/ WIND_253986B6.wem"
+      "CachePath": "SFX/ WIND_AB53585A.wem"
      },
      {
       "Id": "275632591",
@@ -665,7 +665,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  river hard far away.wav",
-      "CachePath": "SFX/  river hard far away_95E7C2AB.wem"
+      "CachePath": "SFX/  river hard far away_84E54C4F.wem"
      },
      {
       "Id": "298570835",
@@ -793,7 +793,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  birds 6.wav",
-      "CachePath": "SFX/  birds 6_40D4004C.wem"
+      "CachePath": "SFX/  birds 6_F3D8F7E3.wem"
      },
      {
       "Id": "390921244",
@@ -809,7 +809,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui item use potion.wav",
-      "CachePath": "SFX/Ui item use potion_513C499D.wem"
+      "CachePath": "SFX/Ui item use potion_55858749.wem"
      },
      {
       "Id": "395530577",
@@ -881,7 +881,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  leaves 5.wav",
-      "CachePath": "SFX/  leaves 5_AFCC3C50.wem"
+      "CachePath": "SFX/  leaves 5_300EB120.wem"
      },
      {
       "Id": "467215598",
@@ -897,7 +897,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  birds 5.wav",
-      "CachePath": "SFX/  birds 5_9E64DAFA.wem"
+      "CachePath": "SFX/  birds 5_E76AEC0D.wem"
      },
      {
       "Id": "504589523",
@@ -929,7 +929,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  river hard.wav",
-      "CachePath": "SFX/  river hard_8EB9DF94.wem"
+      "CachePath": "SFX/  river hard_45FDF64B.wem"
      },
      {
       "Id": "517690293",
@@ -937,7 +937,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  leaves 2.wav",
-      "CachePath": "SFX/  leaves 2_31A2EE16.wem"
+      "CachePath": "SFX/  leaves 2_46021838.wem"
      },
      {
       "Id": "520737710",
@@ -1009,7 +1009,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  wood knocking.wav",
-      "CachePath": "SFX/  wood knocking_4669E587.wem"
+      "CachePath": "SFX/  wood knocking_A6B1D106.wem"
      },
      {
       "Id": "542391917",
@@ -1089,7 +1089,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  river soft.wav",
-      "CachePath": "SFX/  river soft_A7D93458.wem"
+      "CachePath": "SFX/  river soft_8C81D347.wem"
      },
      {
       "Id": "638349772",
@@ -1209,7 +1209,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  birds 4.wav",
-      "CachePath": "SFX/  birds 4_798FE08F.wem"
+      "CachePath": "SFX/  birds 4_66061D56.wem"
      },
      {
       "Id": "738703146",
@@ -1265,7 +1265,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  birds 2.wav",
-      "CachePath": "SFX/  birds 2_F03AE157.wem"
+      "CachePath": "SFX/  birds 2_DCEF1FDC.wem"
      },
      {
       "Id": "783857445",
@@ -1385,7 +1385,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  birds 3.wav",
-      "CachePath": "SFX/  birds 3_B01F2B3E.wem"
+      "CachePath": "SFX/  birds 3_A3A56B74.wem"
      },
      {
       "Id": "843480435",
@@ -1505,7 +1505,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  leaves 3.wav",
-      "CachePath": "SFX/  leaves 3_7EE48503.wem"
+      "CachePath": "SFX/  leaves 3_BD59F8DF.wem"
      },
      {
       "Id": "899695238",
@@ -1529,7 +1529,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  river bubbles.wav",
-      "CachePath": "SFX/  river bubbles_CCF0D9B9.wem"
+      "CachePath": "SFX/  river bubbles_6D38B00C.wem"
      },
      {
       "Id": "906327466",
@@ -1537,7 +1537,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bänker.wav",
-      "CachePath": "SFX/Bänker_818F3B66.wem"
+      "CachePath": "SFX/Bänker_11A93380.wem"
      },
      {
       "Id": "912893642",
@@ -1649,7 +1649,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  leaves.wav",
-      "CachePath": "SFX/  leaves_23485BC2.wem"
+      "CachePath": "SFX/  leaves_644D2887.wem"
      },
      {
       "Id": "988660099",
@@ -1870,9 +1870,8 @@
       "Name": "Play___fireplace",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___fireplace",
       "GUID": "{E10EF4A4-5C3F-46CC-9293-BB05D1E6B3AD}",
-      "DurationType": "OneShot",
-      "DurationMin": "65.25575",
-      "DurationMax": "65.25575",
+      "MaxAttenuation": "5000",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "222515199"
@@ -1996,9 +1995,8 @@
       "Name": "Play___river_hard",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_hard",
       "GUID": "{41258012-04E3-4620-A835-1FF616E17223}",
-      "DurationType": "OneShot",
-      "DurationMin": "67.5",
-      "DurationMax": "67.5",
+      "MaxAttenuation": "5000",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "514234718"
@@ -2150,9 +2148,7 @@
       "Name": "Play_B_nker",
       "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_B_nker",
       "GUID": "{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}",
-      "DurationType": "OneShot",
-      "DurationMin": "17.666666",
-      "DurationMax": "17.666666",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "906327466"
@@ -2164,7 +2160,7 @@
       "Name": "Play_birds_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_birds_1",
       "GUID": "{713F8B65-16DA-4130-B11C-14AE0954BACB}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "40.741688",
       "DurationMax": "40.741688",
@@ -3155,9 +3151,8 @@
       "Name": "Play_WIND",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_WIND",
       "GUID": "{2B202963-10F0-4FB8-B410-913E3FF1D540}",
-      "DurationType": "OneShot",
-      "DurationMin": "35",
-      "DurationMax": "35",
+      "MaxAttenuation": "5000",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "271812814"
@@ -3287,6 +3282,46 @@
         "Id": "827643818"
        }
       ]
+     },
+     {
+      "Id": "1415276193",
+      "Name": "Stop_B_nker",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_B_nker",
+      "GUID": "{4CF58A51-F39E-44CC-A4C5-0E69C44DCED5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "999264040",
+      "Name": "Stop_Grandma",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_Grandma",
+      "GUID": "{154E832E-023B-4F73-9F1F-AB6C3A024866}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1526053020",
+      "Name": "Stop_H_ndler_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_H_ndler_01",
+      "GUID": "{E140AE04-7751-4126-8AC7-38587C3AD0A1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2753082400",
+      "Name": "Stop_Hexe",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_Hexe",
+      "GUID": "{79ABEC1F-E1A1-4150-BCD6-3FD36F1F2D2F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -3345,6 +3380,6 @@
     ]
    }
   ],
-  "FileHash": "{10CD0CF3-CCA4-187F-7390-038A08372A2D}"
+  "FileHash": "{66C169D0-4A21-F6D2-2B87-91A93804BACD}"
  }
 }

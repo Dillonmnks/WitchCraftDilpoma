@@ -1033,6 +1033,62 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_H_ndler_01" ID="{E140AE04-7751-4126-8AC7-38587C3AD0A1}">
+							<ChildrenList>
+								<Action Name="" ID="{7DFB9496-3F08-49CA-A86A-1D3D4B5E3036}" ShortID="861278031">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Händler_01" ID="{9A6F3DAE-9A7B-46A5-9B14-0A447AED99D8}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Hexe" ID="{79ABEC1F-E1A1-4150-BCD6-3FD36F1F2D2F}">
+							<ChildrenList>
+								<Action Name="" ID="{E0F560CF-EA84-44B3-B2ED-8CCC244887E4}" ShortID="925338500">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hexe" ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_B_nker" ID="{4CF58A51-F39E-44CC-A4C5-0E69C44DCED5}">
+							<ChildrenList>
+								<Action Name="" ID="{B1566D21-5C65-4889-B0A9-7BE98E96714B}" ShortID="327316151">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bänker" ID="{ED73ED13-D697-484F-B18E-5BB3C6819944}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Grandma" ID="{154E832E-023B-4F73-9F1F-AB6C3A024866}">
+							<ChildrenList>
+								<Action Name="" ID="{3F6AD7ED-1A51-4881-80EF-7DA1D007AEF1}" ShortID="775818385">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grandma" ID="{A73ACF7F-74FB-4F41-8C51-377FA7F2BDE4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ending Music" ID="{0434D3C1-1E81-4760-9A3F-2B92F44FBAFF}" ShortID="925332526">
