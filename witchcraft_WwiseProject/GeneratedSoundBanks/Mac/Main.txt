@@ -1,0 +1,142 @@
+Event	ID	Name			Wwise Object Path	Notes
+	43599987	Play_Ui_button			\Default Work Unit\UI Events\Play_Ui_button	
+	72283163	Play_coinsound_for_money			\Default Work Unit\händler\Play_coinsound_for_money	
+	251756331	Play___door_open__close			\Default Work Unit\Gameplay\Play___door_open__close	
+	314014867	Play_Main_Charakter__heavy_breathing			\Default Work Unit\Maincharaczor\Play_Main_Charakter__heavy_breathing	
+	360526586	Play_Ui_letter_open			\Default Work Unit\UI Events\Play_Ui_letter_open	
+	392743550	Play__quest_finished			\Default Work Unit\händler\Play__quest_finished	
+	471615608	Play__fire_			\Default Work Unit\Gameplay\Play__fire_	
+	482045456	Play_Ui_item_use_potion			\Default Work Unit\UI Events\Play_Ui_item_use_potion	
+	735996042	Play_Ui_quest_accept			\Default Work Unit\UI Events\Play_Ui_quest_accept	
+	779013463	Play_Page_Turn_Container			\Default Work Unit\UI Events\Play_Page_Turn_Container	
+	827396052	Play_Ui_item_drop_glas			\Default Work Unit\UI Events\Play_Ui_item_drop_glas	
+	1046906731	Play_Ui_item_use_recipe			\Default Work Unit\UI Events\Play_Ui_item_use_recipe	
+	1083042653	Play_damage_take			\Default Work Unit\Maincharaczor\Play_damage_take	
+	1172822028	Play_death			\Default Work Unit\Combat\worm\Play_death	
+	1198172706	Play_Ui_item_delete_bin			\Default Work Unit\UI Events\Play_Ui_item_delete_bin	
+	1435386480	Play_Ui_item_delete			\Default Work Unit\UI Events\Play_Ui_item_delete	
+	1519321238	Play_attack			\Default Work Unit\Combat\worm\Play_attack	
+	1589278981	Play_Walk			\Default Work Unit\Combat\worm\Play_Walk	
+	1719456260	Play_Ui_inventory_close			\Default Work Unit\UI Events\Play_Ui_inventory_close	
+	2251135697	Play_Ui_move_cursor			\Default Work Unit\UI Events\Play_Ui_move_cursor	
+	2560700912	Play_chest_open			\Default Work Unit\Gameplay\Play_chest_open	
+	2824767826	Play_buy			\Default Work Unit\händler\Play_buy	
+	2875132479	Play__dagegen_rennen			\Default Work Unit\Gameplay\Play__dagegen_rennen	
+	2926639448	Play_chest_closed			\Default Work Unit\Gameplay\Play_chest_closed	
+	2934036990	Play_Teston_UI			\Default Work Unit\Testtöne\Play_Teston_UI	
+	2958348949	Play__moral_decrease			\Default Work Unit\händler\Play__moral_decrease	
+	2963481348	Play_Ui_quest_decline			\Default Work Unit\UI Events\Play_Ui_quest_decline	
+	3098359485	Play__moral_increase			\Default Work Unit\händler\Play__moral_increase	
+	3116151072	Play_Worm_Idle			\Default Work Unit\Combat\worm\Play_Worm_Idle	
+	3244236260	Play___wake_up			\Default Work Unit\Gameplay\Play___wake_up	
+	3331271074	Play_Ui_item_inventory_click			\Default Work Unit\UI Events\Play_Ui_item_inventory_click	
+	3514747546	Play__door_shaking_			\Default Work Unit\Gameplay\Play__door_shaking_	
+	3539876443	Play_Ui_item_drop_mushroom			\Default Work Unit\UI Events\Play_Ui_item_drop_mushroom	
+	3582769408	Play_Ui_inventory_open			\Default Work Unit\UI Events\Play_Ui_inventory_open	
+	3639311590	Play___go_to_sleep			\Default Work Unit\Gameplay\Play___go_to_sleep	
+	3693022033	Play_Ui_item_use_eat			\Default Work Unit\UI Events\Play_Ui_item_use_eat	
+	3693294549	Play_Ui_item_collect			\Default Work Unit\UI Events\Play_Ui_item_collect	
+	3707028679	Play_Ui_item_inventory_move_instant			\Default Work Unit\UI Events\Play_Ui_item_inventory_move_instant	
+	3854155799	Play_footsteps			\Default Work Unit\Maincharaczor\Play_footsteps	
+	4044256362	Play_sell			\Default Work Unit\händler\Play_sell	
+	4089233097	Play_Ui_item_inventory_drop			\Default Work Unit\UI Events\Play_Ui_item_inventory_drop	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	footsteps			\Default Work Unit\footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	906520814	gras	footsteps			
+	1216965916	stone	footsteps			
+	2058049674	wood	footsteps			
+	2185786256	gravel	footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7608869	Main Charakter  footsteps gras-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-1_0BA9C783.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras-1		52336
+	12299255	Combat  worm idle-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-1		288096
+	14589801	Ui item drop glas	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item drop glas_7BA95949.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item drop glas		139964
+	33963550	Ui letter open	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui letter open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui letter open		355296
+	43027650	Main Charakter  footsteps wood	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood_E6CDC24F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood		62180
+	44029583	Main Charakter  footsteps gravs-4	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-4_C76E389E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gravs-4		52472
+	98954012	Ui quest accept	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui quest accept_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui quest accept		187296
+	127178024	Main Charakter  footsteps wood-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-3_80333277.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-3		55616
+	132820239	Main Charakter  damage take	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take		264096
+	135775179	sell-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell-2		72096
+	157319039	buy-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy-3		48096
+	170190639	dagegen rennen	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ dagegen rennen_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\dagegen rennen		86928
+	178696379	Main Charakter  footsteps stone-4	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-4_761D7897.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-4		37428
+	202104210	moral increase	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ moral increase_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\moral increase		384096
+	207065331	Attack	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _3F2AEFAB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack		108948
+	215819596	Ui item delete	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item delete_8D411FFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item delete		104156
+	223377924	go to sleep	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  go to sleep_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\go to sleep		463200
+	226393275	Main Charakter  footsteps stone	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone_86E8C55C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone		41120
+	240961913	Main Charakter  damage take-4	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-4		264096
+	246212939	chest open	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  chest open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\chest open		308832
+	261089796	Ui quest decline	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui quest decline_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui quest decline		163296
+	265123594	Ui item collect	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item collect_54CA3EBE.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item collect		7524
+	275848710	Ui inventory open	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui inventory open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui inventory open		55296
+	281071773	Main Charakter  footsteps gravel-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-3_05969B7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-3		51924
+	285057775	Attack_01	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _4A1E2BE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack_01		109660
+	296652437	chest closed	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  chest closed_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\chest closed		308832
+	300874155	Testton UI	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Freeze Test Ton [2024-10-01 221054]_75A1F521.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test Töne\Testton UI		189308
+	301112140	Ui turn page 3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 3		302496
+	309348204	quest finished	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ quest finished_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\quest finished		288096
+	318859576	Ui item drop mushroom	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item drop mushroom_7112315E.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item drop mushroom		57156
+	343265672	Ui button	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui button_8222A722.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui button		73852
+	346084147	door open _close	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  door open _close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\door open _close		308832
+	361713716	door shaking	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ door shaking _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\door shaking		308832
+	372153424	Ui item delete bin	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item delete bin_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item delete bin		91296
+	372603158	Combat  worm idle	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle		288096
+	393714322	Ui item use potion	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item use potion_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item use potion		206496
+	397629470	wake up	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  wake up_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\wake up		463200
+	435537503	Ui item inventory drop	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item inventory drop_3FD324CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item inventory drop		62840
+	441285259	Ui turn page 4	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 4		350496
+	447080793	moral decrease	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ moral decrease_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\moral decrease		336096
+	467215598	Main Charakter  footsteps wood-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-2_C57DE5BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-2		66556
+	478047084	Attack_02	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _B2C5A8B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack_02		111796
+	509970347	Ui item inventory move instant	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item inventory move instant_5654E57E.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item inventory move instant		54896
+	529617816	Combat  worm idle-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-3		288096
+	540713848	Ui turn page 6	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 6		259296
+	542391917	Main Charakter  footsteps wood-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-1_D0437165.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-1		44132
+	567017348	Main Charakter  footsteps gravel	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras_52540F8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel		78456
+	567852820	Death_01	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_9E791531.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death_01		62340
+	573941103	coinsound for money-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-1		48096
+	614674959	Ui turn page 1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 1		331296
+	625785352	Ui item inventory click	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item inventory click_D597ECD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item inventory click		47112
+	630745993	buy-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy-1		48096
+	640579477	Main Charakter  footsteps gras-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-2_D38D1ACC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras-2		45088
+	641130999	Main Charakter  footsteps wood-4	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps wood-4_D0B4E8FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\wood\Main Charakter  footsteps wood-4		70388
+	679674457	Death	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_02F53012.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death		81012
+	697205456	sell	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell		72096
+	700705536	Death_03	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_01359C29.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death_03		94152
+	714771132	sell-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell-3		72096
+	715591636	Main Charakter  footsteps gras-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel-3_E9CFDB4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras-3		55892
+	745169205	Death_02	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Death_57B275E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\death\Death_02		94152
+	749117629	sell-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  sell-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\sell\sell-1		72096
+	751077151	Main Charakter  footsteps stone-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-3_140FCAD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-3		38388
+	755946980	Main Charakter  heavy breathing	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  heavy breathing_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Charakter  heavy breathing		1872096
+	792034974	Ui turn page 2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 2		307296
+	794816127	buy-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy-2		48096
+	807797044	Ui inventory close	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui inventory close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui inventory close		62496
+	808361190	fire	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\ fire _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\fire		2168484
+	819693839	Main Charakter  damage take-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-2		264096
+	828430276	Main Charakter  footsteps gravel-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-2_4AFB669F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-2		80916
+	848868357	Main Charakter  damage take-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-3		264096
+	850141276	Main Charakter  footsteps gravel-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-1_C9D5A348.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-1		61636
+	853049879	Attack_03	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Attack _5409ADD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\attack\Attack_03		61992
+	873389055	Ui move cursor	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui move cursor_AB79D989.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui move cursor		14496
+	876192999	Combat  worm idle-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Combat  worm idle-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Worm Idle\Combat  worm idle-2		288096
+	912893642	coinsound for money-4	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-4		48096
+	926038193	Main Charakter  footsteps stone-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-2_ECBB5801.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-2		44268
+	929206881	buy	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  buy_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\buy\buy		48096
+	955270491	Main Charakter  footsteps gravel-4	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gras-4_63D1549E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gravel\Main Charakter  footsteps gravel-4		60540
+	956949307	Main Charakter  damage take-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  damage take-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\damage take\Main Charakter  damage take-1		264096
+	963689456	Main Charakter  footsteps stone-1	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps stone-1_67C51EC5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\stone\Main Charakter  footsteps stone-1		55756
+	978548441	Ui item use eat	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item use eat_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item use eat		135524
+	995229971	coinsound for money	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money		48096
+	1016314410	Ui item use recipe	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui item use recipe_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui item use recipe		182496
+	1022333913	coinsound for money-3	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-3		48096
+	1036871779	coinsound for money-2	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\  coinsound for money-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\coinsound for money\coinsound for money-2		48096
+	1059908081	Main Charakter  footsteps gras	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Main Charakter  footsteps gravel_FB4040CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\footsteps\gras\Main Charakter  footsteps gras		46728
+	1068849814	Walk	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Walk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\worm\Walk		1008096
+	1069051341	Ui turn page 5	C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Mac\SFX\Ui turn page 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Page Turn Container\Ui turn page 5		283296
+
