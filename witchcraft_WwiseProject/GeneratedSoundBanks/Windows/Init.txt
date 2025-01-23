@@ -1,5 +1,5 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	529726550	Env			\Default Work Unit\Master Audio Bus\Env	
+	1802970371	FX			\Default Work Unit\Master Audio Bus\FX	
 	3466474873	Diologue			\Default Work Unit\Master Audio Bus\Diologue	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
