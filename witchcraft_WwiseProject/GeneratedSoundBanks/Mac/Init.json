@@ -1,0 +1,101 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{F2A3AB61-21AE-BF91-BC7B-A20676B3D121}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{3B701F98-7DA3-49E6-BAAA-9B7D6E879E7B}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{E6EDF7AA-E484-4322-99EA-052383BF4E18}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "1802970371",
+      "Name": "FX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\FX",
+      "GUID": "{2D0E49ED-6213-4A81-9F9A-52F238055C9E}"
+     },
+     {
+      "Id": "3466474873",
+      "Name": "Diologue",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Diologue",
+      "GUID": "{7800FA86-2B46-4019-9B82-7431B7D1918F}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\footsteps",
+      "GUID": "{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}",
+      "Switches": [
+       {
+        "Id": "906520814",
+        "Name": "gras",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\gras",
+        "GUID": "{CBD4F5D5-A008-4627-8700-F8650354134F}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\stone",
+        "GUID": "{C30C28D6-4953-4AFC-AF9C-BB2DE915375D}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\wood",
+        "GUID": "{20CE900D-01C7-44C7-818A-1C15855C2337}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\gravel",
+        "GUID": "{0BFA1267-D021-48D2-94D4-ECB3420894B0}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7430387C-F129-7D7E-5B37-EC9FCCE2F720}"
+ }
+}
