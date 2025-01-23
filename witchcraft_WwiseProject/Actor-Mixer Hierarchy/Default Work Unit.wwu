@@ -5042,6 +5042,7 @@
 								</Sound>
 								<Sound Name="fireplace" ID="{22ACC277-CF83-40C6-B79E-14D498F78310}" ShortID="862302102">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
