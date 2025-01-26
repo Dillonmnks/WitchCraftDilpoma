@@ -4527,8 +4527,16 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="cauldron" ID="{FF9D81AB-8CC7-400B-9AAD-41D86D57EF79}" ShortID="843630640">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-300</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{21688808-4906-4474-A230-CC0B74A8DC8C}">
@@ -5333,7 +5341,7 @@
 											<Custom CreatedFrom="{C13540BC-9C91-4D72-8E2F-00DFE307E2BB}">
 												<Attenuation Name="Att Atmo (Custom)" ID="{B9B0E3CF-92EE-4AEE-9164-C77FCDB5A6C3}" ShortID="36258206">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+														<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -5349,7 +5357,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>2000</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5370,7 +5378,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>2000</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5391,7 +5399,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>2000</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5412,7 +5420,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>2000</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>100</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -5666,6 +5674,7 @@
 								</Sound>
 								<Sound Name="WIND" ID="{E1974EE9-B6A3-4062-B96F-D16A781F4361}" ShortID="972509530">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
@@ -5722,9 +5731,30 @@
 							</ReferenceList>
 							<ChildrenList>
 								<SwitchContainer Name="Dialog" ID="{E06646B0-C2CD-4187-BFA6-321BC0A47FD4}" ShortID="995597585">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Hexe" ID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}" WorkUnitID="{2C855453-BBB5-4AE8-8536-35D576635ADD}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>

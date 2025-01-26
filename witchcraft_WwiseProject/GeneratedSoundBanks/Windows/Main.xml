@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{FD6A6517-7DD5-26AD-233F-8F4688C021BE}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{054799E2-BB3C-1422-7EB4-E79B95F8A632}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -947,7 +947,7 @@
 						<MediaRef Id="8451084"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" DurationType="OneShot" DurationMin="5.421148" DurationMax="5.5799994">
+				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" DurationType="OneShot" DurationMin="6.446867" DurationMax="6.6357746">
 					<MediaRefs>
 						<MediaRef Id="360805697"/>
 						<MediaRef Id="965839834"/>
@@ -1047,7 +1047,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="3297275997" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="3297275997" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="41935058"/>
 								<MediaRef Id="116496702"/>
@@ -1387,5 +1387,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ABE7A061-6CC1-60C1-318E-D82399C9A00C}</FileHash>
+	<FileHash>{A3655B8E-FA40-1EC5-2938-96C5A6553205}</FileHash>
 </SoundBanksInfo>

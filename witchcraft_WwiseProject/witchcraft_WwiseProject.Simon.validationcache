@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="119">
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\witchcraft_WwiseProject.wproj" DateLow="1737899011" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\witchcraft_WwiseProject.Simon.wsettings" DateLow="1737910354" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\witchcraft_WwiseProject.Simon.wsettings" DateLow="1737912387" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1737899011" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1737899011" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1737910345" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\States\Default Work Unit.wwu" DateLow="1737899011" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1737910345" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1737911686" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1737899011" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Queries\Factory Queries.wwu" DateLow="1737899011" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1737899011" DateHigh="0"/>
@@ -28,5 +28,5 @@
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1737898996" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1737898996" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1737898996" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1737910345" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1737911686" DateHigh="0"/>
 </ValidationCache>

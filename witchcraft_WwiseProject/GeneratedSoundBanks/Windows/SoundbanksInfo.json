@@ -206,7 +206,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{FD6A6517-7DD5-26AD-233F-8F4688C021BE}",
+    "Hash": "{054799E2-BB3C-1422-7EB4-E79B95F8A632}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -2212,8 +2212,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cauldron",
       "GUID": "{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}",
       "DurationType": "OneShot",
-      "DurationMin": "5.421148",
-      "DurationMax": "5.5799994",
+      "DurationMin": "6.446867",
+      "DurationMax": "6.6357746",
       "MediaRefs": [
        {
         "Id": "360805697"
@@ -2483,7 +2483,8 @@
          "GroupType": "Switch",
          "GroupId": "1235749641",
          "Id": "3297275997",
-         "GUID": "{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"
+         "GUID": "{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -3418,6 +3419,6 @@
     ]
    }
   ],
-  "FileHash": "{AC3CC3F9-E2B1-181B-680D-14FB005496B6}"
+  "FileHash": "{5DDD5B03-8399-768F-40EB-68B3C8951A3B}"
  }
 }
