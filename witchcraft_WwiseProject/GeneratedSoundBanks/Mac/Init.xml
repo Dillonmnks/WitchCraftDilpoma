@@ -44,6 +44,14 @@
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
+					<Switches>
+						<Switch Id="371397999" Name="Grandma" ObjectPath="\Switches\Default Work Unit\Dialog\Grandma" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+						<Switch Id="3297275997" Name="Hexe" ObjectPath="\Switches\Default Work Unit\Dialog\Hexe" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+						<Switch Id="3625525251" Name="Handler" ObjectPath="\Switches\Default Work Unit\Dialog\Handler" GUID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+						<Switch Id="4018763786" Name="Banker" ObjectPath="\Switches\Default Work Unit\Dialog\Banker" GUID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="footsteps" ObjectPath="\Switches\Default Work Unit\footsteps" GUID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
 					<Switches>
 						<Switch Id="906520814" Name="gras" ObjectPath="\Switches\Default Work Unit\footsteps\gras" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
@@ -55,5 +63,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9476759C-AC0B-E42E-7D42-648FD41B74B9}</FileHash>
+	<FileHash>{B04D9FA0-47C2-66A8-785B-2F820E1B244D}</FileHash>
 </SoundBanksInfo>

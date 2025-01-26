@@ -10,6 +10,9 @@
 					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_Teston_UI" ID="{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{A67272FC-7CEC-413E-8DE9-5D6CD43FE21A}" ShortID="108938941">
 									<ReferenceList>
@@ -355,6 +358,9 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_damage_take" ID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{08F35928-D484-4186-A203-43FD758219A0}" ShortID="815622460">
 									<ReferenceList>
@@ -657,6 +663,9 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play__dagegen_rennen" ID="{A360F545-FE33-4551-A8B8-ADF6E0319D90}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9E533950-39B0-494D-BF22-A149EF7E563A}" ShortID="118918812">
 									<ReferenceList>
@@ -989,101 +998,33 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_B_nker" ID="{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}">
+						<Event Name="Play_Dialog" ID="{DA7FCF12-2622-4268-8743-D24729EC620F}">
 							<ChildrenList>
-								<Action Name="" ID="{AF14D2B3-C4EE-4935-B042-9700C25EF446}" ShortID="694390016">
+								<Action Name="" ID="{5152B7C2-82E1-428C-9510-662BB041AC2F}" ShortID="653902840">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Bänker" ID="{ED73ED13-D697-484F-B18E-5BB3C6819944}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="Dialog" ID="{E06646B0-C2CD-4187-BFA6-321BC0A47FD4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grandma" ID="{446DD5A8-0C78-4C99-97C4-E899246DBF65}">
+						<Event Name="Play_Dialogue_end" ID="{D63288F8-72DC-431F-AAA3-51283CDADE32}">
 							<ChildrenList>
-								<Action Name="" ID="{8D2C1AAD-C1D3-4F51-BD0F-DBF265A06A74}" ShortID="638395781">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Grandma" ID="{A73ACF7F-74FB-4F41-8C51-377FA7F2BDE4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_H_ndler_01" ID="{58DF7204-319A-49AA-9E30-12B649C3FEBE}">
-							<ChildrenList>
-								<Action Name="" ID="{37D5496E-9C42-4EE7-BCEB-734728FE3A55}" ShortID="28930690">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Händler_01" ID="{9A6F3DAE-9A7B-46A5-9B14-0A447AED99D8}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Hexe" ID="{8F116051-A4AA-467F-9529-51B35564666A}">
-							<ChildrenList>
-								<Action Name="" ID="{249C0795-D10C-4D45-BFCD-BC5D17ADA445}" ShortID="546391332">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Hexe" ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_H_ndler_01" ID="{E140AE04-7751-4126-8AC7-38587C3AD0A1}">
-							<ChildrenList>
-								<Action Name="" ID="{7DFB9496-3F08-49CA-A86A-1D3D4B5E3036}" ShortID="861278031">
+								<Action Name="" ID="{6ADE80FC-A56A-436E-BE4B-A0850B14BC7F}" ShortID="726367961">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Händler_01" ID="{9A6F3DAE-9A7B-46A5-9B14-0A447AED99D8}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="Dialog" ID="{E06646B0-C2CD-4187-BFA6-321BC0A47FD4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Hexe" ID="{79ABEC1F-E1A1-4150-BCD6-3FD36F1F2D2F}">
-							<ChildrenList>
-								<Action Name="" ID="{E0F560CF-EA84-44B3-B2ED-8CCC244887E4}" ShortID="925338500">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
+								<Action Name="" ID="{D44CA755-57DD-484A-8A69-5615344F3B65}" ShortID="353933997">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hexe" ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_B_nker" ID="{4CF58A51-F39E-44CC-A4C5-0E69C44DCED5}">
-							<ChildrenList>
-								<Action Name="" ID="{B1566D21-5C65-4889-B0A9-7BE98E96714B}" ShortID="327316151">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Bänker" ID="{ED73ED13-D697-484F-B18E-5BB3C6819944}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Grandma" ID="{154E832E-023B-4F73-9F1F-AB6C3A024866}">
-							<ChildrenList>
-								<Action Name="" ID="{3F6AD7ED-1A51-4881-80EF-7DA1D007AEF1}" ShortID="775818385">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Grandma" ID="{A73ACF7F-74FB-4F41-8C51-377FA7F2BDE4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="Dialogue end" ID="{F79C8319-D911-4CB4-9DDA-68A083B5C946}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

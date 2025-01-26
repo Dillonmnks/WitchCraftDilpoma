@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{09F856D7-4317-4AB8-A313-EA0EE150B676}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{09F856D7-4317-4AB8-A313-EA0EE150B676}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{09F856D7-4317-4AB8-A313-EA0EE150B676}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{BB48C117-6E60-4F22-96EB-92EE017029BA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Dialog" ID="{DA7FCF12-2622-4268-8743-D24729EC620F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dialogue_end" ID="{D63288F8-72DC-431F-AAA3-51283CDADE32}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Hexe" ID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

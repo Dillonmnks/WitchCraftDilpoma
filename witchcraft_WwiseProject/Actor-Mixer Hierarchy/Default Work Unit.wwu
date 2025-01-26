@@ -213,6 +213,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -798,6 +803,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1012,6 +1022,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Main Charakter  jump down-3" ID="{248208F7-9E55-4A01-AFA0-5BC414D4622E}" ShortID="811807526">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1154,6 +1171,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Main Charakter  jump up-3" ID="{94E01465-445A-44FE-BCCE-5A09674A43CD}" ShortID="1046655928">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1212,6 +1236,13 @@
 									</ChildrenList>
 								</Folder>
 								<RandomSequenceContainer Name="damage take" ID="{1ADC8E64-F889-4F1D-BCBA-30A8FDF14D3B}" ShortID="592921563">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1337,7 +1368,7 @@
 									<PropertyList>
 										<Property Name="GameAuxSendVolume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
@@ -1357,7 +1388,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-11</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2136,6 +2167,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Main Charakter  heavy breathing" ID="{BF0010C3-C2BD-41EE-95A1-29593876E9A1}" ShortID="383742608">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2300,6 +2338,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Main Charakter  footsteps gravel-4" ID="{6D2540D3-A6E6-4C44-ADF0-632B4D463C67}" ShortID="1032243962">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2839,6 +2884,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Combat frog Idle_04" ID="{804401C9-41AA-4C51-AC9A-09382272E86C}" ShortID="147943507">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -2881,6 +2933,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Combat frog pet MAIN" ID="{70BAD42C-ECF1-4216-AC4C-595F245AB9D4}" ShortID="812001058">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -3739,6 +3798,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="worm interact pet_04" ID="{602D53FD-9B95-4302-A6AE-0362BA7836B6}" ShortID="473989853">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4762,6 +4828,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="nutshell" ID="{3E72466D-4508-4AAC-BADA-F5BDEB87CA85}" ShortID="406166251">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4872,6 +4945,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="  nutshell-5" ID="{9A0F770B-D43C-4D7C-B35C-8DAB1D26162F}" ShortID="252325994">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5244,7 +5324,151 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="river bubbles" ID="{5283E0B2-835E-49A4-BD57-9C1AE41046D3}" ShortID="935642469">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{C13540BC-9C91-4D72-8E2F-00DFE307E2BB}">
+												<Attenuation Name="Att Atmo (Custom)" ID="{B9B0E3CF-92EE-4AEE-9164-C77FCDB5A6C3}" ShortID="36258206">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{503FA133-798C-4E4C-BD74-599E7B2F3589}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>2000</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																<Curve Name="VolumeWetGame" ID="{26C9B926-6033-4D79-8A40-D4F1BC96D78A}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>2000</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																<Curve Name="VolumeWetUser" ID="{DE9CC1F5-8CA2-4F4A-9E2D-E8BB1B9DF7EF}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>2000</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{7F1C965C-5824-4346-BEB3-E4100422356D}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>2000</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
 										</Reference>
@@ -5497,10 +5721,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Bänker" ID="{ED73ED13-D697-484F-B18E-5BB3C6819944}" ShortID="436605323">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
+								<SwitchContainer Name="Dialog" ID="{E06646B0-C2CD-4187-BFA6-321BC0A47FD4}" ShortID="995597585">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -5508,96 +5729,808 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Dialog" ID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}" WorkUnitID="{2C855453-BBB5-4AE8-8536-35D576635ADD}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Bänker" ID="{16FAC240-7A2E-4D90-B521-360981C29890}">
+										<RandomSequenceContainer Name="Bänker" ID="{A93D7824-C92C-4D89-8BF3-1F0EA9809FCC}" ShortID="437146299">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bänker_01" ID="{662D607A-E747-434A-93C5-3F39200FEA8D}" ShortID="690398368">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bänker" ID="{BF3AF6BA-BA33-45A7-A77F-AB87DA0DFA9F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.05112474437628"/>
+																<Property Name="TrimEnd" Type="Real64" Value="9.98568507157462"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Bänker.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="906327466"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bänker" ID="{BF3AF6BA-BA33-45A7-A77F-AB87DA0DFA9F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bänker_02" ID="{B9C3D82E-0712-4D93-A060-30F17E740BC0}" ShortID="181835537">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bänker" ID="{56A598BB-8F19-490B-8B09-73AC6B9FB51D}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="11.2290388548057"/>
+																<Property Name="TrimEnd" Type="Real64" Value="15.6584867075665"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Bänker.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="407594089"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bänker" ID="{56A598BB-8F19-490B-8B09-73AC6B9FB51D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bänker_03" ID="{FDAB5CB1-1C9A-4199-834D-DB662EEB206B}" ShortID="374965576">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bänker" ID="{19C69F72-449A-4F26-9749-06245ECCA5A0}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="27.8200408997955"/>
+																<Property Name="TrimEnd" Type="Real64" Value="32.3271983640082"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Bänker.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="866680057"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bänker" ID="{19C69F72-449A-4F26-9749-06245ECCA5A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bänker_04" ID="{C24B6A8F-FAD6-48B9-8B8D-45F98211C542}" ShortID="334480735">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bänker" ID="{ADDB4AAD-697F-4D58-AF12-7C7A5AC2A773}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="43.8670756646217"/>
+																<Property Name="TrimEnd" Type="Real64" Value="48.5685071574642"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Bänker.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="191196508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bänker" ID="{ADDB4AAD-697F-4D58-AF12-7C7A5AC2A773}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Grandma" ID="{AF40C520-4E11-4E3A-AB92-08FCD367B653}" ShortID="686309851">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grandma_01" ID="{2918E807-5C67-4EDC-B489-A5D0332236B7}" ShortID="754238624">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grandma" ID="{C25A2CE1-FAD0-410E-AB89-E9A1DCD8E479}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.219730061349693"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.183108384458078"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.02838445807771"/>
+																<Property Name="TrimEnd" Type="Real64" Value="9.66812269938651"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grandma.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="161903066"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grandma" ID="{C25A2CE1-FAD0-410E-AB89-E9A1DCD8E479}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grandma_02" ID="{29464111-DCB7-4415-9E1E-FF7F6DEDA8C7}" ShortID="985992389">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grandma" ID="{DA62B811-5700-4015-8B68-71423C6EF471}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.219730061349694"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.146486707566464"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="11.0597464212679"/>
+																<Property Name="TrimEnd" Type="Real64" Value="15.8571860940695"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grandma.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="204154204"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grandma" ID="{DA62B811-5700-4015-8B68-71423C6EF471}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grandma_03" ID="{36F0F1D0-8CBC-4224-A376-704DA990F7DA}" ShortID="916456567">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grandma" ID="{E7DF2F26-A9B1-46EB-BB4E-D6AFD342F438}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="26.1844989775051"/>
+																<Property Name="TrimEnd" Type="Real64" Value="31.348155419223"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grandma.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="805202463"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grandma" ID="{E7DF2F26-A9B1-46EB-BB4E-D6AFD342F438}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grandma_04" ID="{6803FA63-3756-4678-A624-C95E6CCA649E}" ShortID="992952343">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grandma" ID="{F19B4ECE-F9AF-4111-8606-A9D558D699C8}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.40283844580777"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.18310838445808"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="33.0327525562372"/>
+																<Property Name="TrimEnd" Type="Real64" Value="38.9288425357873"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grandma.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1015348893"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grandma" ID="{F19B4ECE-F9AF-4111-8606-A9D558D699C8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hexe" ID="{233859D7-A51F-4F90-A179-BBA12DA02AE5}" ShortID="88957006">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Hexe_01" ID="{CF17CD89-DFA9-4564-9578-CEE2C82F7757}" ShortID="154791085">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hexe" ID="{B836FA8E-E696-4184-9A14-424B77324A71}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.883435582822086"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.74437627811861"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Hexe.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="41935058"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hexe" ID="{B836FA8E-E696-4184-9A14-424B77324A71}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hexe_02" ID="{2E51B499-2869-4FD7-9EB6-53F82E6907B5}" ShortID="75195961">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hexe" ID="{B1E7F161-D0C4-49A4-AC1D-6D4DFA803F0C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.359918200408997"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.16359918200409"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.92229038854806"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.4049079754601"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Hexe.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="116496702"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hexe" ID="{B1E7F161-D0C4-49A4-AC1D-6D4DFA803F0C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hexe_03" ID="{790F9A85-37F7-4F07-AAD6-489AC6702C1D}" ShortID="347068365">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hexe" ID="{268C6FFB-620B-43C2-B424-960B700EE65C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.359918200408998"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.229038854805726"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="25.3905930470348"/>
+																<Property Name="TrimEnd" Type="Real64" Value="30.4621676891616"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Hexe.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="887565968"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hexe" ID="{268C6FFB-620B-43C2-B424-960B700EE65C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hexe_04" ID="{4708E6B2-26A5-4477-A9A5-A050D56A3281}" ShortID="229619067">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hexe" ID="{1C5D6BF0-6D12-4DC5-87F9-8BCE08565877}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.29447852760736"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.229038854805729"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="33.2760736196318"/>
+																<Property Name="TrimEnd" Type="Real64" Value="39.1329243353783"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Hexe.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="424083846"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hexe" ID="{1C5D6BF0-6D12-4DC5-87F9-8BCE08565877}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Händler" ID="{75BD9C34-C69F-47A9-B972-C956DC7F612F}" ShortID="794039645">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Händler" ID="{6D1DBED3-90C6-42C1-AEAE-D8E00A924520}" ShortID="271158663">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Händler" ID="{177ED69E-50B5-4E79-BBA6-CA0FD62A2813}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.359918200408998"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.149965916837082"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.839809134287662"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.03885480572597"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Händler.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="817214624"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Händler" ID="{177ED69E-50B5-4E79-BBA6-CA0FD62A2813}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Händler_01" ID="{05E7E97A-54CA-4DF3-AB4C-4E7D52C72A5F}" ShortID="638314550">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Händler" ID="{B5A78844-89A8-431B-877E-16227514E47D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.269938650306749"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.149965916837083"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.84867075664622"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.8875255623722"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Händler.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="221513589"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Händler" ID="{B5A78844-89A8-431B-877E-16227514E47D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Händler_02" ID="{B8EF54CC-0F7E-4688-8F23-60B70825D773}" ShortID="28929385">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Händler" ID="{975BDFBA-C0C6-4A4C-98E5-3BE48B8AE767}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.359918200408998"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.269938650306745"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="18.4458077709611"/>
+																<Property Name="TrimEnd" Type="Real64" Value="23.8445807770961"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Händler.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="543564526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Händler" ID="{975BDFBA-C0C6-4A4C-98E5-3BE48B8AE767}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Händler_03" ID="{096EE9F4-EB88-4D97-83DE-89159A95A157}" ShortID="18993356">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Händler" ID="{EE191527-B2F2-4566-AF44-6F4838BA1BCC}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.179959100204499"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.119972733469666"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="32.1526925698705"/>
+																<Property Name="TrimEnd" Type="Real64" Value="37.5514655760055"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Händler.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="619184856"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Händler" ID="{EE191527-B2F2-4566-AF44-6F4838BA1BCC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Grandma" ID="{AF40C520-4E11-4E3A-AB92-08FCD367B653}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Bänker" ID="{A93D7824-C92C-4D89-8BF3-1F0EA9809FCC}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Händler" ID="{75BD9C34-C69F-47A9-B972-C956DC7F612F}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Hexe" ID="{233859D7-A51F-4F90-A179-BBA12DA02AE5}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Handler" ID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+												<ItemList>
+													<ItemRef Name="Händler" ID="{75BD9C34-C69F-47A9-B972-C956DC7F612F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+												<ItemList>
+													<ItemRef Name="Bänker" ID="{A93D7824-C92C-4D89-8BF3-1F0EA9809FCC}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Hexe" ID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+												<ItemList>
+													<ItemRef Name="Hexe" ID="{233859D7-A51F-4F90-A179-BBA12DA02AE5}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Grandma" ID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+												<ItemList>
+													<ItemRef Name="Grandma" ID="{AF40C520-4E11-4E3A-AB92-08FCD367B653}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Dialogue end" ID="{F79C8319-D911-4CB4-9DDA-68A083B5C946}" ShortID="329473677">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Dialog" ID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}" WorkUnitID="{2C855453-BBB5-4AE8-8536-35D576635ADD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bänkerend" ID="{550862B9-4B54-4C0E-8DC4-8BC27C403EE9}" ShortID="701927076">
 											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{ADBCB109-EDA0-4BAD-AB57-D71096DBF7E0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-51"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Bänker.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="906327466"/>
-											</MediaIDList>
-										</AudioFileSource>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bänker" ID="{C2ED4E1B-D7FF-45E7-A66D-BD8938C8F7DD}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="9.7089182119301"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.89402358320851"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bänker.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="746072551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bänker" ID="{C2ED4E1B-D7FF-45E7-A66D-BD8938C8F7DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Grandma end" ID="{9DC275A5-3139-4E6A-89A2-B9266D73A51B}" ShortID="456722093">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{777AEA00-33DA-4262-A9B4-59F502344D39}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-25"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grandma" ID="{32223C17-A64F-4922-9CC3-A04C00D4FA7C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0598793680924743"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0538914312832262"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="23.3615442883081"/>
+														<Property Name="TrimEnd" Type="Real64" Value="23.6130376342965"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Grandma.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="376627733"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Grandma" ID="{32223C17-A64F-4922-9CC3-A04C00D4FA7C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hexe end" ID="{C517F676-5969-4643-96B8-EFF49DCAC82D}" ShortID="790154519">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3FB829FD-72AE-4310-B982-7099A6699357}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-51"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hexe" ID="{90433DA0-D763-4DB8-9860-036A3B89E53E}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="30.0423689552005"/>
+														<Property Name="TrimEnd" Type="Real64" Value="30.2176560675101"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Hexe.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="456825050"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hexe" ID="{90433DA0-D763-4DB8-9860-036A3B89E53E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Händler end" ID="{7A243FA2-A349-44B1-9F34-8FBE1F006E3B}" ShortID="662997944">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4C5DE884-BF6E-4EBF-828E-369A58AA31C8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-25"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Diologue" ID="{7800FA86-2B46-4019-9B82-7431B7D1918F}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Händler" ID="{E5884676-5A9F-4311-9B04-224009E881B4}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0113605450558605"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0919121080407375"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.3408797117369"/>
+														<Property Name="TrimEnd" Type="Real64" Value="10.628441409157"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Händler.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="68970389"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Händler" ID="{E5884676-5A9F-4311-9B04-224009E881B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Bänker" ID="{16FAC240-7A2E-4D90-B521-360981C29890}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Grandma" ID="{A73ACF7F-74FB-4F41-8C51-377FA7F2BDE4}" ShortID="213391833">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Grandma" ID="{8F37199A-5724-4E28-B1E6-422F25ACBEAD}">
-											<Language>SFX</Language>
-											<AudioFile>Grandma.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1015348893"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Grandma" ID="{8F37199A-5724-4E28-B1E6-422F25ACBEAD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Hexe" ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" ShortID="823413128">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hexe" ID="{C87F6FF3-286E-46AA-B368-F0C1BE782F47}">
-											<Language>SFX</Language>
-											<AudioFile>Hexe .wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="889497535"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="Hexe _01" ID="{C33AA821-C6F8-41CA-AC72-8F41E4667BB9}">
-											<Language>SFX</Language>
-											<AudioFile>Hexe .wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="889497535"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hexe _01" ID="{C33AA821-C6F8-41CA-AC72-8F41E4667BB9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Händler_01" ID="{9A6F3DAE-9A7B-46A5-9B14-0A447AED99D8}" ShortID="517536986">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Händler" ID="{DB01CCBF-E238-4BF0-B628-A591879329E9}">
-											<Language>SFX</Language>
-											<AudioFile>Händler.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="817214624"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Händler" ID="{DB01CCBF-E238-4BF0-B628-A591879329E9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Hexe end" ID="{C517F676-5969-4643-96B8-EFF49DCAC82D}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Händler end" ID="{7A243FA2-A349-44B1-9F34-8FBE1F006E3B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Grandma end" ID="{9DC275A5-3139-4E6A-89A2-B9266D73A51B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Bänkerend" ID="{550862B9-4B54-4C0E-8DC4-8BC27C403EE9}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Handler" ID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+												<ItemList>
+													<ItemRef Name="Händler end" ID="{7A243FA2-A349-44B1-9F34-8FBE1F006E3B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+												<ItemList>
+													<ItemRef Name="Bänkerend" ID="{550862B9-4B54-4C0E-8DC4-8BC27C403EE9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Hexe" ID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+												<ItemList>
+													<ItemRef Name="Hexe end" ID="{C517F676-5969-4643-96B8-EFF49DCAC82D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Grandma" ID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+												<ItemList>
+													<ItemRef Name="Grandma end" ID="{9DC275A5-3139-4E6A-89A2-B9266D73A51B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

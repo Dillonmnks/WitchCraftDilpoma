@@ -52,6 +52,14 @@
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
+					<Switches>
+						<Switch Id="371397999" Name="Grandma" ObjectPath="\Switches\Default Work Unit\Dialog\Grandma" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+						<Switch Id="3297275997" Name="Hexe" ObjectPath="\Switches\Default Work Unit\Dialog\Hexe" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+						<Switch Id="3625525251" Name="Handler" ObjectPath="\Switches\Default Work Unit\Dialog\Handler" GUID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+						<Switch Id="4018763786" Name="Banker" ObjectPath="\Switches\Default Work Unit\Dialog\Banker" GUID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="footsteps" ObjectPath="\Switches\Default Work Unit\footsteps" GUID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
 					<Switches>
 						<Switch Id="906520814" Name="gras" ObjectPath="\Switches\Default Work Unit\footsteps\gras" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
@@ -62,7 +70,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{1EC2583D-C3E6-B3EC-834A-12DAADD608D5}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{FD6A6517-7DD5-26AD-233F-8F4688C021BE}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -91,6 +99,10 @@
 					<ShortName>Ui letter open.wav</ShortName>
 					<CachePath>SFX/Ui letter open_818F3B66.wem</CachePath>
 				</File>
+				<File Id="41935058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hexe.wav</ShortName>
+					<CachePath>SFX/Hexe_D51DE9C4.wem</CachePath>
+				</File>
 				<File Id="43027650" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps wood_D5410064.wem</CachePath>
@@ -110,6 +122,10 @@
 				<File Id="63154707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Pad_Part C_110BPM_4-4_L14-P1.wav</ShortName>
 					<CachePath>SFX/Day_Pad_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="68970389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Händler.wav</ShortName>
+					<CachePath>SFX/Händler_2EB5074D.wem</CachePath>
 				</File>
 				<File Id="71503049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item collect fail.wav</ShortName>
@@ -131,6 +147,10 @@
 					<ShortName>Ui quest accept.wav</ShortName>
 					<CachePath>SFX/Ui quest accept_818F3B66.wem</CachePath>
 				</File>
+				<File Id="116496702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hexe.wav</ShortName>
+					<CachePath>SFX/Hexe_A599733D.wem</CachePath>
+				</File>
 				<File Id="123107940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
 					<CachePath>SFX/Combat frog feed_05FF3605.wem</CachePath>
@@ -139,10 +159,6 @@
 					<ShortName>Main Charakter  footsteps wood-3.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps wood-3_BA48C4C6.wem</CachePath>
 				</File>
-				<File Id="131141707" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  jump down-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump down-3_B2306420.wem</CachePath>
-				</File>
 				<File Id="132158257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Piano_Part A_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Night_Piano_Part A_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
@@ -150,10 +166,6 @@
 				<File Id="132178419" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Hi Hat_Part C_110BPM_4-4_L14-P1.wav</ShortName>
 					<CachePath>SFX/Night_Hi Hat_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="132820239" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  damage take.wav</ShortName>
-					<CachePath>SFX/Main Charakter  damage take_818F3B66.wem</CachePath>
 				</File>
 				<File Id="135775179" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell-2.wav</ShortName>
@@ -175,6 +187,10 @@
 					<ShortName>  buy-3.wav</ShortName>
 					<CachePath>SFX/  buy-3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="161903066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grandma.wav</ShortName>
+					<CachePath>SFX/Grandma_B7A50CF1.wem</CachePath>
+				</File>
 				<File Id="170190639" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> dagegen rennen.wav</ShortName>
 					<CachePath>SFX/ dagegen rennen_818F3B66.wem</CachePath>
@@ -195,10 +211,6 @@
 					<ShortName>Combat interact pet .wav</ShortName>
 					<CachePath>SFX/Combat interact pet _F27C2920.wem</CachePath>
 				</File>
-				<File Id="191497730" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  jump up-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump up-3_225BA4FB.wem</CachePath>
-				</File>
 				<File Id="191729255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_LoFiPiano_Part A_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Night_LoFiPiano_Part A_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
@@ -215,6 +227,10 @@
 					<ShortName> moral increase.wav</ShortName>
 					<CachePath>SFX/ moral increase_818F3B66.wem</CachePath>
 				</File>
+				<File Id="204154204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grandma.wav</ShortName>
+					<CachePath>SFX/Grandma_002602F4.wem</CachePath>
+				</File>
 				<File Id="213656067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
 					<CachePath>SFX/Combat interact feed_6CB2C41D.wem</CachePath>
@@ -226,6 +242,10 @@
 				<File Id="217805513" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
 					<CachePath>SFX/Combat interact feed_F5A6870E.wem</CachePath>
+				</File>
+				<File Id="221513589" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Händler.wav</ShortName>
+					<CachePath>SFX/Händler_32917E57.wem</CachePath>
 				</File>
 				<File Id="222093472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Horns_Part A_110BPM_4-4_L16-P0.wav</ShortName>
@@ -246,10 +266,6 @@
 				<File Id="230478404" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 1.wav</ShortName>
 					<CachePath>SFX/  birds 1_AFAB6F97.wem</CachePath>
-				</File>
-				<File Id="240961913" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  damage take-4.wav</ShortName>
-					<CachePath>SFX/Main Charakter  damage take-4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="241164100" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump down-2.wav</ShortName>
@@ -371,6 +387,10 @@
 					<ShortName>Combat  worm idle.wav</ShortName>
 					<CachePath>SFX/Combat  worm idle_818F3B66.wem</CachePath>
 				</File>
+				<File Id="376627733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grandma.wav</ShortName>
+					<CachePath>SFX/Grandma_DC930CDA.wem</CachePath>
+				</File>
 				<File Id="387172603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 6.wav</ShortName>
 					<CachePath>SFX/  birds 6_F3D8F7E3.wem</CachePath>
@@ -395,6 +415,10 @@
 					<ShortName>Day_Oboe_Part B_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Day_Oboe_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="407594089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bänker.wav</ShortName>
+					<CachePath>SFX/Bänker_3FDD660C.wem</CachePath>
+				</File>
 				<File Id="420124859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walk.wav</ShortName>
 					<CachePath>SFX/Walk_CB841B0A.wem</CachePath>
@@ -418,6 +442,10 @@
 				<File Id="454643591" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 5.wav</ShortName>
 					<CachePath>SFX/  leaves 5_300EB120.wem</CachePath>
+				</File>
+				<File Id="456825050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hexe.wav</ShortName>
+					<CachePath>SFX/Hexe_CE027167.wem</CachePath>
 				</File>
 				<File Id="467215598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-2.wav</ShortName>
@@ -487,6 +515,10 @@
 					<ShortName>Main Charakter  footsteps wood-1.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps wood-1_E12E8872.wem</CachePath>
 				</File>
+				<File Id="543564526" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Händler.wav</ShortName>
+					<CachePath>SFX/Händler_10C29FA4.wem</CachePath>
+				</File>
 				<File Id="559945275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Synth_Part B_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Day_Synth_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
@@ -547,10 +579,6 @@
 					<ShortName>Combat frog pet .wav</ShortName>
 					<CachePath>SFX/Combat frog pet _FDB60D7A.wem</CachePath>
 				</File>
-				<File Id="696745964" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _818F3B66.wem</CachePath>
-				</File>
 				<File Id="697205456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell.wav</ShortName>
 					<CachePath>SFX/  sell_818F3B66.wem</CachePath>
@@ -587,6 +615,10 @@
 					<ShortName>Day_Oboe_Part D_110BPM_4-4_L14-P0.wav</ShortName>
 					<CachePath>SFX/Day_Oboe_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="746072551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bänker.wav</ShortName>
+					<CachePath>SFX/Bänker_C13132B9.wem</CachePath>
+				</File>
 				<File Id="749117629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell-1.wav</ShortName>
 					<CachePath>SFX/  sell-1_818F3B66.wem</CachePath>
@@ -594,10 +626,6 @@
 				<File Id="751077151" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-3.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps stone-3_3AF5B957.wem</CachePath>
-				</File>
-				<File Id="755946980" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  heavy breathing.wav</ShortName>
-					<CachePath>SFX/Main Charakter  heavy breathing_818F3B66.wem</CachePath>
 				</File>
 				<File Id="756169373" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Oboe_Part A_110BPM_4-4_L16-P0.wav</ShortName>
@@ -623,6 +651,10 @@
 					<ShortName>  buy-2.wav</ShortName>
 					<CachePath>SFX/  buy-2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="805202463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grandma.wav</ShortName>
+					<CachePath>SFX/Grandma_D2FC810E.wem</CachePath>
+				</File>
 				<File Id="806215852" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Strings_Part D_110BPM_4-4_L14-P0.wav</ShortName>
 					<CachePath>SFX/Day_Strings_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem</CachePath>
@@ -639,17 +671,9 @@
 					<ShortName> fire .wav</ShortName>
 					<CachePath>SFX/ fire _818F3B66.wem</CachePath>
 				</File>
-				<File Id="816608275" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  nutshell-5.wav</ShortName>
-					<CachePath>SFX/  nutshell-5_818F3B66.wem</CachePath>
-				</File>
 				<File Id="817214624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Händler.wav</ShortName>
-					<CachePath>SFX/Händler_818F3B66.wem</CachePath>
-				</File>
-				<File Id="819693839" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  damage take-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  damage take-2_818F3B66.wem</CachePath>
+					<CachePath>SFX/Händler_2B8324C4.wem</CachePath>
 				</File>
 				<File Id="819852530" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Horns_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -675,14 +699,6 @@
 					<ShortName>  nutshell-3.wav</ShortName>
 					<CachePath>SFX/  nutshell-3_818F3B66.wem</CachePath>
 				</File>
-				<File Id="846924471" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_697377FA.wem</CachePath>
-				</File>
-				<File Id="848868357" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  damage take-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  damage take-3_818F3B66.wem</CachePath>
-				</File>
 				<File Id="850141276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-1.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps gras-1_F8916FC0.wem</CachePath>
@@ -698,6 +714,10 @@
 				<File Id="855748575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-2.wav</ShortName>
 					<CachePath>SFX/  schneiden-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="866680057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bänker.wav</ShortName>
+					<CachePath>SFX/Bänker_5B7B2E7A.wem</CachePath>
 				</File>
 				<File Id="873389055" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui move cursor.wav</ShortName>
@@ -715,13 +735,13 @@
 					<ShortName>Combat interact feed.wav</ShortName>
 					<CachePath>SFX/Combat interact feed_84DDF1F6.wem</CachePath>
 				</File>
+				<File Id="887565968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hexe.wav</ShortName>
+					<CachePath>SFX/Hexe_4D8BBD87.wem</CachePath>
+				</File>
 				<File Id="888472459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
 					<CachePath>SFX/Combat frog feed_DCAD8611.wem</CachePath>
-				</File>
-				<File Id="889497535" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hexe .wav</ShortName>
-					<CachePath>SFX/Hexe _818F3B66.wem</CachePath>
 				</File>
 				<File Id="892647975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
@@ -745,7 +765,7 @@
 				</File>
 				<File Id="906327466" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bänker.wav</ShortName>
-					<CachePath>SFX/Bänker_11A93380.wem</CachePath>
+					<CachePath>SFX/Bänker_8A58AC1E.wem</CachePath>
 				</File>
 				<File Id="912893642" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  coinsound for money-4.wav</ShortName>
@@ -779,10 +799,6 @@
 					<ShortName>Main Charakter  footsteps gras-4.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps gras-4_CF652331.wem</CachePath>
 				</File>
-				<File Id="956949307" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  damage take-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  damage take-1_818F3B66.wem</CachePath>
-				</File>
 				<File Id="963689456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-1.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps stone-1_E6BB3E9C.wem</CachePath>
@@ -795,10 +811,6 @@
 					<ShortName>Ui item use eat.wav</ShortName>
 					<CachePath>SFX/Ui item use eat_818F3B66.wem</CachePath>
 				</File>
-				<File Id="979055805" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Combat interact pet .wav</ShortName>
-					<CachePath>SFX/Combat interact pet _98CD4F7C.wem</CachePath>
-				</File>
 				<File Id="988185398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves.wav</ShortName>
 					<CachePath>SFX/  leaves_644D2887.wem</CachePath>
@@ -806,10 +818,6 @@
 				<File Id="988660099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
 					<CachePath>SFX/Combat interact pet _BE651A97.wem</CachePath>
-				</File>
-				<File Id="990356872" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  nutshell.wav</ShortName>
-					<CachePath>SFX/  nutshell_818F3B66.wem</CachePath>
 				</File>
 				<File Id="995229971" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  coinsound for money.wav</ShortName>
@@ -822,10 +830,6 @@
 				<File Id="1000085236" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Piano_Part B_110BPM_4-4_L14-P1.wav</ShortName>
 					<CachePath>SFX/Night_Piano_Part B_110BPM_4-4_L14-P1_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="1015348893" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Grandma.wav</ShortName>
-					<CachePath>SFX/Grandma_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1016314410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use recipe.wav</ShortName>
@@ -939,7 +943,7 @@
 						<MediaRef Id="171969739"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1766696002" Name="Play___river_bubbles" ObjectPath="\Events\Default Work Unit\Atmo\Play___river_bubbles" GUID="{09A5C621-1968-4880-B138-87A93F0BF7C4}" DurationType="OneShot" DurationMin="42.295395" DurationMax="42.295395">
+				<Event Id="1766696002" Name="Play___river_bubbles" ObjectPath="\Events\Default Work Unit\Atmo\Play___river_bubbles" GUID="{09A5C621-1968-4880-B138-87A93F0BF7C4}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="42.295395" DurationMax="42.295395">
 					<MediaRefs>
 						<MediaRef Id="903737124"/>
 					</MediaRefs>
@@ -969,11 +973,6 @@
 						<MediaRef Id="542032580"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2875132479" Name="Play__dagegen_rennen" ObjectPath="\Events\Default Work Unit\Gameplay\Play__dagegen_rennen" GUID="{A360F545-FE33-4551-A8B8-ADF6E0319D90}" DurationType="OneShot" DurationMin="0.9045" DurationMax="0.9045">
-					<MediaRefs>
-						<MediaRef Id="170190639"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="3514747546" Name="Play__door_shaking_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__door_shaking_" GUID="{D8D26C28-6F2E-47B1-986E-97413A59757D}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
 					<MediaRefs>
 						<MediaRef Id="361713716"/>
@@ -997,11 +996,6 @@
 				<Event Id="392743550" Name="Play__quest_finished" ObjectPath="\Events\Default Work Unit\händler\Play__quest_finished" GUID="{5D4A3A92-AAF1-43DC-86ED-389E9CC87564}" DurationType="OneShot" DurationMin="3" DurationMax="3">
 					<MediaRefs>
 						<MediaRef Id="309348204"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1278811423" Name="Play_B_nker" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_B_nker" GUID="{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="906327466"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="161356194" Name="Play_birds_1" ObjectPath="\Events\Default Work Unit\Atmo\Play_birds_1" GUID="{713F8B65-16DA-4130-B11C-14AE0954BACB}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="40.741688" DurationMax="40.741688">
@@ -1055,15 +1049,6 @@
 						<MediaRef Id="855748575"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1083042653" Name="Play_damage_take" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_damage_take" GUID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.375">
-					<MediaRefs>
-						<MediaRef Id="132820239"/>
-						<MediaRef Id="240961913"/>
-						<MediaRef Id="819693839"/>
-						<MediaRef Id="848868357"/>
-						<MediaRef Id="956949307"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2687999423" Name="Play_Day_Night" ObjectPath="\Events\Default Work Unit\Music\Play_Day_Night" GUID="{1EE4FA1A-7FE2-4EED-8825-F9C3FED26ACD}" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -1108,6 +1093,70 @@
 								<MediaRef Id="772803699"/>
 								<MediaRef Id="819852530"/>
 								<MediaRef Id="1000085236"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="740168818" Name="Play_Dialog" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_Dialog" GUID="{DA7FCF12-2622-4268-8743-D24729EC620F}" DurationType="OneShot" DurationMin="3.8609407" DurationMax="5.639738">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="3625525251" GUID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+							<MediaRefs>
+								<MediaRef Id="221513589"/>
+								<MediaRef Id="543564526"/>
+								<MediaRef Id="817214624"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="4018763786" GUID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+							<MediaRefs>
+								<MediaRef Id="407594089"/>
+								<MediaRef Id="866680057"/>
+								<MediaRef Id="906327466"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="3297275997" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+							<MediaRefs>
+								<MediaRef Id="41935058"/>
+								<MediaRef Id="116496702"/>
+								<MediaRef Id="887565968"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="371397999" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+							<MediaRefs>
+								<MediaRef Id="161903066"/>
+								<MediaRef Id="204154204"/>
+								<MediaRef Id="805202463"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3249275730" Name="Play_Dialogue_end" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_Dialogue_end" GUID="{D63288F8-72DC-431F-AAA3-51283CDADE32}" DurationType="OneShot" DurationMin="0.17528711" DurationMax="0.29174435">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="3625525251" GUID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+							<MediaRefs>
+								<MediaRef Id="68970389"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="4018763786" GUID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+							<MediaRefs>
+								<MediaRef Id="746072551"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="3297275997" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+							<MediaRefs>
+								<MediaRef Id="456825050"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="371397999" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+							<MediaRefs>
+								<MediaRef Id="376627733"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1176,49 +1225,30 @@
 						<MediaRef Id="888472459"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1420078893" Name="Play_frog_idle" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_idle" GUID="{16717B19-F897-41BC-90CA-DEFB94F6629C}" DurationType="OneShot" DurationMin="1.1536871" DurationMax="1.5382495">
+				<Event Id="1420078893" Name="Play_frog_idle" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_idle" GUID="{16717B19-F897-41BC-90CA-DEFB94F6629C}" DurationType="OneShot" DurationMin="1.3246037" DurationMax="1.5382495">
 					<MediaRefs>
 						<MediaRef Id="10077899"/>
 						<MediaRef Id="50575655"/>
 						<MediaRef Id="580912414"/>
-						<MediaRef Id="846924471"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2335987430" Name="Play_frog_pet" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_pet" GUID="{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}" DurationType="OneShot" DurationMin="0.37215713" DurationMax="9">
+				<Event Id="2335987430" Name="Play_frog_pet" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_pet" GUID="{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}" DurationType="OneShot" DurationMin="0.37215713" DurationMax="0.44038594">
 					<MediaRefs>
 						<MediaRef Id="265985123"/>
 						<MediaRef Id="541463883"/>
 						<MediaRef Id="683805629"/>
-						<MediaRef Id="696745964"/>
 						<MediaRef Id="913835205"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3765097210" Name="Play_Grandma" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_Grandma" GUID="{446DD5A8-0C78-4C99-97C4-E899246DBF65}" DurationType="OneShot" DurationMin="13" DurationMax="13">
-					<MediaRefs>
-						<MediaRef Id="1015348893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="513292110" Name="Play_H_ndler_01" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_H_ndler_01" GUID="{58DF7204-319A-49AA-9E30-12B649C3FEBE}" DurationType="OneShot" DurationMin="13" DurationMax="13">
-					<MediaRefs>
-						<MediaRef Id="817214624"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2790146506" Name="Play_Hexe" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_Hexe" GUID="{8F116051-A4AA-467F-9529-51B35564666A}" DurationType="OneShot" DurationMin="12.387667" DurationMax="12.387667">
-					<MediaRefs>
-						<MediaRef Id="889497535"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1954589493" Name="Play_jump_down" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_jump_down" GUID="{3162CFD6-96C1-48A8-9448-B0166C50316C}" DurationType="OneShot" DurationMin="0.3707059" DurationMax="0.7287832">
 					<MediaRefs>
-						<MediaRef Id="131141707"/>
 						<MediaRef Id="241164100"/>
 						<MediaRef Id="304044752"/>
 						<MediaRef Id="339378936"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2372486210" Name="Play_jump_up" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_jump_up" GUID="{F13024FC-88E7-4787-96CE-33A7BD521B62}" DurationType="OneShot" DurationMin="0.25227645" DurationMax="0.31737006">
+				<Event Id="2372486210" Name="Play_jump_up" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_jump_up" GUID="{F13024FC-88E7-4787-96CE-33A7BD521B62}" DurationType="OneShot" DurationMin="0.25227645" DurationMax="0.3142586">
 					<MediaRefs>
-						<MediaRef Id="191497730"/>
 						<MediaRef Id="197177071"/>
 						<MediaRef Id="275632591"/>
 						<MediaRef Id="1024205521"/>
@@ -1231,18 +1261,11 @@
 						<MediaRef Id="1057484461"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="314014867" Name="Play_Main_Charakter__heavy_breathing" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_Main_Charakter__heavy_breathing" GUID="{7B67515D-E98B-4724-B442-4DEFFC2A51C4}" DurationType="OneShot" DurationMin="9.75" DurationMax="9.75">
-					<MediaRefs>
-						<MediaRef Id="755946980"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="3183376343" Name="Play_Nutshell" ObjectPath="\Events\Default Work Unit\Atmo\Play_Nutshell" GUID="{E35663FC-9EC9-4596-97E8-F18A7752E670}" DurationType="OneShot" DurationMin="5.5" DurationMax="5.5">
 					<MediaRefs>
-						<MediaRef Id="816608275"/>
 						<MediaRef Id="843480435"/>
 						<MediaRef Id="851063997"/>
 						<MediaRef Id="899695238"/>
-						<MediaRef Id="990356872"/>
 						<MediaRef Id="997968862"/>
 					</MediaRefs>
 				</Event>
@@ -1392,11 +1415,10 @@
 						<MediaRef Id="930120994"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1570873034" Name="Play_worm_interact_pet" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_interact_pet" GUID="{B9479D09-85CC-4750-8ED2-F166BB9ED98C}" DurationType="OneShot" DurationMin="0.66988283" DurationMax="0.9676086">
+				<Event Id="1570873034" Name="Play_worm_interact_pet" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_interact_pet" GUID="{B9479D09-85CC-4750-8ED2-F166BB9ED98C}" DurationType="OneShot" DurationMin="0.66988283" DurationMax="0.8559614">
 					<MediaRefs>
 						<MediaRef Id="146395362"/>
 						<MediaRef Id="186924588"/>
-						<MediaRef Id="979055805"/>
 						<MediaRef Id="988660099"/>
 					</MediaRefs>
 				</Event>
@@ -1407,16 +1429,20 @@
 						<MediaRef Id="827643818"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1415276193" Name="Stop_B_nker" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Stop_B_nker" GUID="{4CF58A51-F39E-44CC-A4C5-0E69C44DCED5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="999264040" Name="Stop_Grandma" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Stop_Grandma" GUID="{154E832E-023B-4F73-9F1F-AB6C3A024866}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1526053020" Name="Stop_H_ndler_01" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Stop_H_ndler_01" GUID="{E140AE04-7751-4126-8AC7-38587C3AD0A1}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2753082400" Name="Stop_Hexe" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Stop_Hexe" GUID="{79ABEC1F-E1A1-4150-BCD6-3FD36F1F2D2F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
 					<Switches>
 						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
+					<Switches>
+						<Switch Id="371397999" Name="Grandma" ObjectPath="\Switches\Default Work Unit\Dialog\Grandma" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+						<Switch Id="3297275997" Name="Hexe" ObjectPath="\Switches\Default Work Unit\Dialog\Hexe" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+						<Switch Id="3625525251" Name="Handler" ObjectPath="\Switches\Default Work Unit\Dialog\Handler" GUID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+						<Switch Id="4018763786" Name="Banker" ObjectPath="\Switches\Default Work Unit\Dialog\Banker" GUID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="footsteps" ObjectPath="\Switches\Default Work Unit\footsteps" GUID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
@@ -1430,5 +1456,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AEE05AE9-B5E4-969D-4F15-427C5B604AC1}</FileHash>
+	<FileHash>{B7066398-2761-17C0-3F44-F301E2A3272E}</FileHash>
 </SoundBanksInfo>

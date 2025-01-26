@@ -136,6 +136,38 @@
       ]
      },
      {
+      "Id": "1235749641",
+      "Name": "Dialog",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Dialog",
+      "GUID": "{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}",
+      "Switches": [
+       {
+        "Id": "371397999",
+        "Name": "Grandma",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Grandma",
+        "GUID": "{38F768AD-779B-4000-BF91-412F41794AC0}"
+       },
+       {
+        "Id": "3297275997",
+        "Name": "Hexe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Hexe",
+        "GUID": "{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"
+       },
+       {
+        "Id": "3625525251",
+        "Name": "Handler",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Handler",
+        "GUID": "{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"
+       },
+       {
+        "Id": "4018763786",
+        "Name": "Banker",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Banker",
+        "GUID": "{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"
+       }
+      ]
+     },
+     {
       "Id": "2385628198",
       "Name": "footsteps",
       "ObjectPath": "\\Switches\\Default Work Unit\\footsteps",
@@ -174,7 +206,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{1EC2583D-C3E6-B3EC-834A-12DAADD608D5}",
+    "Hash": "{FD6A6517-7DD5-26AD-233F-8F4688C021BE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -228,6 +260,14 @@
       "CachePath": "SFX/Ui letter open_818F3B66.wem"
      },
      {
+      "Id": "41935058",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hexe.wav",
+      "CachePath": "SFX/Hexe_D51DE9C4.wem"
+     },
+     {
       "Id": "43027650",
       "Language": "SFX",
       "Streaming": "false",
@@ -266,6 +306,14 @@
       "Location": "Memory",
       "ShortName": "Day_Pad_Part C_110BPM_4-4_L14-P1.wav",
       "CachePath": "SFX/Day_Pad_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem"
+     },
+     {
+      "Id": "68970389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Händler.wav",
+      "CachePath": "SFX/Händler_2EB5074D.wem"
      },
      {
       "Id": "71503049",
@@ -308,6 +356,14 @@
       "CachePath": "SFX/Ui quest accept_818F3B66.wem"
      },
      {
+      "Id": "116496702",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hexe.wav",
+      "CachePath": "SFX/Hexe_A599733D.wem"
+     },
+     {
       "Id": "123107940",
       "Language": "SFX",
       "Streaming": "false",
@@ -324,14 +380,6 @@
       "CachePath": "SFX/Main Charakter  footsteps wood-3_BA48C4C6.wem"
      },
      {
-      "Id": "131141707",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  jump down-3.wav",
-      "CachePath": "SFX/Main Charakter  jump down-3_B2306420.wem"
-     },
-     {
       "Id": "132158257",
       "Language": "SFX",
       "Streaming": "false",
@@ -346,14 +394,6 @@
       "Location": "Memory",
       "ShortName": "Night_Hi Hat_Part C_110BPM_4-4_L14-P1.wav",
       "CachePath": "SFX/Night_Hi Hat_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem"
-     },
-     {
-      "Id": "132820239",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  damage take.wav",
-      "CachePath": "SFX/Main Charakter  damage take_818F3B66.wem"
      },
      {
       "Id": "135775179",
@@ -396,6 +436,14 @@
       "CachePath": "SFX/  buy-3_818F3B66.wem"
      },
      {
+      "Id": "161903066",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grandma.wav",
+      "CachePath": "SFX/Grandma_B7A50CF1.wem"
+     },
+     {
       "Id": "170190639",
       "Language": "SFX",
       "Streaming": "false",
@@ -436,14 +484,6 @@
       "CachePath": "SFX/Combat interact pet _F27C2920.wem"
      },
      {
-      "Id": "191497730",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  jump up-3.wav",
-      "CachePath": "SFX/Main Charakter  jump up-3_225BA4FB.wem"
-     },
-     {
       "Id": "191729255",
       "Language": "SFX",
       "Streaming": "false",
@@ -476,6 +516,14 @@
       "CachePath": "SFX/ moral increase_818F3B66.wem"
      },
      {
+      "Id": "204154204",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grandma.wav",
+      "CachePath": "SFX/Grandma_002602F4.wem"
+     },
+     {
       "Id": "213656067",
       "Language": "SFX",
       "Streaming": "false",
@@ -498,6 +546,14 @@
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
       "CachePath": "SFX/Combat interact feed_F5A6870E.wem"
+     },
+     {
+      "Id": "221513589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Händler.wav",
+      "CachePath": "SFX/Händler_32917E57.wem"
      },
      {
       "Id": "222093472",
@@ -538,14 +594,6 @@
       "Location": "Memory",
       "ShortName": "  birds 1.wav",
       "CachePath": "SFX/  birds 1_AFAB6F97.wem"
-     },
-     {
-      "Id": "240961913",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  damage take-4.wav",
-      "CachePath": "SFX/Main Charakter  damage take-4_818F3B66.wem"
      },
      {
       "Id": "241164100",
@@ -788,6 +836,14 @@
       "CachePath": "SFX/Combat  worm idle_818F3B66.wem"
      },
      {
+      "Id": "376627733",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grandma.wav",
+      "CachePath": "SFX/Grandma_DC930CDA.wem"
+     },
+     {
       "Id": "387172603",
       "Language": "SFX",
       "Streaming": "false",
@@ -836,6 +892,14 @@
       "CachePath": "SFX/Day_Oboe_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem"
      },
      {
+      "Id": "407594089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bänker.wav",
+      "CachePath": "SFX/Bänker_3FDD660C.wem"
+     },
+     {
       "Id": "420124859",
       "Language": "SFX",
       "Streaming": "false",
@@ -882,6 +946,14 @@
       "Location": "Memory",
       "ShortName": "  leaves 5.wav",
       "CachePath": "SFX/  leaves 5_300EB120.wem"
+     },
+     {
+      "Id": "456825050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hexe.wav",
+      "CachePath": "SFX/Hexe_CE027167.wem"
      },
      {
       "Id": "467215598",
@@ -1020,6 +1092,14 @@
       "CachePath": "SFX/Main Charakter  footsteps wood-1_E12E8872.wem"
      },
      {
+      "Id": "543564526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Händler.wav",
+      "CachePath": "SFX/Händler_10C29FA4.wem"
+     },
+     {
       "Id": "559945275",
       "Language": "SFX",
       "Streaming": "false",
@@ -1140,14 +1220,6 @@
       "CachePath": "SFX/Combat frog pet _FDB60D7A.wem"
      },
      {
-      "Id": "696745964",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Combat frog pet .wav",
-      "CachePath": "SFX/Combat frog pet _818F3B66.wem"
-     },
-     {
       "Id": "697205456",
       "Language": "SFX",
       "Streaming": "false",
@@ -1220,6 +1292,14 @@
       "CachePath": "SFX/Day_Oboe_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem"
      },
      {
+      "Id": "746072551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bänker.wav",
+      "CachePath": "SFX/Bänker_C13132B9.wem"
+     },
+     {
       "Id": "749117629",
       "Language": "SFX",
       "Streaming": "false",
@@ -1234,14 +1314,6 @@
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps stone-3.wav",
       "CachePath": "SFX/Main Charakter  footsteps stone-3_3AF5B957.wem"
-     },
-     {
-      "Id": "755946980",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  heavy breathing.wav",
-      "CachePath": "SFX/Main Charakter  heavy breathing_818F3B66.wem"
      },
      {
       "Id": "756169373",
@@ -1292,6 +1364,14 @@
       "CachePath": "SFX/  buy-2_818F3B66.wem"
      },
      {
+      "Id": "805202463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grandma.wav",
+      "CachePath": "SFX/Grandma_D2FC810E.wem"
+     },
+     {
       "Id": "806215852",
       "Language": "SFX",
       "Streaming": "false",
@@ -1324,28 +1404,12 @@
       "CachePath": "SFX/ fire _818F3B66.wem"
      },
      {
-      "Id": "816608275",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "  nutshell-5.wav",
-      "CachePath": "SFX/  nutshell-5_818F3B66.wem"
-     },
-     {
       "Id": "817214624",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Händler.wav",
-      "CachePath": "SFX/Händler_818F3B66.wem"
-     },
-     {
-      "Id": "819693839",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  damage take-2.wav",
-      "CachePath": "SFX/Main Charakter  damage take-2_818F3B66.wem"
+      "CachePath": "SFX/Händler_2B8324C4.wem"
      },
      {
       "Id": "819852530",
@@ -1396,22 +1460,6 @@
       "CachePath": "SFX/  nutshell-3_818F3B66.wem"
      },
      {
-      "Id": "846924471",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Combat frog Idle.wav",
-      "CachePath": "SFX/Combat frog Idle_697377FA.wem"
-     },
-     {
-      "Id": "848868357",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  damage take-3.wav",
-      "CachePath": "SFX/Main Charakter  damage take-3_818F3B66.wem"
-     },
-     {
       "Id": "850141276",
       "Language": "SFX",
       "Streaming": "false",
@@ -1442,6 +1490,14 @@
       "Location": "Memory",
       "ShortName": "  schneiden-2.wav",
       "CachePath": "SFX/  schneiden-2_818F3B66.wem"
+     },
+     {
+      "Id": "866680057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bänker.wav",
+      "CachePath": "SFX/Bänker_5B7B2E7A.wem"
      },
      {
       "Id": "873389055",
@@ -1476,20 +1532,20 @@
       "CachePath": "SFX/Combat interact feed_84DDF1F6.wem"
      },
      {
+      "Id": "887565968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hexe.wav",
+      "CachePath": "SFX/Hexe_4D8BBD87.wem"
+     },
+     {
       "Id": "888472459",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
       "CachePath": "SFX/Combat frog feed_DCAD8611.wem"
-     },
-     {
-      "Id": "889497535",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Hexe .wav",
-      "CachePath": "SFX/Hexe _818F3B66.wem"
      },
      {
       "Id": "892647975",
@@ -1537,7 +1593,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bänker.wav",
-      "CachePath": "SFX/Bänker_11A93380.wem"
+      "CachePath": "SFX/Bänker_8A58AC1E.wem"
      },
      {
       "Id": "912893642",
@@ -1604,14 +1660,6 @@
       "CachePath": "SFX/Main Charakter  footsteps gras-4_CF652331.wem"
      },
      {
-      "Id": "956949307",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  damage take-1.wav",
-      "CachePath": "SFX/Main Charakter  damage take-1_818F3B66.wem"
-     },
-     {
       "Id": "963689456",
       "Language": "SFX",
       "Streaming": "false",
@@ -1636,14 +1684,6 @@
       "CachePath": "SFX/Ui item use eat_818F3B66.wem"
      },
      {
-      "Id": "979055805",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Combat interact pet .wav",
-      "CachePath": "SFX/Combat interact pet _98CD4F7C.wem"
-     },
-     {
       "Id": "988185398",
       "Language": "SFX",
       "Streaming": "false",
@@ -1658,14 +1698,6 @@
       "Location": "Memory",
       "ShortName": "Combat interact pet .wav",
       "CachePath": "SFX/Combat interact pet _BE651A97.wem"
-     },
-     {
-      "Id": "990356872",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "  nutshell.wav",
-      "CachePath": "SFX/  nutshell_818F3B66.wem"
      },
      {
       "Id": "995229971",
@@ -1690,14 +1722,6 @@
       "Location": "Memory",
       "ShortName": "Night_Piano_Part B_110BPM_4-4_L14-P1.wav",
       "CachePath": "SFX/Night_Piano_Part B_110BPM_4-4_L14-P1_FBC78EF0.wem"
-     },
-     {
-      "Id": "1015348893",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Grandma.wav",
-      "CachePath": "SFX/Grandma_818F3B66.wem"
      },
      {
       "Id": "1016314410",
@@ -1981,6 +2005,7 @@
       "Name": "Play___river_bubbles",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_bubbles",
       "GUID": "{09A5C621-1968-4880-B138-87A93F0BF7C4}",
+      "MaxAttenuation": "3000",
       "DurationType": "OneShot",
       "DurationMin": "42.295395",
       "DurationMax": "42.295395",
@@ -2060,20 +2085,6 @@
       ]
      },
      {
-      "Id": "2875132479",
-      "Name": "Play__dagegen_rennen",
-      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play__dagegen_rennen",
-      "GUID": "{A360F545-FE33-4551-A8B8-ADF6E0319D90}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.9045",
-      "DurationMax": "0.9045",
-      "MediaRefs": [
-       {
-        "Id": "170190639"
-       }
-      ]
-     },
-     {
       "Id": "3514747546",
       "Name": "Play__door_shaking_",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play__door_shaking_",
@@ -2140,18 +2151,6 @@
       "MediaRefs": [
        {
         "Id": "309348204"
-       }
-      ]
-     },
-     {
-      "Id": "1278811423",
-      "Name": "Play_B_nker",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_B_nker",
-      "GUID": "{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "906327466"
        }
       ]
      },
@@ -2302,32 +2301,6 @@
       ]
      },
      {
-      "Id": "1083042653",
-      "Name": "Play_damage_take",
-      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_damage_take",
-      "GUID": "{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.375",
-      "DurationMax": "1.375",
-      "MediaRefs": [
-       {
-        "Id": "132820239"
-       },
-       {
-        "Id": "240961913"
-       },
-       {
-        "Id": "819693839"
-       },
-       {
-        "Id": "848868357"
-       },
-       {
-        "Id": "956949307"
-       }
-      ]
-     },
-     {
       "Id": "2687999423",
       "Name": "Play_Day_Night",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Day_Night",
@@ -2453,6 +2426,156 @@
          },
          {
           "Id": "1000085236"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "740168818",
+      "Name": "Play_Dialog",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Dialog",
+      "GUID": "{DA7FCF12-2622-4268-8743-D24729EC620F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.8609407",
+      "DurationMax": "5.639738",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "3625525251",
+         "GUID": "{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "221513589"
+         },
+         {
+          "Id": "543564526"
+         },
+         {
+          "Id": "817214624"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "4018763786",
+         "GUID": "{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "407594089"
+         },
+         {
+          "Id": "866680057"
+         },
+         {
+          "Id": "906327466"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "3297275997",
+         "GUID": "{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "41935058"
+         },
+         {
+          "Id": "116496702"
+         },
+         {
+          "Id": "887565968"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "371397999",
+         "GUID": "{38F768AD-779B-4000-BF91-412F41794AC0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "161903066"
+         },
+         {
+          "Id": "204154204"
+         },
+         {
+          "Id": "805202463"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3249275730",
+      "Name": "Play_Dialogue_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Dialogue_end",
+      "GUID": "{D63288F8-72DC-431F-AAA3-51283CDADE32}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17528711",
+      "DurationMax": "0.29174435",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "3625525251",
+         "GUID": "{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "68970389"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "4018763786",
+         "GUID": "{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "746072551"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "3297275997",
+         "GUID": "{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "456825050"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1235749641",
+         "Id": "371397999",
+         "GUID": "{38F768AD-779B-4000-BF91-412F41794AC0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "376627733"
          }
         ]
        }
@@ -2634,7 +2757,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_idle",
       "GUID": "{16717B19-F897-41BC-90CA-DEFB94F6629C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.1536871",
+      "DurationMin": "1.3246037",
       "DurationMax": "1.5382495",
       "MediaRefs": [
        {
@@ -2645,9 +2768,6 @@
        },
        {
         "Id": "580912414"
-       },
-       {
-        "Id": "846924471"
        }
       ]
      },
@@ -2658,7 +2778,7 @@
       "GUID": "{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}",
       "DurationType": "OneShot",
       "DurationMin": "0.37215713",
-      "DurationMax": "9",
+      "DurationMax": "0.44038594",
       "MediaRefs": [
        {
         "Id": "265985123"
@@ -2670,52 +2790,7 @@
         "Id": "683805629"
        },
        {
-        "Id": "696745964"
-       },
-       {
         "Id": "913835205"
-       }
-      ]
-     },
-     {
-      "Id": "3765097210",
-      "Name": "Play_Grandma",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Grandma",
-      "GUID": "{446DD5A8-0C78-4C99-97C4-E899246DBF65}",
-      "DurationType": "OneShot",
-      "DurationMin": "13",
-      "DurationMax": "13",
-      "MediaRefs": [
-       {
-        "Id": "1015348893"
-       }
-      ]
-     },
-     {
-      "Id": "513292110",
-      "Name": "Play_H_ndler_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_H_ndler_01",
-      "GUID": "{58DF7204-319A-49AA-9E30-12B649C3FEBE}",
-      "DurationType": "OneShot",
-      "DurationMin": "13",
-      "DurationMax": "13",
-      "MediaRefs": [
-       {
-        "Id": "817214624"
-       }
-      ]
-     },
-     {
-      "Id": "2790146506",
-      "Name": "Play_Hexe",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Play_Hexe",
-      "GUID": "{8F116051-A4AA-467F-9529-51B35564666A}",
-      "DurationType": "OneShot",
-      "DurationMin": "12.387667",
-      "DurationMax": "12.387667",
-      "MediaRefs": [
-       {
-        "Id": "889497535"
        }
       ]
      },
@@ -2728,9 +2803,6 @@
       "DurationMin": "0.3707059",
       "DurationMax": "0.7287832",
       "MediaRefs": [
-       {
-        "Id": "131141707"
-       },
        {
         "Id": "241164100"
        },
@@ -2749,11 +2821,8 @@
       "GUID": "{F13024FC-88E7-4787-96CE-33A7BD521B62}",
       "DurationType": "OneShot",
       "DurationMin": "0.25227645",
-      "DurationMax": "0.31737006",
+      "DurationMax": "0.3142586",
       "MediaRefs": [
-       {
-        "Id": "191497730"
-       },
        {
         "Id": "197177071"
        },
@@ -2786,20 +2855,6 @@
       ]
      },
      {
-      "Id": "314014867",
-      "Name": "Play_Main_Charakter__heavy_breathing",
-      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_Main_Charakter__heavy_breathing",
-      "GUID": "{7B67515D-E98B-4724-B442-4DEFFC2A51C4}",
-      "DurationType": "OneShot",
-      "DurationMin": "9.75",
-      "DurationMax": "9.75",
-      "MediaRefs": [
-       {
-        "Id": "755946980"
-       }
-      ]
-     },
-     {
       "Id": "3183376343",
       "Name": "Play_Nutshell",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_Nutshell",
@@ -2809,9 +2864,6 @@
       "DurationMax": "5.5",
       "MediaRefs": [
        {
-        "Id": "816608275"
-       },
-       {
         "Id": "843480435"
        },
        {
@@ -2819,9 +2871,6 @@
        },
        {
         "Id": "899695238"
-       },
-       {
-        "Id": "990356872"
        },
        {
         "Id": "997968862"
@@ -3247,16 +3296,13 @@
       "GUID": "{B9479D09-85CC-4750-8ED2-F166BB9ED98C}",
       "DurationType": "OneShot",
       "DurationMin": "0.66988283",
-      "DurationMax": "0.9676086",
+      "DurationMax": "0.8559614",
       "MediaRefs": [
        {
         "Id": "146395362"
        },
        {
         "Id": "186924588"
-       },
-       {
-        "Id": "979055805"
        },
        {
         "Id": "988660099"
@@ -3282,46 +3328,6 @@
         "Id": "827643818"
        }
       ]
-     },
-     {
-      "Id": "1415276193",
-      "Name": "Stop_B_nker",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_B_nker",
-      "GUID": "{4CF58A51-F39E-44CC-A4C5-0E69C44DCED5}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "999264040",
-      "Name": "Stop_Grandma",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_Grandma",
-      "GUID": "{154E832E-023B-4F73-9F1F-AB6C3A024866}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "1526053020",
-      "Name": "Stop_H_ndler_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_H_ndler_01",
-      "GUID": "{E140AE04-7751-4126-8AC7-38587C3AD0A1}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "2753082400",
-      "Name": "Stop_Hexe",
-      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue PLACEHOLDER\\Stop_Hexe",
-      "GUID": "{79ABEC1F-E1A1-4150-BCD6-3FD36F1F2D2F}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -3342,6 +3348,38 @@
         "Name": "Night",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Night",
         "GUID": "{29F0AEDF-614F-446B-9710-2451C184C810}"
+       }
+      ]
+     },
+     {
+      "Id": "1235749641",
+      "Name": "Dialog",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Dialog",
+      "GUID": "{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}",
+      "Switches": [
+       {
+        "Id": "371397999",
+        "Name": "Grandma",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Grandma",
+        "GUID": "{38F768AD-779B-4000-BF91-412F41794AC0}"
+       },
+       {
+        "Id": "3297275997",
+        "Name": "Hexe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Hexe",
+        "GUID": "{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"
+       },
+       {
+        "Id": "3625525251",
+        "Name": "Handler",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Handler",
+        "GUID": "{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"
+       },
+       {
+        "Id": "4018763786",
+        "Name": "Banker",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Banker",
+        "GUID": "{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"
        }
       ]
      },
@@ -3380,6 +3418,6 @@
     ]
    }
   ],
-  "FileHash": "{E3689F6B-94F8-40E5-164C-8E5588E828C1}"
+  "FileHash": "{AC3CC3F9-E2B1-181B-680D-14FB005496B6}"
  }
 }
