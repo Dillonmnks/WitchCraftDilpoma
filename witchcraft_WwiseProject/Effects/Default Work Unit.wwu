@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{55C1B2DC-8792-4B48-B358-7674564CB880}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{55C1B2DC-8792-4B48-B358-7674564CB880}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{55C1B2DC-8792-4B48-B358-7674564CB880}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Gain" ID="{D5105D64-F91A-4627-B187-31EC9E18D4FC}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+				<Effect Name="New_Guitar_Distortion" ID="{C885709D-B88F-4563-BAC9-7D20CAFA3074}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="100"/>
+						<Property Name="DistortionTone" Type="Real32" Value="22"/>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+						<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+						<Property Name="Rectification" Type="Real32" Value="96"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_RoomVerb" ID="{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
