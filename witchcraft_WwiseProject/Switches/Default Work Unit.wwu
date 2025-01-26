@@ -35,6 +35,38 @@
 						</Switch>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="DayNightCycle" ID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="Night" ID="{29F0AEDF-614F-446B-9710-2451C184C810}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Dialog" ID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Hexe" ID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+						<Switch Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+						<Switch Name="Handler" ID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+						<Switch Name="Grandma" ID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
