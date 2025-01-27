@@ -9,6 +9,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{6937BBE0-C6C1-40EE-AE82-4A15598D3E77}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Minigame cooking" ID="{2689D021-6D56-4128-957F-4D1034181B3D}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test Töne" ID="{C02A9914-3DFC-422D-8341-D469DE85197A}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Atmo" ID="{B40EA4B8-3AE4-4458-8C0A-6069BA50BDCB}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" Origin="Manual" Filter="7"/>
