@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{25E57165-E6E5-C338-7D72-10505DC5C2B7}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C725EF4A-521F-3A94-FD7D-2153233455D2}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -70,7 +70,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{054799E2-BB3C-1422-7EB4-E79B95F8A632}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{BF03C2AC-8227-ADCA-A2BE-7616DF82AC6F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -137,7 +137,7 @@
 				</File>
 				<File Id="88255355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden.wav</ShortName>
-					<CachePath>SFX/  schneiden_818F3B66.wem</CachePath>
+					<CachePath>SFX/  schneiden_C59B6735.wem</CachePath>
 				</File>
 				<File Id="92409362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Oboe_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -201,7 +201,7 @@
 				</File>
 				<File Id="177565286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-1.wav</ShortName>
-					<CachePath>SFX/  schneiden-1_818F3B66.wem</CachePath>
+					<CachePath>SFX/  schneiden-1_5EACF06A.wem</CachePath>
 				</File>
 				<File Id="178696379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-4.wav</ShortName>
@@ -321,7 +321,7 @@
 				</File>
 				<File Id="296652437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  chest closed.wav</ShortName>
-					<CachePath>SFX/  chest closed_818F3B66.wem</CachePath>
+					<CachePath>SFX/  chest closed_D551D0BF.wem</CachePath>
 				</File>
 				<File Id="297985586" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river hard far away.wav</ShortName>
@@ -469,7 +469,7 @@
 				</File>
 				<File Id="514234718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river hard.wav</ShortName>
-					<CachePath>SFX/  river hard_45FDF64B.wem</CachePath>
+					<CachePath>SFX/  river hard_C916F026.wem</CachePath>
 				</File>
 				<File Id="517690293" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 2.wav</ShortName>
@@ -713,7 +713,7 @@
 				</File>
 				<File Id="855748575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-2.wav</ShortName>
-					<CachePath>SFX/  schneiden-2_818F3B66.wem</CachePath>
+					<CachePath>SFX/  schneiden-2_FD1604E9.wem</CachePath>
 				</File>
 				<File Id="866680057" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bänker.wav</ShortName>
@@ -873,67 +873,67 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4024607187" Name="Play___birds_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_2" GUID="{A636B00A-4F38-472A-840C-E7DF8DE4532F}" DurationType="OneShot" DurationMin="90" DurationMax="90">
+				<Event Id="4024607187" Name="Play___birds_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_2" GUID="{A636B00A-4F38-472A-840C-E7DF8DE4532F}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="90" DurationMax="90">
 					<MediaRefs>
 						<MediaRef Id="781621739"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607186" Name="Play___birds_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_3" GUID="{E4765FC6-41B4-48FB-9EB6-498A83A03D72}" DurationType="OneShot" DurationMin="37.979538" DurationMax="37.979538">
+				<Event Id="4024607186" Name="Play___birds_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_3" GUID="{E4765FC6-41B4-48FB-9EB6-498A83A03D72}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="37.979538" DurationMax="37.979538">
 					<MediaRefs>
 						<MediaRef Id="840295862"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607189" Name="Play___birds_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_4" GUID="{5879BFAA-287A-4B98-B8C3-A686A48715BE}" DurationType="OneShot" DurationMin="35.44757" DurationMax="35.44757">
+				<Event Id="4024607189" Name="Play___birds_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_4" GUID="{5879BFAA-287A-4B98-B8C3-A686A48715BE}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="35.44757" DurationMax="35.44757">
 					<MediaRefs>
 						<MediaRef Id="735624053"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607188" Name="Play___birds_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_5" GUID="{947E356F-481F-4745-9FB9-6FCF885E576E}" DurationType="OneShot" DurationMin="36.828644" DurationMax="36.828644">
+				<Event Id="4024607188" Name="Play___birds_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_5" GUID="{947E356F-481F-4745-9FB9-6FCF885E576E}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="36.828644" DurationMax="36.828644">
 					<MediaRefs>
 						<MediaRef Id="490688840"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607191" Name="Play___birds_6" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_6" GUID="{01EB7505-F0F3-450F-AA7D-0E36033F2BDB}" DurationType="OneShot" DurationMin="65.37084" DurationMax="65.37084">
+				<Event Id="4024607191" Name="Play___birds_6" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_6" GUID="{01EB7505-F0F3-450F-AA7D-0E36033F2BDB}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="65.37084" DurationMax="65.37084">
 					<MediaRefs>
 						<MediaRef Id="387172603"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="251756331" Name="Play___door_open__close" ObjectPath="\Events\Default Work Unit\Gameplay\Play___door_open__close" GUID="{FAD05298-489E-4CDC-A1F6-47AD35566DEC}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+				<Event Id="251756331" Name="Play___door_open__close" ObjectPath="\Events\Default Work Unit\Gameplay\Play___door_open__close" GUID="{FAD05298-489E-4CDC-A1F6-47AD35566DEC}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
 					<MediaRefs>
 						<MediaRef Id="346084147"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2324289553" Name="Play___fireplace" ObjectPath="\Events\Default Work Unit\Atmo\Play___fireplace" GUID="{E10EF4A4-5C3F-46CC-9293-BB05D1E6B3AD}" MaxAttenuation="5000" DurationType="Infinite">
+				<Event Id="2324289553" Name="Play___fireplace" ObjectPath="\Events\Default Work Unit\Atmo\Play___fireplace" GUID="{E10EF4A4-5C3F-46CC-9293-BB05D1E6B3AD}" MaxAttenuation="1075" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="222515199"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3639311590" Name="Play___go_to_sleep" ObjectPath="\Events\Default Work Unit\Gameplay\Play___go_to_sleep" GUID="{48EA98FC-9486-4A57-B61C-64EC6AE14A00}" DurationType="OneShot" DurationMin="4.824" DurationMax="4.824">
+				<Event Id="3639311590" Name="Play___go_to_sleep" ObjectPath="\Events\Default Work Unit\Gameplay\Play___go_to_sleep" GUID="{48EA98FC-9486-4A57-B61C-64EC6AE14A00}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="4.824" DurationMax="4.824">
 					<MediaRefs>
 						<MediaRef Id="223377924"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4121726672" Name="Play___leaves" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves" GUID="{336A0527-A49E-489D-AB10-09A712842C69}" DurationType="OneShot" DurationMin="39.005116" DurationMax="39.005116">
+				<Event Id="4121726672" Name="Play___leaves" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves" GUID="{336A0527-A49E-489D-AB10-09A712842C69}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="39.005116" DurationMax="39.005116">
 					<MediaRefs>
 						<MediaRef Id="988185398"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803983" Name="Play___leaves_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_2" GUID="{444340AE-E9DE-4CA6-97FC-73A976A56304}" DurationType="OneShot" DurationMin="34.17775" DurationMax="34.17775">
+				<Event Id="3161803983" Name="Play___leaves_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_2" GUID="{444340AE-E9DE-4CA6-97FC-73A976A56304}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="34.17775" DurationMax="34.17775">
 					<MediaRefs>
 						<MediaRef Id="517690293"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803982" Name="Play___leaves_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_3" GUID="{0118BE8D-1908-4DD7-881F-ADE46A5E9856}" DurationType="OneShot" DurationMin="40.356777" DurationMax="40.356777">
+				<Event Id="3161803982" Name="Play___leaves_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_3" GUID="{0118BE8D-1908-4DD7-881F-ADE46A5E9856}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="40.356777" DurationMax="40.356777">
 					<MediaRefs>
 						<MediaRef Id="893090049"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803977" Name="Play___leaves_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_4" GUID="{0D369380-5B36-4941-B160-38C7ABEFCB87}" DurationType="OneShot" DurationMin="71.8312" DurationMax="71.8312">
+				<Event Id="3161803977" Name="Play___leaves_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_4" GUID="{0D369380-5B36-4941-B160-38C7ABEFCB87}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="71.8312" DurationMax="71.8312">
 					<MediaRefs>
 						<MediaRef Id="257043073"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803976" Name="Play___leaves_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_5" GUID="{97E6082E-CF03-48F0-8C83-761C340624E1}" DurationType="OneShot" DurationMin="34.370846" DurationMax="34.370846">
+				<Event Id="3161803976" Name="Play___leaves_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_5" GUID="{97E6082E-CF03-48F0-8C83-761C340624E1}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="34.370846" DurationMax="34.370846">
 					<MediaRefs>
 						<MediaRef Id="454643591"/>
 					</MediaRefs>
@@ -948,7 +948,7 @@
 						<MediaRef Id="903737124"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3251220738" Name="Play___river_hard" ObjectPath="\Events\Default Work Unit\Atmo\Play___river_hard" GUID="{41258012-04E3-4620-A835-1FF616E17223}" MaxAttenuation="5000" DurationType="Infinite">
+				<Event Id="3251220738" Name="Play___river_hard" ObjectPath="\Events\Default Work Unit\Atmo\Play___river_hard" GUID="{41258012-04E3-4620-A835-1FF616E17223}" MaxAttenuation="6000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="514234718"/>
 					</MediaRefs>
@@ -963,7 +963,7 @@
 						<MediaRef Id="634905090"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3244236260" Name="Play___wake_up" ObjectPath="\Events\Default Work Unit\Gameplay\Play___wake_up" GUID="{F65AB761-6F02-4788-B28A-48C29420D0CD}" DurationType="OneShot" DurationMin="4.824" DurationMax="4.824">
+				<Event Id="3244236260" Name="Play___wake_up" ObjectPath="\Events\Default Work Unit\Gameplay\Play___wake_up" GUID="{F65AB761-6F02-4788-B28A-48C29420D0CD}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="4.824" DurationMax="4.824">
 					<MediaRefs>
 						<MediaRef Id="397629470"/>
 					</MediaRefs>
@@ -973,12 +973,12 @@
 						<MediaRef Id="542032580"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3514747546" Name="Play__door_shaking_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__door_shaking_" GUID="{D8D26C28-6F2E-47B1-986E-97413A59757D}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+				<Event Id="3514747546" Name="Play__door_shaking_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__door_shaking_" GUID="{D8D26C28-6F2E-47B1-986E-97413A59757D}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
 					<MediaRefs>
 						<MediaRef Id="361713716"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="471615608" Name="Play__fire_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__fire_" GUID="{039EB10F-7466-4772-991D-B16E6B0833B3}" DurationType="OneShot" DurationMin="22.587376" DurationMax="22.587376">
+				<Event Id="471615608" Name="Play__fire_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__fire_" GUID="{039EB10F-7466-4772-991D-B16E6B0833B3}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="22.587376" DurationMax="22.587376">
 					<MediaRefs>
 						<MediaRef Id="808361190"/>
 					</MediaRefs>
@@ -998,7 +998,7 @@
 						<MediaRef Id="309348204"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="161356194" Name="Play_birds_1" ObjectPath="\Events\Default Work Unit\Atmo\Play_birds_1" GUID="{713F8B65-16DA-4130-B11C-14AE0954BACB}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="40.741688" DurationMax="40.741688">
+				<Event Id="161356194" Name="Play_birds_1" ObjectPath="\Events\Default Work Unit\Atmo\Play_birds_1" GUID="{713F8B65-16DA-4130-B11C-14AE0954BACB}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="40.741688" DurationMax="40.741688">
 					<MediaRefs>
 						<MediaRef Id="230478404"/>
 					</MediaRefs>
@@ -1016,19 +1016,19 @@
 						<MediaRef Id="8451084"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" DurationType="OneShot" DurationMin="6.446867" DurationMax="6.6357746">
+				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="6.446867" DurationMax="6.6357746">
 					<MediaRefs>
 						<MediaRef Id="360805697"/>
 						<MediaRef Id="965839834"/>
 						<MediaRef Id="1040369418"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2926639448" Name="Play_chest_closed" ObjectPath="\Events\Default Work Unit\Gameplay\Play_chest_closed" GUID="{69C72138-C1D7-4BF8-ACA4-61607C120148}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+				<Event Id="2926639448" Name="Play_chest_closed" ObjectPath="\Events\Default Work Unit\Gameplay\Play_chest_closed" GUID="{69C72138-C1D7-4BF8-ACA4-61607C120148}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="3.0081632" DurationMax="3.0081632">
 					<MediaRefs>
 						<MediaRef Id="296652437"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2560700912" Name="Play_chest_open" ObjectPath="\Events\Default Work Unit\Gameplay\Play_chest_open" GUID="{79D1CD6B-5D5E-42D0-858E-3724DD7030F4}" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
+				<Event Id="2560700912" Name="Play_chest_open" ObjectPath="\Events\Default Work Unit\Gameplay\Play_chest_open" GUID="{79D1CD6B-5D5E-42D0-858E-3724DD7030F4}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
 					<MediaRefs>
 						<MediaRef Id="246212939"/>
 					</MediaRefs>
@@ -1042,7 +1042,7 @@
 						<MediaRef Id="1036871779"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1873669494" Name="Play_cutting" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cutting" GUID="{1E46F254-629C-4ED5-B6DF-6AF3E49C105B}" DurationType="OneShot" DurationMin="5.5" DurationMax="5.5">
+				<Event Id="1873669494" Name="Play_cutting" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cutting" GUID="{1E46F254-629C-4ED5-B6DF-6AF3E49C105B}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.21169925" DurationMax="0.31730932">
 					<MediaRefs>
 						<MediaRef Id="88255355"/>
 						<MediaRef Id="177565286"/>
@@ -1205,7 +1205,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2613038076" Name="Play_frog_feed_head" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_feed_head" GUID="{41DD0ED2-CEC4-45F4-B5AB-E3EA9E0840FF}" DurationType="OneShot" DurationMin="0.45234498" DurationMax="0.6701407">
+				<Event Id="2613038076" Name="Play_frog_feed_head" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_feed_head" GUID="{41DD0ED2-CEC4-45F4-B5AB-E3EA9E0840FF}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.45234498" DurationMax="0.6701407">
 					<MediaRefs>
 						<MediaRef Id="123107940"/>
 						<MediaRef Id="248217849"/>
@@ -1217,7 +1217,7 @@
 						<MediaRef Id="1053097705"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="23942916" Name="Play_frog_feed_tail" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_feed_tail" GUID="{666645A8-9991-457F-9743-25A710C095CF}" DurationType="OneShot" DurationMin="0.5863731" DurationMax="0.77066183">
+				<Event Id="23942916" Name="Play_frog_feed_tail" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_feed_tail" GUID="{666645A8-9991-457F-9743-25A710C095CF}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.5863731" DurationMax="0.77066183">
 					<MediaRefs>
 						<MediaRef Id="390921244"/>
 						<MediaRef Id="706253421"/>
@@ -1225,19 +1225,27 @@
 						<MediaRef Id="888472459"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1420078893" Name="Play_frog_idle" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_idle" GUID="{16717B19-F897-41BC-90CA-DEFB94F6629C}" DurationType="OneShot" DurationMin="1.3246037" DurationMax="1.5382495">
+				<Event Id="1420078893" Name="Play_frog_idle" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_idle" GUID="{16717B19-F897-41BC-90CA-DEFB94F6629C}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="1.3246037" DurationMax="1.5382495">
 					<MediaRefs>
 						<MediaRef Id="10077899"/>
 						<MediaRef Id="50575655"/>
 						<MediaRef Id="580912414"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2335987430" Name="Play_frog_pet" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_pet" GUID="{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}" DurationType="OneShot" DurationMin="0.37215713" DurationMax="0.44038594">
+				<Event Id="2335987430" Name="Play_frog_pet" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_pet" GUID="{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.37215713" DurationMax="0.44038594">
 					<MediaRefs>
 						<MediaRef Id="265985123"/>
 						<MediaRef Id="541463883"/>
 						<MediaRef Id="683805629"/>
 						<MediaRef Id="913835205"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1251815588" Name="Play_frog_walk" ObjectPath="\Events\Default Work Unit\Combat\frog\Play_frog_walk" GUID="{F1189447-3F76-4C76-8299-ADF4C07D48FA}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.26994303" DurationMax="0.42094016">
+					<MediaRefs>
+						<MediaRef Id="281071773"/>
+						<MediaRef Id="567017348"/>
+						<MediaRef Id="828430276"/>
+						<MediaRef Id="850141276"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1954589493" Name="Play_jump_down" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_jump_down" GUID="{3162CFD6-96C1-48A8-9448-B0166C50316C}" DurationType="OneShot" DurationMin="0.3707059" DurationMax="0.7287832">
@@ -1254,7 +1262,7 @@
 						<MediaRef Id="1024205521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="433371790" Name="Play_m_rser" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_m_rser" GUID="{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}" DurationType="OneShot" DurationMin="5.421148" DurationMax="5.5799994">
+				<Event Id="433371790" Name="Play_m_rser" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_m_rser" GUID="{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="5.421148" DurationMax="5.5799994">
 					<MediaRefs>
 						<MediaRef Id="917264507"/>
 						<MediaRef Id="922633899"/>
@@ -1382,12 +1390,12 @@
 						<MediaRef Id="261089796"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1020223172" Name="Play_WIND" ObjectPath="\Events\Default Work Unit\Atmo\Play_WIND" GUID="{2B202963-10F0-4FB8-B410-913E3FF1D540}" MaxAttenuation="5000" DurationType="Infinite">
+				<Event Id="1020223172" Name="Play_WIND" ObjectPath="\Events\Default Work Unit\Atmo\Play_WIND" GUID="{2B202963-10F0-4FB8-B410-913E3FF1D540}" MaxAttenuation="6000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="271812814"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3116151072" Name="Play_Worm_Idle" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_Worm_Idle" GUID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="3116151072" Name="Play_Worm_Idle" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_Worm_Idle" GUID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="2" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="12299255"/>
 						<MediaRef Id="372603158"/>
@@ -1395,7 +1403,7 @@
 						<MediaRef Id="876192999"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3096191827" Name="Play_worm_inteact_feedTail" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_inteact_feedTail" GUID="{2FD31316-7F3D-4881-B250-BA787AFA9654}" DurationType="OneShot" DurationMin="0.88766366" DurationMax="1.2929014">
+				<Event Id="3096191827" Name="Play_worm_inteact_feedTail" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_inteact_feedTail" GUID="{2FD31316-7F3D-4881-B250-BA787AFA9654}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.88766366" DurationMax="1.2929014">
 					<MediaRefs>
 						<MediaRef Id="152239765"/>
 						<MediaRef Id="395530577"/>
@@ -1403,7 +1411,7 @@
 						<MediaRef Id="878494762"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1549301176" Name="Play_worm_interact_feed_Head" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_interact_feed_Head" GUID="{6B31A824-7F61-417B-8327-0DB483CF94E6}" DurationType="OneShot" DurationMin="0.67539626" DurationMax="0.9262577">
+				<Event Id="1549301176" Name="Play_worm_interact_feed_Head" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_interact_feed_Head" GUID="{6B31A824-7F61-417B-8327-0DB483CF94E6}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.67539626" DurationMax="0.9262577">
 					<MediaRefs>
 						<MediaRef Id="213656067"/>
 						<MediaRef Id="217805513"/>
@@ -1415,14 +1423,14 @@
 						<MediaRef Id="930120994"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1570873034" Name="Play_worm_interact_pet" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_interact_pet" GUID="{B9479D09-85CC-4750-8ED2-F166BB9ED98C}" DurationType="OneShot" DurationMin="0.66988283" DurationMax="0.8559614">
+				<Event Id="1570873034" Name="Play_worm_interact_pet" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_interact_pet" GUID="{B9479D09-85CC-4750-8ED2-F166BB9ED98C}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.66988283" DurationMax="0.8559614">
 					<MediaRefs>
 						<MediaRef Id="146395362"/>
 						<MediaRef Id="186924588"/>
 						<MediaRef Id="988660099"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="368624613" Name="Play_worm_walk" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_walk" GUID="{066CB1E1-81A8-4962-AF96-D1BAF85F7BDF}" DurationType="OneShot" DurationMin="1.5141727" DurationMax="1.8317403">
+				<Event Id="368624613" Name="Play_worm_walk" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_worm_walk" GUID="{066CB1E1-81A8-4962-AF96-D1BAF85F7BDF}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="1.5141727" DurationMax="1.8317403">
 					<MediaRefs>
 						<MediaRef Id="148234284"/>
 						<MediaRef Id="420124859"/>
@@ -1456,5 +1464,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A8D81F39-FFA1-E9F4-105A-EA6C77941851}</FileHash>
+	<FileHash>{E8992242-B3FA-8B7D-8F51-9275BAB3E16E}</FileHash>
 </SoundBanksInfo>

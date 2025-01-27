@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{054799E2-BB3C-1422-7EB4-E79B95F8A632}",
+    "Hash": "{BF03C2AC-8227-ADCA-A2BE-7616DF82AC6F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  schneiden.wav",
-      "CachePath": "SFX/  schneiden_818F3B66.wem"
+      "CachePath": "SFX/  schneiden_C59B6735.wem"
      },
      {
       "Id": "92409362",
@@ -269,7 +269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  schneiden-1.wav",
-      "CachePath": "SFX/  schneiden-1_818F3B66.wem"
+      "CachePath": "SFX/  schneiden-1_5EACF06A.wem"
      },
      {
       "Id": "178696379",
@@ -509,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  chest closed.wav",
-      "CachePath": "SFX/  chest closed_818F3B66.wem"
+      "CachePath": "SFX/  chest closed_D551D0BF.wem"
      },
      {
       "Id": "297985586",
@@ -805,7 +805,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  river hard.wav",
-      "CachePath": "SFX/  river hard_45FDF64B.wem"
+      "CachePath": "SFX/  river hard_C916F026.wem"
      },
      {
       "Id": "517690293",
@@ -1293,7 +1293,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  schneiden-2.wav",
-      "CachePath": "SFX/  schneiden-2_818F3B66.wem"
+      "CachePath": "SFX/  schneiden-2_FD1604E9.wem"
      },
      {
       "Id": "866680057",
@@ -1614,6 +1614,7 @@
       "Name": "Play___birds_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_2",
       "GUID": "{A636B00A-4F38-472A-840C-E7DF8DE4532F}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "90",
       "DurationMax": "90",
@@ -1628,6 +1629,7 @@
       "Name": "Play___birds_3",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_3",
       "GUID": "{E4765FC6-41B4-48FB-9EB6-498A83A03D72}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "37.979538",
       "DurationMax": "37.979538",
@@ -1642,6 +1644,7 @@
       "Name": "Play___birds_4",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_4",
       "GUID": "{5879BFAA-287A-4B98-B8C3-A686A48715BE}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "35.44757",
       "DurationMax": "35.44757",
@@ -1656,6 +1659,7 @@
       "Name": "Play___birds_5",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_5",
       "GUID": "{947E356F-481F-4745-9FB9-6FCF885E576E}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "36.828644",
       "DurationMax": "36.828644",
@@ -1670,6 +1674,7 @@
       "Name": "Play___birds_6",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___birds_6",
       "GUID": "{01EB7505-F0F3-450F-AA7D-0E36033F2BDB}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "65.37084",
       "DurationMax": "65.37084",
@@ -1684,6 +1689,7 @@
       "Name": "Play___door_open__close",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play___door_open__close",
       "GUID": "{FAD05298-489E-4CDC-A1F6-47AD35566DEC}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "3.216",
       "DurationMax": "3.216",
@@ -1698,7 +1704,7 @@
       "Name": "Play___fireplace",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___fireplace",
       "GUID": "{E10EF4A4-5C3F-46CC-9293-BB05D1E6B3AD}",
-      "MaxAttenuation": "5000",
+      "MaxAttenuation": "1075",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1711,6 +1717,7 @@
       "Name": "Play___go_to_sleep",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play___go_to_sleep",
       "GUID": "{48EA98FC-9486-4A57-B61C-64EC6AE14A00}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "4.824",
       "DurationMax": "4.824",
@@ -1725,6 +1732,7 @@
       "Name": "Play___leaves",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves",
       "GUID": "{336A0527-A49E-489D-AB10-09A712842C69}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "39.005116",
       "DurationMax": "39.005116",
@@ -1739,6 +1747,7 @@
       "Name": "Play___leaves_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_2",
       "GUID": "{444340AE-E9DE-4CA6-97FC-73A976A56304}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "34.17775",
       "DurationMax": "34.17775",
@@ -1753,6 +1762,7 @@
       "Name": "Play___leaves_3",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_3",
       "GUID": "{0118BE8D-1908-4DD7-881F-ADE46A5E9856}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "40.356777",
       "DurationMax": "40.356777",
@@ -1767,6 +1777,7 @@
       "Name": "Play___leaves_4",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_4",
       "GUID": "{0D369380-5B36-4941-B160-38C7ABEFCB87}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "71.8312",
       "DurationMax": "71.8312",
@@ -1781,6 +1792,7 @@
       "Name": "Play___leaves_5",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_5",
       "GUID": "{97E6082E-CF03-48F0-8C83-761C340624E1}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "34.370846",
       "DurationMax": "34.370846",
@@ -1824,7 +1836,7 @@
       "Name": "Play___river_hard",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_hard",
       "GUID": "{41258012-04E3-4620-A835-1FF616E17223}",
-      "MaxAttenuation": "5000",
+      "MaxAttenuation": "6000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1865,6 +1877,7 @@
       "Name": "Play___wake_up",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play___wake_up",
       "GUID": "{F65AB761-6F02-4788-B28A-48C29420D0CD}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "4.824",
       "DurationMax": "4.824",
@@ -1893,6 +1906,7 @@
       "Name": "Play__door_shaking_",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play__door_shaking_",
       "GUID": "{D8D26C28-6F2E-47B1-986E-97413A59757D}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "3.216",
       "DurationMax": "3.216",
@@ -1907,6 +1921,7 @@
       "Name": "Play__fire_",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play__fire_",
       "GUID": "{039EB10F-7466-4772-991D-B16E6B0833B3}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "22.587376",
       "DurationMax": "22.587376",
@@ -1963,7 +1978,7 @@
       "Name": "Play_birds_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_birds_1",
       "GUID": "{713F8B65-16DA-4130-B11C-14AE0954BACB}",
-      "MaxAttenuation": "5000",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "40.741688",
       "DurationMax": "40.741688",
@@ -2015,6 +2030,7 @@
       "Name": "Play_cauldron",
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cauldron",
       "GUID": "{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "6.446867",
       "DurationMax": "6.6357746",
@@ -2035,9 +2051,10 @@
       "Name": "Play_chest_closed",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play_chest_closed",
       "GUID": "{69C72138-C1D7-4BF8-ACA4-61607C120148}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
-      "DurationMin": "3.216",
-      "DurationMax": "3.216",
+      "DurationMin": "3.0081632",
+      "DurationMax": "3.0081632",
       "MediaRefs": [
        {
         "Id": "296652437"
@@ -2049,6 +2066,7 @@
       "Name": "Play_chest_open",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play_chest_open",
       "GUID": "{79D1CD6B-5D5E-42D0-858E-3724DD7030F4}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "3.216",
       "DurationMax": "3.216",
@@ -2089,9 +2107,10 @@
       "Name": "Play_cutting",
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cutting",
       "GUID": "{1E46F254-629C-4ED5-B6DF-6AF3E49C105B}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
-      "DurationMin": "5.5",
-      "DurationMax": "5.5",
+      "DurationMin": "0.21169925",
+      "DurationMax": "0.31730932",
       "MediaRefs": [
        {
         "Id": "88255355"
@@ -2503,6 +2522,7 @@
       "Name": "Play_frog_feed_head",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_feed_head",
       "GUID": "{41DD0ED2-CEC4-45F4-B5AB-E3EA9E0840FF}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "0.45234498",
       "DurationMax": "0.6701407",
@@ -2538,6 +2558,7 @@
       "Name": "Play_frog_feed_tail",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_feed_tail",
       "GUID": "{666645A8-9991-457F-9743-25A710C095CF}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "0.5863731",
       "DurationMax": "0.77066183",
@@ -2561,6 +2582,7 @@
       "Name": "Play_frog_idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_idle",
       "GUID": "{16717B19-F897-41BC-90CA-DEFB94F6629C}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "1.3246037",
       "DurationMax": "1.5382495",
@@ -2581,6 +2603,7 @@
       "Name": "Play_frog_pet",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_pet",
       "GUID": "{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "0.37215713",
       "DurationMax": "0.44038594",
@@ -2596,6 +2619,30 @@
        },
        {
         "Id": "913835205"
+       }
+      ]
+     },
+     {
+      "Id": "1251815588",
+      "Name": "Play_frog_walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Combat\\frog\\Play_frog_walk",
+      "GUID": "{F1189447-3F76-4C76-8299-ADF4C07D48FA}",
+      "MaxAttenuation": "1990",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26994303",
+      "DurationMax": "0.42094016",
+      "MediaRefs": [
+       {
+        "Id": "281071773"
+       },
+       {
+        "Id": "567017348"
+       },
+       {
+        "Id": "828430276"
+       },
+       {
+        "Id": "850141276"
        }
       ]
      },
@@ -2644,6 +2691,7 @@
       "Name": "Play_m_rser",
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_m_rser",
       "GUID": "{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "5.421148",
       "DurationMax": "5.5799994",
@@ -3005,7 +3053,7 @@
       "Name": "Play_WIND",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_WIND",
       "GUID": "{2B202963-10F0-4FB8-B410-913E3FF1D540}",
-      "MaxAttenuation": "5000",
+      "MaxAttenuation": "6000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3018,6 +3066,7 @@
       "Name": "Play_Worm_Idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_Worm_Idle",
       "GUID": "{33CCD26C-DD44-4540-B92B-C958FB7C7C73}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "2",
       "DurationMax": "2",
@@ -3041,6 +3090,7 @@
       "Name": "Play_worm_inteact_feedTail",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_inteact_feedTail",
       "GUID": "{2FD31316-7F3D-4881-B250-BA787AFA9654}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "0.88766366",
       "DurationMax": "1.2929014",
@@ -3064,6 +3114,7 @@
       "Name": "Play_worm_interact_feed_Head",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_interact_feed_Head",
       "GUID": "{6B31A824-7F61-417B-8327-0DB483CF94E6}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "0.67539626",
       "DurationMax": "0.9262577",
@@ -3099,6 +3150,7 @@
       "Name": "Play_worm_interact_pet",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_interact_pet",
       "GUID": "{B9479D09-85CC-4750-8ED2-F166BB9ED98C}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "0.66988283",
       "DurationMax": "0.8559614",
@@ -3119,6 +3171,7 @@
       "Name": "Play_worm_walk",
       "ObjectPath": "\\Events\\Default Work Unit\\Combat\\worm\\Play_worm_walk",
       "GUID": "{066CB1E1-81A8-4962-AF96-D1BAF85F7BDF}",
+      "MaxAttenuation": "1990",
       "DurationType": "OneShot",
       "DurationMin": "1.5141727",
       "DurationMax": "1.8317403",
@@ -3223,6 +3276,6 @@
     ]
    }
   ],
-  "FileHash": "{2C279F4F-6697-D69E-5E59-33E8496E2831}"
+  "FileHash": "{1A9C1B05-BA69-6497-F818-B30DB61E0BAE}"
  }
 }

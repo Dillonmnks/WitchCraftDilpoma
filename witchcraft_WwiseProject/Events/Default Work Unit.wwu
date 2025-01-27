@@ -545,6 +545,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_frog_walk" ID="{F1189447-3F76-4C76-8299-ADF4C07D48FA}">
+									<ChildrenList>
+										<Action Name="" ID="{FD1D721C-CC1B-4008-9B2C-5A3A056B8322}" ShortID="968893234">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="frog walk" ID="{2D92BF85-42BB-4BA0-A35C-421669A75CB9}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

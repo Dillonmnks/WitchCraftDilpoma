@@ -937,7 +937,7 @@
 										<Property Name="Quality" Type="int32" Value="16"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
-										<Property Name="RoomSize" Type="Real32" Value="22"/>
+										<Property Name="RoomSize" Type="Real32" Value="-38"/>
 										<Property Name="StereoWidth" Type="Real32" Value="155"/>
 									</PropertyList>
 								</Effect>
