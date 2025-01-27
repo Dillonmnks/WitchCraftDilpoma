@@ -10,6 +10,9 @@
 					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_Teston_UI" ID="{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{A67272FC-7CEC-413E-8DE9-5D6CD43FE21A}" ShortID="108938941">
 									<ReferenceList>
@@ -313,6 +316,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Ui_item_collect_fail" ID="{E88C184B-0D99-4642-B02C-1B30772C08F5}">
+							<ChildrenList>
+								<Action Name="" ID="{28EACB44-AD71-45B5-8621-CC86F45BB297}" ShortID="310913249">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui item collect fail" ID="{D8795CAF-864A-4199-9800-6D4FD765D7EB}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Maincharactor" ID="{1E4B5EDA-351C-4762-B2FB-C701CE5407F1}" ShortID="406639458">
@@ -344,6 +358,9 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_damage_take" ID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{08F35928-D484-4186-A203-43FD758219A0}" ShortID="815622460">
 									<ReferenceList>
@@ -646,6 +663,9 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play__dagegen_rennen" ID="{A360F545-FE33-4551-A8B8-ADF6E0319D90}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9E533950-39B0-494D-BF22-A149EF7E563A}" ShortID="118918812">
 									<ReferenceList>
@@ -755,7 +775,7 @@
 								<Action Name="" ID="{DAC35A97-A414-4E5E-89B4-5138FA04BFB1}" ShortID="90194156">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  birds 2" ID="{A6B2B20A-6521-4FC2-8A6E-A62B7260AC57}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="birds 2" ID="{A6B2B20A-6521-4FC2-8A6E-A62B7260AC57}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -766,7 +786,7 @@
 								<Action Name="" ID="{3985B3BC-239A-4983-B588-D01DE99FE5C9}" ShortID="46128147">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  birds 3" ID="{CE8B8DF7-8C3D-46EF-BB11-40AF7FCAC16F}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="birds 3" ID="{CE8B8DF7-8C3D-46EF-BB11-40AF7FCAC16F}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -777,7 +797,7 @@
 								<Action Name="" ID="{714A391A-4A73-4D59-A828-567D79D03529}" ShortID="288584715">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  birds 4" ID="{4748050A-834A-40F1-9BB7-1B25E0454559}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="birds 4" ID="{4748050A-834A-40F1-9BB7-1B25E0454559}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -788,7 +808,7 @@
 								<Action Name="" ID="{C1D42D39-1A6B-4CBA-B59F-72688FCCC8B3}" ShortID="525062275">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  birds 5" ID="{DD9FFECA-4478-4430-97E8-960114E442EE}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="birds 5" ID="{DD9FFECA-4478-4430-97E8-960114E442EE}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -799,7 +819,7 @@
 								<Action Name="" ID="{5C9BC8D1-CEA8-4268-8A7B-E98411E3234E}" ShortID="738974695">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  birds 6" ID="{855B1E87-6C32-420E-B414-14D01E32F4F1}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="birds 6" ID="{855B1E87-6C32-420E-B414-14D01E32F4F1}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -810,7 +830,7 @@
 								<Action Name="" ID="{B119A042-C7B3-4860-B6E2-06AB2129AF72}" ShortID="219234664">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  fireplace" ID="{22ACC277-CF83-40C6-B79E-14D498F78310}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="fireplace" ID="{22ACC277-CF83-40C6-B79E-14D498F78310}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -821,7 +841,7 @@
 								<Action Name="" ID="{801288A9-EB98-4A28-8685-0AC0DFFB8539}" ShortID="772673109">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  leaves" ID="{25B4BB85-4255-4646-84BE-FF36D1D1A27E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="leaves" ID="{25B4BB85-4255-4646-84BE-FF36D1D1A27E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -832,7 +852,7 @@
 								<Action Name="" ID="{231E3BBA-5770-4A72-AEC5-293931532497}" ShortID="599808374">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  leaves 2" ID="{34EF83DE-A1F7-4904-9317-E4FA2024F3E3}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="leaves 2" ID="{34EF83DE-A1F7-4904-9317-E4FA2024F3E3}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -843,7 +863,7 @@
 								<Action Name="" ID="{FE3A2797-EF46-47FD-AEB5-804F99B0A071}" ShortID="439168625">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  leaves 3" ID="{E704285E-8BC2-43CD-ABD8-EB669DA41E81}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="leaves 3" ID="{E704285E-8BC2-43CD-ABD8-EB669DA41E81}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -854,7 +874,7 @@
 								<Action Name="" ID="{41ADA790-C101-4AD4-8930-E22641964EF3}" ShortID="456074263">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  leaves 4" ID="{71855081-ADCC-45F2-8EFD-5155033E2906}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="leaves 4" ID="{71855081-ADCC-45F2-8EFD-5155033E2906}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -865,7 +885,7 @@
 								<Action Name="" ID="{69C1A74E-16F4-4A56-94A1-B797A06FFBEB}" ShortID="556021190">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  leaves 5" ID="{3CCD0B14-F389-4FBF-A4B7-4B6F7C793369}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="leaves 5" ID="{3CCD0B14-F389-4FBF-A4B7-4B6F7C793369}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -876,7 +896,7 @@
 								<Action Name="" ID="{BCA24900-19B1-4638-B21A-0726AFCBECBC}" ShortID="825536826">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  leaves tree at river" ID="{C8DBB91F-D64B-4012-BA2D-F8FAF62E0607}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="leaves tree at river" ID="{C8DBB91F-D64B-4012-BA2D-F8FAF62E0607}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -887,7 +907,7 @@
 								<Action Name="" ID="{42DC6951-2B75-4E5F-8F2C-5BD41CE1BA13}" ShortID="507776927">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  river bubbles" ID="{5283E0B2-835E-49A4-BD57-9C1AE41046D3}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="river bubbles" ID="{5283E0B2-835E-49A4-BD57-9C1AE41046D3}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -898,7 +918,7 @@
 								<Action Name="" ID="{F42D53BA-D7E2-41F8-8BBF-1981CE8A1B99}" ShortID="363428756">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  river hard" ID="{B23CE6F4-7187-41AD-93C3-9F6809E83BE6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="river hard" ID="{B23CE6F4-7187-41AD-93C3-9F6809E83BE6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -909,7 +929,7 @@
 								<Action Name="" ID="{6E4B17D8-E963-4489-B876-0AAC7D27BC2C}" ShortID="616415858">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  river hard far away" ID="{48B8CE79-F315-4319-ADA7-F5FA242C692E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="river hard far away" ID="{48B8CE79-F315-4319-ADA7-F5FA242C692E}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -920,7 +940,7 @@
 								<Action Name="" ID="{6493AB9D-425A-4EDC-8302-56FEBD57ED70}" ShortID="378598071">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  river soft" ID="{4E4E8D1E-A130-479A-92F9-EBDCF4067EB8}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="river soft" ID="{4E4E8D1E-A130-479A-92F9-EBDCF4067EB8}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -931,7 +951,7 @@
 								<Action Name="" ID="{5B94F1E3-FBEC-47D2-A792-4CA409598EE1}" ShortID="901390216">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="  wood knocking" ID="{123016C9-CD70-4BA9-BB3A-B09C95196651}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="wood knocking" ID="{123016C9-CD70-4BA9-BB3A-B09C95196651}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -959,6 +979,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_WIND" ID="{2B202963-10F0-4FB8-B410-913E3FF1D540}">
+							<ChildrenList>
+								<Action Name="" ID="{551BBE5D-4C62-43EC-87BF-87314757B539}" ShortID="479942278">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WIND" ID="{E1974EE9-B6A3-4062-B96F-D16A781F4361}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dialogue PLACEHOLDER" ID="{651F35C6-9FEC-4D2D-B63B-DBB50518ECB3}" ShortID="901498167">
@@ -967,45 +998,109 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_B_nker" ID="{25B4D5BD-2A1E-4C59-B1E2-084A43E6FE73}">
+						<Event Name="Play_Dialog" ID="{DA7FCF12-2622-4268-8743-D24729EC620F}">
 							<ChildrenList>
-								<Action Name="" ID="{AF14D2B3-C4EE-4935-B042-9700C25EF446}" ShortID="694390016">
+								<Action Name="" ID="{5152B7C2-82E1-428C-9510-662BB041AC2F}" ShortID="653902840">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Bänker" ID="{ED73ED13-D697-484F-B18E-5BB3C6819944}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="Dialog" ID="{E06646B0-C2CD-4187-BFA6-321BC0A47FD4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grandma" ID="{446DD5A8-0C78-4C99-97C4-E899246DBF65}">
+						<Event Name="Play_Dialogue_end" ID="{D63288F8-72DC-431F-AAA3-51283CDADE32}">
 							<ChildrenList>
-								<Action Name="" ID="{8D2C1AAD-C1D3-4F51-BD0F-DBF265A06A74}" ShortID="638395781">
+								<Action Name="" ID="{6ADE80FC-A56A-436E-BE4B-A0850B14BC7F}" ShortID="726367961">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grandma" ID="{A73ACF7F-74FB-4F41-8C51-377FA7F2BDE4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="Dialog" ID="{E06646B0-C2CD-4187-BFA6-321BC0A47FD4}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D44CA755-57DD-484A-8A69-5615344F3B65}" ShortID="353933997">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialogue end" ID="{F79C8319-D911-4CB4-9DDA-68A083B5C946}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_H_ndler_01" ID="{58DF7204-319A-49AA-9E30-12B649C3FEBE}">
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ending Music" ID="{0434D3C1-1E81-4760-9A3F-2B92F44FBAFF}" ShortID="925332526">
+					<PropertyList>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_good_ending" ID="{971CDE46-8F0D-4699-9BB3-E07A9283F176}">
 							<ChildrenList>
-								<Action Name="" ID="{37D5496E-9C42-4EE7-BCEB-734728FE3A55}" ShortID="28930690">
+								<Action Name="" ID="{827BE36E-F763-4899-B23F-4200293BCC30}" ShortID="24999798">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Händler_01" ID="{9A6F3DAE-9A7B-46A5-9B14-0A447AED99D8}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="good ending" ID="{5A4BC089-A19A-4347-BE8D-D1F54D727EAB}" WorkUnitID="{7DF48B6B-41E9-44CE-A2E2-2F8344A98BE5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Hexe" ID="{8F116051-A4AA-467F-9529-51B35564666A}">
+						<Event Name="Stop_good_ending" ID="{8F94432B-F318-4700-A430-9BCBBE7CDA6F}">
 							<ChildrenList>
-								<Action Name="" ID="{249C0795-D10C-4D45-BFCD-BC5D17ADA445}" ShortID="546391332">
+								<Action Name="" ID="{600A68E6-0C9E-4FD7-8D09-3A6E74A2219B}" ShortID="523198569">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hexe" ID="{9DAE596B-FDB8-4054-AE31-7BD0318C39B6}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="good ending" ID="{5A4BC089-A19A-4347-BE8D-D1F54D727EAB}" WorkUnitID="{7DF48B6B-41E9-44CE-A2E2-2F8344A98BE5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_bad_ending" ID="{47E5417D-6236-421E-B5D6-795D0DECB002}">
+							<ChildrenList>
+								<Action Name="" ID="{E631753F-9E64-4766-B5D7-A92EC4808EC8}" ShortID="1068990777">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bad ending" ID="{00EF0D26-ADD1-476E-9CF4-FD2D912A71F3}" WorkUnitID="{7DF48B6B-41E9-44CE-A2E2-2F8344A98BE5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_bad_ending" ID="{9D995BD6-6BD0-4AAC-9171-D578A5B93417}">
+							<ChildrenList>
+								<Action Name="" ID="{71273BE1-FFCE-48BE-93ED-ACA7DD2AD891}" ShortID="148715982">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bad ending" ID="{00EF0D26-ADD1-476E-9CF4-FD2D912A71F3}" WorkUnitID="{7DF48B6B-41E9-44CE-A2E2-2F8344A98BE5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{6937BBE0-C6C1-40EE-AE82-4A15598D3E77}" ShortID="475083628">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Day_Night" ID="{1EE4FA1A-7FE2-4EED-8825-F9C3FED26ACD}">
+							<ChildrenList>
+								<Action Name="" ID="{2E489A3B-6B2A-4003-9091-83B7123610BB}" ShortID="84052740">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Day_Night" ID="{3D3F08B2-1DC6-4EED-B79F-1A1CB8640717}" WorkUnitID="{7DF48B6B-41E9-44CE-A2E2-2F8344A98BE5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
