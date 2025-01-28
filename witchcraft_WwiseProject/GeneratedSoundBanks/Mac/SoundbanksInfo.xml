@@ -70,7 +70,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{BF03C2AC-8227-ADCA-A2BE-7616DF82AC6F}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{90C4C11E-E5A2-2C2C-0EF0-34548B667FE8}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -137,7 +137,7 @@
 				</File>
 				<File Id="88255355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden.wav</ShortName>
-					<CachePath>SFX/  schneiden_C59B6735.wem</CachePath>
+					<CachePath>SFX/  schneiden_7BD39247.wem</CachePath>
 				</File>
 				<File Id="92409362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Oboe_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -201,7 +201,7 @@
 				</File>
 				<File Id="177565286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-1.wav</ShortName>
-					<CachePath>SFX/  schneiden-1_5EACF06A.wem</CachePath>
+					<CachePath>SFX/  schneiden-1_850B4360.wem</CachePath>
 				</File>
 				<File Id="178696379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-4.wav</ShortName>
@@ -321,7 +321,7 @@
 				</File>
 				<File Id="296652437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  chest closed.wav</ShortName>
-					<CachePath>SFX/  chest closed_D551D0BF.wem</CachePath>
+					<CachePath>SFX/  chest closed_1D10A657.wem</CachePath>
 				</File>
 				<File Id="297985586" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river hard far away.wav</ShortName>
@@ -469,7 +469,7 @@
 				</File>
 				<File Id="514234718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river hard.wav</ShortName>
-					<CachePath>SFX/  river hard_C916F026.wem</CachePath>
+					<CachePath>SFX/  river hard_EF900F8C.wem</CachePath>
 				</File>
 				<File Id="517690293" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 2.wav</ShortName>
@@ -713,7 +713,7 @@
 				</File>
 				<File Id="855748575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-2.wav</ShortName>
-					<CachePath>SFX/  schneiden-2_FD1604E9.wem</CachePath>
+					<CachePath>SFX/  schneiden-2_343EB391.wem</CachePath>
 				</File>
 				<File Id="866680057" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bänker.wav</ShortName>
@@ -1464,5 +1464,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96B9979D-DF48-6428-0BC3-DB492EB3FD06}</FileHash>
+	<FileHash>{D6F9A6BC-1E97-193B-53D5-7AF58B53089B}</FileHash>
 </SoundBanksInfo>

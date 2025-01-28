@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{BF03C2AC-8227-ADCA-A2BE-7616DF82AC6F}",
+    "Hash": "{90C4C11E-E5A2-2C2C-0EF0-34548B667FE8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  schneiden.wav",
-      "CachePath": "SFX/  schneiden_C59B6735.wem"
+      "CachePath": "SFX/  schneiden_7BD39247.wem"
      },
      {
       "Id": "92409362",
@@ -269,7 +269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  schneiden-1.wav",
-      "CachePath": "SFX/  schneiden-1_5EACF06A.wem"
+      "CachePath": "SFX/  schneiden-1_850B4360.wem"
      },
      {
       "Id": "178696379",
@@ -509,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  chest closed.wav",
-      "CachePath": "SFX/  chest closed_D551D0BF.wem"
+      "CachePath": "SFX/  chest closed_1D10A657.wem"
      },
      {
       "Id": "297985586",
@@ -805,7 +805,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  river hard.wav",
-      "CachePath": "SFX/  river hard_C916F026.wem"
+      "CachePath": "SFX/  river hard_EF900F8C.wem"
      },
      {
       "Id": "517690293",
@@ -1293,7 +1293,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  schneiden-2.wav",
-      "CachePath": "SFX/  schneiden-2_FD1604E9.wem"
+      "CachePath": "SFX/  schneiden-2_343EB391.wem"
      },
      {
       "Id": "866680057",
@@ -3276,6 +3276,6 @@
     ]
    }
   ],
-  "FileHash": "{1A9C1B05-BA69-6497-F818-B30DB61E0BAE}"
+  "FileHash": "{5C0B6E6F-E5EA-7788-2ECE-EFFC5C4DDBC3}"
  }
 }
