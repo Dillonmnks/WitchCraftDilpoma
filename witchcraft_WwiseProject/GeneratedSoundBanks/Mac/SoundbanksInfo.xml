@@ -76,7 +76,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{0AF18D20-60F5-A9C2-7D42-6711D4156CC1}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{28C8AC37-64B2-0E6B-CCD8-A1A1691C4ABB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -127,7 +127,7 @@
 				</File>
 				<File Id="59183884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser stampf.wav</ShortName>
-					<CachePath>SFX/  Mörser stampf_F36DA462.wem</CachePath>
+					<CachePath>SFX/  Mörser stampf_F1D057E5.wem</CachePath>
 				</File>
 				<File Id="63154707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Pad_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -283,7 +283,7 @@
 				</File>
 				<File Id="248968352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive collect.wav</ShortName>
-					<CachePath>SFX/  knive collect_B225F0C2.wem</CachePath>
+					<CachePath>SFX/  knive collect_135BFFEE.wem</CachePath>
 				</File>
 				<File Id="250295349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Synth_Part A_110BPM_4-4_L16-P0.wav</ShortName>
@@ -347,7 +347,7 @@
 				</File>
 				<File Id="309348204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> quest finished.wav</ShortName>
-					<CachePath>SFX/ quest finished_5F87BC90.wem</CachePath>
+					<CachePath>SFX/ quest finished_01E8A268.wem</CachePath>
 				</File>
 				<File Id="315065542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -379,7 +379,7 @@
 				</File>
 				<File Id="360805697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen.wav</ShortName>
-					<CachePath>SFX/  kessel kochen_FCDF489D.wem</CachePath>
+					<CachePath>SFX/  kessel kochen_E9BE483D.wem</CachePath>
 				</File>
 				<File Id="361713716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> door shaking .wav</ShortName>
@@ -419,7 +419,7 @@
 				</File>
 				<File Id="402867416" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser stampf.wav</ShortName>
-					<CachePath>SFX/  Mörser stampf_5FE24CF9.wem</CachePath>
+					<CachePath>SFX/  Mörser stampf_A5251AF3.wem</CachePath>
 				</File>
 				<File Id="405283413" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Oboe_Part B_110BPM_4-4_L16-P0.wav</ShortName>
@@ -535,7 +535,7 @@
 				</File>
 				<File Id="570545043" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive drop.wav</ShortName>
-					<CachePath>SFX/  knive drop_AE8802A9.wem</CachePath>
+					<CachePath>SFX/  knive drop_764F98CC.wem</CachePath>
 				</File>
 				<File Id="573941103" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  coinsound for money-1.wav</ShortName>
@@ -583,7 +583,7 @@
 				</File>
 				<File Id="642603176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive collect.wav</ShortName>
-					<CachePath>SFX/  knive collect_CA96D07C.wem</CachePath>
+					<CachePath>SFX/  knive collect_B2481ABD.wem</CachePath>
 				</File>
 				<File Id="646963069" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Glockenspiel_Part B_110BPM_4-4_L14-P1.wav</ShortName>
@@ -747,7 +747,7 @@
 				</File>
 				<File Id="884940165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive drop.wav</ShortName>
-					<CachePath>SFX/  knive drop_84959870.wem</CachePath>
+					<CachePath>SFX/  knive drop_73F7EE93.wem</CachePath>
 				</File>
 				<File Id="887565968" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -791,11 +791,11 @@
 				</File>
 				<File Id="917264507" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser.wav</ShortName>
-					<CachePath>SFX/  Mörser_BC3FD64C.wem</CachePath>
+					<CachePath>SFX/  Mörser_A56B16FA.wem</CachePath>
 				</File>
 				<File Id="922633899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser-1.wav</ShortName>
-					<CachePath>SFX/  Mörser-1_95038AF6.wem</CachePath>
+					<CachePath>SFX/  Mörser-1_551835A8.wem</CachePath>
 				</File>
 				<File Id="926038193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-2.wav</ShortName>
@@ -819,7 +819,7 @@
 				</File>
 				<File Id="965839834" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen-2.wav</ShortName>
-					<CachePath>SFX/  kessel kochen-2_23540FE6.wem</CachePath>
+					<CachePath>SFX/  kessel kochen-2_63676E2C.wem</CachePath>
 				</File>
 				<File Id="978548441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use eat.wav</ShortName>
@@ -863,7 +863,7 @@
 				</File>
 				<File Id="1040369418" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen-1.wav</ShortName>
-					<CachePath>SFX/  kessel kochen-1_3F86A3EF.wem</CachePath>
+					<CachePath>SFX/  kessel kochen-1_F6854E7B.wem</CachePath>
 				</File>
 				<File Id="1053097705" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -871,7 +871,7 @@
 				</File>
 				<File Id="1057484461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser-2.wav</ShortName>
-					<CachePath>SFX/  Mörser-2_7757CE0C.wem</CachePath>
+					<CachePath>SFX/  Mörser-2_B8864F85.wem</CachePath>
 				</File>
 				<File Id="1058688644" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Kick_Part D_110BPM_4-4_L14-P0.wav</ShortName>
@@ -1483,5 +1483,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BBD3A7A0-9C78-FBA8-1852-ADF62BD34EA0}</FileHash>
+	<FileHash>{555581D6-4CA7-E81A-42BA-8101495A7F77}</FileHash>
 </SoundBanksInfo>
