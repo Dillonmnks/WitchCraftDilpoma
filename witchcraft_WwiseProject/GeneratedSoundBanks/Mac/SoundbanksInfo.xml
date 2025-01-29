@@ -9,14 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{A6A4D99A-0886-C13F-A478-F01BF7DD955A}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{754CC127-7BC8-2FCD-677E-ADA6A4C59E4B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="1259256166" Name="New_RoomVerb" ObjectPath="\Effects\Default Work Unit\New_RoomVerb" GUID="{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="2791153688" Name="Hall_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Small" GUID="{D65B5F04-B83B-412C-9434-34A13A477E24}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{3B701F98-7DA3-49E6-BAAA-9B7D6E879E7B}" LibName="No Output" LibId="11862023"/>
@@ -33,7 +33,7 @@
 				<AuxBus Id="201777475" Name="env_HouseReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\env_HouseReverb" GUID="{A6CB6C07-DE4B-48AD-B27C-7EE8E650C2E3}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="2791153688"/>
+							<PluginRef Id="2995775460"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -45,6 +45,12 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="393239870" Name="SFX" ObjectPath="\Game Parameters\Default Work Unit\SFX" GUID="{199E2ACC-EB9D-40A1-B850-E4ADCAE12468}"/>
+				<GameParameter Id="3930136735" Name="Dialogue" ObjectPath="\Game Parameters\Default Work Unit\Dialogue" GUID="{D1FF2CF5-A54C-4FA3-A3BE-78AFE122C6F3}"/>
+				<GameParameter Id="3991942870" Name="Music" ObjectPath="\Game Parameters\Default Work Unit\Music" GUID="{7E693D43-F913-49AB-9B69-08951E199346}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{AA8B7946-7333-468E-930C-700DE96D3D6C}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
 					<Switches>
@@ -70,7 +76,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{90C4C11E-E5A2-2C2C-0EF0-34548B667FE8}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{0AF18D20-60F5-A9C2-7D42-6711D4156CC1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -118,6 +124,10 @@
 				<File Id="58143896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Piano_Part B_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Day_Piano_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="59183884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  Mörser stampf.wav</ShortName>
+					<CachePath>SFX/  Mörser stampf_F36DA462.wem</CachePath>
 				</File>
 				<File Id="63154707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Pad_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -187,10 +197,6 @@
 					<ShortName>  buy-3.wav</ShortName>
 					<CachePath>SFX/  buy-3_818F3B66.wem</CachePath>
 				</File>
-				<File Id="161903066" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Grandma.wav</ShortName>
-					<CachePath>SFX/Grandma_B7A50CF1.wem</CachePath>
-				</File>
 				<File Id="170190639" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> dagegen rennen.wav</ShortName>
 					<CachePath>SFX/ dagegen rennen_818F3B66.wem</CachePath>
@@ -226,10 +232,6 @@
 				<File Id="202104210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> moral increase.wav</ShortName>
 					<CachePath>SFX/ moral increase_818F3B66.wem</CachePath>
-				</File>
-				<File Id="204154204" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Grandma.wav</ShortName>
-					<CachePath>SFX/Grandma_002602F4.wem</CachePath>
 				</File>
 				<File Id="213656067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
@@ -278,6 +280,10 @@
 				<File Id="248217849" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
 					<CachePath>SFX/Combat frog feed_4E375789.wem</CachePath>
+				</File>
+				<File Id="248968352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  knive collect.wav</ShortName>
+					<CachePath>SFX/  knive collect_B225F0C2.wem</CachePath>
 				</File>
 				<File Id="250295349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Synth_Part A_110BPM_4-4_L16-P0.wav</ShortName>
@@ -341,7 +347,7 @@
 				</File>
 				<File Id="309348204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> quest finished.wav</ShortName>
-					<CachePath>SFX/ quest finished_818F3B66.wem</CachePath>
+					<CachePath>SFX/ quest finished_5F87BC90.wem</CachePath>
 				</File>
 				<File Id="315065542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -373,7 +379,7 @@
 				</File>
 				<File Id="360805697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen.wav</ShortName>
-					<CachePath>SFX/  kessel kochen_818F3B66.wem</CachePath>
+					<CachePath>SFX/  kessel kochen_FCDF489D.wem</CachePath>
 				</File>
 				<File Id="361713716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> door shaking .wav</ShortName>
@@ -410,6 +416,10 @@
 				<File Id="397629470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  wake up.wav</ShortName>
 					<CachePath>SFX/  wake up_818F3B66.wem</CachePath>
+				</File>
+				<File Id="402867416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  Mörser stampf.wav</ShortName>
+					<CachePath>SFX/  Mörser stampf_5FE24CF9.wem</CachePath>
 				</File>
 				<File Id="405283413" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Oboe_Part B_110BPM_4-4_L16-P0.wav</ShortName>
@@ -499,10 +509,6 @@
 					<ShortName>Night_Hi Hat_Part A_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Night_Hi Hat_Part A_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="540713848" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ui turn page 6.wav</ShortName>
-					<CachePath>SFX/Ui turn page 6_818F3B66.wem</CachePath>
-				</File>
 				<File Id="541463883" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
 					<CachePath>SFX/Combat frog pet _F58FF61D.wem</CachePath>
@@ -526,6 +532,10 @@
 				<File Id="567017348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps gras_31931161.wem</CachePath>
+				</File>
+				<File Id="570545043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  knive drop.wav</ShortName>
+					<CachePath>SFX/  knive drop_AE8802A9.wem</CachePath>
 				</File>
 				<File Id="573941103" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  coinsound for money-1.wav</ShortName>
@@ -570,6 +580,10 @@
 				<File Id="641130999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-4.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps wood-4_68E22978.wem</CachePath>
+				</File>
+				<File Id="642603176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  knive collect.wav</ShortName>
+					<CachePath>SFX/  knive collect_CA96D07C.wem</CachePath>
 				</File>
 				<File Id="646963069" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Glockenspiel_Part B_110BPM_4-4_L14-P1.wav</ShortName>
@@ -651,10 +665,6 @@
 					<ShortName>  buy-2.wav</ShortName>
 					<CachePath>SFX/  buy-2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="805202463" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Grandma.wav</ShortName>
-					<CachePath>SFX/Grandma_D2FC810E.wem</CachePath>
-				</File>
 				<File Id="806215852" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Strings_Part D_110BPM_4-4_L14-P0.wav</ShortName>
 					<CachePath>SFX/Day_Strings_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem</CachePath>
@@ -735,6 +745,10 @@
 					<ShortName>Combat interact feed.wav</ShortName>
 					<CachePath>SFX/Combat interact feed_84DDF1F6.wem</CachePath>
 				</File>
+				<File Id="884940165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>  knive drop.wav</ShortName>
+					<CachePath>SFX/  knive drop_84959870.wem</CachePath>
+				</File>
 				<File Id="887565968" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
 					<CachePath>SFX/Hexe_4D8BBD87.wem</CachePath>
@@ -777,11 +791,11 @@
 				</File>
 				<File Id="917264507" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser.wav</ShortName>
-					<CachePath>SFX/  Mörser_818F3B66.wem</CachePath>
+					<CachePath>SFX/  Mörser_BC3FD64C.wem</CachePath>
 				</File>
 				<File Id="922633899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser-1.wav</ShortName>
-					<CachePath>SFX/  Mörser-1_818F3B66.wem</CachePath>
+					<CachePath>SFX/  Mörser-1_95038AF6.wem</CachePath>
 				</File>
 				<File Id="926038193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-2.wav</ShortName>
@@ -805,7 +819,7 @@
 				</File>
 				<File Id="965839834" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen-2.wav</ShortName>
-					<CachePath>SFX/  kessel kochen-2_818F3B66.wem</CachePath>
+					<CachePath>SFX/  kessel kochen-2_23540FE6.wem</CachePath>
 				</File>
 				<File Id="978548441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use eat.wav</ShortName>
@@ -849,7 +863,7 @@
 				</File>
 				<File Id="1040369418" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen-1.wav</ShortName>
-					<CachePath>SFX/  kessel kochen-1_818F3B66.wem</CachePath>
+					<CachePath>SFX/  kessel kochen-1_3F86A3EF.wem</CachePath>
 				</File>
 				<File Id="1053097705" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -857,7 +871,7 @@
 				</File>
 				<File Id="1057484461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser-2.wav</ShortName>
-					<CachePath>SFX/  Mörser-2_818F3B66.wem</CachePath>
+					<CachePath>SFX/  Mörser-2_7757CE0C.wem</CachePath>
 				</File>
 				<File Id="1058688644" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Kick_Part D_110BPM_4-4_L14-P0.wav</ShortName>
@@ -866,10 +880,6 @@
 				<File Id="1059908081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps gravel_FB4040CE.wem</CachePath>
-				</File>
-				<File Id="1069051341" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ui turn page 5.wav</ShortName>
-					<CachePath>SFX/Ui turn page 5_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -993,7 +1003,7 @@
 						<MediaRef Id="202104210"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="392743550" Name="Play__quest_finished" ObjectPath="\Events\Default Work Unit\händler\Play__quest_finished" GUID="{5D4A3A92-AAF1-43DC-86ED-389E9CC87564}" DurationType="OneShot" DurationMin="3" DurationMax="3">
+				<Event Id="392743550" Name="Play__quest_finished" ObjectPath="\Events\Default Work Unit\händler\Play__quest_finished" GUID="{5D4A3A92-AAF1-43DC-86ED-389E9CC87564}" DurationType="OneShot" DurationMin="2.7096114" DurationMax="2.7096114">
 					<MediaRefs>
 						<MediaRef Id="309348204"/>
 					</MediaRefs>
@@ -1016,7 +1026,7 @@
 						<MediaRef Id="8451084"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="6.446867" DurationMax="6.6357746">
+				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="Mixed" DurationMin="3.212447" DurationMax="Infinite">
 					<MediaRefs>
 						<MediaRef Id="360805697"/>
 						<MediaRef Id="965839834"/>
@@ -1097,7 +1107,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="740168818" Name="Play_Dialog" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_Dialog" GUID="{DA7FCF12-2622-4268-8743-D24729EC620F}" DurationType="OneShot" DurationMin="3.8609407" DurationMax="5.639738">
+				<Event Id="740168818" Name="Play_Dialog" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_Dialog" GUID="{DA7FCF12-2622-4268-8743-D24729EC620F}" DurationType="OneShot" DurationMin="3.8609407" DurationMax="5.398773">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="3625525251" GUID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
@@ -1121,14 +1131,6 @@
 								<MediaRef Id="41935058"/>
 								<MediaRef Id="116496702"/>
 								<MediaRef Id="887565968"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="371397999" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
-							<MediaRefs>
-								<MediaRef Id="161903066"/>
-								<MediaRef Id="204154204"/>
-								<MediaRef Id="805202463"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1262,11 +1264,29 @@
 						<MediaRef Id="1024205521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="433371790" Name="Play_m_rser" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_m_rser" GUID="{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="5.421148" DurationMax="5.5799994">
+				<Event Id="3359335270" Name="Play_knive_collect" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_knive_collect" GUID="{199DDEC5-EBA7-4EFB-88F7-0C9FD1449968}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.78527606" DurationMax="0.80981594">
+					<MediaRefs>
+						<MediaRef Id="248968352"/>
+						<MediaRef Id="642603176"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1919069071" Name="Play_knive_drop" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_knive_drop" GUID="{25D1F37F-4E12-4003-8F0C-70240B66CD9E}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.4085489" DurationMax="0.6417575">
+					<MediaRefs>
+						<MediaRef Id="570545043"/>
+						<MediaRef Id="884940165"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="433371790" Name="Play_m_rser" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_m_rser" GUID="{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="3.1965187" DurationMax="3.5069935">
 					<MediaRefs>
 						<MediaRef Id="917264507"/>
 						<MediaRef Id="922633899"/>
 						<MediaRef Id="1057484461"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2991619800" Name="Play_m_rser_stampf" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_m_rser_stampf" GUID="{41ECA8DA-F1BA-4A49-B26D-370E1C3D4EC8}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.17971562" DurationMax="0.43746856">
+					<MediaRefs>
+						<MediaRef Id="59183884"/>
+						<MediaRef Id="402867416"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3183376343" Name="Play_Nutshell" ObjectPath="\Events\Default Work Unit\Atmo\Play_Nutshell" GUID="{E35663FC-9EC9-4596-97E8-F18A7752E670}" DurationType="OneShot" DurationMin="5.5" DurationMax="5.5">
@@ -1277,14 +1297,12 @@
 						<MediaRef Id="997968862"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="779013463" Name="Play_Page_Turn_Container" ObjectPath="\Events\Default Work Unit\UI Events\Play_Page_Turn_Container" GUID="{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}" DurationType="OneShot" DurationMin="1.1169976" DurationMax="1.9346374">
+				<Event Id="779013463" Name="Play_Page_Turn_Container" ObjectPath="\Events\Default Work Unit\UI Events\Play_Page_Turn_Container" GUID="{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}" DurationType="OneShot" DurationMin="1.3031639" DurationMax="1.9346374">
 					<MediaRefs>
 						<MediaRef Id="301112140"/>
 						<MediaRef Id="441285259"/>
-						<MediaRef Id="540713848"/>
 						<MediaRef Id="614674959"/>
 						<MediaRef Id="792034974"/>
-						<MediaRef Id="1069051341"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4044256362" Name="Play_sell" ObjectPath="\Events\Default Work Unit\händler\Play_sell" GUID="{CF95D093-81C2-4230-8E85-F32C726298ED}" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
@@ -1395,7 +1413,7 @@
 						<MediaRef Id="271812814"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3116151072" Name="Play_Worm_Idle" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_Worm_Idle" GUID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="3116151072" Name="Play_Worm_Idle" ObjectPath="\Events\Default Work Unit\Combat\worm\Play_Worm_Idle" GUID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="12299255"/>
 						<MediaRef Id="372603158"/>
@@ -1437,6 +1455,7 @@
 						<MediaRef Id="827643818"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1949706302" Name="Stop_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Stop_cauldron" GUID="{64907AFA-F940-4A5A-BA7D-A2B633AAF406}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
@@ -1464,5 +1483,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D6F9A6BC-1E97-193B-53D5-7AF58B53089B}</FileHash>
+	<FileHash>{BBD3A7A0-9C78-FBA8-1852-ADF62BD34EA0}</FileHash>
 </SoundBanksInfo>

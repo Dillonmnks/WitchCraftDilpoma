@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{90C4C11E-E5A2-2C2C-0EF0-34548B667FE8}",
+    "Hash": "{0AF18D20-60F5-A9C2-7D42-6711D4156CC1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -102,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Day_Piano_Part B_110BPM_4-4_L16-P0.wav",
       "CachePath": "SFX/Day_Piano_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem"
+     },
+     {
+      "Id": "59183884",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  Mörser stampf.wav",
+      "CachePath": "SFX/  Mörser stampf_F36DA462.wem"
      },
      {
       "Id": "63154707",
@@ -240,14 +248,6 @@
       "CachePath": "SFX/  buy-3_818F3B66.wem"
      },
      {
-      "Id": "161903066",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Grandma.wav",
-      "CachePath": "SFX/Grandma_B7A50CF1.wem"
-     },
-     {
       "Id": "170190639",
       "Language": "SFX",
       "Streaming": "false",
@@ -318,14 +318,6 @@
       "Location": "Memory",
       "ShortName": " moral increase.wav",
       "CachePath": "SFX/ moral increase_818F3B66.wem"
-     },
-     {
-      "Id": "204154204",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Grandma.wav",
-      "CachePath": "SFX/Grandma_002602F4.wem"
      },
      {
       "Id": "213656067",
@@ -422,6 +414,14 @@
       "Location": "Memory",
       "ShortName": "Combat frog feed.wav",
       "CachePath": "SFX/Combat frog feed_4E375789.wem"
+     },
+     {
+      "Id": "248968352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  knive collect.wav",
+      "CachePath": "SFX/  knive collect_B225F0C2.wem"
      },
      {
       "Id": "250295349",
@@ -549,7 +549,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": " quest finished.wav",
-      "CachePath": "SFX/ quest finished_818F3B66.wem"
+      "CachePath": "SFX/ quest finished_5F87BC90.wem"
      },
      {
       "Id": "315065542",
@@ -613,7 +613,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  kessel kochen.wav",
-      "CachePath": "SFX/  kessel kochen_818F3B66.wem"
+      "CachePath": "SFX/  kessel kochen_FCDF489D.wem"
      },
      {
       "Id": "361713716",
@@ -686,6 +686,14 @@
       "Location": "Memory",
       "ShortName": "  wake up.wav",
       "CachePath": "SFX/  wake up_818F3B66.wem"
+     },
+     {
+      "Id": "402867416",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  Mörser stampf.wav",
+      "CachePath": "SFX/  Mörser stampf_5FE24CF9.wem"
      },
      {
       "Id": "405283413",
@@ -864,14 +872,6 @@
       "CachePath": "SFX/Night_Hi Hat_Part A_110BPM_4-4_L16-P0_FBC78EF0.wem"
      },
      {
-      "Id": "540713848",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Ui turn page 6.wav",
-      "CachePath": "SFX/Ui turn page 6_818F3B66.wem"
-     },
-     {
       "Id": "541463883",
       "Language": "SFX",
       "Streaming": "false",
@@ -918,6 +918,14 @@
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gras.wav",
       "CachePath": "SFX/Main Charakter  footsteps gras_31931161.wem"
+     },
+     {
+      "Id": "570545043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  knive drop.wav",
+      "CachePath": "SFX/  knive drop_AE8802A9.wem"
      },
      {
       "Id": "573941103",
@@ -1006,6 +1014,14 @@
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-4.wav",
       "CachePath": "SFX/Main Charakter  footsteps wood-4_68E22978.wem"
+     },
+     {
+      "Id": "642603176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  knive collect.wav",
+      "CachePath": "SFX/  knive collect_CA96D07C.wem"
      },
      {
       "Id": "646963069",
@@ -1168,14 +1184,6 @@
       "CachePath": "SFX/  buy-2_818F3B66.wem"
      },
      {
-      "Id": "805202463",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Grandma.wav",
-      "CachePath": "SFX/Grandma_D2FC810E.wem"
-     },
-     {
       "Id": "806215852",
       "Language": "SFX",
       "Streaming": "false",
@@ -1336,6 +1344,14 @@
       "CachePath": "SFX/Combat interact feed_84DDF1F6.wem"
      },
      {
+      "Id": "884940165",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "  knive drop.wav",
+      "CachePath": "SFX/  knive drop_84959870.wem"
+     },
+     {
       "Id": "887565968",
       "Language": "SFX",
       "Streaming": "false",
@@ -1421,7 +1437,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  Mörser.wav",
-      "CachePath": "SFX/  Mörser_818F3B66.wem"
+      "CachePath": "SFX/  Mörser_BC3FD64C.wem"
      },
      {
       "Id": "922633899",
@@ -1429,7 +1445,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  Mörser-1.wav",
-      "CachePath": "SFX/  Mörser-1_818F3B66.wem"
+      "CachePath": "SFX/  Mörser-1_95038AF6.wem"
      },
      {
       "Id": "926038193",
@@ -1477,7 +1493,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  kessel kochen-2.wav",
-      "CachePath": "SFX/  kessel kochen-2_818F3B66.wem"
+      "CachePath": "SFX/  kessel kochen-2_23540FE6.wem"
      },
      {
       "Id": "978548441",
@@ -1565,7 +1581,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  kessel kochen-1.wav",
-      "CachePath": "SFX/  kessel kochen-1_818F3B66.wem"
+      "CachePath": "SFX/  kessel kochen-1_3F86A3EF.wem"
      },
      {
       "Id": "1053097705",
@@ -1581,7 +1597,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  Mörser-2.wav",
-      "CachePath": "SFX/  Mörser-2_818F3B66.wem"
+      "CachePath": "SFX/  Mörser-2_7757CE0C.wem"
      },
      {
       "Id": "1058688644",
@@ -1598,14 +1614,6 @@
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps gravel.wav",
       "CachePath": "SFX/Main Charakter  footsteps gravel_FB4040CE.wem"
-     },
-     {
-      "Id": "1069051341",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Ui turn page 5.wav",
-      "CachePath": "SFX/Ui turn page 5_818F3B66.wem"
      }
     ],
     "Events": [
@@ -1965,8 +1973,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\händler\\Play__quest_finished",
       "GUID": "{5D4A3A92-AAF1-43DC-86ED-389E9CC87564}",
       "DurationType": "OneShot",
-      "DurationMin": "3",
-      "DurationMax": "3",
+      "DurationMin": "2.7096114",
+      "DurationMax": "2.7096114",
       "MediaRefs": [
        {
         "Id": "309348204"
@@ -2031,9 +2039,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cauldron",
       "GUID": "{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}",
       "MaxAttenuation": "1990",
-      "DurationType": "OneShot",
-      "DurationMin": "6.446867",
-      "DurationMax": "6.6357746",
+      "DurationType": "Mixed",
+      "DurationMin": "3.212447",
+      "DurationMax": "Infinite",
       "MediaRefs": [
        {
         "Id": "360805697"
@@ -2261,7 +2269,7 @@
       "GUID": "{DA7FCF12-2622-4268-8743-D24729EC620F}",
       "DurationType": "OneShot",
       "DurationMin": "3.8609407",
-      "DurationMax": "5.639738",
+      "DurationMax": "5.398773",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -2318,25 +2326,6 @@
          },
          {
           "Id": "887565968"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1235749641",
-         "Id": "371397999",
-         "GUID": "{38F768AD-779B-4000-BF91-412F41794AC0}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "161903066"
-         },
-         {
-          "Id": "204154204"
-         },
-         {
-          "Id": "805202463"
          }
         ]
        }
@@ -2687,14 +2676,50 @@
       ]
      },
      {
+      "Id": "3359335270",
+      "Name": "Play_knive_collect",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_knive_collect",
+      "GUID": "{199DDEC5-EBA7-4EFB-88F7-0C9FD1449968}",
+      "MaxAttenuation": "1990",
+      "DurationType": "OneShot",
+      "DurationMin": "0.78527606",
+      "DurationMax": "0.80981594",
+      "MediaRefs": [
+       {
+        "Id": "248968352"
+       },
+       {
+        "Id": "642603176"
+       }
+      ]
+     },
+     {
+      "Id": "1919069071",
+      "Name": "Play_knive_drop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_knive_drop",
+      "GUID": "{25D1F37F-4E12-4003-8F0C-70240B66CD9E}",
+      "MaxAttenuation": "1990",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4085489",
+      "DurationMax": "0.6417575",
+      "MediaRefs": [
+       {
+        "Id": "570545043"
+       },
+       {
+        "Id": "884940165"
+       }
+      ]
+     },
+     {
       "Id": "433371790",
       "Name": "Play_m_rser",
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_m_rser",
       "GUID": "{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}",
       "MaxAttenuation": "1990",
       "DurationType": "OneShot",
-      "DurationMin": "5.421148",
-      "DurationMax": "5.5799994",
+      "DurationMin": "3.1965187",
+      "DurationMax": "3.5069935",
       "MediaRefs": [
        {
         "Id": "917264507"
@@ -2704,6 +2729,24 @@
        },
        {
         "Id": "1057484461"
+       }
+      ]
+     },
+     {
+      "Id": "2991619800",
+      "Name": "Play_m_rser_stampf",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_m_rser_stampf",
+      "GUID": "{41ECA8DA-F1BA-4A49-B26D-370E1C3D4EC8}",
+      "MaxAttenuation": "1990",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17971562",
+      "DurationMax": "0.43746856",
+      "MediaRefs": [
+       {
+        "Id": "59183884"
+       },
+       {
+        "Id": "402867416"
        }
       ]
      },
@@ -2736,7 +2779,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI Events\\Play_Page_Turn_Container",
       "GUID": "{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.1169976",
+      "DurationMin": "1.3031639",
       "DurationMax": "1.9346374",
       "MediaRefs": [
        {
@@ -2746,16 +2789,10 @@
         "Id": "441285259"
        },
        {
-        "Id": "540713848"
-       },
-       {
         "Id": "614674959"
        },
        {
         "Id": "792034974"
-       },
-       {
-        "Id": "1069051341"
        }
       ]
      },
@@ -3068,7 +3105,7 @@
       "GUID": "{33CCD26C-DD44-4540-B92B-C958FB7C7C73}",
       "MaxAttenuation": "1990",
       "DurationType": "OneShot",
-      "DurationMin": "2",
+      "DurationMin": "0",
       "DurationMax": "2",
       "MediaRefs": [
        {
@@ -3186,6 +3223,16 @@
         "Id": "827643818"
        }
       ]
+     },
+     {
+      "Id": "1949706302",
+      "Name": "Stop_cauldron",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Stop_cauldron",
+      "GUID": "{64907AFA-F940-4A5A-BA7D-A2B633AAF406}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -3276,6 +3323,6 @@
     ]
    }
   ],
-  "FileHash": "{5C0B6E6F-E5EA-7788-2ECE-EFFC5C4DDBC3}"
+  "FileHash": "{399ABC9A-3B4F-7193-933B-9F21BF15B159}"
  }
 }

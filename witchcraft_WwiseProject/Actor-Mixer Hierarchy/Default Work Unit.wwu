@@ -150,6 +150,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ui turn page 5" ID="{408D718C-E396-47A7-94EA-1CE3DD16B424}" ShortID="8090674">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -172,6 +179,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ui turn page 6" ID="{CB03AB6C-01D5-4E9A-A707-9C8A21C0FCCB}" ShortID="999829208">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -1366,11 +1380,6 @@
 								</RandomSequenceContainer>
 								<SwitchContainer Name="footsteps" ID="{41694335-4A90-42B1-B85F-92B8F6356C28}" ShortID="1046545740">
 									<PropertyList>
-										<Property Name="GameAuxSendVolume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
 										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -2225,7 +2234,17 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="frog walk" ID="{2D92BF85-42BB-4BA0-A35C-421669A75CB9}" ShortID="963446869">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>48</Value>
+													</ValueList>
+												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -4258,6 +4277,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="quest finished" ID="{72D6031C-53F0-4799-9D32-6D3DA88EEE59}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.271983640081799"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.98159509202454"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile> quest finished.wav</AudioFile>
 											<MediaIDList>
@@ -4560,6 +4584,11 @@
 												<Value>25</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -4577,6 +4606,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4588,6 +4622,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="kessel kochen" ID="{593AB594-6A63-449E-A0B2-4042A4D962AB}" ShortID="637200573">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4598,6 +4635,16 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="kessel kochen" ID="{A2E567B6-FEC6-4A38-9571-E6FDA8853BF5}">
+													<PropertyList>
+														<Property Name="CrossfadeShape" Type="int16" Value="6"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0224948875255626"/>
+														<Property Name="FadeInShape" Type="int16" Value="6"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00749829584185413"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.51567825494206"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>  kessel kochen.wav</AudioFile>
 													<MediaIDList>
@@ -4620,6 +4667,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="kessel kochen-1" ID="{05D5EFCC-3D44-430E-8BF1-4940ED9768CD}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0862304021813224"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0299931833674165"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>  kessel kochen-1.wav</AudioFile>
 													<MediaIDList>
@@ -4642,6 +4694,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="kessel kochen-2" ID="{FB12A678-B6F0-4FBA-8DDA-928836E9A49D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.119972733469666"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0299931833674165"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.74062713019768"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>  kessel kochen-2.wav</AudioFile>
 													<MediaIDList>
@@ -4801,6 +4859,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Mörser" ID="{86335F92-19DA-4168-8D07-5F2E61D8DE90}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0824812542603954"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.31799591002045"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>  Mörser.wav</AudioFile>
 													<MediaIDList>
@@ -4823,6 +4886,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Mörser-1" ID="{735354BE-8B32-472F-9320-5B7B035E151C}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.059986366734833"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.45671438309475"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>  Mörser-1.wav</AudioFile>
 													<MediaIDList>
@@ -4845,6 +4913,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Mörser-2" ID="{AF090EEE-8FFD-4A87-9CA4-BF4DDBC3BBD2}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.24301295160191"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>  Mörser-2.wav</AudioFile>
 													<MediaIDList>
@@ -4854,6 +4927,255 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Mörser-2" ID="{AF090EEE-8FFD-4A87-9CA4-BF4DDBC3BBD2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="knive collect" ID="{CCE7D18D-7287-4BA2-8B86-67C0812A6EAC}" ShortID="330295275">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="knive collect" ID="{B26EDB19-D494-4923-8198-2D136280DF22}" ShortID="978267251">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att Combat" ID="{9D78264A-5081-4DAD-94C7-BA1962EA8DD9}" WorkUnitID="{6829AEC9-C09E-4B94-8B52-054C41F47DE7}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="knive collect" ID="{46E6D654-2B75-44BF-99A7-D4B440B3A6D2}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.245398773006135"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.03067484662577"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.84049079754602"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>1.8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>  knive collect.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="248968352"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="knive collect" ID="{46E6D654-2B75-44BF-99A7-D4B440B3A6D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="knive collect_01" ID="{3300B38F-DAB3-4F4A-AC04-1A0B0A160751}" ShortID="530171438">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att Combat" ID="{9D78264A-5081-4DAD-94C7-BA1962EA8DD9}" WorkUnitID="{6829AEC9-C09E-4B94-8B52-054C41F47DE7}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="knive collect" ID="{7CC84278-4953-47FE-AE70-79C91D17C20D}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.319018404907975"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="18.8220858895705"/>
+														<Property Name="TrimEnd" Type="Real64" Value="19.6073619631902"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>  knive collect.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="642603176"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="knive collect" ID="{7CC84278-4953-47FE-AE70-79C91D17C20D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="knive drop" ID="{183F4BF6-1E02-492C-9627-8725DFED8B54}" ShortID="50192844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="knive drop" ID="{4EA558A9-6831-47C3-945A-5850B3A7B040}" ShortID="444821112">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att Combat" ID="{9D78264A-5081-4DAD-94C7-BA1962EA8DD9}" WorkUnitID="{6829AEC9-C09E-4B94-8B52-054C41F47DE7}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="knive drop" ID="{C9B72F16-EC19-4A42-909D-28C1D50103B9}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0339600526815973"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.171779141104294"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.54229162109631"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.1840490797546"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>  knive drop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="570545043"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="knive drop" ID="{C9B72F16-EC19-4A42-909D-28C1D50103B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="knive drop_01" ID="{29F1A922-64B2-4A38-B603-745251E37454}" ShortID="335302948">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att Combat" ID="{9D78264A-5081-4DAD-94C7-BA1962EA8DD9}" WorkUnitID="{6829AEC9-C09E-4B94-8B52-054C41F47DE7}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="knive drop" ID="{75F87844-1FE4-4635-BAED-315A30264908}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0158952128511913"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.105010505455219"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="24.2183503792225"/>
+														<Property Name="TrimEnd" Type="Real64" Value="24.6268992776016"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>  knive drop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="884940165"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="knive drop" ID="{75F87844-1FE4-4635-BAED-315A30264908}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="mörser stampf" ID="{457B7AA0-B9AA-4364-99CE-DDCA37AC6336}" ShortID="975427049">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mörser stampf" ID="{E9676CFD-C2CA-4107-97EE-099DEBF97EB4}" ShortID="1018430405">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att Combat" ID="{9D78264A-5081-4DAD-94C7-BA1962EA8DD9}" WorkUnitID="{6829AEC9-C09E-4B94-8B52-054C41F47DE7}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mörser stampf" ID="{8F3C3C3B-DB26-40B8-9EB3-5496D4D964C8}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0370625313371367"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0288264132622178"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.75149402950127"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.9312096412612"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>  Mörser stampf.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="402867416"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mörser stampf" ID="{8F3C3C3B-DB26-40B8-9EB3-5496D4D964C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mörser stampf_01" ID="{BEEB0B80-2469-419F-B71D-DE642AC2709A}" ShortID="164018003">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att Combat" ID="{9D78264A-5081-4DAD-94C7-BA1962EA8DD9}" WorkUnitID="{6829AEC9-C09E-4B94-8B52-054C41F47DE7}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mörser stampf" ID="{47A44D27-BDF3-48DF-94A2-5A5C5F712679}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0514757379682464"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.144132066311087"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="14.8848676366773"/>
+														<Property Name="TrimEnd" Type="Real64" Value="15.3223361985558"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>  Mörser stampf.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="59183884"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mörser stampf" ID="{47A44D27-BDF3-48DF-94A2-5A5C5F712679}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -6178,6 +6500,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Grandma" ID="{AF40C520-4E11-4E3A-AB92-08FCD367B653}" ShortID="686309851">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
