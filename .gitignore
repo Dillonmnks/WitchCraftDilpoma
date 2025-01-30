@@ -15,6 +15,9 @@
 *.so
 *.dylib
 
+# ignore wise cache folder
+C:\Users\Manuel\Documents\GitHub\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\*
+
 # Fortran module files
 *.mod
 

@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{09F856D7-4317-4AB8-A313-EA0EE150B676}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{09F856D7-4317-4AB8-A313-EA0EE150B676}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{09F856D7-4317-4AB8-A313-EA0EE150B676}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{BB48C117-6E60-4F22-96EB-92EE017029BA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Dialog" ID="{DA7FCF12-2622-4268-8743-D24729EC620F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dialogue_end" ID="{D63288F8-72DC-431F-AAA3-51283CDADE32}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume" ID="{AA8B7946-7333-468E-930C-700DE96D3D6C}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+						<CurrentSwitchRef Name="gras" ID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
+						<CurrentSwitchRef Name="Day" ID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

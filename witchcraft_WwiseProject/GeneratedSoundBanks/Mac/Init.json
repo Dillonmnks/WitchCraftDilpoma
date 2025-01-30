@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F2A3AB61-21AE-BF91-BC7B-A20676B3D121}",
+    "Hash": "{754CC127-7BC8-2FCD-677E-ADA6A4C59E4B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1259256166",
+       "Name": "New_RoomVerb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_RoomVerb",
+       "GUID": "{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -60,7 +78,113 @@
       "GUID": "{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "201777475",
+      "Name": "env_HouseReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\env_HouseReverb",
+      "GUID": "{A6CB6C07-DE4B-48AD-B27C-7EE8E650C2E3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3048156837",
+      "Name": "Amb_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Amb_Rev",
+      "GUID": "{531F5E48-AA8A-4C72-9698-478FCCFE7727}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1259256166"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX",
+      "GUID": "{199E2ACC-EB9D-40A1-B850-E4ADCAE12468}"
+     },
+     {
+      "Id": "3930136735",
+      "Name": "Dialogue",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Dialogue",
+      "GUID": "{D1FF2CF5-A54C-4FA3-A3BE-78AFE122C6F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music",
+      "GUID": "{7E693D43-F913-49AB-9B69-08951E199346}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{AA8B7946-7333-468E-930C-700DE96D3D6C}"
+     }
+    ],
     "SwitchGroups": [
+     {
+      "Id": "301787977",
+      "Name": "DayNightCycle",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle",
+      "GUID": "{F9D56BD1-C719-470C-9FD3-91868C2673D9}",
+      "Switches": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Day",
+        "GUID": "{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Night",
+        "GUID": "{29F0AEDF-614F-446B-9710-2451C184C810}"
+       }
+      ]
+     },
+     {
+      "Id": "1235749641",
+      "Name": "Dialog",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Dialog",
+      "GUID": "{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}",
+      "Switches": [
+       {
+        "Id": "371397999",
+        "Name": "Grandma",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Grandma",
+        "GUID": "{38F768AD-779B-4000-BF91-412F41794AC0}"
+       },
+       {
+        "Id": "3297275997",
+        "Name": "Hexe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Hexe",
+        "GUID": "{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"
+       },
+       {
+        "Id": "3625525251",
+        "Name": "Handler",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Handler",
+        "GUID": "{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"
+       },
+       {
+        "Id": "4018763786",
+        "Name": "Banker",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Dialog\\Banker",
+        "GUID": "{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"
+       }
+      ]
+     },
      {
       "Id": "2385628198",
       "Name": "footsteps",
@@ -96,6 +220,6 @@
     ]
    }
   ],
-  "FileHash": "{7430387C-F129-7D7E-5B37-EC9FCCE2F720}"
+  "FileHash": "{E081782F-94B4-6856-5FF8-DE8C984F8975}"
  }
 }

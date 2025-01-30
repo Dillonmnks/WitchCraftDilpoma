@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F99B1000-1B50-D620-1E3A-B6AC3AF5018F}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BF5B2171-A7D9-699C-92AB-0E7084177AA2}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="1259256166" Name="New_RoomVerb" ObjectPath="\Effects\Default Work Unit\New_RoomVerb" GUID="{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{3B701F98-7DA3-49E6-BAAA-9B7D6E879E7B}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{E6EDF7AA-E484-4322-99EA-052383BF4E18}" LibName="System" LibId="11403271"/>
@@ -17,7 +21,43 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="201777475" Name="env_HouseReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\env_HouseReverb" GUID="{A6CB6C07-DE4B-48AD-B27C-7EE8E650C2E3}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3048156837" Name="Amb_Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Amb_Rev" GUID="{531F5E48-AA8A-4C72-9698-478FCCFE7727}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1259256166"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="393239870" Name="SFX" ObjectPath="\Game Parameters\Default Work Unit\SFX" GUID="{199E2ACC-EB9D-40A1-B850-E4ADCAE12468}"/>
+				<GameParameter Id="3930136735" Name="Dialogue" ObjectPath="\Game Parameters\Default Work Unit\Dialogue" GUID="{D1FF2CF5-A54C-4FA3-A3BE-78AFE122C6F3}"/>
+				<GameParameter Id="3991942870" Name="Music" ObjectPath="\Game Parameters\Default Work Unit\Music" GUID="{7E693D43-F913-49AB-9B69-08951E199346}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{AA8B7946-7333-468E-930C-700DE96D3D6C}"/>
+			</GameParameters>
 			<SwitchGroups>
+				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
+					<Switches>
+						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
+					<Switches>
+						<Switch Id="371397999" Name="Grandma" ObjectPath="\Switches\Default Work Unit\Dialog\Grandma" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
+						<Switch Id="3297275997" Name="Hexe" ObjectPath="\Switches\Default Work Unit\Dialog\Hexe" GUID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
+						<Switch Id="3625525251" Name="Handler" ObjectPath="\Switches\Default Work Unit\Dialog\Handler" GUID="{3AE7CB1E-3233-43DE-A13A-CBB38C0C93E1}"/>
+						<Switch Id="4018763786" Name="Banker" ObjectPath="\Switches\Default Work Unit\Dialog\Banker" GUID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="footsteps" ObjectPath="\Switches\Default Work Unit\footsteps" GUID="{3AE4D556-EA33-46C3-8725-94CC63AAE6C2}">
 					<Switches>
 						<Switch Id="906520814" Name="gras" ObjectPath="\Switches\Default Work Unit\footsteps\gras" GUID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
@@ -29,5 +69,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{58FAF770-01D1-2DEA-D61C-F55ED1107607}</FileHash>
+	<FileHash>{5E0E9398-B387-0291-91B1-CD83DED80E48}</FileHash>
 </SoundBanksInfo>
