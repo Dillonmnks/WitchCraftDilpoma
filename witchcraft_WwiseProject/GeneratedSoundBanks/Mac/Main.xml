@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{28C8AC37-64B2-0E6B-CCD8-A1A1691C4ABB}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{D7B0B107-12AB-112E-EFFC-1F1FB8A8AE22}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -304,7 +304,7 @@
 				</File>
 				<File Id="360805697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen.wav</ShortName>
-					<CachePath>SFX/  kessel kochen_E9BE483D.wem</CachePath>
+					<CachePath>SFX/  kessel kochen_FA2A06FA.wem</CachePath>
 				</File>
 				<File Id="361713716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> door shaking .wav</ShortName>
@@ -951,7 +951,7 @@
 						<MediaRef Id="8451084"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="Mixed" DurationMin="3.212447" DurationMax="Infinite">
+				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="2.9487715" DurationMax="6.6357746">
 					<MediaRefs>
 						<MediaRef Id="360805697"/>
 						<MediaRef Id="965839834"/>
@@ -1381,6 +1381,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1949706302" Name="Stop_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Stop_cauldron" GUID="{64907AFA-F940-4A5A-BA7D-A2B633AAF406}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="327832700" Name="Stop_m_rser" ObjectPath="\Events\Default Work Unit\Minigame cooking\Stop_m_rser" GUID="{6A22A5DE-0B8E-420B-ABFC-261C7D458CA3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
@@ -1408,5 +1409,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{469186F0-5967-34FE-7AA0-551F34A44622}</FileHash>
+	<FileHash>{98F49972-A282-5889-7D17-2FD62671DE36}</FileHash>
 </SoundBanksInfo>

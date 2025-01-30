@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	72283163	Play_coinsound_for_money			\Default Work Unit\händler\Play_coinsound_for_money	
 	161356194	Play_birds_1			\Default Work Unit\Atmo\Play_birds_1	
 	251756331	Play___door_open__close			\Default Work Unit\Gameplay\Play___door_open__close	
+	327832700	Stop_m_rser			\Default Work Unit\Minigame cooking\Stop_m_rser	
 	360526586	Play_Ui_letter_open			\Default Work Unit\UI Events\Play_Ui_letter_open	
 	368624613	Play_worm_walk			\Default Work Unit\Combat\worm\Play_worm_walk	
 	392743550	Play__quest_finished			\Default Work Unit\händler\Play__quest_finished	
@@ -169,7 +170,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	343265672	Ui button	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Ui button_8222A722.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui button		73852
 	346084147	door open _close	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  door open _close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Gameplay\door open _close		308832
 	349086572	Night_Kick_Part C_110BPM_4-4_L14-P1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Night_Kick_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Night Playlist\Part C\Night_Kick_Part C_110BPM_4-4_L14-P1		7540460
-	360805697	kessel kochen	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  kessel kochen_E9BE483D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\cauldron\kessel kochen		483108
+	360805697	kessel kochen	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  kessel kochen_FA2A06FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\cauldron\kessel kochen		483108
 	361713716	door shaking	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\ door shaking _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Gameplay\door shaking		308832
 	372153424	Ui item delete bin	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Ui item delete bin_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui item delete bin		91296
 	372603158	Combat  worm idle	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Combat  worm idle_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\Worm Idle\Combat  worm idle		384096

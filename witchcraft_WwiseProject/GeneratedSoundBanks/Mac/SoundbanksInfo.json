@@ -232,7 +232,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{28C8AC37-64B2-0E6B-CCD8-A1A1691C4ABB}",
+    "Hash": "{D7B0B107-12AB-112E-EFFC-1F1FB8A8AE22}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -835,7 +835,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  kessel kochen.wav",
-      "CachePath": "SFX/  kessel kochen_E9BE483D.wem"
+      "CachePath": "SFX/  kessel kochen_FA2A06FA.wem"
      },
      {
       "Id": "361713716",
@@ -2261,9 +2261,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cauldron",
       "GUID": "{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}",
       "MaxAttenuation": "1990",
-      "DurationType": "Mixed",
-      "DurationMin": "3.212447",
-      "DurationMax": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "2.9487715",
+      "DurationMax": "6.6357746",
       "MediaRefs": [
        {
         "Id": "360805697"
@@ -3455,6 +3455,16 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "327832700",
+      "Name": "Stop_m_rser",
+      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Stop_m_rser",
+      "GUID": "{6A22A5DE-0B8E-420B-ABFC-261C7D458CA3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -3545,6 +3555,6 @@
     ]
    }
   ],
-  "FileHash": "{52F03E00-6B57-728F-2F07-418FE0BB37D8}"
+  "FileHash": "{2B651865-7D62-FBB0-344D-B29B9BD3B4B6}"
  }
 }
