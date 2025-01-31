@@ -445,6 +445,9 @@
 								<Event Name="Play_Worm_Idle" ID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}">
 									<ChildrenList>
 										<Action Name="" ID="{DFB3C576-E6DB-43F0-A35F-609C2A7BA3B7}" ShortID="536359007">
+											<PropertyList>
+												<Property Name="Probability" Type="Real64" Value="4"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Worm Idle" ID="{66783827-D51D-4D8D-BDCC-B8FE86CBE2DE}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
@@ -540,6 +543,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="frog pet" ID="{8DDC3581-CF58-4D86-ADF0-A0E52EE705F5}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_frog_walk" ID="{F1189447-3F76-4C76-8299-ADF4C07D48FA}">
+									<ChildrenList>
+										<Action Name="" ID="{FD1D721C-CC1B-4008-9B2C-5A3A056B8322}" ShortID="968893234">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="frog walk" ID="{2D92BF85-42BB-4BA0-A35C-421669A75CB9}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -757,6 +771,53 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="mörser" ID="{75515AC5-05DC-4FBB-A0EF-FC702097FE9F}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_cauldron" ID="{64907AFA-F940-4A5A-BA7D-A2B633AAF406}">
+							<ChildrenList>
+								<Action Name="" ID="{64ABD4D5-CA06-4245-BA7C-B153A9E84110}" ShortID="750831817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cauldron" ID="{FF9D81AB-8CC7-400B-9AAD-41D86D57EF79}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_knive_drop" ID="{25D1F37F-4E12-4003-8F0C-70240B66CD9E}">
+							<ChildrenList>
+								<Action Name="" ID="{FDB95E38-60F6-4A2C-9DC2-C38434C45EE3}" ShortID="855170613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="knive drop" ID="{183F4BF6-1E02-492C-9627-8725DFED8B54}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_knive_collect" ID="{199DDEC5-EBA7-4EFB-88F7-0C9FD1449968}">
+							<ChildrenList>
+								<Action Name="" ID="{456DDFC4-EF41-4477-8E4C-5F961D319BE5}" ShortID="653216357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="knive collect" ID="{CCE7D18D-7287-4BA2-8B86-67C0812A6EAC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_m_rser_stampf" ID="{41ECA8DA-F1BA-4A49-B26D-370E1C3D4EC8}">
+							<ChildrenList>
+								<Action Name="" ID="{48362DA0-CC2D-457A-903F-8362931C5943}" ShortID="837819550">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mörser stampf" ID="{457B7AA0-B9AA-4364-99CE-DDCA37AC6336}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

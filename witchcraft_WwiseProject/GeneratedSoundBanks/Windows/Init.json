@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{25E57165-E6E5-C338-7D72-10505DC5C2B7}",
+    "Hash": "{BF5B2171-A7D9-699C-92AB-0E7084177AA2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -25,10 +25,10 @@
        "LibId": "7733251"
       },
       {
-       "Id": "2791153688",
-       "Name": "Hall_Small",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
-       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -87,7 +87,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "2791153688"
+         "Id": "2995775460"
         }
        ]
       }
@@ -104,6 +104,32 @@
         }
        ]
       }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX",
+      "GUID": "{199E2ACC-EB9D-40A1-B850-E4ADCAE12468}"
+     },
+     {
+      "Id": "3930136735",
+      "Name": "Dialogue",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Dialogue",
+      "GUID": "{D1FF2CF5-A54C-4FA3-A3BE-78AFE122C6F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music",
+      "GUID": "{7E693D43-F913-49AB-9B69-08951E199346}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{AA8B7946-7333-468E-930C-700DE96D3D6C}"
      }
     ],
     "SwitchGroups": [
@@ -194,6 +220,6 @@
     ]
    }
   ],
-  "FileHash": "{5BF7CC46-3816-0499-9EA3-5E722FD5B2ED}"
+  "FileHash": "{13AD4365-A43B-2E81-56FF-9CD6630712DE}"
  }
 }
