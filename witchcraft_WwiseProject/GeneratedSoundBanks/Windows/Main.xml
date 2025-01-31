@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{D7B0B107-12AB-112E-EFFC-1F1FB8A8AE22}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{A032BF39-7EE0-2691-7705-52A3E029F70F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -304,7 +304,7 @@
 				</File>
 				<File Id="360805697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen.wav</ShortName>
-					<CachePath>SFX/  kessel kochen_FA2A06FA.wem</CachePath>
+					<CachePath>SFX/  kessel kochen_E9BE483D.wem</CachePath>
 				</File>
 				<File Id="361713716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> door shaking .wav</ShortName>
@@ -385,6 +385,10 @@
 				<File Id="467215598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-2.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps wood-2_29AB4B60.wem</CachePath>
+				</File>
+				<File Id="475571170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bad ending .wav</ShortName>
+					<CachePath>SFX/bad ending _FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="490688840" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 5.wav</ShortName>
@@ -550,6 +554,10 @@
 					<ShortName>  birds 4.wav</ShortName>
 					<CachePath>SFX/  birds 4_66061D56.wem</CachePath>
 				</File>
+				<File Id="737869163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>good ending .wav</ShortName>
+					<CachePath>SFX/good ending _FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="738703146" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Oboe_Part D_110BPM_4-4_L14-P0.wav</ShortName>
 					<CachePath>SFX/Day_Oboe_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem</CachePath>
@@ -601,10 +609,6 @@
 				<File Id="808331299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Oboe_Part B_110BPM_4-4_L8-P0.wav</ShortName>
 					<CachePath>SFX/Day_Oboe_Part B_110BPM_4-4_L8-P0_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="808361190" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName> fire .wav</ShortName>
-					<CachePath>SFX/ fire _818F3B66.wem</CachePath>
 				</File>
 				<File Id="817214624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Händler.wav</ShortName>
@@ -733,10 +737,6 @@
 				<File Id="930120994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
 					<CachePath>SFX/Combat interact feed_A66CB61C.wem</CachePath>
-				</File>
-				<File Id="955270491" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main Charakter  footsteps gras-4.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-4_CF652331.wem</CachePath>
 				</File>
 				<File Id="963689456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-1.wav</ShortName>
@@ -913,11 +913,6 @@
 						<MediaRef Id="361713716"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="471615608" Name="Play__fire_" ObjectPath="\Events\Default Work Unit\Gameplay\Play__fire_" GUID="{039EB10F-7466-4772-991D-B16E6B0833B3}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="22.587376" DurationMax="22.587376">
-					<MediaRefs>
-						<MediaRef Id="808361190"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2958348949" Name="Play__moral_decrease" ObjectPath="\Events\Default Work Unit\händler\Play__moral_decrease" GUID="{F3B57977-5C0A-4C8B-9BCB-B33B07B6BF3F}" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
 					<MediaRefs>
 						<MediaRef Id="447080793"/>
@@ -951,7 +946,7 @@
 						<MediaRef Id="8451084"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="2.9487715" DurationMax="6.6357746">
+				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="Mixed" DurationMin="3.212447" DurationMax="Infinite">
 					<MediaRefs>
 						<MediaRef Id="360805697"/>
 						<MediaRef Id="965839834"/>
@@ -1030,6 +1025,18 @@
 								<MediaRef Id="1000085236"/>
 							</MediaRefs>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="301787977" Id="2222736396" GUID="{A910281F-D77C-482B-AD61-E1BD29B479F6}"/>
+							<MediaRefs>
+								<MediaRef Id="475571170"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="301787977" Id="589883976" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
+							<MediaRefs>
+								<MediaRef Id="737869163"/>
+							</MediaRefs>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="740168818" Name="Play_Dialog" ObjectPath="\Events\Default Work Unit\Dialogue PLACEHOLDER\Play_Dialog" GUID="{DA7FCF12-2622-4268-8743-D24729EC620F}" DurationType="OneShot" DurationMin="3.8609407" DurationMax="5.398773">
@@ -1088,7 +1095,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_footsteps" GUID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}" DurationType="OneShot" DurationMin="0.1887999" DurationMax="0.433525">
+				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_footsteps" GUID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}" DurationType="OneShot" DurationMin="0.1887999" DurationMax="0.37704206">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2058049674" GUID="{20CE900D-01C7-44C7-818A-1C15855C2337}"/>
@@ -1098,16 +1105,6 @@
 								<MediaRef Id="467215598"/>
 								<MediaRef Id="542391917"/>
 								<MediaRef Id="641130999"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2185786256" GUID="{0BFA1267-D021-48D2-94D4-ECB3420894B0}"/>
-							<MediaRefs>
-								<MediaRef Id="281071773"/>
-								<MediaRef Id="567017348"/>
-								<MediaRef Id="828430276"/>
-								<MediaRef Id="850141276"/>
-								<MediaRef Id="955270491"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -1381,13 +1378,15 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1949706302" Name="Stop_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Stop_cauldron" GUID="{64907AFA-F940-4A5A-BA7D-A2B633AAF406}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="327832700" Name="Stop_m_rser" ObjectPath="\Events\Default Work Unit\Minigame cooking\Stop_m_rser" GUID="{6A22A5DE-0B8E-420B-ABFC-261C7D458CA3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
 					<Switches>
 						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+						<Switch Id="540993415" Name="Start_Music" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Start_Music" GUID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
+						<Switch Id="589883976" Name="Good_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Good_Ending" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
+						<Switch Id="2222736396" Name="Bad_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Bad_Ending" GUID="{A910281F-D77C-482B-AD61-E1BD29B479F6}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
@@ -1409,5 +1408,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8F0D5EEB-9270-A96A-73CD-BB98F4AC1E50}</FileHash>
+	<FileHash>{4D36085F-7156-97C5-51EB-A1CAEC85C279}</FileHash>
 </SoundBanksInfo>

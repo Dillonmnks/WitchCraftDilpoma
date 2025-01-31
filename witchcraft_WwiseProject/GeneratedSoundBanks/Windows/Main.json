@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{D7B0B107-12AB-112E-EFFC-1F1FB8A8AE22}",
+    "Hash": "{A032BF39-7EE0-2691-7705-52A3E029F70F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -613,7 +613,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "  kessel kochen.wav",
-      "CachePath": "SFX/  kessel kochen_FA2A06FA.wem"
+      "CachePath": "SFX/  kessel kochen_E9BE483D.wem"
      },
      {
       "Id": "361713716",
@@ -774,6 +774,14 @@
       "Location": "Memory",
       "ShortName": "Main Charakter  footsteps wood-2.wav",
       "CachePath": "SFX/Main Charakter  footsteps wood-2_29AB4B60.wem"
+     },
+     {
+      "Id": "475571170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bad ending .wav",
+      "CachePath": "SFX/bad ending _FBC78EF0.wem"
      },
      {
       "Id": "490688840",
@@ -1104,6 +1112,14 @@
       "CachePath": "SFX/  birds 4_66061D56.wem"
      },
      {
+      "Id": "737869163",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "good ending .wav",
+      "CachePath": "SFX/good ending _FBC78EF0.wem"
+     },
+     {
       "Id": "738703146",
       "Language": "SFX",
       "Streaming": "false",
@@ -1206,14 +1222,6 @@
       "Location": "Memory",
       "ShortName": "Day_Oboe_Part B_110BPM_4-4_L8-P0.wav",
       "CachePath": "SFX/Day_Oboe_Part B_110BPM_4-4_L8-P0_FBC78EF0.wem"
-     },
-     {
-      "Id": "808361190",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": " fire .wav",
-      "CachePath": "SFX/ fire _818F3B66.wem"
      },
      {
       "Id": "817214624",
@@ -1470,14 +1478,6 @@
       "Location": "Memory",
       "ShortName": "Combat interact feed.wav",
       "CachePath": "SFX/Combat interact feed_A66CB61C.wem"
-     },
-     {
-      "Id": "955270491",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Charakter  footsteps gras-4.wav",
-      "CachePath": "SFX/Main Charakter  footsteps gras-4_CF652331.wem"
      },
      {
       "Id": "963689456",
@@ -1925,21 +1925,6 @@
       ]
      },
      {
-      "Id": "471615608",
-      "Name": "Play__fire_",
-      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\Play__fire_",
-      "GUID": "{039EB10F-7466-4772-991D-B16E6B0833B3}",
-      "MaxAttenuation": "1990",
-      "DurationType": "OneShot",
-      "DurationMin": "22.587376",
-      "DurationMax": "22.587376",
-      "MediaRefs": [
-       {
-        "Id": "808361190"
-       }
-      ]
-     },
-     {
       "Id": "2958348949",
       "Name": "Play__moral_decrease",
       "ObjectPath": "\\Events\\Default Work Unit\\händler\\Play__moral_decrease",
@@ -2039,9 +2024,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Play_cauldron",
       "GUID": "{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}",
       "MaxAttenuation": "1990",
-      "DurationType": "OneShot",
-      "DurationMin": "2.9487715",
-      "DurationMax": "6.6357746",
+      "DurationType": "Mixed",
+      "DurationMin": "3.212447",
+      "DurationMax": "Infinite",
       "MediaRefs": [
        {
         "Id": "360805697"
@@ -2259,6 +2244,32 @@
           "Id": "1000085236"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "301787977",
+         "Id": "2222736396",
+         "GUID": "{A910281F-D77C-482B-AD61-E1BD29B479F6}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "475571170"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "301787977",
+         "Id": "589883976",
+         "GUID": "{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "737869163"
+         }
+        ]
        }
       ]
      },
@@ -2401,7 +2412,7 @@
       "GUID": "{3CAA0CFA-9D05-4A88-BD84-449D353F434C}",
       "DurationType": "OneShot",
       "DurationMin": "0.1887999",
-      "DurationMax": "0.433525",
+      "DurationMax": "0.37704206",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -2425,31 +2436,6 @@
          },
          {
           "Id": "641130999"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "2385628198",
-         "Id": "2185786256",
-         "GUID": "{0BFA1267-D021-48D2-94D4-ECB3420894B0}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "281071773"
-         },
-         {
-          "Id": "567017348"
-         },
-         {
-          "Id": "828430276"
-         },
-         {
-          "Id": "850141276"
-         },
-         {
-          "Id": "955270491"
          }
         ]
        },
@@ -3233,16 +3219,6 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
-     },
-     {
-      "Id": "327832700",
-      "Name": "Stop_m_rser",
-      "ObjectPath": "\\Events\\Default Work Unit\\Minigame cooking\\Stop_m_rser",
-      "GUID": "{6A22A5DE-0B8E-420B-ABFC-261C7D458CA3}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -3259,10 +3235,28 @@
         "GUID": "{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"
        },
        {
+        "Id": "540993415",
+        "Name": "Start_Music",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Start_Music",
+        "GUID": "{522F65E8-0ACB-41B9-B412-B4125E188D4E}"
+       },
+       {
+        "Id": "589883976",
+        "Name": "Good_Ending",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Good_Ending",
+        "GUID": "{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"
+       },
+       {
         "Id": "1011622525",
         "Name": "Night",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Night",
         "GUID": "{29F0AEDF-614F-446B-9710-2451C184C810}"
+       },
+       {
+        "Id": "2222736396",
+        "Name": "Bad_Ending",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Bad_Ending",
+        "GUID": "{A910281F-D77C-482B-AD61-E1BD29B479F6}"
        }
       ]
      },
@@ -3333,6 +3327,6 @@
     ]
    }
   ],
-  "FileHash": "{73168C4E-9E40-642C-B0FA-C2956DF85E50}"
+  "FileHash": "{586546F3-65B5-B309-7121-508DDC1B9B44}"
  }
 }

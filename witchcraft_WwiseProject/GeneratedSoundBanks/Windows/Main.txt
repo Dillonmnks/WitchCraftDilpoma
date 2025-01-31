@@ -4,13 +4,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	72283163	Play_coinsound_for_money			\Default Work Unit\händler\Play_coinsound_for_money	
 	161356194	Play_birds_1			\Default Work Unit\Atmo\Play_birds_1	
 	251756331	Play___door_open__close			\Default Work Unit\Gameplay\Play___door_open__close	
-	327832700	Stop_m_rser			\Default Work Unit\Minigame cooking\Stop_m_rser	
 	360526586	Play_Ui_letter_open			\Default Work Unit\UI Events\Play_Ui_letter_open	
 	368624613	Play_worm_walk			\Default Work Unit\Combat\worm\Play_worm_walk	
 	392743550	Play__quest_finished			\Default Work Unit\händler\Play__quest_finished	
 	395533596	Play_Ui_item_collect_fail			\Default Work Unit\UI Events\Play_Ui_item_collect_fail	
 	433371790	Play_m_rser			\Default Work Unit\Minigame cooking\Play_m_rser	
-	471615608	Play__fire_			\Default Work Unit\Gameplay\Play__fire_	
 	482045456	Play_Ui_item_use_potion			\Default Work Unit\UI Events\Play_Ui_item_use_potion	
 	735996042	Play_Ui_quest_accept			\Default Work Unit\UI Events\Play_Ui_quest_accept	
 	740168818	Play_Dialog			\Default Work Unit\Dialogue PLACEHOLDER\Play_Dialog	
@@ -85,7 +83,10 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 
 Switch	ID	Name	Switch Group			Notes
 	311764537	Day	DayNightCycle			
+	540993415	Start_Music	DayNightCycle			
+	589883976	Good_Ending	DayNightCycle			
 	1011622525	Night	DayNightCycle			
+	2222736396	Bad_Ending	DayNightCycle			
 	371397999	Grandma	Dialog			
 	3297275997	Hexe	Dialog			
 	3625525251	Handler	Dialog			
@@ -170,7 +171,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	343265672	Ui button	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Ui button_8222A722.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui button		73852
 	346084147	door open _close	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  door open _close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Gameplay\door open _close		308832
 	349086572	Night_Kick_Part C_110BPM_4-4_L14-P1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Night_Kick_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Night Playlist\Part C\Night_Kick_Part C_110BPM_4-4_L14-P1		7540460
-	360805697	kessel kochen	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  kessel kochen_FA2A06FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\cauldron\kessel kochen		483108
+	360805697	kessel kochen	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  kessel kochen_E9BE483D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\cauldron\kessel kochen		483108
 	361713716	door shaking	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\ door shaking _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Gameplay\door shaking		308832
 	372153424	Ui item delete bin	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Ui item delete bin_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui item delete bin		91296
 	372603158	Combat  worm idle	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Combat  worm idle_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\Worm Idle\Combat  worm idle		384096
@@ -191,6 +192,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	454643591	leaves 5	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  leaves 5_300EB120.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\leaves 5		6599300
 	456825050	Hexe end	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Hexe_CE027167.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Dialogue end\Hexe end		33748
 	467215598	Main Charakter  footsteps wood-2	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps wood-2_29AB4B60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\wood\Main Charakter  footsteps wood-2		66556
+	475571170	bad ending	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\bad ending _FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\bad ending\bad ending\bad ending		5864824
 	490688840	birds 5	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  birds 5_E76AEC0D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\birds 5		7071196
 	504589523	Day_Piano_Part A_110BPM_4-4_L4-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_Piano_Part A_110BPM_4-4_L4-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Intro\Day_Piano_Part A_110BPM_4-4_L4-P0		4189188
 	509040983	Day_Piano_Part D_110BPM_4-4_L14-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_Piano_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Part D\Day_Piano_Part D_110BPM_4-4_L14-P0		7121552
@@ -208,7 +210,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	542391917	Main Charakter  footsteps wood-1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps wood-1_E12E8872.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\wood\Main Charakter  footsteps wood-1		44132
 	543564526	Händler_02	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Händler_10C29FA4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Dialog\Händler\Händler_02		1036660
 	559945275	Day_Synth_Part B_110BPM_4-4_L16-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_Synth_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Part B\Day_Synth_Part B_110BPM_4-4_L16-P0		8378280
-	567017348	Main Charakter  footsteps gravel	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps gras_31931161.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\gravel\Main Charakter  footsteps gravel		78456
+	567017348	Main Charakter  footsteps gravel	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps gras_31931161.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog walk\Main Charakter  footsteps gravel		78456
 	570545043	knive drop	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  knive drop_764F98CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\knive drop\knive drop		123312
 	573941103	coinsound for money-1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  coinsound for money-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\Händler\coinsound for money\coinsound for money-1		48096
 	580912414	Combat frog Idle_01	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Combat frog Idle_D12AA002.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog idle\Combat frog Idle_01		270828
@@ -232,6 +234,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	727467200	Day_Piano_Part B_110BPM_4-4_L8-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_Piano_Part B_110BPM_4-4_L8-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Part A\Day_Piano_Part B_110BPM_4-4_L8-P0		4189188
 	733966227	Night_Piano_Part C_110BPM_4-4_L14-P1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Night_Piano_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Night Playlist\Part C\Night_Piano_Part C_110BPM_4-4_L14-P1		7540460
 	735624053	birds 4	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  birds 4_66061D56.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\birds 4		6806028
+	737869163	good ending	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\good ending _FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\good ending\good ending\good ending		7540460
 	738703146	Day_Oboe_Part D_110BPM_4-4_L14-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_Oboe_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Part D\Day_Oboe_Part D_110BPM_4-4_L14-P0		7121552
 	746072551	Bänkerend	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Bänker_C13132B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Dialogue end\Bänkerend		35636
 	749117629	sell-1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  sell-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\Händler\sell\sell-1		72096
@@ -245,7 +248,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	806215852	Day_Strings_Part D_110BPM_4-4_L14-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_Strings_Part D_110BPM_4-4_L14-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Part D\Day_Strings_Part D_110BPM_4-4_L14-P0		7121552
 	807797044	Ui inventory close	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Ui inventory close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui inventory close		62496
 	808331299	Day_Oboe_Part B_110BPM_4-4_L8-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_Oboe_Part B_110BPM_4-4_L8-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Part A\Day_Oboe_Part B_110BPM_4-4_L8-P0		4189188
-	808361190	fire	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\ fire _818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Gameplay\fire		2168484
 	817214624	Händler	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Händler_2B8324C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue\Dialog\Händler\Händler		806312
 	819852530	Night_Horns_Part C_110BPM_4-4_L14-P1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Night_Horns_Part C_110BPM_4-4_L14-P1_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Night Playlist\Part C\Night_Horns_Part C_110BPM_4-4_L14-P1		7540460
 	827643818	Walk_03	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Walk_5E110E28.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\worm walk\Walk_03		336328
@@ -253,7 +255,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	828654938	Combat frog feed_08	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Combat frog feed_0A82C5F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog feed\frog feed head\Combat frog feed_08		115896
 	840295862	birds 3	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  birds 3_A3A56B74.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\birds 3		7292168
 	843480435	  nutshell-3	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  nutshell-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\Nutshell\  nutshell-3		1056096
-	850141276	Main Charakter  footsteps gravel-1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps gras-1_F8916FC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\gravel\Main Charakter  footsteps gravel-1		61636
+	850141276	Main Charakter  footsteps gravel-1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps gras-1_F8916FC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\Frog\frog walk\Main Charakter  footsteps gravel-1		61636
 	851063997	  nutshell-1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  nutshell-1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmo\Atmo Actor\Nutshell\  nutshell-1		1056096
 	852936369	Day_LoFiPiano_Part B_110BPM_4-4_L16-P0	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Day_LoFiPiano_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem		\Interactive Music Hierarchy\Music\Day_Night\Day Playlist\Part B\Day_LoFiPiano_Part B_110BPM_4-4_L16-P0		8378280
 	855748575	schneiden-2	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  schneiden-2_343EB391.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\cutting\schneiden-2		54084
@@ -278,7 +280,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	926038193	Main Charakter  footsteps stone-2	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps stone-2_11E6F693.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\stone\Main Charakter  footsteps stone-2		44268
 	929206881	buy	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  buy_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Händler\Händler\buy\buy		48096
 	930120994	worm interact feed_04	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Combat interact feed_A66CB61C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combat\Combat\worm\worm interact feedd\worm interact feed Head\worm interact feed_04		148296
-	955270491	Main Charakter  footsteps gravel-4	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps gras-4_CF652331.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\gravel\Main Charakter  footsteps gravel-4		60540
 	963689456	Main Charakter  footsteps stone-1	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Main Charakter  footsteps stone-1_E6BB3E9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Charactor\Main Character\footsteps\stone\Main Charakter  footsteps stone-1		55756
 	965839834	kessel kochen-2	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\  kessel kochen-2_63676E2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Minigame cooking\Minigame cooking\cauldron\kessel kochen-2		526296
 	978548441	Ui item use eat	C:\Users\Almir\Documents\whitchcraft\WitchCraftDilpoma\witchcraft_WwiseProject\.cache\Windows\SFX\Ui item use eat_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI SFX\Ui SFX\Ui item use eat		135524
