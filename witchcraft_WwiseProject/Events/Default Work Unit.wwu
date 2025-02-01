@@ -404,6 +404,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Bubles_Water_Casting" ID="{02A03A4E-00BD-48D5-BCE2-20B954F2564A}">
+							<ChildrenList>
+								<Action Name="" ID="{DE9C046F-D187-4F93-8C73-9E5E3CD4747E}" ShortID="648573248">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubles Water Casting" ID="{D9BFE624-892C-476A-8178-7E6602DBFA09}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Combat" ID="{C1A8C3C6-2B0B-4019-A2A1-F0AE9D28E6FA}" ShortID="208517466">
@@ -635,6 +646,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Marchant_tipping" ID="{4908E09D-6C49-475E-A772-E578E3652CC5}">
+							<ChildrenList>
+								<Action Name="" ID="{90C9AE30-4DD0-4100-9A93-41124FB8E439}" ShortID="414908012">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Marchant tipping" ID="{7286C82E-A178-4F19-828B-2AAA2A3C3FDC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Gameplay" ID="{1629B293-914A-4239-8FF7-90CC29AD2967}" ShortID="789627215">
@@ -818,6 +840,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="mörser stampf" ID="{457B7AA0-B9AA-4364-99CE-DDCA37AC6336}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Main_Charakter_Cooking_Finished" ID="{22590093-1F67-44EA-983F-91A19FC4A696}">
+							<ChildrenList>
+								<Action Name="" ID="{93C23E6D-0F49-48B9-B95B-34B803DC1723}" ShortID="780698859">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Charakter Cooking Finished" ID="{0F124D02-CEE2-4CF4-AC20-CFF6C9EC50C5}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Main_Charakter_Cooking_Start" ID="{F9F6B02F-4559-4298-9E4F-B04FB5E7AD69}">
+							<ChildrenList>
+								<Action Name="" ID="{2FF28F55-145B-44D2-939C-7D249D992FCA}" ShortID="313480739">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Charakter Cooking Start" ID="{E1A92CE5-07E8-446C-BD56-CD22F3795072}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -79,7 +79,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{A032BF39-7EE0-2691-7705-52A3E029F70F}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{7C8761B6-40F2-2A84-0F49-3809C6C4C4E5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -119,6 +119,10 @@
 				<File Id="44029583" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel-4.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps gravel-4_A1CFA63B.wem</CachePath>
+				</File>
+				<File Id="47676009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Marchant tipping.wav</ShortName>
+					<CachePath>SFX/Marchant tipping_178B56BE.wem</CachePath>
 				</File>
 				<File Id="50575655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
@@ -200,10 +204,6 @@
 					<ShortName>  buy-3.wav</ShortName>
 					<CachePath>SFX/  buy-3_818F3B66.wem</CachePath>
 				</File>
-				<File Id="170190639" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName> dagegen rennen.wav</ShortName>
-					<CachePath>SFX/ dagegen rennen_818F3B66.wem</CachePath>
-				</File>
 				<File Id="171969739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves tree at river.wav</ShortName>
 					<CachePath>SFX/  leaves tree at river_381BBFC4.wem</CachePath>
@@ -239,10 +239,6 @@
 				<File Id="213656067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
 					<CachePath>SFX/Combat interact feed_6CB2C41D.wem</CachePath>
-				</File>
-				<File Id="215819596" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ui item delete.wav</ShortName>
-					<CachePath>SFX/Ui item delete_8D411FFB.wem</CachePath>
 				</File>
 				<File Id="217805513" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
@@ -400,6 +396,10 @@
 					<ShortName>Grandma.wav</ShortName>
 					<CachePath>SFX/Grandma_DC930CDA.wem</CachePath>
 				</File>
+				<File Id="384896076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter Cooking Start.wav</ShortName>
+					<CachePath>SFX/Main Charakter Cooking Start_2930E9C9.wem</CachePath>
+				</File>
 				<File Id="387172603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 6.wav</ShortName>
 					<CachePath>SFX/  birds 6_F3D8F7E3.wem</CachePath>
@@ -431,6 +431,10 @@
 				<File Id="407594089" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bänker.wav</ShortName>
 					<CachePath>SFX/Bänker_3FDD660C.wem</CachePath>
+				</File>
+				<File Id="414203104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter Cooking Finished.wav</ShortName>
+					<CachePath>SFX/Main Charakter Cooking Finished_A2A6A052.wem</CachePath>
 				</File>
 				<File Id="420124859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walk.wav</ShortName>
@@ -536,6 +540,10 @@
 					<ShortName>Day_Synth_Part B_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Day_Synth_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="564181313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bubles Water Casting .wav</ShortName>
+					<CachePath>SFX/Bubles Water Casting _2F10397C.wem</CachePath>
+				</File>
 				<File Id="567017348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps gras_31931161.wem</CachePath>
@@ -543,10 +551,6 @@
 				<File Id="570545043" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive drop.wav</ShortName>
 					<CachePath>SFX/  knive drop_764F98CC.wem</CachePath>
-				</File>
-				<File Id="573941103" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  coinsound for money-1.wav</ShortName>
-					<CachePath>SFX/  coinsound for money-1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="580912414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
@@ -563,6 +567,10 @@
 				<File Id="626293655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
 					<CachePath>SFX/Combat frog feed_28B2A47B.wem</CachePath>
+				</File>
+				<File Id="629466563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Starting Music.wav</ShortName>
+					<CachePath>SFX/Starting Music_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="630745993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-1.wav</ShortName>
@@ -587,6 +595,10 @@
 				<File Id="641130999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-4.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps wood-4_68E22978.wem</CachePath>
+				</File>
+				<File Id="641402689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter XP Gain.wav</ShortName>
+					<CachePath>SFX/Main Charakter XP Gain_7883CC72.wem</CachePath>
 				</File>
 				<File Id="642603176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive collect.wav</ShortName>
@@ -788,10 +800,6 @@
 					<ShortName>Bänker.wav</ShortName>
 					<CachePath>SFX/Bänker_8A58AC1E.wem</CachePath>
 				</File>
-				<File Id="912893642" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  coinsound for money-4.wav</ShortName>
-					<CachePath>SFX/  coinsound for money-4_818F3B66.wem</CachePath>
-				</File>
 				<File Id="913835205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
 					<CachePath>SFX/Combat frog pet _01B3AA96.wem</CachePath>
@@ -816,6 +824,10 @@
 					<ShortName>Combat interact feed.wav</ShortName>
 					<CachePath>SFX/Combat interact feed_A66CB61C.wem</CachePath>
 				</File>
+				<File Id="938587460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main Charakter Level Up .wav</ShortName>
+					<CachePath>SFX/Main Charakter Level Up _818F3B66.wem</CachePath>
+				</File>
 				<File Id="963689456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-1.wav</ShortName>
 					<CachePath>SFX/Main Charakter  footsteps stone-1_E6BB3E9C.wem</CachePath>
@@ -836,10 +848,6 @@
 					<ShortName>Combat interact pet .wav</ShortName>
 					<CachePath>SFX/Combat interact pet _BE651A97.wem</CachePath>
 				</File>
-				<File Id="995229971" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  coinsound for money.wav</ShortName>
-					<CachePath>SFX/  coinsound for money_818F3B66.wem</CachePath>
-				</File>
 				<File Id="997968862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  nutshell-4.wav</ShortName>
 					<CachePath>SFX/  nutshell-4_818F3B66.wem</CachePath>
@@ -852,17 +860,9 @@
 					<ShortName>Ui item use recipe.wav</ShortName>
 					<CachePath>SFX/Ui item use recipe_818F3B66.wem</CachePath>
 				</File>
-				<File Id="1022333913" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  coinsound for money-3.wav</ShortName>
-					<CachePath>SFX/  coinsound for money-3_818F3B66.wem</CachePath>
-				</File>
 				<File Id="1024205521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump up-1.wav</ShortName>
 					<CachePath>SFX/Main Charakter  jump up-1_0DC9846B.wem</CachePath>
-				</File>
-				<File Id="1036871779" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  coinsound for money-2.wav</ShortName>
-					<CachePath>SFX/  coinsound for money-2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1040369418" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen-1.wav</ShortName>
@@ -1011,6 +1011,11 @@
 						<MediaRef Id="230478404"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3068588625" Name="Play_Bubles_Water_Casting" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_Bubles_Water_Casting" GUID="{02A03A4E-00BD-48D5-BCE2-20B954F2564A}" MaxAttenuation="1990" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="564181313"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2824767826" Name="Play_buy" ObjectPath="\Events\Default Work Unit\händler\Play_buy" GUID="{9867D542-D928-4C4A-932B-3A354D423447}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="157319039"/>
@@ -1039,15 +1044,6 @@
 				<Event Id="2560700912" Name="Play_chest_open" ObjectPath="\Events\Default Work Unit\Gameplay\Play_chest_open" GUID="{79D1CD6B-5D5E-42D0-858E-3724DD7030F4}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="3.216" DurationMax="3.216">
 					<MediaRefs>
 						<MediaRef Id="246212939"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="72283163" Name="Play_coinsound_for_money" ObjectPath="\Events\Default Work Unit\händler\Play_coinsound_for_money" GUID="{32E7B95E-6209-47F3-8576-D3126A749D7A}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
-					<MediaRefs>
-						<MediaRef Id="573941103"/>
-						<MediaRef Id="912893642"/>
-						<MediaRef Id="995229971"/>
-						<MediaRef Id="1022333913"/>
-						<MediaRef Id="1036871779"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1873669494" Name="Play_cutting" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cutting" GUID="{1E46F254-629C-4ED5-B6DF-6AF3E49C105B}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.21169925" DurationMax="0.31730932">
@@ -1113,6 +1109,12 @@
 							<SwitchValue GroupType="Switch" GroupId="301787977" Id="589883976" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
 							<MediaRefs>
 								<MediaRef Id="737869163"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="301787977" Id="540993415" GUID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
+							<MediaRefs>
+								<MediaRef Id="629466563"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1289,6 +1291,21 @@
 						<MediaRef Id="402867416"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2604207821" Name="Play_Main_Charakter_Cooking_Finished" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_Main_Charakter_Cooking_Finished" GUID="{22590093-1F67-44EA-983F-91A19FC4A696}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="0.74031174" DurationMax="0.74031174">
+					<MediaRefs>
+						<MediaRef Id="414203104"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3492595849" Name="Play_Main_Charakter_Cooking_Start" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_Main_Charakter_Cooking_Start" GUID="{F9F6B02F-4559-4298-9E4F-B04FB5E7AD69}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="1.1959486" DurationMax="1.1959486">
+					<MediaRefs>
+						<MediaRef Id="384896076"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3133642564" Name="Play_Marchant_tipping" ObjectPath="\Events\Default Work Unit\händler\Play_Marchant_tipping" GUID="{4908E09D-6C49-475E-A772-E578E3652CC5}" DurationType="OneShot" DurationMin="0.73930603" DurationMax="0.73930603">
+					<MediaRefs>
+						<MediaRef Id="47676009"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3183376343" Name="Play_Nutshell" ObjectPath="\Events\Default Work Unit\Atmo\Play_Nutshell" GUID="{E35663FC-9EC9-4596-97E8-F18A7752E670}" DurationType="OneShot" DurationMin="5.5" DurationMax="5.5">
 					<MediaRefs>
 						<MediaRef Id="843480435"/>
@@ -1336,11 +1353,6 @@
 				<Event Id="395533596" Name="Play_Ui_item_collect_fail" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_collect_fail" GUID="{E88C184B-0D99-4642-B02C-1B30772C08F5}" DurationType="OneShot" DurationMin="0.13554987" DurationMax="0.13554987">
 					<MediaRefs>
 						<MediaRef Id="71503049"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1435386480" Name="Play_Ui_item_delete" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_delete" GUID="{80DC8655-7A97-4D67-8C92-250A53572F80}" DurationType="OneShot" DurationMin="0.44175878" DurationMax="0.73653734">
-					<MediaRefs>
-						<MediaRef Id="215819596"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1198172706" Name="Play_Ui_item_delete_bin" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_item_delete_bin" GUID="{2E89F5D7-E4F5-4C16-86B0-C6E3EF684B1E}" DurationType="OneShot" DurationMin="0.44808137" DurationMax="0.50353575">
@@ -1486,5 +1498,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3AFF15EB-75EE-E628-71E7-3826215D954D}</FileHash>
+	<FileHash>{1AC76284-329E-DB3B-4253-74D91F218DAD}</FileHash>
 </SoundBanksInfo>
