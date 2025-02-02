@@ -146,10 +146,28 @@
         "GUID": "{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"
        },
        {
+        "Id": "540993415",
+        "Name": "Start_Music",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Start_Music",
+        "GUID": "{522F65E8-0ACB-41B9-B412-B4125E188D4E}"
+       },
+       {
+        "Id": "589883976",
+        "Name": "Good_Ending",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Good_Ending",
+        "GUID": "{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"
+       },
+       {
         "Id": "1011622525",
         "Name": "Night",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Night",
         "GUID": "{29F0AEDF-614F-446B-9710-2451C184C810}"
+       },
+       {
+        "Id": "2222736396",
+        "Name": "Bad_Ending",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Bad_Ending",
+        "GUID": "{A910281F-D77C-482B-AD61-E1BD29B479F6}"
        }
       ]
      },
@@ -220,6 +238,6 @@
     ]
    }
   ],
-  "FileHash": "{E081782F-94B4-6856-5FF8-DE8C984F8975}"
+  "FileHash": "{4D0C1706-3A2A-29E1-D220-5B42F43037AC}"
  }
 }

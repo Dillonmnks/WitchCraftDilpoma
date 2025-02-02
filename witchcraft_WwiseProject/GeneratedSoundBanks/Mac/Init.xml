@@ -47,7 +47,10 @@
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
 					<Switches>
 						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+						<Switch Id="540993415" Name="Start_Music" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Start_Music" GUID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
+						<Switch Id="589883976" Name="Good_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Good_Ending" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
+						<Switch Id="2222736396" Name="Bad_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Bad_Ending" GUID="{A910281F-D77C-482B-AD61-E1BD29B479F6}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
@@ -69,5 +72,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{37323212-CDF6-8DC3-A525-A5655D142FF7}</FileHash>
+	<FileHash>{DD6836DA-3A77-BD43-068F-5C3A63DFDD31}</FileHash>
 </SoundBanksInfo>

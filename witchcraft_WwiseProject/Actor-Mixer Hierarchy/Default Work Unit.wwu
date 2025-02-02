@@ -384,6 +384,11 @@
 								<Sound Name="Ui item delete" ID="{049A1298-E08D-4811-88B7-88104262ABB9}" ShortID="279928345">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1567,6 +1572,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="gravel" ID="{52E49BFF-20E2-4BD2-A4AF-B616E153070D}" ShortID="648818523">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 											</PropertyList>
 											<ReferenceList>
@@ -2202,6 +2212,125 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Main Charakter  heavy breathing" ID="{F840257D-02F5-4288-BB03-4E7441D53FBA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bubles Water Casting" ID="{D9BFE624-892C-476A-8178-7E6602DBFA09}" ShortID="621929242">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{286DFC95-936E-4D8B-8D55-D3DABE157E12}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="76"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att Combat" ID="{9D78264A-5081-4DAD-94C7-BA1962EA8DD9}" WorkUnitID="{6829AEC9-C09E-4B94-8B52-054C41F47DE7}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bubles Water Casting" ID="{10E0D82F-753D-4BD1-B0F9-E68C96E104A5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0374914792092707"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0224948875255624"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.2747102931152"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.0027266530334"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Bubles Water Casting .wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="564181313"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bubles Water Casting" ID="{10E0D82F-753D-4BD1-B0F9-E68C96E104A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Charakter Level Up" ID="{47E9BFD4-97F4-453A-8123-E9C930100A1F}" ShortID="954425771">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Charakter Level Up" ID="{D122DF46-EC40-4ED5-93D4-2F2973679405}">
+											<Language>SFX</Language>
+											<AudioFile>Main Charakter Level Up .wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="938587460"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Charakter Level Up" ID="{D122DF46-EC40-4ED5-93D4-2F2973679405}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Charakter XP Gain" ID="{C04B0B2A-6511-4EEA-A491-51375996092D}" ShortID="622216826">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>32</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2F778F15-1600-4D68-B0B2-EA2C134CF9AC}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Charakter XP Gain" ID="{1E529078-43C6-4C9A-8E8C-CF12CDDB5E7E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0422631220177232"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486025903203817"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.15541922290388"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.0852079072938"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main Charakter XP Gain.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="641402689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Charakter XP Gain" ID="{1E529078-43C6-4C9A-8E8C-CF12CDDB5E7E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3996,6 +4125,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="coinsound for money" ID="{E1FC2962-20C8-4610-A41B-496CBDC6433E}" ShortID="779406779">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4293,6 +4427,35 @@
 										<ActiveSource Name="quest finished" ID="{72D6031C-53F0-4799-9D32-6D3DA88EEE59}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Marchant tipping" ID="{7286C82E-A178-4F19-828B-2AAA2A3C3FDC}" ShortID="839471375">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Marchant tipping" ID="{1A44B4D4-8A58-4FA2-95B3-48D55BC5116E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0154560080831025"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.331764598954782"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="17.2966239737392"/>
+												<Property Name="TrimEnd" Type="Real64" Value="18.0359300159055"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Marchant tipping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="47676009"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Marchant tipping" ID="{1A44B4D4-8A58-4FA2-95B3-48D55BC5116E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -4368,6 +4531,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="dagegen rennen" ID="{A5027E65-EC96-4FBD-BCB8-8678D92A1F10}" ShortID="919825404">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4434,6 +4604,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="fire" ID="{42B48619-B548-499B-A131-390A647B1F02}" ShortID="319919914">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4531,7 +4708,7 @@
 								<ActiveSource Name="bad ending" ID="{F93A8200-9236-4A3A-B735-A232B46365F2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="good ending " ID="{D1372319-1649-4E48-AAA7-EC9CC20E6772}" ShortID="193948628">
+						<Sound Name="good ending" ID="{D1372319-1649-4E48-AAA7-EC9CC20E6772}" ShortID="193948628">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
@@ -4541,7 +4718,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="good ending " ID="{ED39FB6B-C083-417C-A811-AFD5B07D02B2}">
+								<AudioFileSource Name="good ending" ID="{ED39FB6B-C083-417C-A811-AFD5B07D02B2}">
 									<Language>SFX</Language>
 									<AudioFile>good ending .wav</AudioFile>
 									<MediaIDList>
@@ -4550,7 +4727,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="good ending " ID="{ED39FB6B-C083-417C-A811-AFD5B07D02B2}" Platform="Linked"/>
+								<ActiveSource Name="good ending" ID="{ED39FB6B-C083-417C-A811-AFD5B07D02B2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -5180,6 +5357,63 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Main Charakter Cooking Finished" ID="{0F124D02-CEE2-4CF4-AC20-CFF6C9EC50C5}" ShortID="11764911">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Charakter Cooking Finished" ID="{6BD3E43C-1AF7-4264-B4BB-26E79572519D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0914992047261987"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.13126289479664"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.87157464212678"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main Charakter Cooking Finished.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="414203104"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Charakter Cooking Finished" ID="{6BD3E43C-1AF7-4264-B4BB-26E79572519D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Charakter Cooking Start" ID="{E1A92CE5-07E8-446C-BD56-CD22F3795072}" ShortID="368542863">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D0E33DE-75A4-4B7D-B695-41306ABE16B2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BE9D9BA-E4F3-4ECB-8587-DB09DED8EC23}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Charakter Cooking Start" ID="{53EA815F-763A-4978-BC6B-7411F4E6719A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0448480743012951"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0448480743012949"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.80887233015224"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.00482097818678"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main Charakter Cooking Start.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="384896076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Charakter Cooking Start" ID="{53EA815F-763A-4978-BC6B-7411F4E6719A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
