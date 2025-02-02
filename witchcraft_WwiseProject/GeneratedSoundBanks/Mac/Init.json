@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1CF4B01B-E9B3-AA2F-0DE8-983F864F7D9C}",
+    "Hash": "{754CC127-7BC8-2FCD-677E-ADA6A4C59E4B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -25,10 +25,10 @@
        "LibId": "7733251"
       },
       {
-       "Id": "2791153688",
-       "Name": "Hall_Small",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
-       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -87,7 +87,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "2791153688"
+         "Id": "2995775460"
         }
        ]
       }
@@ -106,6 +106,32 @@
       }
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX",
+      "GUID": "{199E2ACC-EB9D-40A1-B850-E4ADCAE12468}"
+     },
+     {
+      "Id": "3930136735",
+      "Name": "Dialogue",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Dialogue",
+      "GUID": "{D1FF2CF5-A54C-4FA3-A3BE-78AFE122C6F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music",
+      "GUID": "{7E693D43-F913-49AB-9B69-08951E199346}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{AA8B7946-7333-468E-930C-700DE96D3D6C}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "301787977",
@@ -120,10 +146,28 @@
         "GUID": "{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"
        },
        {
+        "Id": "540993415",
+        "Name": "Start_Music",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Start_Music",
+        "GUID": "{522F65E8-0ACB-41B9-B412-B4125E188D4E}"
+       },
+       {
+        "Id": "589883976",
+        "Name": "Good_Ending",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Good_Ending",
+        "GUID": "{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"
+       },
+       {
         "Id": "1011622525",
         "Name": "Night",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Night",
         "GUID": "{29F0AEDF-614F-446B-9710-2451C184C810}"
+       },
+       {
+        "Id": "2222736396",
+        "Name": "Bad_Ending",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Bad_Ending",
+        "GUID": "{A910281F-D77C-482B-AD61-E1BD29B479F6}"
        }
       ]
      },
@@ -194,6 +238,6 @@
     ]
    }
   ],
-  "FileHash": "{57BB2733-65A5-53E8-83AC-2C5A6CFA2898}"
+  "FileHash": "{4D0C1706-3A2A-29E1-D220-5B42F43037AC}"
  }
 }

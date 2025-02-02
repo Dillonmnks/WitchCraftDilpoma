@@ -404,6 +404,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Bubles_Water_Casting" ID="{02A03A4E-00BD-48D5-BCE2-20B954F2564A}">
+							<ChildrenList>
+								<Action Name="" ID="{DE9C046F-D187-4F93-8C73-9E5E3CD4747E}" ShortID="648573248">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubles Water Casting" ID="{D9BFE624-892C-476A-8178-7E6602DBFA09}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Combat" ID="{C1A8C3C6-2B0B-4019-A2A1-F0AE9D28E6FA}" ShortID="208517466">
@@ -445,6 +456,9 @@
 								<Event Name="Play_Worm_Idle" ID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}">
 									<ChildrenList>
 										<Action Name="" ID="{DFB3C576-E6DB-43F0-A35F-609C2A7BA3B7}" ShortID="536359007">
+											<PropertyList>
+												<Property Name="Probability" Type="Real64" Value="4"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Worm Idle" ID="{66783827-D51D-4D8D-BDCC-B8FE86CBE2DE}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
@@ -545,6 +559,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_frog_walk" ID="{F1189447-3F76-4C76-8299-ADF4C07D48FA}">
+									<ChildrenList>
+										<Action Name="" ID="{FD1D721C-CC1B-4008-9B2C-5A3A056B8322}" ShortID="968893234">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="frog walk" ID="{2D92BF85-42BB-4BA0-A35C-421669A75CB9}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -616,6 +641,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="sell" ID="{A8C330E3-619C-44F3-BAA5-B108CD60936F}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Marchant_tipping" ID="{4908E09D-6C49-475E-A772-E578E3652CC5}">
+							<ChildrenList>
+								<Action Name="" ID="{90C9AE30-4DD0-4100-9A93-41124FB8E439}" ShortID="414908012">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Marchant tipping" ID="{7286C82E-A178-4F19-828B-2AAA2A3C3FDC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -757,6 +793,75 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="mörser" ID="{75515AC5-05DC-4FBB-A0EF-FC702097FE9F}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_cauldron" ID="{64907AFA-F940-4A5A-BA7D-A2B633AAF406}">
+							<ChildrenList>
+								<Action Name="" ID="{64ABD4D5-CA06-4245-BA7C-B153A9E84110}" ShortID="750831817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cauldron" ID="{FF9D81AB-8CC7-400B-9AAD-41D86D57EF79}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_knive_drop" ID="{25D1F37F-4E12-4003-8F0C-70240B66CD9E}">
+							<ChildrenList>
+								<Action Name="" ID="{FDB95E38-60F6-4A2C-9DC2-C38434C45EE3}" ShortID="855170613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="knive drop" ID="{183F4BF6-1E02-492C-9627-8725DFED8B54}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_knive_collect" ID="{199DDEC5-EBA7-4EFB-88F7-0C9FD1449968}">
+							<ChildrenList>
+								<Action Name="" ID="{456DDFC4-EF41-4477-8E4C-5F961D319BE5}" ShortID="653216357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="knive collect" ID="{CCE7D18D-7287-4BA2-8B86-67C0812A6EAC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_m_rser_stampf" ID="{41ECA8DA-F1BA-4A49-B26D-370E1C3D4EC8}">
+							<ChildrenList>
+								<Action Name="" ID="{48362DA0-CC2D-457A-903F-8362931C5943}" ShortID="837819550">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mörser stampf" ID="{457B7AA0-B9AA-4364-99CE-DDCA37AC6336}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Main_Charakter_Cooking_Finished" ID="{22590093-1F67-44EA-983F-91A19FC4A696}">
+							<ChildrenList>
+								<Action Name="" ID="{93C23E6D-0F49-48B9-B95B-34B803DC1723}" ShortID="780698859">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Charakter Cooking Finished" ID="{0F124D02-CEE2-4CF4-AC20-CFF6C9EC50C5}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Main_Charakter_Cooking_Start" ID="{F9F6B02F-4559-4298-9E4F-B04FB5E7AD69}">
+							<ChildrenList>
+								<Action Name="" ID="{2FF28F55-145B-44D2-939C-7D249D992FCA}" ShortID="313480739">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Charakter Cooking Start" ID="{E1A92CE5-07E8-446C-BD56-CD22F3795072}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

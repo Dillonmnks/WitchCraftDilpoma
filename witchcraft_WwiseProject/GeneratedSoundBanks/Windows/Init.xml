@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{25E57165-E6E5-C338-7D72-10505DC5C2B7}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BF5B2171-A7D9-699C-92AB-0E7084177AA2}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="1259256166" Name="New_RoomVerb" ObjectPath="\Effects\Default Work Unit\New_RoomVerb" GUID="{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="2791153688" Name="Hall_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Small" GUID="{D65B5F04-B83B-412C-9434-34A13A477E24}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{3B701F98-7DA3-49E6-BAAA-9B7D6E879E7B}" LibName="No Output" LibId="11862023"/>
@@ -25,7 +25,7 @@
 				<AuxBus Id="201777475" Name="env_HouseReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\env_HouseReverb" GUID="{A6CB6C07-DE4B-48AD-B27C-7EE8E650C2E3}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="2791153688"/>
+							<PluginRef Id="2995775460"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -37,11 +37,20 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="393239870" Name="SFX" ObjectPath="\Game Parameters\Default Work Unit\SFX" GUID="{199E2ACC-EB9D-40A1-B850-E4ADCAE12468}"/>
+				<GameParameter Id="3930136735" Name="Dialogue" ObjectPath="\Game Parameters\Default Work Unit\Dialogue" GUID="{D1FF2CF5-A54C-4FA3-A3BE-78AFE122C6F3}"/>
+				<GameParameter Id="3991942870" Name="Music" ObjectPath="\Game Parameters\Default Work Unit\Music" GUID="{7E693D43-F913-49AB-9B69-08951E199346}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{AA8B7946-7333-468E-930C-700DE96D3D6C}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
 					<Switches>
 						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+						<Switch Id="540993415" Name="Start_Music" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Start_Music" GUID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
+						<Switch Id="589883976" Name="Good_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Good_Ending" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
+						<Switch Id="2222736396" Name="Bad_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Bad_Ending" GUID="{A910281F-D77C-482B-AD61-E1BD29B479F6}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
@@ -63,5 +72,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{81E85803-9E93-E87F-D150-50E91A27A516}</FileHash>
+	<FileHash>{507D92BC-8B4B-814A-E410-661D60D9F0D9}</FileHash>
 </SoundBanksInfo>
