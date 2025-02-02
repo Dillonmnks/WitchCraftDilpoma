@@ -24,7 +24,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
 						<CurrentSwitchRef Name="gras" ID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
-						<CurrentSwitchRef Name="Start_Music" ID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
+						<CurrentSwitchRef Name="Night" ID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
