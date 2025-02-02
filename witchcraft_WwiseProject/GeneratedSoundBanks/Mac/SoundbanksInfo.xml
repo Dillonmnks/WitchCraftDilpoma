@@ -55,10 +55,10 @@
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
 					<Switches>
 						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
-						<Switch Id="540993415" Name="Start_Music" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Start_Music" GUID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
-						<Switch Id="589883976" Name="Good_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Good_Ending" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
+						<Switch Id="540993415" Name="Start_Music" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Start_Music" GUID="{E10CA818-DCE7-4C3B-9A11-D85C07E4D8A1}"/>
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
-						<Switch Id="2222736396" Name="Bad_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Bad_Ending" GUID="{A910281F-D77C-482B-AD61-E1BD29B479F6}"/>
+						<Switch Id="2222736396" Name="Bad_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Bad_Ending" GUID="{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"/>
+						<Switch Id="4273245022" Name="Good_Ending_01" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Good_Ending_01" GUID="{48527EE4-7EBE-4C1D-8006-BC60BCC5B8D1}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
@@ -79,7 +79,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{7C8761B6-40F2-2A84-0F49-3809C6C4C4E5}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{07D4FCBE-9530-D1C2-5C19-31F2C7309536}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -122,7 +122,7 @@
 				</File>
 				<File Id="47676009" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Marchant tipping.wav</ShortName>
-					<CachePath>SFX/Marchant tipping_178B56BE.wem</CachePath>
+					<CachePath>SFX/Marchant tipping_72771C4C.wem</CachePath>
 				</File>
 				<File Id="50575655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
@@ -398,7 +398,7 @@
 				</File>
 				<File Id="384896076" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter Cooking Start.wav</ShortName>
-					<CachePath>SFX/Main Charakter Cooking Start_2930E9C9.wem</CachePath>
+					<CachePath>SFX/Main Charakter Cooking Start_49B84AD5.wem</CachePath>
 				</File>
 				<File Id="387172603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 6.wav</ShortName>
@@ -434,7 +434,7 @@
 				</File>
 				<File Id="414203104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter Cooking Finished.wav</ShortName>
-					<CachePath>SFX/Main Charakter Cooking Finished_A2A6A052.wem</CachePath>
+					<CachePath>SFX/Main Charakter Cooking Finished_0502422B.wem</CachePath>
 				</File>
 				<File Id="420124859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walk.wav</ShortName>
@@ -542,7 +542,7 @@
 				</File>
 				<File Id="564181313" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bubles Water Casting .wav</ShortName>
-					<CachePath>SFX/Bubles Water Casting _2F10397C.wem</CachePath>
+					<CachePath>SFX/Bubles Water Casting _85DD8F50.wem</CachePath>
 				</File>
 				<File Id="567017348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras.wav</ShortName>
@@ -598,7 +598,7 @@
 				</File>
 				<File Id="641402689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter XP Gain.wav</ShortName>
-					<CachePath>SFX/Main Charakter XP Gain_7883CC72.wem</CachePath>
+					<CachePath>SFX/Main Charakter XP Gain_98917FDA.wem</CachePath>
 				</File>
 				<File Id="642603176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive collect.wav</ShortName>
@@ -1100,19 +1100,19 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="301787977" Id="2222736396" GUID="{A910281F-D77C-482B-AD61-E1BD29B479F6}"/>
+							<SwitchValue GroupType="Switch" GroupId="301787977" Id="2222736396" GUID="{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"/>
 							<MediaRefs>
 								<MediaRef Id="475571170"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="301787977" Id="589883976" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
+							<SwitchValue GroupType="Switch" GroupId="301787977" Id="4273245022" GUID="{48527EE4-7EBE-4C1D-8006-BC60BCC5B8D1}"/>
 							<MediaRefs>
 								<MediaRef Id="737869163"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="301787977" Id="540993415" GUID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
+							<SwitchValue GroupType="Switch" GroupId="301787977" Id="540993415" GUID="{E10CA818-DCE7-4C3B-9A11-D85C07E4D8A1}"/>
 							<MediaRefs>
 								<MediaRef Id="629466563"/>
 							</MediaRefs>
@@ -1473,10 +1473,10 @@
 				<SwitchGroup Id="301787977" Name="DayNightCycle" ObjectPath="\Switches\Default Work Unit\DayNightCycle" GUID="{F9D56BD1-C719-470C-9FD3-91868C2673D9}">
 					<Switches>
 						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Day" GUID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
-						<Switch Id="540993415" Name="Start_Music" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Start_Music" GUID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
-						<Switch Id="589883976" Name="Good_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Good_Ending" GUID="{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"/>
+						<Switch Id="540993415" Name="Start_Music" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Start_Music" GUID="{E10CA818-DCE7-4C3B-9A11-D85C07E4D8A1}"/>
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Night" GUID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
-						<Switch Id="2222736396" Name="Bad_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Bad_Ending" GUID="{A910281F-D77C-482B-AD61-E1BD29B479F6}"/>
+						<Switch Id="2222736396" Name="Bad_Ending" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Bad_Ending" GUID="{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"/>
+						<Switch Id="4273245022" Name="Good_Ending_01" ObjectPath="\Switches\Default Work Unit\DayNightCycle\Good_Ending_01" GUID="{48527EE4-7EBE-4C1D-8006-BC60BCC5B8D1}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1235749641" Name="Dialog" ObjectPath="\Switches\Default Work Unit\Dialog" GUID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">
@@ -1498,5 +1498,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1AC76284-329E-DB3B-4253-74D91F218DAD}</FileHash>
+	<FileHash>{F73A4DD0-AD07-D930-0747-751631ABD1E2}</FileHash>
 </SoundBanksInfo>
