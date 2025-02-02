@@ -149,13 +149,7 @@
         "Id": "540993415",
         "Name": "Start_Music",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Start_Music",
-        "GUID": "{522F65E8-0ACB-41B9-B412-B4125E188D4E}"
-       },
-       {
-        "Id": "589883976",
-        "Name": "Good_Ending",
-        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Good_Ending",
-        "GUID": "{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"
+        "GUID": "{E10CA818-DCE7-4C3B-9A11-D85C07E4D8A1}"
        },
        {
         "Id": "1011622525",
@@ -167,7 +161,13 @@
         "Id": "2222736396",
         "Name": "Bad_Ending",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Bad_Ending",
-        "GUID": "{A910281F-D77C-482B-AD61-E1BD29B479F6}"
+        "GUID": "{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"
+       },
+       {
+        "Id": "4273245022",
+        "Name": "Good_Ending_01",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Good_Ending_01",
+        "GUID": "{48527EE4-7EBE-4C1D-8006-BC60BCC5B8D1}"
        }
       ]
      },
@@ -238,6 +238,6 @@
     ]
    }
   ],
-  "FileHash": "{0947A5A0-ADAB-B6BD-BB96-258A14ACEA34}"
+  "FileHash": "{46FEDEDA-28A9-FCC4-3F7C-1D27C4912FF5}"
  }
 }

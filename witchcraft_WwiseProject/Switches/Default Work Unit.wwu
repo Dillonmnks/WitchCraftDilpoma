@@ -53,6 +53,9 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Switch>
+						<Switch Name="Start_Music" ID="{E10CA818-DCE7-4C3B-9A11-D85C07E4D8A1}"/>
+						<Switch Name="Bad_Ending" ID="{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"/>
+						<Switch Name="Good_Ending_01" ID="{48527EE4-7EBE-4C1D-8006-BC60BCC5B8D1}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Dialog" ID="{A9603A5D-0E7C-41A2-806A-47D25ED5F6A4}">

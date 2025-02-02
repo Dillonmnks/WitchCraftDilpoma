@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{7C8761B6-40F2-2A84-0F49-3809C6C4C4E5}",
+    "Hash": "{07D4FCBE-9530-D1C2-5C19-31F2C7309536}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Marchant tipping.wav",
-      "CachePath": "SFX/Marchant tipping_178B56BE.wem"
+      "CachePath": "SFX/Marchant tipping_72771C4C.wem"
      },
      {
       "Id": "50575655",
@@ -645,7 +645,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter Cooking Start.wav",
-      "CachePath": "SFX/Main Charakter Cooking Start_2930E9C9.wem"
+      "CachePath": "SFX/Main Charakter Cooking Start_49B84AD5.wem"
      },
      {
       "Id": "387172603",
@@ -717,7 +717,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter Cooking Finished.wav",
-      "CachePath": "SFX/Main Charakter Cooking Finished_A2A6A052.wem"
+      "CachePath": "SFX/Main Charakter Cooking Finished_0502422B.wem"
      },
      {
       "Id": "420124859",
@@ -933,7 +933,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bubles Water Casting .wav",
-      "CachePath": "SFX/Bubles Water Casting _2F10397C.wem"
+      "CachePath": "SFX/Bubles Water Casting _85DD8F50.wem"
      },
      {
       "Id": "567017348",
@@ -1045,7 +1045,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Main Charakter XP Gain.wav",
-      "CachePath": "SFX/Main Charakter XP Gain_7883CC72.wem"
+      "CachePath": "SFX/Main Charakter XP Gain_98917FDA.wem"
      },
      {
       "Id": "642603176",
@@ -2237,7 +2237,7 @@
          "GroupType": "Switch",
          "GroupId": "301787977",
          "Id": "2222736396",
-         "GUID": "{A910281F-D77C-482B-AD61-E1BD29B479F6}"
+         "GUID": "{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"
         },
         "MediaRefs": [
          {
@@ -2249,8 +2249,8 @@
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "301787977",
-         "Id": "589883976",
-         "GUID": "{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"
+         "Id": "4273245022",
+         "GUID": "{48527EE4-7EBE-4C1D-8006-BC60BCC5B8D1}"
         },
         "MediaRefs": [
          {
@@ -2263,7 +2263,7 @@
          "GroupType": "Switch",
          "GroupId": "301787977",
          "Id": "540993415",
-         "GUID": "{522F65E8-0ACB-41B9-B412-B4125E188D4E}"
+         "GUID": "{E10CA818-DCE7-4C3B-9A11-D85C07E4D8A1}"
         },
         "MediaRefs": [
          {
@@ -3268,13 +3268,7 @@
         "Id": "540993415",
         "Name": "Start_Music",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Start_Music",
-        "GUID": "{522F65E8-0ACB-41B9-B412-B4125E188D4E}"
-       },
-       {
-        "Id": "589883976",
-        "Name": "Good_Ending",
-        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Good_Ending",
-        "GUID": "{96C5D754-2B3F-4DAA-9E6D-FA63F13A32BC}"
+        "GUID": "{E10CA818-DCE7-4C3B-9A11-D85C07E4D8A1}"
        },
        {
         "Id": "1011622525",
@@ -3286,7 +3280,13 @@
         "Id": "2222736396",
         "Name": "Bad_Ending",
         "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Bad_Ending",
-        "GUID": "{A910281F-D77C-482B-AD61-E1BD29B479F6}"
+        "GUID": "{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"
+       },
+       {
+        "Id": "4273245022",
+        "Name": "Good_Ending_01",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DayNightCycle\\Good_Ending_01",
+        "GUID": "{48527EE4-7EBE-4C1D-8006-BC60BCC5B8D1}"
        }
       ]
      },
@@ -3357,6 +3357,6 @@
     ]
    }
   ],
-  "FileHash": "{54A9BAF2-6F07-CF0A-435F-397B18E226FB}"
+  "FileHash": "{ED49731C-CFA6-2F6D-24EB-A13E32CA2456}"
  }
 }
