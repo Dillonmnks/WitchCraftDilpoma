@@ -19,7 +19,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Hexe" ID="{C302EF39-1CCD-4D35-9A0B-5FE2A38AF60B}"/>
 						<CurrentSwitchRef Name="gras" ID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
-						<CurrentSwitchRef Name="Day" ID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+						<CurrentSwitchRef Name="Start_Music" ID="{522F65E8-0ACB-41B9-B412-B4125E188D4E}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
