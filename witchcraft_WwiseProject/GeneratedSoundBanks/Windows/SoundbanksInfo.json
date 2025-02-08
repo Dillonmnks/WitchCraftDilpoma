@@ -250,7 +250,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{FCDFB2B3-B816-34DE-E570-C8347E1E8D4E}",
+    "Hash": "{A3527AE5-8272-2007-A0B1-2C7810B4A5BB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -2055,6 +2055,7 @@
       "Name": "Play___leaves_tree_at_river",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___leaves_tree_at_river",
       "GUID": "{5C76B51D-191D-4806-88D6-38B38937A6C1}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "61.975704",
       "DurationMax": "61.975704",
@@ -2097,6 +2098,7 @@
       "Name": "Play___river_hard_far_away",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_hard_far_away",
       "GUID": "{C68C815D-139A-4259-BE39-AB1FDD36C0EF}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "31.860613",
       "DurationMax": "31.860613",
@@ -2111,6 +2113,7 @@
       "Name": "Play___river_soft",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___river_soft",
       "GUID": "{A03724F8-4DC1-4EA9-8CFF-40847066EA9F}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "36.080563",
       "DurationMax": "36.080563",
@@ -2140,6 +2143,7 @@
       "Name": "Play___wood_knocking",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play___wood_knocking",
       "GUID": "{42A86543-7485-461B-B0A1-14D3E0654333}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "31.246803",
       "DurationMax": "31.246803",
@@ -3025,6 +3029,7 @@
       "Name": "Play_Nutshell",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_Nutshell",
       "GUID": "{E35663FC-9EC9-4596-97E8-F18A7752E670}",
+      "MaxAttenuation": "6000",
       "DurationType": "OneShot",
       "DurationMin": "5.5",
       "DurationMax": "5.5",
@@ -3597,6 +3602,6 @@
     ]
    }
   ],
-  "FileHash": "{399E362F-8448-3982-44ED-9956980EC254}"
+  "FileHash": "{516C0AF0-0C6A-1DA0-0294-0852B4A702A6}"
  }
 }
