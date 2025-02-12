@@ -1200,7 +1200,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_Day_Night" ID="{1EE4FA1A-7FE2-4EED-8825-F9C3FED26ACD}">
+						<Event Name="Play_Music" ID="{1EE4FA1A-7FE2-4EED-8825-F9C3FED26ACD}">
 							<ChildrenList>
 								<Action Name="" ID="{2E489A3B-6B2A-4003-9091-83B7123610BB}" ShortID="84052740">
 									<ReferenceList>
