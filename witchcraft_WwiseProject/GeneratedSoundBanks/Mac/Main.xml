@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{33C845B1-409E-CCDB-5465-3692C654CFD2}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{63BDCD62-311B-AD26-F98F-FDD2702809C0}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -12,23 +12,23 @@
 				</File>
 				<File Id="8451084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>casting .wav</ShortName>
-					<CachePath>SFX/casting _3F48897B.wem</CachePath>
+					<CachePath>SFX/casting _BFDBAE4D.wem</CachePath>
 				</File>
 				<File Id="10077899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_F17AAC16.wem</CachePath>
+					<CachePath>SFX/Combat frog Idle_ACB7C679.wem</CachePath>
 				</File>
 				<File Id="12299255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle-1.wav</ShortName>
-					<CachePath>SFX/Combat  worm idle-1_B6FD893F.wem</CachePath>
+					<CachePath>SFX/Combat  worm idle-1_11A9B5D7.wem</CachePath>
 				</File>
 				<File Id="14589801" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item drop glas.wav</ShortName>
-					<CachePath>SFX/Ui item drop glas_1B8558CE.wem</CachePath>
+					<CachePath>SFX/Ui item drop glas_D67E763C.wem</CachePath>
 				</File>
 				<File Id="33963550" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui letter open.wav</ShortName>
-					<CachePath>SFX/Ui letter open_B79038D9.wem</CachePath>
+					<CachePath>SFX/Ui letter open_598AC8FD.wem</CachePath>
 				</File>
 				<File Id="41935058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -44,7 +44,7 @@
 				</File>
 				<File Id="45571629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-3.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-3_CD596636.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras-3_96C2C4F2.wem</CachePath>
 				</File>
 				<File Id="47676009" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Marchant tipping.wav</ShortName>
@@ -52,7 +52,7 @@
 				</File>
 				<File Id="50575655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_2A7FADD2.wem</CachePath>
+					<CachePath>SFX/Combat frog Idle_1F8A1546.wem</CachePath>
 				</File>
 				<File Id="58143896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Piano_Part B_110BPM_4-4_L16-P0.wav</ShortName>
@@ -72,7 +72,7 @@
 				</File>
 				<File Id="71503049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item collect fail.wav</ShortName>
-					<CachePath>SFX/Ui item collect fail_6082E8D0.wem</CachePath>
+					<CachePath>SFX/Ui item collect fail_517AB09D.wem</CachePath>
 				</File>
 				<File Id="80578364" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Piano_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -80,7 +80,7 @@
 				</File>
 				<File Id="88255355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden.wav</ShortName>
-					<CachePath>SFX/  schneiden_3844A0F4.wem</CachePath>
+					<CachePath>SFX/  schneiden_AD659A2B.wem</CachePath>
 				</File>
 				<File Id="92409362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Oboe_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -88,7 +88,7 @@
 				</File>
 				<File Id="98954012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui quest accept.wav</ShortName>
-					<CachePath>SFX/Ui quest accept_F5521D20.wem</CachePath>
+					<CachePath>SFX/Ui quest accept_A82068E0.wem</CachePath>
 				</File>
 				<File Id="116496702" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -112,11 +112,11 @@
 				</File>
 				<File Id="135775179" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell-2.wav</ShortName>
-					<CachePath>SFX/  sell-2_7171E73A.wem</CachePath>
+					<CachePath>SFX/  sell-2_1635741F.wem</CachePath>
 				</File>
 				<File Id="146395362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
-					<CachePath>SFX/Combat interact pet _F0411DB6.wem</CachePath>
+					<CachePath>SFX/Combat interact pet _E6B6DC89.wem</CachePath>
 				</File>
 				<File Id="148234284" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walk.wav</ShortName>
@@ -128,7 +128,7 @@
 				</File>
 				<File Id="157319039" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-3.wav</ShortName>
-					<CachePath>SFX/  buy-3_F14C1A53.wem</CachePath>
+					<CachePath>SFX/  buy-3_A97D300D.wem</CachePath>
 				</File>
 				<File Id="171969739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves tree at river.wav</ShortName>
@@ -136,7 +136,7 @@
 				</File>
 				<File Id="177565286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-1.wav</ShortName>
-					<CachePath>SFX/  schneiden-1_7F70DD53.wem</CachePath>
+					<CachePath>SFX/  schneiden-1_F6A79C8B.wem</CachePath>
 				</File>
 				<File Id="178696379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-4.wav</ShortName>
@@ -156,11 +156,11 @@
 				</File>
 				<File Id="197177071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump up.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump up_E8DD24EF.wem</CachePath>
+					<CachePath>SFX/Main Charakter  jump up_F8BAE99B.wem</CachePath>
 				</File>
 				<File Id="202104210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> moral increase.wav</ShortName>
-					<CachePath>SFX/ moral increase_94EEDD11.wem</CachePath>
+					<CachePath>SFX/ moral increase_EB12E7A7.wem</CachePath>
 				</File>
 				<File Id="213656067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
@@ -184,7 +184,7 @@
 				</File>
 				<File Id="223377924" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  go to sleep.wav</ShortName>
-					<CachePath>SFX/  go to sleep_BA27FA00.wem</CachePath>
+					<CachePath>SFX/  go to sleep_3A2138A3.wem</CachePath>
 				</File>
 				<File Id="226393275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone.wav</ShortName>
@@ -196,11 +196,11 @@
 				</File>
 				<File Id="241164100" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump down-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump down-2_31C76A6C.wem</CachePath>
+					<CachePath>SFX/Main Charakter  jump down-2_EFCA65EA.wem</CachePath>
 				</File>
 				<File Id="246212939" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  chest open.wav</ShortName>
-					<CachePath>SFX/  chest open_426806F8.wem</CachePath>
+					<CachePath>SFX/  chest open_F4B3F0BA.wem</CachePath>
 				</File>
 				<File Id="248217849" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -208,7 +208,7 @@
 				</File>
 				<File Id="248968352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive collect.wav</ShortName>
-					<CachePath>SFX/  knive collect_BB9C90C1.wem</CachePath>
+					<CachePath>SFX/  knive collect_D316118C.wem</CachePath>
 				</File>
 				<File Id="250295349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Synth_Part A_110BPM_4-4_L16-P0.wav</ShortName>
@@ -220,15 +220,15 @@
 				</File>
 				<File Id="261089796" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui quest decline.wav</ShortName>
-					<CachePath>SFX/Ui quest decline_F6691BBC.wem</CachePath>
+					<CachePath>SFX/Ui quest decline_121C8F79.wem</CachePath>
 				</File>
 				<File Id="265123594" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item collect.wav</ShortName>
-					<CachePath>SFX/Ui item collect_2FB791B1.wem</CachePath>
+					<CachePath>SFX/Ui item collect_77C39F44.wem</CachePath>
 				</File>
 				<File Id="265985123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _DF55218E.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _4A8EBECF.wem</CachePath>
 				</File>
 				<File Id="271812814" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> WIND.wav</ShortName>
@@ -236,11 +236,11 @@
 				</File>
 				<File Id="275632591" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump up-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump up-2_72C93E6D.wem</CachePath>
+					<CachePath>SFX/Main Charakter  jump up-2_85F23BC9.wem</CachePath>
 				</File>
 				<File Id="275848710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui inventory open.wav</ShortName>
-					<CachePath>SFX/Ui inventory open_394724CA.wem</CachePath>
+					<CachePath>SFX/Ui inventory open_EC912F54.wem</CachePath>
 				</File>
 				<File Id="281119168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Flute_Part B_110BPM_4-4_L16-P0.wav</ShortName>
@@ -248,7 +248,7 @@
 				</File>
 				<File Id="296652437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  chest closed.wav</ShortName>
-					<CachePath>SFX/  chest closed_1B483199.wem</CachePath>
+					<CachePath>SFX/  chest closed_F5F92777.wem</CachePath>
 				</File>
 				<File Id="297985586" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river hard far away.wav</ShortName>
@@ -260,15 +260,15 @@
 				</File>
 				<File Id="301112140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 3.wav</ShortName>
-					<CachePath>SFX/Ui turn page 3_9E55C494.wem</CachePath>
+					<CachePath>SFX/Ui turn page 3_14E90692.wem</CachePath>
 				</File>
 				<File Id="304044752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump down.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump down_7F9E88D4.wem</CachePath>
+					<CachePath>SFX/Main Charakter  jump down_7E874C25.wem</CachePath>
 				</File>
 				<File Id="309348204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> quest finished.wav</ShortName>
-					<CachePath>SFX/ quest finished_92E2AC78.wem</CachePath>
+					<CachePath>SFX/ quest finished_9F3CF3DE.wem</CachePath>
 				</File>
 				<File Id="315065542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -276,7 +276,7 @@
 				</File>
 				<File Id="318859576" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item drop mushroom.wav</ShortName>
-					<CachePath>SFX/Ui item drop mushroom_BFBC1A11.wem</CachePath>
+					<CachePath>SFX/Ui item drop mushroom_659C2142.wem</CachePath>
 				</File>
 				<File Id="323874818" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Piano_Intro_110BPM_4-4_L8-P0.wav</ShortName>
@@ -284,15 +284,15 @@
 				</File>
 				<File Id="339378936" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump down-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump down-1_762E0EC2.wem</CachePath>
+					<CachePath>SFX/Main Charakter  jump down-1_7222E051.wem</CachePath>
 				</File>
 				<File Id="343265672" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui button.wav</ShortName>
-					<CachePath>SFX/Ui button_9038FDB2.wem</CachePath>
+					<CachePath>SFX/Ui button_D3DB8B42.wem</CachePath>
 				</File>
 				<File Id="346084147" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  door open _close.wav</ShortName>
-					<CachePath>SFX/  door open _close_5DFD8F00.wem</CachePath>
+					<CachePath>SFX/  door open _close_86CA4B7C.wem</CachePath>
 				</File>
 				<File Id="349086572" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Kick_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -304,15 +304,15 @@
 				</File>
 				<File Id="361713716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> door shaking .wav</ShortName>
-					<CachePath>SFX/ door shaking _FEF2A0F1.wem</CachePath>
+					<CachePath>SFX/ door shaking _FCC73209.wem</CachePath>
 				</File>
 				<File Id="372153424" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item delete bin.wav</ShortName>
-					<CachePath>SFX/Ui item delete bin_C479F392.wem</CachePath>
+					<CachePath>SFX/Ui item delete bin_7605DEC8.wem</CachePath>
 				</File>
 				<File Id="372603158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle.wav</ShortName>
-					<CachePath>SFX/Combat  worm idle_7C67293F.wem</CachePath>
+					<CachePath>SFX/Combat  worm idle_00AC2730.wem</CachePath>
 				</File>
 				<File Id="376627733" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grandma.wav</ShortName>
@@ -332,7 +332,7 @@
 				</File>
 				<File Id="393714322" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use potion.wav</ShortName>
-					<CachePath>SFX/Ui item use potion_791797A6.wem</CachePath>
+					<CachePath>SFX/Ui item use potion_3121C1E0.wem</CachePath>
 				</File>
 				<File Id="395530577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
@@ -340,7 +340,7 @@
 				</File>
 				<File Id="397629470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  wake up.wav</ShortName>
-					<CachePath>SFX/  wake up_BF2E07C4.wem</CachePath>
+					<CachePath>SFX/  wake up_0843078A.wem</CachePath>
 				</File>
 				<File Id="402867416" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser stampf.wav</ShortName>
@@ -364,15 +364,15 @@
 				</File>
 				<File Id="435537503" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item inventory drop.wav</ShortName>
-					<CachePath>SFX/Ui item inventory drop_D0B73459.wem</CachePath>
+					<CachePath>SFX/Ui item inventory drop_F10F9E97.wem</CachePath>
 				</File>
 				<File Id="441285259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 4.wav</ShortName>
-					<CachePath>SFX/Ui turn page 4_3A509824.wem</CachePath>
+					<CachePath>SFX/Ui turn page 4_6DAC7963.wem</CachePath>
 				</File>
 				<File Id="447080793" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> moral decrease.wav</ShortName>
-					<CachePath>SFX/ moral decrease_472C386A.wem</CachePath>
+					<CachePath>SFX/ moral decrease_C275FF6C.wem</CachePath>
 				</File>
 				<File Id="449741626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Glockenspiel_Part C_110BPM_4-4_L14-P1.wav</ShortName>
@@ -380,7 +380,7 @@
 				</File>
 				<File Id="454643591" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 5.wav</ShortName>
-					<CachePath>SFX/  leaves 5_96950801.wem</CachePath>
+					<CachePath>SFX/  leaves 5_26C11C74.wem</CachePath>
 				</File>
 				<File Id="456825050" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -388,7 +388,7 @@
 				</File>
 				<File Id="462629554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras_BD8E6DD6.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras_1D27CC37.wem</CachePath>
 				</File>
 				<File Id="467215598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps wood-2.wav</ShortName>
@@ -400,7 +400,7 @@
 				</File>
 				<File Id="483560127" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-2.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-2_7C63626E.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras-2_B85A15A9.wem</CachePath>
 				</File>
 				<File Id="490688840" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 5.wav</ShortName>
@@ -416,7 +416,7 @@
 				</File>
 				<File Id="509970347" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item inventory move instant.wav</ShortName>
-					<CachePath>SFX/Ui item inventory move instant_1783E358.wem</CachePath>
+					<CachePath>SFX/Ui item inventory move instant_0A688ACA.wem</CachePath>
 				</File>
 				<File Id="514234718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river hard.wav</ShortName>
@@ -444,7 +444,7 @@
 				</File>
 				<File Id="529617816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle-3.wav</ShortName>
-					<CachePath>SFX/Combat  worm idle-3_7CDE3E10.wem</CachePath>
+					<CachePath>SFX/Combat  worm idle-3_D9B59008.wem</CachePath>
 				</File>
 				<File Id="534775705" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Hi Hat_Part A_110BPM_4-4_L16-P0.wav</ShortName>
@@ -452,7 +452,7 @@
 				</File>
 				<File Id="541463883" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _52E086A3.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _EFCDA0A3.wem</CachePath>
 				</File>
 				<File Id="542032580" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  wood knocking.wav</ShortName>
@@ -476,23 +476,23 @@
 				</File>
 				<File Id="570545043" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive drop.wav</ShortName>
-					<CachePath>SFX/  knive drop_BEA72F28.wem</CachePath>
+					<CachePath>SFX/  knive drop_FF6C9309.wem</CachePath>
 				</File>
 				<File Id="580912414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
-					<CachePath>SFX/Combat frog Idle_222774F6.wem</CachePath>
+					<CachePath>SFX/Combat frog Idle_100B4618.wem</CachePath>
 				</File>
 				<File Id="614674959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 1.wav</ShortName>
-					<CachePath>SFX/Ui turn page 1_AB9C22A7.wem</CachePath>
+					<CachePath>SFX/Ui turn page 1_6670A45A.wem</CachePath>
 				</File>
 				<File Id="624549140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  footsteps gras-1_FA2DE31D.wem</CachePath>
+					<CachePath>SFX/Main Charakter  footsteps gras-1_0CDAA761.wem</CachePath>
 				</File>
 				<File Id="625785352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item inventory click.wav</ShortName>
-					<CachePath>SFX/Ui item inventory click_72D6219E.wem</CachePath>
+					<CachePath>SFX/Ui item inventory click_4BDE997D.wem</CachePath>
 				</File>
 				<File Id="626293655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -504,7 +504,7 @@
 				</File>
 				<File Id="630745993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-1.wav</ShortName>
-					<CachePath>SFX/  buy-1_FF8C2236.wem</CachePath>
+					<CachePath>SFX/  buy-1_B77FDE62.wem</CachePath>
 				</File>
 				<File Id="634905090" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  river soft.wav</ShortName>
@@ -532,7 +532,7 @@
 				</File>
 				<File Id="642603176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive collect.wav</ShortName>
-					<CachePath>SFX/  knive collect_3583681D.wem</CachePath>
+					<CachePath>SFX/  knive collect_60F5CF8B.wem</CachePath>
 				</File>
 				<File Id="646963069" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Night_Glockenspiel_Part B_110BPM_4-4_L14-P1.wav</ShortName>
@@ -540,11 +540,11 @@
 				</File>
 				<File Id="683805629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _BBCC3DF6.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _A710D12D.wem</CachePath>
 				</File>
 				<File Id="697205456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell.wav</ShortName>
-					<CachePath>SFX/  sell_6DD18317.wem</CachePath>
+					<CachePath>SFX/  sell_78034346.wem</CachePath>
 				</File>
 				<File Id="706253421" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -556,7 +556,7 @@
 				</File>
 				<File Id="714771132" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell-3.wav</ShortName>
-					<CachePath>SFX/  sell-3_8DBE35D5.wem</CachePath>
+					<CachePath>SFX/  sell-3_CB297BFF.wem</CachePath>
 				</File>
 				<File Id="715591636" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gravel-3.wav</ShortName>
@@ -572,7 +572,7 @@
 				</File>
 				<File Id="735624053" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 4.wav</ShortName>
-					<CachePath>SFX/  birds 4_6340584D.wem</CachePath>
+					<CachePath>SFX/  birds 4_1E291AC2.wem</CachePath>
 				</File>
 				<File Id="737869163" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>good ending .wav</ShortName>
@@ -588,7 +588,7 @@
 				</File>
 				<File Id="749117629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  sell-1.wav</ShortName>
-					<CachePath>SFX/  sell-1_8584312F.wem</CachePath>
+					<CachePath>SFX/  sell-1_50965085.wem</CachePath>
 				</File>
 				<File Id="751077151" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-3.wav</ShortName>
@@ -604,7 +604,7 @@
 				</File>
 				<File Id="781621739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 2.wav</ShortName>
-					<CachePath>SFX/  birds 2_34261C27.wem</CachePath>
+					<CachePath>SFX/  birds 2_407740F0.wem</CachePath>
 				</File>
 				<File Id="783857445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -612,11 +612,11 @@
 				</File>
 				<File Id="792034974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 2.wav</ShortName>
-					<CachePath>SFX/Ui turn page 2_6FD9AAAF.wem</CachePath>
+					<CachePath>SFX/Ui turn page 2_AEC9C343.wem</CachePath>
 				</File>
 				<File Id="794816127" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-2.wav</ShortName>
-					<CachePath>SFX/  buy-2_F4FF7A00.wem</CachePath>
+					<CachePath>SFX/  buy-2_B03C1C6C.wem</CachePath>
 				</File>
 				<File Id="806215852" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Strings_Part D_110BPM_4-4_L14-P0.wav</ShortName>
@@ -624,7 +624,7 @@
 				</File>
 				<File Id="807797044" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui inventory close.wav</ShortName>
-					<CachePath>SFX/Ui inventory close_76C32E78.wem</CachePath>
+					<CachePath>SFX/Ui inventory close_BE063FEB.wem</CachePath>
 				</File>
 				<File Id="808331299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Oboe_Part B_110BPM_4-4_L8-P0.wav</ShortName>
@@ -648,7 +648,7 @@
 				</File>
 				<File Id="840295862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 3.wav</ShortName>
-					<CachePath>SFX/  birds 3_4DD65287.wem</CachePath>
+					<CachePath>SFX/  birds 3_02F50B93.wem</CachePath>
 				</File>
 				<File Id="843480435" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  nutshell-3.wav</ShortName>
@@ -664,7 +664,7 @@
 				</File>
 				<File Id="855748575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-2.wav</ShortName>
-					<CachePath>SFX/  schneiden-2_DB59AE29.wem</CachePath>
+					<CachePath>SFX/  schneiden-2_CDB41D4A.wem</CachePath>
 				</File>
 				<File Id="866680057" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bänker.wav</ShortName>
@@ -672,11 +672,11 @@
 				</File>
 				<File Id="873389055" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui move cursor.wav</ShortName>
-					<CachePath>SFX/Ui move cursor_4BFC4D9D.wem</CachePath>
+					<CachePath>SFX/Ui move cursor_4C359C9D.wem</CachePath>
 				</File>
 				<File Id="876192999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat  worm idle-2.wav</ShortName>
-					<CachePath>SFX/Combat  worm idle-2_86CFE53C.wem</CachePath>
+					<CachePath>SFX/Combat  worm idle-2_A48757FE.wem</CachePath>
 				</File>
 				<File Id="878350824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_HiHat_Part B_110BPM_4-4_L16-P0.wav</ShortName>
@@ -688,7 +688,7 @@
 				</File>
 				<File Id="884940165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  knive drop.wav</ShortName>
-					<CachePath>SFX/  knive drop_B84279B3.wem</CachePath>
+					<CachePath>SFX/  knive drop_9B7623C6.wem</CachePath>
 				</File>
 				<File Id="887565968" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -724,15 +724,15 @@
 				</File>
 				<File Id="913835205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog pet .wav</ShortName>
-					<CachePath>SFX/Combat frog pet _A6494440.wem</CachePath>
+					<CachePath>SFX/Combat frog pet _D954C0E6.wem</CachePath>
 				</File>
 				<File Id="917264507" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser.wav</ShortName>
-					<CachePath>SFX/  Mörser_756C5C0F.wem</CachePath>
+					<CachePath>SFX/  Mörser_49FBCC7D.wem</CachePath>
 				</File>
 				<File Id="922633899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser-1.wav</ShortName>
-					<CachePath>SFX/  Mörser-1_A2905B0A.wem</CachePath>
+					<CachePath>SFX/  Mörser-1_CD8B2B5F.wem</CachePath>
 				</File>
 				<File Id="926038193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-2.wav</ShortName>
@@ -740,7 +740,7 @@
 				</File>
 				<File Id="929206881" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy.wav</ShortName>
-					<CachePath>SFX/  buy_F315A68C.wem</CachePath>
+					<CachePath>SFX/  buy_C3F70F9B.wem</CachePath>
 				</File>
 				<File Id="930120994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
@@ -748,7 +748,7 @@
 				</File>
 				<File Id="938587460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter Level Up .wav</ShortName>
-					<CachePath>SFX/Main Charakter Level Up _0AAD87BD.wem</CachePath>
+					<CachePath>SFX/Main Charakter Level Up _026570C0.wem</CachePath>
 				</File>
 				<File Id="963689456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps stone-1.wav</ShortName>
@@ -760,7 +760,7 @@
 				</File>
 				<File Id="978548441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use eat.wav</ShortName>
-					<CachePath>SFX/Ui item use eat_CF208AE8.wem</CachePath>
+					<CachePath>SFX/Ui item use eat_1D7656D7.wem</CachePath>
 				</File>
 				<File Id="988185398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves.wav</ShortName>
@@ -768,7 +768,7 @@
 				</File>
 				<File Id="988660099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
-					<CachePath>SFX/Combat interact pet _80D5E537.wem</CachePath>
+					<CachePath>SFX/Combat interact pet _E4D92E80.wem</CachePath>
 				</File>
 				<File Id="997968862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  nutshell-4.wav</ShortName>
@@ -780,15 +780,15 @@
 				</File>
 				<File Id="1016314410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui item use recipe.wav</ShortName>
-					<CachePath>SFX/Ui item use recipe_34E65CC8.wem</CachePath>
+					<CachePath>SFX/Ui item use recipe_92F4F002.wem</CachePath>
 				</File>
 				<File Id="1024205521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  jump up-1.wav</ShortName>
-					<CachePath>SFX/Main Charakter  jump up-1_16E37FB7.wem</CachePath>
+					<CachePath>SFX/Main Charakter  jump up-1_48ACC606.wem</CachePath>
 				</File>
 				<File Id="1040369418" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  kessel kochen-1.wav</ShortName>
-					<CachePath>SFX/  kessel kochen-1_97397721.wem</CachePath>
+					<CachePath>SFX/  kessel kochen-1_60EBF474.wem</CachePath>
 				</File>
 				<File Id="1053097705" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -796,7 +796,7 @@
 				</File>
 				<File Id="1057484461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  Mörser-2.wav</ShortName>
-					<CachePath>SFX/  Mörser-2_AA020A1A.wem</CachePath>
+					<CachePath>SFX/  Mörser-2_E6343A1C.wem</CachePath>
 				</File>
 				<File Id="1058688644" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Kick_Part D_110BPM_4-4_L14-P0.wav</ShortName>
@@ -1420,5 +1420,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{47290D17-54E4-07F5-7D05-E5A822E4D586}</FileHash>
+	<FileHash>{EEABA55A-3D70-25D5-9CBD-6CE53D43E6F5}</FileHash>
 </SoundBanksInfo>
