@@ -6,12 +6,368 @@
 				<SoundcasterSession Name="Test" ID="{BB48C117-6E60-4F22-96EB-92EE017029BA}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Dialog" ID="{DA7FCF12-2622-4268-8743-D24729EC620F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<ObjectRef Name="Play___birds_2" ID="{A636B00A-4F38-472A-840C-E7DF8DE4532F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Dialogue_end" ID="{D63288F8-72DC-431F-AAA3-51283CDADE32}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<ObjectRef Name="Play___leaves" ID="{336A0527-A49E-489D-AB10-09A712842C69}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___river_hard_far_away" ID="{C68C815D-139A-4259-BE39-AB1FDD36C0EF}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play__moral_increase" ID="{4FCD1F7C-33EF-4AF1-8FB3-928B30C7B980}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_cauldron" ID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dialog" ID="{DA7FCF12-2622-4268-8743-D24729EC620F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_good_ending" ID="{971CDE46-8F0D-4699-9BB3-E07A9283F176}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Main_Charakter_Cooking_Finished" ID="{22590093-1F67-44EA-983F-91A19FC4A696}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_inventory_close" ID="{1936BCF3-488E-43F6-9492-74A708E0AACB}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_inventory_click" ID="{FCEE804F-4C20-4346-A303-901510A6F9B5}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_quest_accept" ID="{53220DAB-E148-44A0-AE72-6877F4255E38}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_bad_ending" ID="{9D995BD6-6BD0-4AAC-9171-D578A5B93417}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="0" Y="11"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___birds_3" ID="{E4765FC6-41B4-48FB-9EB6-498A83A03D72}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___leaves_2" ID="{444340AE-E9DE-4CA6-97FC-73A976A56304}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___river_soft" ID="{A03724F8-4DC1-4EA9-8CFF-40847066EA9F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play__quest_finished" ID="{5D4A3A92-AAF1-43DC-86ED-389E9CC87564}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_chest_closed" ID="{69C72138-C1D7-4BF8-ACA4-61607C120148}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dialogue_end" ID="{D63288F8-72DC-431F-AAA3-51283CDADE32}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_jump_down" ID="{3162CFD6-96C1-48A8-9448-B0166C50316C}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Main_Charakter_Cooking_Start" ID="{F9F6B02F-4559-4298-9E4F-B04FB5E7AD69}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_inventory_open" ID="{406D1A2A-46C0-45D7-97C8-68521D6F87AC}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_inventory_drop" ID="{25972776-DB2A-4705-9BD5-CA8F26E695B1}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_quest_decline" ID="{1050B900-02E9-45FC-99F3-4290A7495076}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_cauldron" ID="{64907AFA-F940-4A5A-BA7D-A2B633AAF406}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="1" Y="11"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___birds_4" ID="{5879BFAA-287A-4B98-B8C3-A686A48715BE}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___leaves_3" ID="{0118BE8D-1908-4DD7-881F-ADE46A5E9856}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___wake_up" ID="{F65AB761-6F02-4788-B28A-48C29420D0CD}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_attack" ID="{205CDFAC-0302-472B-8123-22070D7ADF40}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_chest_open" ID="{79D1CD6B-5D5E-42D0-858E-3724DD7030F4}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_footsteps" ID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_jump_up" ID="{F13024FC-88E7-4787-96CE-33A7BD521B62}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Marchant_tipping" ID="{4908E09D-6C49-475E-A772-E578E3652CC5}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_collect" ID="{49A102FB-3672-4FC0-8DB0-F7C5C75424DF}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_inventory_move_instant" ID="{C2375AC8-3C2D-45BA-817C-705213A4AA88}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_WIND" ID="{2B202963-10F0-4FB8-B410-913E3FF1D540}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_good_ending" ID="{8F94432B-F318-4700-A430-9BCBBE7CDA6F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="2" Y="11"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___birds_5" ID="{947E356F-481F-4745-9FB9-6FCF885E576E}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___leaves_4" ID="{0D369380-5B36-4941-B160-38C7ABEFCB87}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___wood_knocking" ID="{42A86543-7485-461B-B0A1-14D3E0654333}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_bad_ending" ID="{47E5417D-6236-421E-B5D6-795D0DECB002}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_coinsound_for_money" ID="{32E7B95E-6209-47F3-8576-D3126A749D7A}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_frog_feed_head" ID="{41DD0ED2-CEC4-45F4-B5AB-E3EA9E0840FF}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_knive_collect" ID="{199DDEC5-EBA7-4EFB-88F7-0C9FD1449968}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Nutshell" ID="{E35663FC-9EC9-4596-97E8-F18A7752E670}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_collect_fail" ID="{E88C184B-0D99-4642-B02C-1B30772C08F5}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_use_eat" ID="{53EBA89A-A774-4DE3-A118-D97C390008EB}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Worm_Idle" ID="{33CCD26C-DD44-4540-B92B-C958FB7C7C73}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="3" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___birds_6" ID="{01EB7505-F0F3-450F-AA7D-0E36033F2BDB}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___leaves_5" ID="{97E6082E-CF03-48F0-8C83-761C340624E1}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play__dagegen_rennen" ID="{A360F545-FE33-4551-A8B8-ADF6E0319D90}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_birds_1" ID="{713F8B65-16DA-4130-B11C-14AE0954BACB}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_cutting" ID="{1E46F254-629C-4ED5-B6DF-6AF3E49C105B}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_frog_feed_tail" ID="{666645A8-9991-457F-9743-25A710C095CF}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_knive_drop" ID="{25D1F37F-4E12-4003-8F0C-70240B66CD9E}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Page_Turn_Container" ID="{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_delete" ID="{80DC8655-7A97-4D67-8C92-250A53572F80}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_use_potion" ID="{D7DE7976-5312-49CE-BE10-E63E1D506C67}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_worm_inteact_feedTail" ID="{2FD31316-7F3D-4881-B250-BA787AFA9654}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="4" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___door_open__close" ID="{FAD05298-489E-4CDC-A1F6-47AD35566DEC}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___leaves_tree_at_river" ID="{5C76B51D-191D-4806-88D6-38B38937A6C1}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play__door_shaking_" ID="{D8D26C28-6F2E-47B1-986E-97413A59757D}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Bubles_Water_Casting" ID="{02A03A4E-00BD-48D5-BCE2-20B954F2564A}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_damage_take" ID="{2FEFD6B1-DAA1-47F9-95B3-E604D79166C1}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_frog_idle" ID="{16717B19-F897-41BC-90CA-DEFB94F6629C}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_m_rser" ID="{9CF3EDCB-724D-4E94-9D0D-C539263CDA5A}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_sell" ID="{CF95D093-81C2-4230-8E85-F32C726298ED}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_delete_bin" ID="{2E89F5D7-E4F5-4C16-86B0-C6E3EF684B1E}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_use_recipe" ID="{F07DE2B1-4EE5-44AE-A11B-9BF5AADBCB23}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_worm_interact_feed_Head" ID="{6B31A824-7F61-417B-8327-0DB483CF94E6}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="5" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___fireplace" ID="{E10EF4A4-5C3F-46CC-9293-BB05D1E6B3AD}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___river_bubbles" ID="{09A5C621-1968-4880-B138-87A93F0BF7C4}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play__fire_" ID="{039EB10F-7466-4772-991D-B16E6B0833B3}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_buy" ID="{9867D542-D928-4C4A-932B-3A354D423447}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Day_Night" ID="{1EE4FA1A-7FE2-4EED-8825-F9C3FED26ACD}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_frog_pet" ID="{F0181160-1ADF-4FC4-AE5A-00D8B8A27717}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_m_rser_stampf" ID="{41ECA8DA-F1BA-4A49-B26D-370E1C3D4EC8}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Teston_UI" ID="{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_drop_glas" ID="{7836D65D-A4FE-43D0-AC8D-6003647C3FFD}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_letter_open" ID="{0D36CA63-080E-410F-B8EB-2B2D05EE7857}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_worm_interact_pet" ID="{B9479D09-85CC-4750-8ED2-F166BB9ED98C}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="6" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___go_to_sleep" ID="{48EA98FC-9486-4A57-B61C-64EC6AE14A00}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play___river_hard" ID="{41258012-04E3-4620-A835-1FF616E17223}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play__moral_decrease" ID="{F3B57977-5C0A-4C8B-9BCB-B33B07B6BF3F}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_casting" ID="{B866FBC0-F80B-4C10-9EBD-317F3936A952}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_death" ID="{481FF3E4-820F-4D4D-87A7-F27836215197}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_frog_walk" ID="{F1189447-3F76-4C76-8299-ADF4C07D48FA}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Main_Charakter__heavy_breathing" ID="{7B67515D-E98B-4724-B442-4DEFFC2A51C4}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_button" ID="{1B259058-B734-412C-A1B7-249AB65A7E63}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_item_drop_mushroom" ID="{9A8BFAB5-62C1-4A17-9286-4EAB6B0606CA}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ui_move_cursor" ID="{04644C9F-DC9B-40E3-9579-6CDB15E91F5A}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_worm_walk" ID="{066CB1E1-81A8-4962-AF96-D1BAF85F7BDF}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<Position X="7" Y="10"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
