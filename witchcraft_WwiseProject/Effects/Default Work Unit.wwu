@@ -16,6 +16,21 @@
 					</PropertyList>
 				</Effect>
 				<Effect Name="New_RoomVerb" ID="{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="New_Parametric_EQ" ID="{9F9D9EB6-02C1-42A5-826D-F7451CA5A51D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand2" Type="Real32" Value="6670"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="5665"/>
+						<Property Name="GainBand2" Type="Real32" Value="-3.5"/>
+						<Property Name="GainBand3" Type="Real32" Value="-4.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="57"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Peak_Limiter" ID="{BC01DA0B-6AFB-4E27-969A-51D32CC82017}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+					<PropertyList>
+						<Property Name="Ratio" Type="Real32" Value="20.3"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

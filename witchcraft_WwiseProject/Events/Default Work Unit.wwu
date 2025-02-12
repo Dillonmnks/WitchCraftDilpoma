@@ -1095,6 +1095,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play___Birds" ID="{EE641A21-6405-440B-97C2-3E4F14067806}">
+							<ChildrenList>
+								<Action Name="" ID="{5EE1DC91-2ECE-4138-BEC1-D21401112858}" ShortID="824939818">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds" ID="{0EC18CCD-D144-4027-BD75-80D45CC94618}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dialogue PLACEHOLDER" ID="{651F35C6-9FEC-4D2D-B63B-DBB50518ECB3}" ShortID="901498167">
@@ -1213,6 +1224,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Birds" ID="{A8E88C5C-02B6-439B-AFF0-DEB47D753D68}">
+					<ChildrenList>
+						<Action Name="" ID="{753B288F-ED2B-41D3-B5AE-A3A07113C190}" ShortID="926049752">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds" ID="{0EC18CCD-D144-4027-BD75-80D45CC94618}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

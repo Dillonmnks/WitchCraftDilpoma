@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{63BDCD62-311B-AD26-F98F-FDD2702809C0}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{4FDC2C3A-E962-2E92-DB81-30F76E8AF856}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -132,7 +132,7 @@
 				</File>
 				<File Id="171969739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves tree at river.wav</ShortName>
-					<CachePath>SFX/  leaves tree at river_381BBFC4.wem</CachePath>
+					<CachePath>SFX/  leaves tree at river_403D883E.wem</CachePath>
 				</File>
 				<File Id="177565286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  schneiden-1.wav</ShortName>
@@ -216,7 +216,7 @@
 				</File>
 				<File Id="257043073" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 4.wav</ShortName>
-					<CachePath>SFX/  leaves 4_38893ABC.wem</CachePath>
+					<CachePath>SFX/  leaves 4_48C089DE.wem</CachePath>
 				</File>
 				<File Id="261089796" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui quest decline.wav</ShortName>
@@ -324,7 +324,7 @@
 				</File>
 				<File Id="387172603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 6.wav</ShortName>
-					<CachePath>SFX/  birds 6_F3D8F7E3.wem</CachePath>
+					<CachePath>SFX/  birds 6_89C3531D.wem</CachePath>
 				</File>
 				<File Id="390921244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -380,7 +380,7 @@
 				</File>
 				<File Id="454643591" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 5.wav</ShortName>
-					<CachePath>SFX/  leaves 5_26C11C74.wem</CachePath>
+					<CachePath>SFX/  leaves 5_8B9F4C1A.wem</CachePath>
 				</File>
 				<File Id="456825050" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -404,7 +404,7 @@
 				</File>
 				<File Id="490688840" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 5.wav</ShortName>
-					<CachePath>SFX/  birds 5_E76AEC0D.wem</CachePath>
+					<CachePath>SFX/  birds 5_16ADB740.wem</CachePath>
 				</File>
 				<File Id="504589523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Piano_Part A_110BPM_4-4_L4-P0.wav</ShortName>
@@ -418,13 +418,9 @@
 					<ShortName>Ui item inventory move instant.wav</ShortName>
 					<CachePath>SFX/Ui item inventory move instant_0A688ACA.wem</CachePath>
 				</File>
-				<File Id="514234718" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>  river hard.wav</ShortName>
-					<CachePath>SFX/  river hard_EF900F8C.wem</CachePath>
-				</File>
 				<File Id="517690293" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 2.wav</ShortName>
-					<CachePath>SFX/  leaves 2_46021838.wem</CachePath>
+					<CachePath>SFX/  leaves 2_12DF50FA.wem</CachePath>
 				</File>
 				<File Id="520737710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact feed.wav</ShortName>
@@ -510,6 +506,10 @@
 					<ShortName>  river soft.wav</ShortName>
 					<CachePath>SFX/  river soft_8C81D347.wem</CachePath>
 				</File>
+				<File Id="638241403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>river hard 12.02.2025.wav</ShortName>
+					<CachePath>SFX/river hard 12.02.2025_7AD97EB9.wem</CachePath>
+				</File>
 				<File Id="638349772" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Strings_Part B_110BPM_4-4_L16-P0.wav</ShortName>
 					<CachePath>SFX/Day_Strings_Part B_110BPM_4-4_L16-P0_FBC78EF0.wem</CachePath>
@@ -572,7 +572,7 @@
 				</File>
 				<File Id="735624053" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 4.wav</ShortName>
-					<CachePath>SFX/  birds 4_1E291AC2.wem</CachePath>
+					<CachePath>SFX/  birds 4_A2D722DC.wem</CachePath>
 				</File>
 				<File Id="737869163" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>good ending .wav</ShortName>
@@ -604,7 +604,7 @@
 				</File>
 				<File Id="781621739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 2.wav</ShortName>
-					<CachePath>SFX/  birds 2_407740F0.wem</CachePath>
+					<CachePath>SFX/  birds 2_4BF610B6.wem</CachePath>
 				</File>
 				<File Id="783857445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -648,7 +648,7 @@
 				</File>
 				<File Id="840295862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 3.wav</ShortName>
-					<CachePath>SFX/  birds 3_02F50B93.wem</CachePath>
+					<CachePath>SFX/  birds 3_66299F01.wem</CachePath>
 				</File>
 				<File Id="843480435" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  nutshell-3.wav</ShortName>
@@ -704,7 +704,7 @@
 				</File>
 				<File Id="893090049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves 3.wav</ShortName>
-					<CachePath>SFX/  leaves 3_BD59F8DF.wem</CachePath>
+					<CachePath>SFX/  leaves 3_899A3CE5.wem</CachePath>
 				</File>
 				<File Id="899695238" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  nutshell-2.wav</ShortName>
@@ -764,7 +764,7 @@
 				</File>
 				<File Id="988185398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  leaves.wav</ShortName>
-					<CachePath>SFX/  leaves_644D2887.wem</CachePath>
+					<CachePath>SFX/  leaves_3B82B561.wem</CachePath>
 				</File>
 				<File Id="988660099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat interact pet .wav</ShortName>
@@ -808,27 +808,35 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4024607187" Name="Play___birds_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_2" GUID="{A636B00A-4F38-472A-840C-E7DF8DE4532F}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="90" DurationMax="90">
+				<Event Id="832588172" Name="Play___Birds" ObjectPath="\Events\Default Work Unit\Atmo\Play___Birds" GUID="{EE641A21-6405-440B-97C2-3E4F14067806}" MaxAttenuation="6000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="230478404"/>
+						<MediaRef Id="735624053"/>
+						<MediaRef Id="781621739"/>
+						<MediaRef Id="840295862"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4024607187" Name="Play___birds_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_2" GUID="{A636B00A-4F38-472A-840C-E7DF8DE4532F}" MaxAttenuation="6000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="781621739"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607186" Name="Play___birds_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_3" GUID="{E4765FC6-41B4-48FB-9EB6-498A83A03D72}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="37.979538" DurationMax="37.979538">
+				<Event Id="4024607186" Name="Play___birds_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_3" GUID="{E4765FC6-41B4-48FB-9EB6-498A83A03D72}" MaxAttenuation="6000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="840295862"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607189" Name="Play___birds_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_4" GUID="{5879BFAA-287A-4B98-B8C3-A686A48715BE}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="35.44757" DurationMax="35.44757">
+				<Event Id="4024607189" Name="Play___birds_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_4" GUID="{5879BFAA-287A-4B98-B8C3-A686A48715BE}" MaxAttenuation="6000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="735624053"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607188" Name="Play___birds_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_5" GUID="{947E356F-481F-4745-9FB9-6FCF885E576E}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="36.828644" DurationMax="36.828644">
+				<Event Id="4024607188" Name="Play___birds_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_5" GUID="{947E356F-481F-4745-9FB9-6FCF885E576E}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="490688840"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4024607191" Name="Play___birds_6" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_6" GUID="{01EB7505-F0F3-450F-AA7D-0E36033F2BDB}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="65.37084" DurationMax="65.37084">
+				<Event Id="4024607191" Name="Play___birds_6" ObjectPath="\Events\Default Work Unit\Atmo\Play___birds_6" GUID="{01EB7505-F0F3-450F-AA7D-0E36033F2BDB}" MaxAttenuation="500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="387172603"/>
 					</MediaRefs>
@@ -848,32 +856,32 @@
 						<MediaRef Id="223377924"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4121726672" Name="Play___leaves" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves" GUID="{336A0527-A49E-489D-AB10-09A712842C69}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="39.005116" DurationMax="39.005116">
+				<Event Id="4121726672" Name="Play___leaves" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves" GUID="{336A0527-A49E-489D-AB10-09A712842C69}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="988185398"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803983" Name="Play___leaves_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_2" GUID="{444340AE-E9DE-4CA6-97FC-73A976A56304}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="34.17775" DurationMax="34.17775">
+				<Event Id="3161803983" Name="Play___leaves_2" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_2" GUID="{444340AE-E9DE-4CA6-97FC-73A976A56304}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="517690293"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803982" Name="Play___leaves_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_3" GUID="{0118BE8D-1908-4DD7-881F-ADE46A5E9856}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="40.356777" DurationMax="40.356777">
+				<Event Id="3161803982" Name="Play___leaves_3" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_3" GUID="{0118BE8D-1908-4DD7-881F-ADE46A5E9856}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="893090049"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803977" Name="Play___leaves_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_4" GUID="{0D369380-5B36-4941-B160-38C7ABEFCB87}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="71.8312" DurationMax="71.8312">
+				<Event Id="3161803977" Name="Play___leaves_4" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_4" GUID="{0D369380-5B36-4941-B160-38C7ABEFCB87}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="257043073"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3161803976" Name="Play___leaves_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_5" GUID="{97E6082E-CF03-48F0-8C83-761C340624E1}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="34.370846" DurationMax="34.370846">
+				<Event Id="3161803976" Name="Play___leaves_5" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_5" GUID="{97E6082E-CF03-48F0-8C83-761C340624E1}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="454643591"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3623484722" Name="Play___leaves_tree_at_river" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_tree_at_river" GUID="{5C76B51D-191D-4806-88D6-38B38937A6C1}" DurationType="OneShot" DurationMin="61.975704" DurationMax="61.975704">
+				<Event Id="3623484722" Name="Play___leaves_tree_at_river" ObjectPath="\Events\Default Work Unit\Atmo\Play___leaves_tree_at_river" GUID="{5C76B51D-191D-4806-88D6-38B38937A6C1}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="171969739"/>
 					</MediaRefs>
@@ -883,9 +891,9 @@
 						<MediaRef Id="903737124"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3251220738" Name="Play___river_hard" ObjectPath="\Events\Default Work Unit\Atmo\Play___river_hard" GUID="{41258012-04E3-4620-A835-1FF616E17223}" MaxAttenuation="6000" DurationType="Infinite">
+				<Event Id="3251220738" Name="Play___river_hard" ObjectPath="\Events\Default Work Unit\Atmo\Play___river_hard" GUID="{41258012-04E3-4620-A835-1FF616E17223}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="514234718"/>
+						<MediaRef Id="638241403"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2750519553" Name="Play___river_hard_far_away" ObjectPath="\Events\Default Work Unit\Atmo\Play___river_hard_far_away" GUID="{C68C815D-139A-4259-BE39-AB1FDD36C0EF}" DurationType="OneShot" DurationMin="31.860613" DurationMax="31.860613">
@@ -1420,5 +1428,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EEABA55A-3D70-25D5-9CBD-6CE53D43E6F5}</FileHash>
+	<FileHash>{E02EA5B4-1000-C162-E190-29EAE1C3CF63}</FileHash>
 </SoundBanksInfo>
