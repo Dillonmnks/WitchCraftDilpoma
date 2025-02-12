@@ -298,7 +298,7 @@
 							<Position X="6" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Day_Night" ID="{1EE4FA1A-7FE2-4EED-8825-F9C3FED26ACD}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
+							<ObjectRef Name="Play_Music" ID="{1EE4FA1A-7FE2-4EED-8825-F9C3FED26ACD}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
 							<Position X="6" Y="4"/>
 						</Module>
 						<Module>
@@ -380,7 +380,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
 						<CurrentSwitchRef Name="gras" ID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
-						<CurrentSwitchRef Name="Bad_Ending" ID="{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"/>
+						<CurrentSwitchRef Name="Day" ID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
