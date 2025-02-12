@@ -372,7 +372,19 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="SFX" ID="{199E2ACC-EB9D-40A1-B850-E4ADCAE12468}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Master_Volume" ID="{AA8B7946-7333-468E-930C-700DE96D3D6C}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music" ID="{7E693D43-F913-49AB-9B69-08951E199346}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Dialogue" ID="{D1FF2CF5-A54C-4FA3-A3BE-78AFE122C6F3}"/>
 							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -380,7 +392,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
 						<CurrentSwitchRef Name="gras" ID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
-						<CurrentSwitchRef Name="Day" ID="{6FE405F3-33BB-4B8E-A181-CF2F6D5C91EA}"/>
+						<CurrentSwitchRef Name="Bad_Ending" ID="{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
