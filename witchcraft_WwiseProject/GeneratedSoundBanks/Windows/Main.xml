@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{4FDC2C3A-E962-2E92-DB81-30F76E8AF856}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{5BD2F542-65A1-7547-6985-731E7D30464E}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -324,7 +324,7 @@
 				</File>
 				<File Id="387172603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 6.wav</ShortName>
-					<CachePath>SFX/  birds 6_89C3531D.wem</CachePath>
+					<CachePath>SFX/  birds 6_49FC3B58.wem</CachePath>
 				</File>
 				<File Id="390921244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog feed.wav</ShortName>
@@ -404,7 +404,7 @@
 				</File>
 				<File Id="490688840" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  birds 5.wav</ShortName>
-					<CachePath>SFX/  birds 5_16ADB740.wem</CachePath>
+					<CachePath>SFX/  birds 5_F6676C97.wem</CachePath>
 				</File>
 				<File Id="504589523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Piano_Part A_110BPM_4-4_L4-P0.wav</ShortName>
@@ -508,7 +508,7 @@
 				</File>
 				<File Id="638241403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>river hard 12.02.2025.wav</ShortName>
-					<CachePath>SFX/river hard 12.02.2025_7AD97EB9.wem</CachePath>
+					<CachePath>SFX/river hard 12.02.2025_C5206C38.wem</CachePath>
 				</File>
 				<File Id="638349772" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Strings_Part B_110BPM_4-4_L16-P0.wav</ShortName>
@@ -1428,5 +1428,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AF63B775-F105-E40B-FE8E-D4439AE92F10}</FileHash>
+	<FileHash>{800151E6-E55F-51B1-2291-6234657A5229}</FileHash>
 </SoundBanksInfo>
