@@ -3,28 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Testtöne" ID="{2B246102-51BB-4572-8BB1-12528469B231}" ShortID="384286728">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Event Name="Play_Teston_UI" ID="{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool" Value="False"/>
-							</PropertyList>
-							<ChildrenList>
-								<Action Name="" ID="{A67272FC-7CEC-413E-8DE9-5D6CD43FE21A}" ShortID="108938941">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Testton UI" ID="{98EA171B-8574-41C2-8669-89866B0EDDAC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="UI Events" ID="{B99AFE20-CCAC-453D-8C18-9E7D66A28808}" ShortID="934692549">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
@@ -457,7 +435,7 @@
 									<ChildrenList>
 										<Action Name="" ID="{DFB3C576-E6DB-43F0-A35F-609C2A7BA3B7}" ShortID="536359007">
 											<PropertyList>
-												<Property Name="Probability" Type="Real64" Value="4"/>
+												<Property Name="Probability" Type="Real64" Value="40"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -651,7 +629,7 @@
 								<Action Name="" ID="{90C9AE30-4DD0-4100-9A93-41124FB8E439}" ShortID="414908012">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Marchant tipping" ID="{7286C82E-A178-4F19-828B-2AAA2A3C3FDC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+											<ObjectRef Name="Marchant idle" ID="{7286C82E-A178-4F19-828B-2AAA2A3C3FDC}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -758,7 +736,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Test" ID="{BF9BC682-4A48-4FC1-B4C6-0F5B8250D071}" ShortID="32759479"/>
 				<Folder Name="Minigame cooking" ID="{2689D021-6D56-4128-957F-4D1034181B3D}" ShortID="1063122480">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
@@ -1106,6 +1083,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Birds" ID="{A8E88C5C-02B6-439B-AFF0-DEB47D753D68}">
+							<ChildrenList>
+								<Action Name="" ID="{753B288F-ED2B-41D3-B5AE-A3A07113C190}" ShortID="926049752">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds" ID="{0EC18CCD-D144-4027-BD75-80D45CC94618}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dialogue PLACEHOLDER" ID="{651F35C6-9FEC-4D2D-B63B-DBB50518ECB3}" ShortID="901498167">
@@ -1224,17 +1212,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Birds" ID="{A8E88C5C-02B6-439B-AFF0-DEB47D753D68}">
-					<ChildrenList>
-						<Action Name="" ID="{753B288F-ED2B-41D3-B5AE-A3A07113C190}" ShortID="926049752">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Birds" ID="{0EC18CCD-D144-4027-BD75-80D45CC94618}" WorkUnitID="{FD4F781A-318D-4A69-99E1-824C6DF18372}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

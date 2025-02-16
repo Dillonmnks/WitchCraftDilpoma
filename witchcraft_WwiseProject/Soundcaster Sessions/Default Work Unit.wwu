@@ -310,10 +310,6 @@
 							<Position X="6" Y="6"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Teston_UI" ID="{95E1FF5E-8D3A-47B7-BCCB-6D554B9B1AFE}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
-							<Position X="6" Y="7"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Ui_item_drop_glas" ID="{7836D65D-A4FE-43D0-AC8D-6003647C3FFD}" WorkUnitID="{5A84C15C-CC32-4D38-8C63-B39F197F7BAF}"/>
 							<Position X="6" Y="8"/>
 						</Module>
@@ -392,7 +388,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Banker" ID="{F752C132-D1F6-4BBE-A3CE-5E290D6C07B1}"/>
 						<CurrentSwitchRef Name="gras" ID="{CBD4F5D5-A008-4627-8700-F8650354134F}"/>
-						<CurrentSwitchRef Name="Night" ID="{29F0AEDF-614F-446B-9710-2451C184C810}"/>
+						<CurrentSwitchRef Name="Bad_Ending" ID="{011E11A0-1BD5-4682-AE33-A4BD0A03192D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

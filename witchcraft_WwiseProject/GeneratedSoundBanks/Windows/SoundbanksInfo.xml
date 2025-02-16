@@ -79,7 +79,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{5BD2F542-65A1-7547-6985-731E7D30464E}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{2EC4FA26-900B-4E66-6D14-44D8054EAD5B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -106,7 +106,7 @@
 				</File>
 				<File Id="33963550" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui letter open.wav</ShortName>
-					<CachePath>SFX/Ui letter open_598AC8FD.wem</CachePath>
+					<CachePath>SFX/Ui letter open_52C0B09B.wem</CachePath>
 				</File>
 				<File Id="41935058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -126,7 +126,7 @@
 				</File>
 				<File Id="47676009" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Marchant tipping.wav</ShortName>
-					<CachePath>SFX/Marchant tipping_72771C4C.wem</CachePath>
+					<CachePath>SFX/Marchant tipping_93A1C0B7.wem</CachePath>
 				</File>
 				<File Id="50575655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
@@ -446,7 +446,7 @@
 				</File>
 				<File Id="441285259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 4.wav</ShortName>
-					<CachePath>SFX/Ui turn page 4_6DAC7963.wem</CachePath>
+					<CachePath>SFX/Ui turn page 4_C3D00740.wem</CachePath>
 				</File>
 				<File Id="447080793" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> moral decrease.wav</ShortName>
@@ -558,7 +558,7 @@
 				</File>
 				<File Id="614674959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 1.wav</ShortName>
-					<CachePath>SFX/Ui turn page 1_6670A45A.wem</CachePath>
+					<CachePath>SFX/Ui turn page 1_25333DE5.wem</CachePath>
 				</File>
 				<File Id="624549140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-1.wav</ShortName>
@@ -690,7 +690,7 @@
 				</File>
 				<File Id="792034974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 2.wav</ShortName>
-					<CachePath>SFX/Ui turn page 2_AEC9C343.wem</CachePath>
+					<CachePath>SFX/Ui turn page 2_45AFC2FE.wem</CachePath>
 				</File>
 				<File Id="794816127" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-2.wav</ShortName>
@@ -1014,6 +1014,14 @@
 						<MediaRef Id="309348204"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3025897706" Name="Play_Birds" ObjectPath="\Events\Default Work Unit\Atmo\Play_Birds" GUID="{A8E88C5C-02B6-439B-AFF0-DEB47D753D68}" MaxAttenuation="6000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="230478404"/>
+						<MediaRef Id="735624053"/>
+						<MediaRef Id="781621739"/>
+						<MediaRef Id="840295862"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="161356194" Name="Play_birds_1" ObjectPath="\Events\Default Work Unit\Atmo\Play_birds_1" GUID="{713F8B65-16DA-4130-B11C-14AE0954BACB}" MaxAttenuation="6000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="230478404"/>
@@ -1037,7 +1045,7 @@
 						<MediaRef Id="8451084"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="Mixed" DurationMin="3.212447" DurationMax="Infinite">
+				<Event Id="3212638512" Name="Play_cauldron" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_cauldron" GUID="{B21B4AC4-0BF7-4EB4-937B-69170EEAF194}" MaxAttenuation="1990" DurationType="Mixed" DurationMin="4.5430865" DurationMax="Infinite">
 					<MediaRefs>
 						<MediaRef Id="360805697"/>
 						<MediaRef Id="965839834"/>
@@ -1322,7 +1330,7 @@
 						<MediaRef Id="997968862"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="779013463" Name="Play_Page_Turn_Container" ObjectPath="\Events\Default Work Unit\UI Events\Play_Page_Turn_Container" GUID="{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}" DurationType="OneShot" DurationMin="0.47591645" DurationMax="1.6020716">
+				<Event Id="779013463" Name="Play_Page_Turn_Container" ObjectPath="\Events\Default Work Unit\UI Events\Play_Page_Turn_Container" GUID="{F15D5EE1-0967-41EC-B3EC-7B1BB4C16A9C}" DurationType="OneShot" DurationMin="0.47591645" DurationMax="0.88323975">
 					<MediaRefs>
 						<MediaRef Id="301112140"/>
 						<MediaRef Id="441285259"/>
@@ -1408,7 +1416,7 @@
 						<MediaRef Id="1016314410"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="360526586" Name="Play_Ui_letter_open" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_letter_open" GUID="{0D36CA63-080E-410F-B8EB-2B2D05EE7857}" DurationType="OneShot" DurationMin="1.2132887" DurationMax="1.2132887">
+				<Event Id="360526586" Name="Play_Ui_letter_open" ObjectPath="\Events\Default Work Unit\UI Events\Play_Ui_letter_open" GUID="{0D36CA63-080E-410F-B8EB-2B2D05EE7857}" DurationType="OneShot" DurationMin="0.653003" DurationMax="0.653003">
 					<MediaRefs>
 						<MediaRef Id="33963550"/>
 					</MediaRefs>
@@ -1506,5 +1514,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2CE2DBA4-FB40-8204-84E8-96E0F95233AE}</FileHash>
+	<FileHash>{B227972D-5542-96C6-33B2-ED1CA13D1356}</FileHash>
 </SoundBanksInfo>
