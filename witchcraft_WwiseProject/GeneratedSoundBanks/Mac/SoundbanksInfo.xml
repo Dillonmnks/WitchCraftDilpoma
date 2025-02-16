@@ -9,13 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D1911D21-2A9B-3EEF-A67B-A3DAB734983D}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{17502DD0-0D99-025F-9137-8B21E558DFE0}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="1259256166" Name="New_RoomVerb" ObjectPath="\Effects\Default Work Unit\New_RoomVerb" GUID="{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1798856315" Name="MainGain" ObjectPath="\Effects\Default Work Unit\MainGain" GUID="{D43C7709-B9D5-4BE0-9406-3D2FE6E4B283}" LibName="Wwise Gain" LibId="9109507"/>
 					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
@@ -26,7 +27,13 @@
 			<Busses>
 				<Bus Id="1802970371" Name="FX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FX" GUID="{2D0E49ED-6213-4A81-9F9A-52F238055C9E}"/>
 				<Bus Id="3466474873" Name="Diologue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Diologue" GUID="{7800FA86-2B46-4019-9B82-7431B7D1918F}"/>
-				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1798856315"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{E08ADBF6-998A-455B-BD14-BDA24354EE1A}"/>
 			</Busses>
 			<AuxBusses>
@@ -79,7 +86,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{E6E04081-2853-8E64-D232-85A23FE00ABF}">
+		<SoundBank Id="3161908922" Type="User" GUID="{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}" Language="SFX" Hash="{6A1F78F5-7AD0-68CE-40F5-45F53FCAF89E}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -106,7 +113,7 @@
 				</File>
 				<File Id="33963550" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui letter open.wav</ShortName>
-					<CachePath>SFX/Ui letter open_52C0B09B.wem</CachePath>
+					<CachePath>SFX/Ui letter open_B83FC38F.wem</CachePath>
 				</File>
 				<File Id="41935058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hexe.wav</ShortName>
@@ -126,7 +133,7 @@
 				</File>
 				<File Id="47676009" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Marchant tipping.wav</ShortName>
-					<CachePath>SFX/Marchant tipping_93A1C0B7.wem</CachePath>
+					<CachePath>SFX/Marchant tipping_D9FD403E.wem</CachePath>
 				</File>
 				<File Id="50575655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Combat frog Idle.wav</ShortName>
@@ -392,10 +399,6 @@
 					<ShortName>Combat  worm idle.wav</ShortName>
 					<CachePath>SFX/Combat  worm idle_00AC2730.wem</CachePath>
 				</File>
-				<File Id="376627733" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Grandma.wav</ShortName>
-					<CachePath>SFX/Grandma_DC930CDA.wem</CachePath>
-				</File>
 				<File Id="384896076" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter Cooking Start.wav</ShortName>
 					<CachePath>SFX/Main Charakter Cooking Start_49B84AD5.wem</CachePath>
@@ -446,7 +449,7 @@
 				</File>
 				<File Id="441285259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 4.wav</ShortName>
-					<CachePath>SFX/Ui turn page 4_C3D00740.wem</CachePath>
+					<CachePath>SFX/Ui turn page 4_C2F7005A.wem</CachePath>
 				</File>
 				<File Id="447080793" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName> moral decrease.wav</ShortName>
@@ -558,7 +561,7 @@
 				</File>
 				<File Id="614674959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 1.wav</ShortName>
-					<CachePath>SFX/Ui turn page 1_25333DE5.wem</CachePath>
+					<CachePath>SFX/Ui turn page 1_222599EC.wem</CachePath>
 				</File>
 				<File Id="624549140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main Charakter  footsteps gras-1.wav</ShortName>
@@ -690,7 +693,7 @@
 				</File>
 				<File Id="792034974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ui turn page 2.wav</ShortName>
-					<CachePath>SFX/Ui turn page 2_45AFC2FE.wem</CachePath>
+					<CachePath>SFX/Ui turn page 2_966039DD.wem</CachePath>
 				</File>
 				<File Id="794816127" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>  buy-2.wav</ShortName>
@@ -1117,12 +1120,6 @@
 								<MediaRef Id="456825050"/>
 							</MediaRefs>
 						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1235749641" Id="371397999" GUID="{38F768AD-779B-4000-BF91-412F41794AC0}"/>
-							<MediaRefs>
-								<MediaRef Id="376627733"/>
-							</MediaRefs>
-						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="3854155799" Name="Play_footsteps" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_footsteps" GUID="{3CAA0CFA-9D05-4A88-BD84-449D353F434C}" DurationType="OneShot" DurationMin="0.1887999" DurationMax="0.37704206">
@@ -1249,6 +1246,16 @@
 				<Event Id="3492595849" Name="Play_Main_Charakter_Cooking_Start" ObjectPath="\Events\Default Work Unit\Minigame cooking\Play_Main_Charakter_Cooking_Start" GUID="{F9F6B02F-4559-4298-9E4F-B04FB5E7AD69}" MaxAttenuation="1990" DurationType="OneShot" DurationMin="1.1959486" DurationMax="1.1959486">
 					<MediaRefs>
 						<MediaRef Id="384896076"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="864953154" Name="Play_Main_Charakter_Level_Up" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_Main_Charakter_Level_Up" GUID="{BA44BD5E-C059-4C85-A469-041FFBC51DD3}" DurationType="OneShot" DurationMin="1.1342704" DurationMax="1.1342704">
+					<MediaRefs>
+						<MediaRef Id="938587460"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2815162626" Name="Play_Main_Charakter_XP_Gain" ObjectPath="\Events\Default Work Unit\Maincharactor\Play_Main_Charakter_XP_Gain" GUID="{B3B8D105-478C-4F1A-B428-897B132A113A}" DurationType="OneShot" DurationMin="0.9244335" DurationMax="0.93517494">
+					<MediaRefs>
+						<MediaRef Id="641402689"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3133642564" Name="Play_Marchant_tipping" ObjectPath="\Events\Default Work Unit\händler\Play_Marchant_tipping" GUID="{4908E09D-6C49-475E-A772-E578E3652CC5}" DurationType="OneShot" DurationMin="0.73930603" DurationMax="0.73930603">
@@ -1514,5 +1521,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0ED99346-AD38-3B2C-DCAE-09651ED44D4C}</FileHash>
+	<FileHash>{059743A4-16E2-BEC5-1F65-12D2BCC512F2}</FileHash>
 </SoundBanksInfo>

@@ -458,8 +458,8 @@
 													<MusicFade Name="Source Fade-out" ID="{C13CA341-350C-4449-92EC-45C248EFF342}">
 														<PropertyList>
 															<Property Name="FadeCurve" Type="int16" Value="5"/>
-															<Property Name="FadeOffset" Type="Real64" Value="2.5"/>
-															<Property Name="FadeTime" Type="Real64" Value="5"/>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="1.1"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -985,6 +985,11 @@
 										<Property Name="EndPosition" Type="Real64" Value="22161.980133015"/>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="110"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3576,6 +3581,11 @@
 								<MusicSegment Name="Intro" ID="{FC02D7F7-4116-48F2-B40B-9903A2B1090C}" ShortID="383614595">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="21818.1875"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -6115,6 +6125,11 @@
 								<MusicSegment Name="Starting Music" ID="{507E96BC-C5E6-4F64-8D60-4828521AB892}" ShortID="297708909">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="28363.6363636364"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

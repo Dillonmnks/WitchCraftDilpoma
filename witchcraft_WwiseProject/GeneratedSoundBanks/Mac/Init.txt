@@ -16,6 +16,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	1259256166	New_RoomVerb	Wwise RoomVerb			
+	1798856315	MainGain	Wwise Gain			
 	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

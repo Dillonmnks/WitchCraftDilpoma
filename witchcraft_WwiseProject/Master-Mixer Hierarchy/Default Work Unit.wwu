@@ -181,6 +181,19 @@
 						</AuxBus>
 					</ChildrenList>
 					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{F1BBF104-D8EC-4B46-8B4E-22D8132BACC5}" ShortID="939834436">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+												<ObjectRef Name="MainGain" ID="{D43C7709-B9D5-4BE0-9406-3D2FE6E4B283}" WorkUnitID="{55C1B2DC-8792-4B48-B358-7674564CB880}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
 						<ObjectList Name="RTPC">
 							<Reference>
 								<Local>

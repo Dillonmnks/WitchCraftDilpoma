@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D1911D21-2A9B-3EEF-A67B-A3DAB734983D}",
+    "Hash": "{17502DD0-0D99-025F-9137-8B21E558DFE0}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -31,6 +31,14 @@
        "GUID": "{3AC4A232-67DD-44B1-97FB-BFAB73E9FC5D}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
+      },
+      {
+       "Id": "1798856315",
+       "Name": "MainGain",
+       "ObjectPath": "\\Effects\\Default Work Unit\\MainGain",
+       "GUID": "{D43C7709-B9D5-4BE0-9406-3D2FE6E4B283}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
       },
       {
        "Id": "2995775460",
@@ -77,7 +85,14 @@
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1798856315"
+        }
+       ]
+      }
      },
      {
       "Id": "3991942870",
@@ -250,7 +265,7 @@
     "Type": "User",
     "GUID": "{C4DDE84D-6CCA-489A-B917-A3C0FB402B78}",
     "Language": "SFX",
-    "Hash": "{E6E04081-2853-8E64-D232-85A23FE00ABF}",
+    "Hash": "{6A1F78F5-7AD0-68CE-40F5-45F53FCAF89E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -301,7 +316,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui letter open.wav",
-      "CachePath": "SFX/Ui letter open_52C0B09B.wem"
+      "CachePath": "SFX/Ui letter open_B83FC38F.wem"
      },
      {
       "Id": "41935058",
@@ -341,7 +356,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Marchant tipping.wav",
-      "CachePath": "SFX/Marchant tipping_93A1C0B7.wem"
+      "CachePath": "SFX/Marchant tipping_D9FD403E.wem"
      },
      {
       "Id": "50575655",
@@ -872,14 +887,6 @@
       "CachePath": "SFX/Combat  worm idle_00AC2730.wem"
      },
      {
-      "Id": "376627733",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Grandma.wav",
-      "CachePath": "SFX/Grandma_DC930CDA.wem"
-     },
-     {
       "Id": "384896076",
       "Language": "SFX",
       "Streaming": "false",
@@ -981,7 +988,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui turn page 4.wav",
-      "CachePath": "SFX/Ui turn page 4_C3D00740.wem"
+      "CachePath": "SFX/Ui turn page 4_C2F7005A.wem"
      },
      {
       "Id": "447080793",
@@ -1205,7 +1212,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui turn page 1.wav",
-      "CachePath": "SFX/Ui turn page 1_25333DE5.wem"
+      "CachePath": "SFX/Ui turn page 1_222599EC.wem"
      },
      {
       "Id": "624549140",
@@ -1469,7 +1476,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ui turn page 2.wav",
-      "CachePath": "SFX/Ui turn page 2_45AFC2FE.wem"
+      "CachePath": "SFX/Ui turn page 2_966039DD.wem"
      },
      {
       "Id": "794816127",
@@ -2480,19 +2487,6 @@
           "Id": "456825050"
          }
         ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1235749641",
-         "Id": "371397999",
-         "GUID": "{38F768AD-779B-4000-BF91-412F41794AC0}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "376627733"
-         }
-        ]
        }
       ]
      },
@@ -2854,6 +2848,34 @@
       "MediaRefs": [
        {
         "Id": "384896076"
+       }
+      ]
+     },
+     {
+      "Id": "864953154",
+      "Name": "Play_Main_Charakter_Level_Up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_Main_Charakter_Level_Up",
+      "GUID": "{BA44BD5E-C059-4C85-A469-041FFBC51DD3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1342704",
+      "DurationMax": "1.1342704",
+      "MediaRefs": [
+       {
+        "Id": "938587460"
+       }
+      ]
+     },
+     {
+      "Id": "2815162626",
+      "Name": "Play_Main_Charakter_XP_Gain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Maincharactor\\Play_Main_Charakter_XP_Gain",
+      "GUID": "{B3B8D105-478C-4F1A-B428-897B132A113A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9244335",
+      "DurationMax": "0.93517494",
+      "MediaRefs": [
+       {
+        "Id": "641402689"
        }
       ]
      },
@@ -3618,6 +3640,6 @@
     ]
    }
   ],
-  "FileHash": "{260585F9-34C8-E025-ED64-F83A56426897}"
+  "FileHash": "{766A9FC2-CE80-5BDD-12CA-4D720916963D}"
  }
 }
